@@ -1,0 +1,18 @@
+<!doctype html>
+%html.no-js{:lang => ""}
+	%head
+		%meta{:charset => "utf-8"}
+		%meta{:content => "ie=edge", "http-equiv" => "x-ua-compatible"}
+		%title
+		%meta{:content => "", :name => "description"}
+		%meta{:content => "width=device-width, initial-scale=1", :name => "viewport"}
+		%link{:href => "apple-touch-icon.png", :rel => "apple-touch-icon"}
+		// Place favicon.ico in the root directory
+		%link{:href => "stylesheets/normalize.css", :rel => "stylesheet"}
+		=stylesheet_link_tag 'application'
+	%body
+		=partial 'layouts/partials/header'
+		%main
+			= yield
+		=partial 'layouts/partials/footer'
+

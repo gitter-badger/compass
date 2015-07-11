@@ -1,0 +1,30 @@
+$body-font-size: 1em !default;
+$body-line-height: golden-ratio(1em, 1) !default;
+$body-font-family: $helvetica !default;
+
+@include font-face('BebasRegular', "/fonts/BebasRegular/BebasRegular");
+@include font-face('BebasBold', "/fonts/BebasBold/BebasBold");
+
+
+body {
+  font: $body-font-size $body-font-family ;
+  line-height: $body-line-height;
+}
+
+
+a {
+  text-decoration: none;
+  border-bottom: 1px dashed dodgerblue ;
+}
+
+header{
+
+  strong {
+      font: em(18) "BebasBold";
+      line-height: em(18);
+    }
+
+  a, p, span {
+    font: $body-font-size "BebasRegular";
+  }
+}

@@ -1,0 +1,74 @@
+header {
+
+  .logo {
+    text-align: center;
+    a {
+      display: block;
+      border: 0;
+    }
+    p {margin: 0;}
+
+    .sitename strong {
+      display: block;
+      font-size: em(28);
+      line-height: em(16);
+
+    }
+
+  }
+
+  .sitename{
+    a {border: 0;}
+  }
+
+  .address {
+
+    background-image: url('/images/header/metka.png');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 12%;
+
+    p {
+
+      margin: 0 0 0 27px;
+
+      .cityname {
+        color: red;
+        font-size: em(28);
+      }
+      a {
+        display: inline-block;
+        font-size: em(21);
+        color: black;
+      }
+
+    }
+  }
+  .phone {
+    background-image:url('/images/header/metka.png');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 12%;
+
+    p {
+
+      margin:10px 0 0 27px ;
+
+      .telephone{
+        font-size: em(21);
+      }
+
+      a {
+        display: inline-block;
+        font-size: em(21);
+        color: crimson;
+      }
+
+
+
+    }
+
+  }
+
+
+}

@@ -1,0 +1,68 @@
+@include media($mobile) {
+
+  header, footer {
+    @include outer-container();
+  }
+
+  header {
+    height: 120px;
+    @include pad();
+  }
+
+  main {
+    @include position(absolute, 120px 0 115px 0);
+    width: 100%;
+  }
+
+  footer {
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    height: 115px;
+    width: 100%;
+  }
+
+
+  header {
+    .logo {@include span-columns(3);}
+    .address {@include span-columns(5);@include omega();}
+    .phone{@include span-columns(5); }
+  }
+  main {
+    #map {height: 100%;}
+  }
+  footer {
+
+    background-color: darkslateblue;
+    nav {padding: 10px 0;}
+    ul {
+      text-align: center;
+      padding: 0;
+      margin: 0;
+      list-style-type: none;
+      li{
+        display: inline-block;
+        padding: 10px;
+        border: 1px solid indianred;
+        width: 120px;
+        min-width: 50px;
+      }
+      a {
+        display: block;
+        text-decoration: none;
+        border: 0;
+        font-family: BebasBold;
+        font-size: em(24);
+        color:#ffffff;
+      }
+    }
+
+
+    .info .copyright {@include span-columns(4)}
+    .info .created_by {@include span-columns(4)}
+    .info {font-size: em(12); color:#ffffff;}
+    .info a {color: #ffffff;}
+  }
+
+
+}

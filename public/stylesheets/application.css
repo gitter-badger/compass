@@ -1,0 +1,267 @@
+/* line 4, ../../app/assets/libs/neat/grid/_box-sizing.scss */
+html {
+  box-sizing: border-box;
+}
+
+/* line 9, ../../app/assets/libs/neat/grid/_box-sizing.scss */
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
+@media screen and (min-width: 20em) {
+  /* line 3, ../../app/assets/layouts/_mobile.scss */
+  header, footer {
+    max-width: 68em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 20, ../../app/assets/libs/bourbon/addons/_clearfix.scss */
+  header::after, footer::after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+
+  /* line 7, ../../app/assets/layouts/_mobile.scss */
+  header {
+    height: 120px;
+    padding: 2.35765%;
+  }
+
+  /* line 12, ../../app/assets/layouts/_mobile.scss */
+  main {
+    position: absolute;
+    top: 120px;
+    right: 0;
+    bottom: 115px;
+    left: 0;
+    width: 100%;
+  }
+
+  /* line 17, ../../app/assets/layouts/_mobile.scss */
+  footer {
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    height: 115px;
+    width: 100%;
+  }
+
+  /* line 27, ../../app/assets/layouts/_mobile.scss */
+  header .logo {
+    float: left;
+    display: block;
+    margin-right: 3.57866%;
+    width: 35.26334%;
+  }
+  /* line 89, ../../app/assets/libs/neat/grid/_span-columns.scss */
+  header .logo:last-child {
+    margin-right: 0;
+  }
+  /* line 28, ../../app/assets/layouts/_mobile.scss */
+  header .address {
+    float: left;
+    display: block;
+    margin-right: 3.57866%;
+    width: 61.158%;
+    margin-right: 0;
+  }
+  /* line 89, ../../app/assets/libs/neat/grid/_span-columns.scss */
+  header .address:last-child {
+    margin-right: 0;
+  }
+  /* line 29, ../../app/assets/layouts/_mobile.scss */
+  header .phone {
+    float: left;
+    display: block;
+    margin-right: 3.57866%;
+    width: 61.158%;
+  }
+  /* line 89, ../../app/assets/libs/neat/grid/_span-columns.scss */
+  header .phone:last-child {
+    margin-right: 0;
+  }
+
+  /* line 32, ../../app/assets/layouts/_mobile.scss */
+  main #map {
+    height: 100%;
+  }
+
+  /* line 34, ../../app/assets/layouts/_mobile.scss */
+  footer {
+    background-color: darkslateblue;
+  }
+  /* line 37, ../../app/assets/layouts/_mobile.scss */
+  footer nav {
+    padding: 10px 0;
+  }
+  /* line 38, ../../app/assets/layouts/_mobile.scss */
+  footer ul {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+  }
+  /* line 43, ../../app/assets/layouts/_mobile.scss */
+  footer ul li {
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid indianred;
+    width: 120px;
+    min-width: 50px;
+  }
+  /* line 50, ../../app/assets/layouts/_mobile.scss */
+  footer ul a {
+    display: block;
+    text-decoration: none;
+    border: 0;
+    font-family: BebasBold;
+    font-size: 1.5em;
+    color: #ffffff;
+  }
+  /* line 61, ../../app/assets/layouts/_mobile.scss */
+  footer .info .copyright {
+    float: left;
+    display: block;
+    margin-right: 3.57866%;
+    width: 48.21067%;
+  }
+  /* line 89, ../../app/assets/libs/neat/grid/_span-columns.scss */
+  footer .info .copyright:last-child {
+    margin-right: 0;
+  }
+  /* line 62, ../../app/assets/layouts/_mobile.scss */
+  footer .info .created_by {
+    float: left;
+    display: block;
+    margin-right: 3.57866%;
+    width: 48.21067%;
+  }
+  /* line 89, ../../app/assets/libs/neat/grid/_span-columns.scss */
+  footer .info .created_by:last-child {
+    margin-right: 0;
+  }
+  /* line 63, ../../app/assets/layouts/_mobile.scss */
+  footer .info {
+    font-size: 0.75em;
+    color: #ffffff;
+  }
+  /* line 64, ../../app/assets/layouts/_mobile.scss */
+  footer .info a {
+    color: #ffffff;
+  }
+}
+/* line 7, ../../app/assets/layouts/_layouts.scss */
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* line 3, ../../app/assets/layouts/partials/_header.scss */
+header .logo {
+  text-align: center;
+}
+/* line 5, ../../app/assets/layouts/partials/_header.scss */
+header .logo a {
+  display: block;
+  border: 0;
+}
+/* line 9, ../../app/assets/layouts/partials/_header.scss */
+header .logo p {
+  margin: 0;
+}
+/* line 11, ../../app/assets/layouts/partials/_header.scss */
+header .logo .sitename strong {
+  display: block;
+  font-size: 1.75em;
+  line-height: 1em;
+}
+/* line 21, ../../app/assets/layouts/partials/_header.scss */
+header .sitename a {
+  border: 0;
+}
+/* line 24, ../../app/assets/layouts/partials/_header.scss */
+header .address {
+  background-image: url("/images/header/metka.png");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 12%;
+}
+/* line 31, ../../app/assets/layouts/partials/_header.scss */
+header .address p {
+  margin: 0 0 0 27px;
+}
+/* line 35, ../../app/assets/layouts/partials/_header.scss */
+header .address p .cityname {
+  color: red;
+  font-size: 1.75em;
+}
+/* line 39, ../../app/assets/layouts/partials/_header.scss */
+header .address p a {
+  display: inline-block;
+  font-size: 1.3125em;
+  color: black;
+}
+/* line 47, ../../app/assets/layouts/partials/_header.scss */
+header .phone {
+  background-image: url("/images/header/metka.png");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 12%;
+}
+/* line 53, ../../app/assets/layouts/partials/_header.scss */
+header .phone p {
+  margin: 10px 0 0 27px;
+}
+/* line 57, ../../app/assets/layouts/partials/_header.scss */
+header .phone p .telephone {
+  font-size: 1.3125em;
+}
+/* line 61, ../../app/assets/layouts/partials/_header.scss */
+header .phone p a {
+  display: inline-block;
+  font-size: 1.3125em;
+  color: crimson;
+}
+
+/* line 3, ../../app/assets/layouts/partials/_main.scss */
+main .ymaps-controls-pane {
+  display: none;
+}
+
+@font-face {
+  font-family: "BebasRegular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/fonts/BebasRegular/BebasRegular.eot?#iefix") format("embedded-opentype"), url("/fonts/BebasRegular/BebasRegular.woff2") format("woff2"), url("/fonts/BebasRegular/BebasRegular.woff") format("woff"), url("/fonts/BebasRegular/BebasRegular.ttf") format("truetype"), url("/fonts/BebasRegular/BebasRegular.svg#BebasRegular") format("svg");
+}
+@font-face {
+  font-family: "BebasBold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/fonts/BebasBold/BebasBold.eot?#iefix") format("embedded-opentype"), url("/fonts/BebasBold/BebasBold.woff2") format("woff2"), url("/fonts/BebasBold/BebasBold.woff") format("woff"), url("/fonts/BebasBold/BebasBold.ttf") format("truetype"), url("/fonts/BebasBold/BebasBold.svg#BebasBold") format("svg");
+}
+/* line 9, ../../app/assets/style/_typography.scss */
+body {
+  font: 1em "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  line-height: 1.618em;
+}
+
+/* line 15, ../../app/assets/style/_typography.scss */
+a {
+  text-decoration: none;
+  border-bottom: 1px dashed dodgerblue;
+}
+
+/* line 22, ../../app/assets/style/_typography.scss */
+header strong {
+  font: 1.125em "BebasBold";
+  line-height: 1.125em;
+}
+/* line 27, ../../app/assets/style/_typography.scss */
+header a, header p, header span {
+  font: 1em "BebasRegular";
+}
