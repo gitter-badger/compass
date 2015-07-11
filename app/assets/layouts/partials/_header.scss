@@ -10,8 +10,7 @@ header {
 
     .sitename strong {
       display: block;
-      font-size: em(28);
-      line-height: em(16);
+      font-size: em(24);
 
     }
 
@@ -24,9 +23,10 @@ header {
   .address {
 
     background-image: url('/images/header/metka.png');
-    background-position: left;
+    background-position: 15px;
     background-repeat: no-repeat;
     background-size: 12%;
+    text-align: center;
 
     p {
 
@@ -34,11 +34,11 @@ header {
 
       .cityname {
         color: red;
-        font-size: em(28);
+        font-size: em(24);
       }
       a {
         display: inline-block;
-        font-size: em(21);
+        font-size: em(18);
         color: black;
       }
 
@@ -46,9 +46,10 @@ header {
   }
   .phone {
     background-image:url('/images/header/metka.png');
-    background-position: left;
+    background-position: 15px;
     background-repeat: no-repeat;
     background-size: 12%;
+    text-align: center;
 
     p {
 
@@ -60,7 +61,7 @@ header {
 
       a {
         display: inline-block;
-        font-size: em(21);
+        font-size: em(18);
         color: crimson;
       }
 
