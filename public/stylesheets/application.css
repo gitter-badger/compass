@@ -8,27 +8,120 @@ html {
   box-sizing: inherit;
 }
 
+/* line 1, ../../app/assets/layouts/_mobile.scss */
+header, footer {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0 auto;
+}
+/* line 20, ../../app/assets/libs/bourbon/addons/_clearfix.scss */
+header::after, footer::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+/* line 10, ../../app/assets/layouts/_mobile.scss */
+header > div {
+  margin: 20px 0;
+  text-align: center;
+}
+/* line 14, ../../app/assets/layouts/_mobile.scss */
+header .phone, header .address {
+  text-align: center;
+  margin: 20px 0;
+}
+/* line 20, ../../app/assets/layouts/_mobile.scss */
+header a {
+  color: indianred;
+}
+
+/* line 32, ../../app/assets/layouts/_mobile.scss */
+.footer-info {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  padding: 0 10px;
+}
+
+/* line 38, ../../app/assets/layouts/_mobile.scss */
+.footer-info > div {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%;
+}
+/* line 89, ../../app/assets/libs/neat/grid/_span-columns.scss */
+.footer-info > div:last-child {
+  margin-right: 0;
+}
+
+/* line 42, ../../app/assets/layouts/_mobile.scss */
+.footer-info .copyright {
+  text-align: left;
+}
+
+/* line 47, ../../app/assets/layouts/_mobile.scss */
+.footer-info .created-by {
+  text-align: right;
+}
+
+/* line 54, ../../app/assets/layouts/_mobile.scss */
+footer {
+  position: fixed;
+  bottom: 0;
+  height: 115px;
+  width: 100%;
+}
+/* line 61, ../../app/assets/layouts/_mobile.scss */
+footer nav {
+  display: block;
+  font-size: .8em;
+}
+/* line 66, ../../app/assets/layouts/_mobile.scss */
+footer ul .main-menu li {
+  display: block;
+  width: 46%;
+  padding: 10px 0;
+}
+
 @media screen and (min-width: 20em) {
-  /* line 3, ../../app/assets/layouts/_mobile.scss */
-  header, footer {
-    max-width: 68em;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  /* line 20, ../../app/assets/libs/bourbon/addons/_clearfix.scss */
-  header::after, footer::after {
-    clear: both;
-    content: "";
-    display: table;
+  /* line 78, ../../app/assets/layouts/_mobile.scss */
+  header > div {
+    margin: 0;
   }
 
-  /* line 7, ../../app/assets/layouts/_mobile.scss */
+  /* line 81, ../../app/assets/layouts/_mobile.scss */
+  header > div {
+    margin: 20px 0;
+    text-align: center;
+  }
+  /* line 85, ../../app/assets/layouts/_mobile.scss */
+  header .phone, header .address {
+    text-align: right;
+    margin: .4em 5% 0 0;
+  }
+
+  /* line 92, ../../app/assets/layouts/_mobile.scss */
   header {
     height: 120px;
+  }
+  /* line 95, ../../app/assets/layouts/_mobile.scss */
+  header .logo {
     padding: 2.35765%;
   }
+  /* line 96, ../../app/assets/layouts/_mobile.scss */
+  header .contacts {
+    padding: 1.2em;
+  }
+  /* line 97, ../../app/assets/layouts/_mobile.scss */
+  header .telephone {
+    font-size: 2em;
+    padding-top: 10px;
+  }
 
-  /* line 12, ../../app/assets/layouts/_mobile.scss */
+  /* line 105, ../../app/assets/layouts/_mobile.scss */
   main {
     position: absolute;
     top: 120px;
@@ -38,16 +131,7 @@ html {
     width: 100%;
   }
 
-  /* line 17, ../../app/assets/layouts/_mobile.scss */
-  footer {
-    text-align: center;
-    position: fixed;
-    bottom: 0;
-    height: 115px;
-    width: 100%;
-  }
-
-  /* line 27, ../../app/assets/layouts/_mobile.scss */
+  /* line 113, ../../app/assets/layouts/_mobile.scss */
   header .logo {
     float: left;
     display: block;
@@ -58,97 +142,212 @@ html {
   header .logo:last-child {
     margin-right: 0;
   }
-  /* line 28, ../../app/assets/layouts/_mobile.scss */
-  header .address {
+  /* line 116, ../../app/assets/layouts/_mobile.scss */
+  header .contacts {
     float: left;
     display: block;
     margin-right: 3.57866%;
     width: 61.158%;
+    padding: 1em 0;
+  }
+  /* line 89, ../../app/assets/libs/neat/grid/_span-columns.scss */
+  header .contacts:last-child {
     margin-right: 0;
+  }
+  /* line 119, ../../app/assets/layouts/_mobile.scss */
+  header .contacts .address {
+    float: left;
+    display: block;
+    margin-right: 5.85151%;
+    width: 100%;
+    margin-right: 0;
+  }
+  /* line 89, ../../app/assets/libs/neat/grid/_span-columns.scss */
+  header .contacts .address:last-child {
+    margin-right: 0;
+  }
+  /* line 123, ../../app/assets/layouts/_mobile.scss */
+  header .contacts .phone {
+    float: left;
+    display: block;
+    margin-right: 5.85151%;
+    width: 100%;
+  }
+  /* line 89, ../../app/assets/libs/neat/grid/_span-columns.scss */
+  header .contacts .phone:last-child {
+    margin-right: 0;
+  }
+
+  /* line 129, ../../app/assets/layouts/_mobile.scss */
+  main #map {
+    height: 100%;
+  }
+
+  /* line 134, ../../app/assets/layouts/_mobile.scss */
+  footer .main-menu {
+    display: block;
+    font-size: 1.2em;
+  }
+
+  /* line 139, ../../app/assets/layouts/_mobile.scss */
+  footer ul .main-menu li {
+    display: inline-block;
+    width: 48%;
+  }
+
+  /* line 146, ../../app/assets/layouts/_mobile.scss */
+  footer .info {
+    font-size: 0.625em;
+    color: #ffffff;
+  }
+  /* line 150, ../../app/assets/layouts/_mobile.scss */
+  footer .info a {
+    color: #ffffff;
+  }
+
+  /* line 154, ../../app/assets/layouts/_mobile.scss */
+  footer {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    height: 115px;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 720px) {
+  /* line 170, ../../app/assets/layouts/_mobile.scss */
+  header .logo {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%;
+    left: 35%;
+    position: absolute;
+  }
+  /* line 89, ../../app/assets/libs/neat/grid/_span-columns.scss */
+  header .logo:last-child {
+    margin-right: 0;
+  }
+  /* line 175, ../../app/assets/layouts/_mobile.scss */
+  header .contacts {
+    margin: 0;
+    padding: 0;
+  }
+  /* line 179, ../../app/assets/layouts/_mobile.scss */
+  header .address {
+    font-size: 1.3em;
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%;
+    position: absolute;
+    left: 15%;
+    top: 5%;
+    text-align: left;
   }
   /* line 89, ../../app/assets/libs/neat/grid/_span-columns.scss */
   header .address:last-child {
     margin-right: 0;
   }
-  /* line 29, ../../app/assets/layouts/_mobile.scss */
+  /* line 187, ../../app/assets/layouts/_mobile.scss */
+  header .city-name {
+    display: block;
+  }
+  /* line 188, ../../app/assets/layouts/_mobile.scss */
+  header .street {
+    line-height: 1;
+  }
+  /* line 190, ../../app/assets/layouts/_mobile.scss */
   header .phone {
     float: left;
     display: block;
-    margin-right: 3.57866%;
-    width: 61.158%;
+    margin-right: 2.35765%;
+    width: 31.76157%;
+    position: absolute;
+    top: 5%;
+    right: 15%;
+    text-align: right;
   }
   /* line 89, ../../app/assets/libs/neat/grid/_span-columns.scss */
   header .phone:last-child {
     margin-right: 0;
   }
-
-  /* line 32, ../../app/assets/layouts/_mobile.scss */
-  main #map {
-    height: 100%;
+  /* line 197, ../../app/assets/layouts/_mobile.scss */
+  header .telephone {
+    padding: 0%;
+    font-size: 1.6em;
   }
-
-  /* line 34, ../../app/assets/layouts/_mobile.scss */
-  footer {
-    background-color: darkslateblue;
+  /* line 203, ../../app/assets/layouts/_mobile.scss */
+  header .call_btn {
+    line-height: 1;
   }
-  /* line 37, ../../app/assets/layouts/_mobile.scss */
-  footer nav {
-    padding: 10px 0;
+}
+@media screen and (min-width: 720px) and (max-width: 65.625em) {
+  /* line 213, ../../app/assets/layouts/_mobile.scss */
+  header .logo {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%;
+    left: 35%;
+    position: absolute;
   }
-  /* line 38, ../../app/assets/layouts/_mobile.scss */
-  footer ul {
-    text-align: center;
-    padding: 0;
+  /* line 89, ../../app/assets/libs/neat/grid/_span-columns.scss */
+  header .logo:last-child {
+    margin-right: 0;
+  }
+  /* line 218, ../../app/assets/layouts/_mobile.scss */
+  header .contacts {
     margin: 0;
-    list-style-type: none;
+    padding: 0;
   }
-  /* line 43, ../../app/assets/layouts/_mobile.scss */
-  footer ul li {
-    display: inline-block;
-    padding: 10px;
-    border: 1px solid indianred;
-    width: 120px;
-    min-width: 50px;
-  }
-  /* line 50, ../../app/assets/layouts/_mobile.scss */
-  footer ul a {
-    display: block;
-    text-decoration: none;
-    border: 0;
-    font-family: BebasBold;
-    font-size: 1.5em;
-    color: #ffffff;
-  }
-  /* line 61, ../../app/assets/layouts/_mobile.scss */
-  footer .info .copyright {
+  /* line 222, ../../app/assets/layouts/_mobile.scss */
+  header .address {
+    font-size: 1.3em;
     float: left;
     display: block;
-    margin-right: 3.57866%;
-    width: 48.21067%;
+    margin-right: 2.35765%;
+    width: 31.76157%;
+    position: absolute;
+    left: 15%;
+    top: 5%;
+    text-align: left;
   }
   /* line 89, ../../app/assets/libs/neat/grid/_span-columns.scss */
-  footer .info .copyright:last-child {
+  header .address:last-child {
     margin-right: 0;
   }
-  /* line 62, ../../app/assets/layouts/_mobile.scss */
-  footer .info .created_by {
+  /* line 230, ../../app/assets/layouts/_mobile.scss */
+  header .city-name {
+    display: block;
+  }
+  /* line 231, ../../app/assets/layouts/_mobile.scss */
+  header .street {
+    line-height: 1;
+  }
+  /* line 233, ../../app/assets/layouts/_mobile.scss */
+  header .phone {
     float: left;
     display: block;
-    margin-right: 3.57866%;
-    width: 48.21067%;
+    margin-right: 2.35765%;
+    width: 31.76157%;
+    position: absolute;
+    top: 5%;
+    right: 15%;
+    text-align: right;
   }
   /* line 89, ../../app/assets/libs/neat/grid/_span-columns.scss */
-  footer .info .created_by:last-child {
+  header .phone:last-child {
     margin-right: 0;
   }
-  /* line 63, ../../app/assets/layouts/_mobile.scss */
-  footer .info {
-    font-size: 0.75em;
-    color: #ffffff;
+  /* line 240, ../../app/assets/layouts/_mobile.scss */
+  header .telephone {
+    padding: 0%;
+    font-size: 1.6em;
   }
-  /* line 64, ../../app/assets/layouts/_mobile.scss */
-  footer .info a {
-    color: #ffffff;
+  /* line 246, ../../app/assets/layouts/_mobile.scss */
+  header .call_btn {
+    line-height: 1;
   }
 }
 /* line 7, ../../app/assets/layouts/_layouts.scss */
@@ -160,77 +359,154 @@ html, body {
   overflow: hidden;
 }
 
-/* line 3, ../../app/assets/layouts/partials/_header.scss */
-header .logo {
+/* line 1, ../../app/assets/layouts/partials/_header.scss */
+header {
+  color: #373737;
   text-align: center;
 }
 /* line 5, ../../app/assets/layouts/partials/_header.scss */
-header .logo a {
+header a {
   display: block;
   border: 0;
 }
 /* line 9, ../../app/assets/layouts/partials/_header.scss */
-header .logo p {
+header p {
   margin: 0;
 }
-/* line 11, ../../app/assets/layouts/partials/_header.scss */
-header .logo .sitename strong {
+/* line 13, ../../app/assets/layouts/partials/_header.scss */
+header .sitename strong {
   display: block;
   font-size: 1.5em;
+  line-height: 1.25em;
 }
-/* line 20, ../../app/assets/layouts/partials/_header.scss */
-header .sitename a {
+/* line 19, ../../app/assets/layouts/partials/_header.scss */
+header .site-name span {
+  line-height: .4;
+  display: block;
+}
+
+/* line 30, ../../app/assets/layouts/partials/_header.scss */
+.site-name a {
   border: 0;
 }
-/* line 23, ../../app/assets/layouts/partials/_header.scss */
-header .address {
-  background-image: url("/images/header/metka.png");
-  background-position: 15px;
-  background-repeat: no-repeat;
-  background-size: 12%;
-  text-align: center;
+
+/* line 38, ../../app/assets/layouts/partials/_header.scss */
+.city-name {
+  color: #373737;
+  display: inline;
+  vertical-align: bottom;
+  font: 1.3em BebasBold;
 }
-/* line 31, ../../app/assets/layouts/partials/_header.scss */
-header .address p {
-  margin: 0 0 0 27px;
+
+/* line 45, ../../app/assets/layouts/partials/_header.scss */
+.street {
+  display: inline;
+  font-size: 1.1em;
+  color: #333333;
+  line-height: 1.2;
+  border-bottom: 1px dashed #293a4b;
 }
-/* line 35, ../../app/assets/layouts/partials/_header.scss */
-header .address p .cityname {
-  color: red;
-  font-size: 1.5em;
-}
-/* line 39, ../../app/assets/layouts/partials/_header.scss */
-header .address p a {
-  display: inline-block;
-  font-size: 1.125em;
-  color: black;
-}
-/* line 47, ../../app/assets/layouts/partials/_header.scss */
-header .phone {
-  background-image: url("/images/header/metka.png");
-  background-position: 15px;
-  background-repeat: no-repeat;
-  background-size: 12%;
-  text-align: center;
-}
+
 /* line 54, ../../app/assets/layouts/partials/_header.scss */
-header .phone p {
-  margin: 10px 0 0 27px;
+.phone {
+  line-height: .4;
+  font-size: 1.2em;
 }
-/* line 58, ../../app/assets/layouts/partials/_header.scss */
-header .phone p .telephone {
-  font-size: 1.3125em;
+/* line 57, ../../app/assets/layouts/partials/_header.scss */
+.phone span {
+  display: block;
 }
-/* line 62, ../../app/assets/layouts/partials/_header.scss */
-header .phone p a {
+/* line 61, ../../app/assets/layouts/partials/_header.scss */
+.phone .telephone {
+  font-size: 1.2em;
+  margin-right: 5%;
+}
+/* line 65, ../../app/assets/layouts/partials/_header.scss */
+.phone .call_btn {
+  margin-right: 5%;
+  font-size: .8em;
+}
+/* line 71, ../../app/assets/layouts/partials/_header.scss */
+.phone .call_btn a:before {
+  content: "#";
+  background-image: url("/images/header/metka.png");
+  background-position: 15px;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 0;
+}
+/* line 82, ../../app/assets/layouts/partials/_header.scss */
+.phone a {
   display: inline-block;
-  font-size: 1.125em;
+  font-size: 1em;
   color: crimson;
+  line-height: 1;
+  border-bottom: 1px dashed #293a4b;
+}
+
+/* line 93, ../../app/assets/layouts/partials/_header.scss */
+.phone:before {
+  background-image: url("/images/header/phone.png");
+  background-position: 15px;
+  background-repeat: no-repeat;
 }
 
 /* line 3, ../../app/assets/layouts/partials/_main.scss */
 main .ymaps-controls-pane {
   display: none;
+}
+
+/* line 2, ../../app/assets/layouts/partials/_footer.scss */
+footer {
+  background-color: #293a4b;
+}
+/* line 6, ../../app/assets/layouts/partials/_footer.scss */
+footer nav {
+  padding: 0px 0;
+}
+/* line 9, ../../app/assets/layouts/partials/_footer.scss */
+footer ul.main-menu {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+/* line 14, ../../app/assets/layouts/partials/_footer.scss */
+footer ul.main-menu li {
+  display: inline-block;
+  padding: 10px;
+  background-color: indianred;
+  width: 40%;
+  min-width: 50px;
+}
+/* line 20, ../../app/assets/layouts/partials/_footer.scss */
+footer ul.main-menu li:hover {
+  padding: 20px;
+}
+/* line 25, ../../app/assets/layouts/partials/_footer.scss */
+footer ul.main-menu a {
+  display: block;
+  text-decoration: none;
+  border: 0;
+  font-family: BebasBold;
+  font-size: 1.5em;
+  color: #ffffff;
+}
+/* line 34, ../../app/assets/layouts/partials/_footer.scss */
+footer .footer-info {
+  font-size: 0.625em;
+  color: rgba(255, 255, 255, 0.8);
+}
+/* line 37, ../../app/assets/layouts/partials/_footer.scss */
+footer .footer-info p {
+  margin: 0;
+}
+/* line 38, ../../app/assets/layouts/partials/_footer.scss */
+footer .footer-info a {
+  color: rgba(255, 255, 255, 0.8);
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.6);
 }
 
 @font-face {

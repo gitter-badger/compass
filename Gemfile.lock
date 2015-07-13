@@ -122,3 +122,6 @@ DEPENDENCIES
   padrino (= 0.12.5)
   rake
   sqlite3
+
+BUNDLED WITH
+   1.10.3

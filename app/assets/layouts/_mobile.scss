@@ -1,12 +1,105 @@
-@include media($mobile) {
+header, footer {
+  @include outer-container();
+  margin: 0 auto;
+}
 
-  header, footer {
-    @include outer-container();
+
+
+header {
+
+  > div {
+    margin: 20px 0;
+    text-align: center;
+  }
+  .phone , .address{
+
+    text-align: center;
+    margin: 20px 0;
+
+  }
+  a {
+    color: indianred;
   }
 
+}
+
+
+main {
+  //height: 100px;
+}
+
+
+.footer-info{
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  padding: 0 10px;
+}
+.footer-info > div {
+  @include span-columns(6);
+}
+
+  .footer-info .copyright {
+    text-align: left;
+
+  }
+
+  .footer-info .created-by {
+    text-align: right;
+
+  }
+
+
+
+footer {
+  position: fixed;
+  bottom: 0;
+  height: 115px;
+  width: 100%;
+
+
+  nav {
+    display: block;
+    font-size: .8em;
+  }
+
+   ul .main-menu li {
+
+    display: block;
+    width: 46%;
+    padding: 10px 0;
+  }
+
+
+
+}
+
+@include media($mobile) {
+  header > div {margin: 0;}
+  header {
+
+    > div {
+      margin: 20px 0;
+      text-align: center;
+    }
+    .phone, .address {
+
+      text-align: right;
+      margin: .4em 5% 0 0;
+
+    }
+  }
   header {
     height: 120px;
-    @include pad();
+
+    .logo {@include pad();}
+    .contacts { @include pad(1.2em); }
+    .telephone {
+      font-size: 2em;
+      padding-top: 10px;
+    }
+
+
   }
 
   main {
@@ -14,55 +107,144 @@
     width: 100%;
   }
 
+
+
+  header {
+    .logo {
+      @include span-columns(3);
+    }
+    .contacts {
+      @include span-columns(5);
+      padding: 1em 0 ;
+      .address {
+        @include span-columns(5 of 5);
+        @include omega();
+      }
+      .phone {
+        @include span-columns(5 of 5);
+      }
+    }
+  }
+  main {
+    #map {
+      height: 100%;
+    }
+  }
+
+  footer .main-menu {
+    display: block;
+    font-size: 1.2em;
+  }
+
+  footer ul .main-menu li {
+
+    display: inline-block;
+    width: 48%;
+  }
+
+  footer {
+    .info {
+      font-size: em(10);
+      color: #ffffff;
+    }
+    .info a {
+      color: #ffffff;
+    }
+  }
   footer {
     text-align: center;
-    position: fixed;
+    position: absolute;
     bottom: 0;
     height: 115px;
     width: 100%;
   }
 
 
-  header {
-    .logo {@include span-columns(3);}
-    .address {@include span-columns(5);@include omega();}
-    .phone{@include span-columns(5); }
-  }
-  main {
-    #map {height: 100%;}
-  }
-  footer {
 
-    background-color: darkslateblue;
-    nav {padding: 10px 0;}
-    ul {
-      text-align: center;
-      padding: 0;
+}
+
+
+@include media($tablet) {
+
+  header {
+    .logo {
+      @include span-columns(4);
+      left: 35%;
+      position: absolute;
+    }
+    .contacts {
       margin: 0;
-      list-style-type: none;
-      li{
-        display: inline-block;
-        padding: 10px;
-        border: 1px solid indianred;
-        width: 120px;
-        min-width: 50px;
+      padding: 0;
+    }
+      .address {
+        font-size: 1.3em;
+        @include span-columns(4);
+        position: absolute;
+        left: 15%;
+        top: 5%;
+        text-align: left;
       }
-      a {
-        display: block;
-        text-decoration: none;
-        border: 0;
-        font-family: BebasBold;
-        font-size: em(24);
-        color:#ffffff;
+      .city-name {display: block;}
+      .street {line-height: 1;}
+
+      .phone {
+        @include span-columns(4);
+        position: absolute;
+        top: 5%;
+        right: 15%;
+        text-align: right;
       }
+      .telephone {
+        padding: 0%;
+        font-size: 1.6em;
+
+      }
+
+        .call_btn { line-height: 1;}
+
+
+  }
+}
+
+
+@include media($desktop) {
+
+  header {
+    .logo {
+      @include span-columns(4);
+      left: 35%;
+      position: absolute;
+    }
+    .contacts {
+      margin: 0;
+      padding: 0;
+    }
+    .address {
+      font-size: 1.3em;
+      @include span-columns(4);
+      position: absolute;
+      left: 15%;
+      top: 5%;
+      text-align: left;
+    }
+    .city-name {display: block;}
+    .street {line-height: 1;}
+
+    .phone {
+      @include span-columns(4);
+      position: absolute;
+      top: 5%;
+      right: 15%;
+      text-align: right;
+    }
+    .telephone {
+      padding: 0%;
+      font-size: 1.6em;
+
     }
 
+    .call_btn { line-height: 1;}
 
-    .info .copyright {@include span-columns(4)}
-    .info .created_by {@include span-columns(4)}
-    .info {font-size: em(12); color:#ffffff;}
-    .info a {color: #ffffff;}
+
   }
-
-
 }
