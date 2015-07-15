@@ -12,7 +12,7 @@ source 'https://rubygems.org'
 
 # Project requirements
 gem 'rake'
-
+gem 'webrick'
 # Component requirements
 gem 'compass'
 gem 'haml'

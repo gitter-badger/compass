@@ -19,12 +19,17 @@ a {
 
 header{
 
-  strong {
+  .site-name strong {
       font: em(18) "BebasBold";
       line-height: em(18);
+
     }
 
   a, p, span {
-    font: $body-font-size "BebasRegular";
+    font-family: "BebasRegular";
+    line-height: 1.3;
+  }
+  strong {
+    font-family: "BebasBold";
   }
 }

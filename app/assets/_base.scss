@@ -1,6 +1,25 @@
+
 @import "layouts/layouts";
 @import "layouts/partials/header";
 @import "layouts/partials/main";
 @import "layouts/partials/footer";
 @import "style/typography";
+
+
+
+
+body {
+  transition:all .2s linear!important;
+  -o-transition:all .2s linear!important;
+  -moz-transition:all .2s linear!important;
+  -webkit-transition:all .2s linear!important;
+}
+
+body, img {
+  transition:all .2s linear!important;
+  -o-transition:all .2s linear!important;
+  -moz-transition:all .2s linear!important;
+  -webkit-transition:all .2s linear!important;
+}
+
 
