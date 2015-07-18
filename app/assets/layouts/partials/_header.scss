@@ -1,115 +1,201 @@
+$metka_icon:  url('/images/header/metka.png');
+$phone_icon: url('/images/header/phone.png');
 
-@include media($desktop) {
 
-  .site-name strong {
-    font-size: 2em;
-    line-height: 1.25em;
-  }
-  .site-name span {
-    line-height: .4;
-    font-size: 1.4em;
-    display: block;
-  }
-}
+.metka-icon{ background-image: $metka_icon;  }
+.phone-icon{ background-image: $phone_icon;  }
+
 
 header {
+  -webkit-box-shadow: 0 1px 0px -0px rgba(119, 119, 119, 0.5);
+  -moz-box-shadow: 0 1px 0px -0px rgba(119, 119, 119, 0.5);
+  box-shadow: 0 1px 0px -0px rgba(119, 119, 119, 0.5);
+
+
+}
+
+
+
+header .logo {text-align: center; }
+header .logo strong {
+  font-size: 1.4em;
+  display: block;
+  line-height: .45;
+  margin: 4px 0 0 0;
+
+}
+header .logo span {font-size: 1.2em; display: block;}
+header .logo a {border: 0;}
+
+header .contacts {line-height: 1;}
+header .contacts strong {
+  color: indianred;
+  font-size: 1.6em;
+
+}
+
+header .contacts a {
+
   color: #373737;
-  text-align: center;
-  //border-bottom: 0 none;
-  //box-shadow: 0 5px 0 0 rgba(0, 0, 0, 0.46);
 
-  a {
-    display: block;
-  }
-
-  .logo a {border: 0;}
-
-  p {
-    margin: 0;
-  }
-
-  .sitename strong {
-    display: block;
-    font-size: em(24);
-    line-height: 1.25em;
-  }
-
-
-  .site-name span {
-    line-height: .4;
-    display: block;
-
+  &:hover {
+    border-bottom: 1px dashed red;
+    -webkit-transition: all,.4s;
+    -moz-transition: all,.4s;
+    -ms-transition: all,.4s;
+    -o-transition: all,.4s;
+    transition: all,.4s;
   }
 
 }
-  .site-name{
-    a {border: 0;}
-  }
+
+header .address {}
+
+header .phone {}
+header .phone {  white-space: nowrap;}
+//header .phone .call_btn {display: block;}
+
+//
+//
+//
+//.site-name strong {
+//  font-size: 1.6em;
+//  line-height: 1.25em;
+//}
+//.site-name span {
+//  line-height: .4;
+//  font-size: 1.3em;
+//  display: block;
+//}
+//.telephone {
+//  font-size: 1.4em;
+//}
+//
+//
+//
+//@include media($mobile) {
+//
+//  .site-name strong {
+//    font-size: 1.6em;
+//  }
+//  .site-name span {
+//    font-size: 1.2em;
+//    display: block;
+//  }
+//}
+//
+//
+//
+//@include media($tablet) {
+//
+//  .site-name strong {
+//    font-size: 1.6em;
+//    line-height: 1em;
+//  }
+//  .site-name span {
+//    line-height: .4;
+//    font-size: 1.2em;
+//    display: block;
+//  }
+//
+//}
+//
+//
+//@include media($desktop) {
+//
+//  .site-name strong {
+//    font-size: 2em;
+//    line-height: 1.25em;
+//  }
+//  .site-name span {
+//    line-height: .4;
+//    font-size: 1.4em;
+//    display: block;
+//  }
+//}
+
+//header {
+//  color: #373737;
+//  text-align: center;
+//  //border-bottom: 0 none;
+//  //box-shadow: 0 5px 0 0 rgba(0, 0, 0, 0.46);
+//
+//  a {
+//    display: block;
+//  }
+//
+//  .logo a {border: 0;}
+//
+//  p {
+//    margin: 0;
+//  }
+//
+//  .sitename strong {
+//    display: block;
+//    font-size: em(24);
+//    line-height: 1.25em;
+//  }
+//
+//
+//  .site-name span {
+//    line-height: .4;
+//    display: block;
+//
+//  }
+//
+//}
+//  .site-name{
+//    a {border: 0;}
+//  }
+//
+//
+//
+//.address, .address a {
+//
+//}
 
 
+//  .city-name {
+//    color: #373737;
+//    display: inline;
+//    vertical-align: bottom;
+//    font: 1.3em BebasBold;
+//
+//  }
+//
+//  .street {
+//      display: inline;
+//      color: #333333;
+//      border-bottom: 1px dashed #293a4b;
+//  }
+//
+//
+//  .phone {
+//  }
+//    span {
+//      display: block;
+//    }
+//
+//
+//    .call_btn a {
+//      display: inline-block;
+//
+//    }
+//
 
-.address, .address a {
-
-}
-  .metka-pic {
-    background-image: url('/images/header/metka.png');
-    background-position: 50% 5%;
-    background-repeat: no-repeat;
-    height: 35px;
-    display: block;
-
-  }
-  .city-name {
-    color: #373737;
-    display: inline;
-    vertical-align: bottom;
-    font: 1.3em BebasBold;
-
-  }
-
-  .street {
-      display: inline;
-      color: #333333;
-      line-height: 1.2;
-      border-bottom: 1px dashed #293a4b;
-  }
-
-
-  .phone {
-    line-height: .4;
-  }
-    span {
-      display: block;
-    }
-
-    .telephone {
-    }
-    .call_btn a {
-      display: inline-block;
-
-    }
-
-    .phone-pic{
-      background-image:url('/images/header/phone.png');
-      background-position: 50% 5%;
-      background-repeat: no-repeat;
-      height: 35px;
-      display: block;
-    }
-
-      a {
-        font-size: 1.3em;
-        display: inline-block;
-        color: crimson;
-        line-height: 1;
-        border-bottom: 1px dashed #293a4b;
-      }
-
-
-
-  .phone:before{
-    content: "";
-
-    //background-size: 12%;
-  }
+//
+//     header a {
+//        font-size: 1.3em;
+//        display: inline-block;
+//        color: crimson;
+//        border-bottom: 1px dashed #293a4b;
+//      }
+//
+//
+//
+//  .phone:before{
+//    content: "";
+//
+//    //background-size: 12%;
+//  }
 

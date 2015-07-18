@@ -8,18 +8,26 @@
 
 
 
-body {
-  transition:all .2s linear!important;
-  -o-transition:all .2s linear!important;
-  -moz-transition:all .2s linear!important;
-  -webkit-transition:all .2s linear!important;
+header > div {
+  -webkit-transition: all,.6s;
+  -moz-transition: all,.6s;
+  -ms-transition: all,.6s;
+  -o-transition: all,.6s;
+  transition: all,.6s;
 }
 
 body, img {
-  transition:all .2s linear!important;
-  -o-transition:all .2s linear!important;
-  -moz-transition:all .2s linear!important;
-  -webkit-transition:all .2s linear!important;
+  -webkit-transition: all,.6s;
+  -moz-transition: all,.6s;
+  -ms-transition: all,.6s;
+  -o-transition: all,.6s;
+  transition: all,.6s;
 }
 
-
+nav li {
+  -webkit-transition: all,.6s;
+  -moz-transition: all,.6s;
+  -ms-transition: all,.6s;
+  -o-transition: all,.6s;
+  transition: all,.6s;
+}
