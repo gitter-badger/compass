@@ -2,15 +2,23 @@ $metka_icon:  url('/images/header/metka.png');
 $phone_icon: url('/images/header/phone.png');
 
 
-.metka-icon{ background-image: $metka_icon;  }
-.phone-icon{ background-image: $phone_icon;  }
+.metka-icon{
+  background-image: $metka_icon;
+  background-position: 50% 30%;
+}
+.phone-icon{
+  background-image: $phone_icon;
+  background-position: 50% 30%;
+}
 
 
 header {
   -webkit-box-shadow: 0 1px 0px -0px rgba(119, 119, 119, 0.5);
   -moz-box-shadow: 0 1px 0px -0px rgba(119, 119, 119, 0.5);
   box-shadow: 0 1px 0px -0px rgba(119, 119, 119, 0.5);
-
+  background-color: rgba(255, 255, 255, 0.85);
+  z-index: 999;
+  min-height: 140px;
 
 }
 
@@ -27,32 +35,43 @@ header .logo strong {
 header .logo span {font-size: 1.2em; display: block;}
 header .logo a {border: 0;}
 
-header .contacts {line-height: 1;}
-header .contacts strong {
+header strong {
   color: indianred;
   font-size: 1.6em;
 
 }
 
-header .contacts a {
+header  a {
 
   color: #373737;
-
+  @include transition (border 0.2s ease-in-out);
   &:hover {
-    border-bottom: 1px dashed red;
-    -webkit-transition: all,.4s;
-    -moz-transition: all,.4s;
-    -ms-transition: all,.4s;
-    -o-transition: all,.4s;
-    transition: all,.4s;
+    border-bottom: 1px dashed indigo;
+
   }
 
 }
 
-header .address {}
+header address {line-height: 1.2em;}
+header .address {white-space: nowrap;}
+header .address a {font-size: 1.3em;}
 
 header .phone {}
 header .phone {  white-space: nowrap;}
+
+//.call_btn {margin: 10px;}
+.call_btn a {
+  border: 1px dashed indianred;
+  border-radius: 5px;
+  padding: .7% 3%;
+  margin: 17px;
+  color: indianred;
+  &:hover {
+
+    border: 1px solid indianred;
+  }
+}
+
 //header .phone .call_btn {display: block;}
 
 //

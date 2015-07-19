@@ -10,9 +10,12 @@
 		// Place favicon.ico in the root directory
 		%link{:href => "stylesheets/normalize.css", :rel => "stylesheet"}
 		=stylesheet_link_tag 'application'
-	%body
+	%body{class: "#{@route.name}" }
+
 		=partial 'layouts/partials/header'
+
 		%main
 			= yield
+
 		=partial 'layouts/partials/footer'
 

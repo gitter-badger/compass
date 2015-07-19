@@ -13,8 +13,10 @@ body {
 
 a {
   text-decoration: none;
-  border-bottom: 1px dashed black ;
 }
+
+ul {list-style-type: none;}
+
 header{
   a, p, span {
     font-family: "BebasRegular";

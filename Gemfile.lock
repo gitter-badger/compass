@@ -124,6 +124,3 @@ DEPENDENCIES
   rake
   sqlite3
   webrick
-
-BUNDLED WITH
-   1.10.3
