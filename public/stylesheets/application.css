@@ -1,339 +1,282 @@
-/* line 4, ../../app/assets/libs/neat/grid/_box-sizing.scss */
-html {
-  box-sizing: border-box;
+/* line 18, ../../app/assets/layouts/susy_grid.scss */
+a {
+  color: indianred;
+}
+/* line 18, ../../../../.rvm/gems/ruby-1.9.3-p551-dev/gems/compass-core-1.0.3/stylesheets/compass/typography/links/_link-colors.scss */
+a:visited {
+  color: purple;
+}
+/* line 21, ../../../../.rvm/gems/ruby-1.9.3-p551-dev/gems/compass-core-1.0.3/stylesheets/compass/typography/links/_link-colors.scss */
+a:focus {
+  color: blue;
+}
+/* line 24, ../../../../.rvm/gems/ruby-1.9.3-p551-dev/gems/compass-core-1.0.3/stylesheets/compass/typography/links/_link-colors.scss */
+a:hover {
+  color: red;
+}
+/* line 27, ../../../../.rvm/gems/ruby-1.9.3-p551-dev/gems/compass-core-1.0.3/stylesheets/compass/typography/links/_link-colors.scss */
+a:active {
+  color: blue;
 }
 
-/* line 9, ../../app/assets/libs/neat/grid/_box-sizing.scss */
-*, *::after, *::before {
-  box-sizing: inherit;
-}
-
-/* line 5, ../../app/assets/layouts/_default.scss */
-header {
-  height: 14%;
-  background-color: rgba(255, 255, 255, 0.34);
-}
-
-/* line 12, ../../app/assets/layouts/_default.scss */
-body.price main {
-  top: 14%;
-  height: 68%;
-}
-/* line 17, ../../app/assets/layouts/_default.scss */
-body.price main .price-page {
-  overflow-y: auto;
-  height: 80%;
-  padding: 0 20%;
-}
-
-/* line 25, ../../app/assets/layouts/_default.scss */
+/* line 22, ../../app/assets/layouts/susy_grid.scss */
 img {
   max-width: 100%;
-  max-height: 100%;
+  margin: auto;
+  display: block;
 }
 
-/* line 30, ../../app/assets/layouts/_default.scss */
+/* line 28, ../../app/assets/layouts/susy_grid.scss */
 header {
-  width: 100%;
-  padding: 5%;
+  height: 150px;
 }
-/* line 35, ../../app/assets/layouts/_default.scss */
-header .logo {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 31.76157%;
-}
-/* line 89, ../../app/assets/libs/neat/grid/_span-columns.scss */
-header .logo:last-child {
-  margin-right: 0;
-}
-/* line 38, ../../app/assets/layouts/_default.scss */
-header .contacts {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 65.88078%;
-}
-/* line 89, ../../app/assets/libs/neat/grid/_span-columns.scss */
-header .contacts:last-child {
-  margin-right: 0;
-}
-/* line 42, ../../app/assets/layouts/_default.scss */
-header .contacts > div {
-  max-width: 68em;
+
+/* line 34, ../../app/assets/layouts/susy_grid.scss */
+header .wrap {
+  max-width: 960px;
   margin-left: auto;
   margin-right: auto;
-  line-height: 1.3em;
-  margin: 10px auto;
-  text-align: right;
+  height: 100%;
+  z-index: 1;
+  padding: 0 .5em;
 }
-/* line 20, ../../app/assets/libs/bourbon/addons/_clearfix.scss */
-header .contacts > div::after {
+/* line 12, ../../../../.rvm/gems/ruby-1.9.3-p551-dev/gems/susy-2.2.5/sass/susy/output/support/_clearfix.scss */
+header .wrap:after {
+  content: " ";
+  display: block;
   clear: both;
-  content: "";
-  display: table;
 }
-/* line 49, ../../app/assets/layouts/_default.scss */
-header .phone-icon, header .metka-icon {
-  display: none;
+/* line 65, ../../../../.rvm/gems/ruby-1.9.3-p551-dev/gems/susy-2.2.5/sass/susy/language/susy/_background.scss */
+head {
+  display: block;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  z-index: 999;
+  color: #333;
+  background: rgba(255, 255, 255, 0.25);
 }
-/* line 54, ../../app/assets/layouts/_default.scss */
-header header a {
-  -webkit-transition: all,.6s;
-  -moz-transition: all,.6s;
-  -ms-transition: all,.6s;
-  -o-transition: all,.6s;
-  transition: all,.6s;
+/* line 66, ../../../../.rvm/gems/ruby-1.9.3-p551-dev/gems/susy-2.2.5/sass/susy/language/susy/_background.scss */
+head:before {
+  content: "|||";
+  display: block;
+  padding: 5px 10px;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: bold;
 }
-
-/* line 65, ../../app/assets/layouts/_default.scss */
-main {
+/* line 67, ../../../../.rvm/gems/ruby-1.9.3-p551-dev/gems/susy-2.2.5/sass/susy/language/susy/_background.scss */
+head:hover {
+  background: rgba(255, 255, 255, 0.5);
+  color: red;
+}
+/* line 71, ../../../../.rvm/gems/ruby-1.9.3-p551-dev/gems/susy-2.2.5/sass/susy/language/susy/_background.scss */
+head:hover ~ header .wrap, head:hover ~ body header .wrap {
+  position: relative;
+}
+/* line 74, ../../../../.rvm/gems/ruby-1.9.3-p551-dev/gems/susy-2.2.5/sass/susy/language/susy/_background.scss */
+head:hover ~ header .wrap:before, head:hover ~ body header .wrap:before {
   position: absolute;
   top: 0;
-  width: 100%;
-  height: 85%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  content: " ";
+  z-index: 998;
+  background-image: linear-gradient(to right, blue, #4d4dff 80%, transparent 80%);
+  background-size: 12.82051%;
+  background-origin: content-box;
+  background-clip: content-box;
+  background-position: left top;
 }
 
-/* line 71, ../../app/assets/layouts/_default.scss */
-#map {
+/* HEADER PAGE-CONTACTS */
+/* line 51, ../../app/assets/layouts/susy_grid.scss */
+.page.contacts header .logo {
+  width: 23.07692%;
+  float: left;
+  height: 100%;
+}
+@media (min-width: 500px) {
+  /* line 51, ../../app/assets/layouts/susy_grid.scss */
+  .page.contacts header .logo {
+    width: 15.25424%;
+    float: left;
+    float: left;
+    margin-left: 42.37288%;
+    margin-right: -100%;
+    text-align: center;
+  }
+}
+
+/* line 62, ../../app/assets/layouts/susy_grid.scss */
+.page.contacts header .phone {
+  width: 74.35897%;
+  float: right;
+  text-align: right;
+}
+@media (min-width: 500px) {
+  /* line 62, ../../app/assets/layouts/susy_grid.scss */
+  .page.contacts header .phone {
+    width: 49.15254%;
+    float: right;
+    margin: 25px 0;
+    text-align: center;
+  }
+}
+
+/* line 73, ../../app/assets/layouts/susy_grid.scss */
+.page.contacts header .address {
+  width: 74.35897%;
+  float: right;
+  text-align: right;
+}
+@media (min-width: 500px) {
+  /* line 73, ../../app/assets/layouts/susy_grid.scss */
+  .page.contacts header .address {
+    width: 49.15254%;
+    float: left;
+    text-align: center;
+    margin: 25px 0;
+  }
+}
+
+/*---------------------*/
+/* HEADER PAGE-PRICE */
+/* line 89, ../../app/assets/layouts/susy_grid.scss */
+.page.price header {
+  height: 95px;
+}
+
+/* line 92, ../../app/assets/layouts/susy_grid.scss */
+.page.price header .logo {
+  width: 23.07692%;
+  float: left;
+}
+
+/* line 95, ../../app/assets/layouts/susy_grid.scss */
+.page.price header .address {
+  width: 35.89744%;
+  float: left;
+  text-align: center;
+}
+
+/* line 101, ../../app/assets/layouts/susy_grid.scss */
+.page.price header .phone {
+  width: 35.89744%;
+  float: right;
+  text-align: center;
+}
+
+/* line 106, ../../app/assets/layouts/susy_grid.scss */
+.page.price header .logo {
+  background-size: 100px;
+  background-position: 0 0;
   height: 100%;
 }
 
-/* line 76, ../../app/assets/layouts/_default.scss */
+/* line 111, ../../app/assets/layouts/susy_grid.scss */
+.page.price header .site-name {
+  top: 30%;
+}
+
+/* line 115, ../../app/assets/layouts/susy_grid.scss */
+.page.price header .address,
+.page.price header .phone {
+  margin: 15px 0;
+}
+
+/* line 119, ../../app/assets/layouts/susy_grid.scss */
+.page.price header .address > div,
+.page.price header .phone > div {
+  display: inline;
+}
+
+/* line 124, ../../app/assets/layouts/susy_grid.scss */
+.price-page .price-menu {
+  position: fixed;
+}
+
+/*---------------------*/
+/* line 134, ../../app/assets/layouts/susy_grid.scss */
+.price-page {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-x: auto;
+}
+/* line 12, ../../../../.rvm/gems/ruby-1.9.3-p551-dev/gems/susy-2.2.5/sass/susy/output/support/_clearfix.scss */
+.price-page:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+/* line 71, ../../../../.rvm/gems/ruby-1.9.3-p551-dev/gems/susy-2.2.5/sass/susy/language/susy/_background.scss */
+head:hover ~ .price-page, head:hover ~ body .price-page {
+  position: relative;
+}
+/* line 74, ../../../../.rvm/gems/ruby-1.9.3-p551-dev/gems/susy-2.2.5/sass/susy/language/susy/_background.scss */
+head:hover ~ .price-page:before, head:hover ~ body .price-page:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  content: " ";
+  z-index: 998;
+  background-image: linear-gradient(to right, blue, #4d4dff 80%, transparent 80%);
+  background-size: 12.82051%;
+  background-origin: content-box;
+  background-clip: content-box;
+  background-position: left top;
+}
+
+/* line 143, ../../app/assets/layouts/susy_grid.scss */
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 120px;
+  width: 100%;
+  height: auto;
+  z-index: -1;
+}
+
+/* line 155, ../../app/assets/layouts/susy_grid.scss */
 footer {
-  text-align: center;
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 15%;
-}
-/* line 83, ../../app/assets/layouts/_default.scss */
-footer .main-menu {
-  height: 80px;
-  display: block;
-  font-size: 1.2em;
-}
-/* line 89, ../../app/assets/layouts/_default.scss */
-footer ul .main-menu li {
-  display: inline-block;
-}
-/* line 94, ../../app/assets/layouts/_default.scss */
-footer .info {
-  font-size: 0.625em;
-  color: #ffffff;
-}
-/* line 98, ../../app/assets/layouts/_default.scss */
-footer .info a {
-  color: #ffffff;
+  height: 130px;
 }
 
-@media screen and (min-width: 20em) {
-  /* line 8, ../../app/assets/layouts/_mobile.scss */
-  header .logo {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 23.23176%;
-  }
-  /* line 89, ../../app/assets/libs/neat/grid/_span-columns.scss */
-  header .logo:last-child {
-    margin-right: 0;
-  }
-  /* line 11, ../../app/assets/layouts/_mobile.scss */
-  header .contacts {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 40.29137%;
-    float: right;
-  }
-  /* line 89, ../../app/assets/libs/neat/grid/_span-columns.scss */
-  header .contacts:last-child {
-    margin-right: 0;
-  }
-  /* line 17, ../../app/assets/layouts/_mobile.scss */
-  header .contacts > div {
-    line-height: 1.3em;
-    margin: 10px auto;
-    text-align: right;
-  }
-
-  /* line 24, ../../app/assets/layouts/_mobile.scss */
-  .phone-icon, .metka-icon {
-    background-repeat: no-repeat;
-    height: 30px;
-    width: 30px;
-    display: block;
-    margin: 0 auto;
-    float: left;
-  }
-
-  /* line 35, ../../app/assets/layouts/_mobile.scss */
-  footer .copyright {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 48.82117%;
-    text-align: left;
-  }
-  /* line 89, ../../app/assets/libs/neat/grid/_span-columns.scss */
-  footer .copyright:last-child {
-    margin-right: 0;
-  }
-  /* line 38, ../../app/assets/layouts/_mobile.scss */
-  footer .copyright p {
-    text-align: left;
-    padding-left: 2%;
-  }
-  /* line 44, ../../app/assets/layouts/_mobile.scss */
-  footer .created-by {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 48.82117%;
-  }
-  /* line 89, ../../app/assets/libs/neat/grid/_span-columns.scss */
-  footer .created-by:last-child {
-    margin-right: 0;
-  }
-  /* line 46, ../../app/assets/layouts/_mobile.scss */
-  footer .created-by p {
-    text-align: right;
-    padding-right: 2%;
-  }
+/* line 161, ../../app/assets/layouts/susy_grid.scss */
+footer .wrap {
+  height: 100%;
 }
-@media screen and (min-width: 65.625em) {
-  /* line 352, ../../app/assets/layouts/_mobile.scss */
-  header {
-    position: relative;
-  }
-  /* line 355, ../../app/assets/layouts/_mobile.scss */
-  header > div {
-    margin: 0;
-    text-align: center;
-  }
-  /* line 359, ../../app/assets/layouts/_mobile.scss */
-  header .contacts {
-    position: absolute;
-  }
-  /* line 363, ../../app/assets/layouts/_mobile.scss */
-  header .phone, header .address {
-    text-align: center;
-    margin: 0;
-  }
-}
-@media screen and (min-width: 500px) {
-  /* line 4, ../../app/assets/layouts/_tablet.scss */
-  header {
-    padding: 20px 0;
-  }
-  /* line 7, ../../app/assets/layouts/_tablet.scss */
-  header .logo {
-    text-align: center;
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    width: 100px;
-  }
-  /* line 16, ../../app/assets/layouts/_tablet.scss */
-  header .contacts {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 100%;
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-  }
-  /* line 89, ../../app/assets/libs/neat/grid/_span-columns.scss */
-  header .contacts:last-child {
-    margin-right: 0;
-  }
-  /* line 32, ../../app/assets/layouts/_tablet.scss */
-  header .contacts > div {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 48.82117%;
-    text-align: center;
-    margin: 0px auto;
-  }
-  /* line 89, ../../app/assets/libs/neat/grid/_span-columns.scss */
-  header .contacts > div:last-child {
-    margin-right: 0;
-  }
-  /* line 41, ../../app/assets/layouts/_tablet.scss */
-  header .phone-icon, header .metka-icon {
-    height: 42px;
-    float: none;
-    display: block;
-    margin: 0 auto;
-  }
-}
-@media screen and (min-width: 65.625em) {
-  /* line 3, ../../app/assets/layouts/_desktop.scss */
-  header {
-    padding: 20px 0;
-  }
-  /* line 6, ../../app/assets/layouts/_desktop.scss */
-  header .logo {
-    text-align: center;
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    width: 100px;
-  }
-  /* line 15, ../../app/assets/layouts/_desktop.scss */
-  header .contacts {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 100%;
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-    padding: 0 15%;
-  }
-  /* line 89, ../../app/assets/libs/neat/grid/_span-columns.scss */
-  header .contacts:last-child {
-    margin-right: 0;
-  }
-  /* line 30, ../../app/assets/layouts/_desktop.scss */
-  header .contacts > div {
-    width: 50%;
-    text-align: center;
-    margin: 10px auto;
-  }
-  /* line 39, ../../app/assets/layouts/_desktop.scss */
-  header .phone-icon, header .metka-icon {
-    height: 42px;
-    float: none;
-  }
 
-  /* line 46, ../../app/assets/layouts/_desktop.scss */
-  footer {
-    height: 15%;
-  }
-
-  /* line 47, ../../app/assets/layouts/_desktop.scss */
-  footer nav {
-    height: 80%;
-  }
-
-  /* line 48, ../../app/assets/layouts/_desktop.scss */
-  .footer-info {
-    width: 100%;
-    height: 20%;
-  }
+/* line 164, ../../app/assets/layouts/susy_grid.scss */
+.footer-info {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 99%;
+  margin: 0 auto;
 }
-/* line 8, ../../app/assets/layouts/_layouts.scss */
+
+/* line 173, ../../app/assets/layouts/susy_grid.scss */
+footer .created-by {
+  width: 48.71795%;
+  float: right;
+}
+
+/* line 174, ../../app/assets/layouts/susy_grid.scss */
+footer .copyright {
+  width: 48.71795%;
+  float: left;
+}
+
+/* line 9, ../../app/assets/layouts/_layouts.scss */
 html, body {
   width: 100%;
   height: 100%;
@@ -345,98 +288,89 @@ html, body {
 /* line 5, ../../app/assets/layouts/partials/_header.scss */
 .metka-icon {
   background-image: url("/images/header/metka.png");
-  background-position: 50% 30%;
 }
 
-/* line 9, ../../app/assets/layouts/partials/_header.scss */
+/* line 6, ../../app/assets/layouts/partials/_header.scss */
 .phone-icon {
   background-image: url("/images/header/phone.png");
-  background-position: 50% 30%;
 }
 
-/* line 15, ../../app/assets/layouts/partials/_header.scss */
+/* line 8, ../../app/assets/layouts/partials/_header.scss */
+.icon {
+  height: 30px;
+  display: block;
+  background-position: 50% 30%;
+  background-repeat: no-repeat;
+}
+@media (max-width: 500px) {
+  /* line 8, ../../app/assets/layouts/partials/_header.scss */
+  .icon {
+    display: none;
+  }
+}
+
+/* line 22, ../../app/assets/layouts/partials/_header.scss */
 header {
   -webkit-box-shadow: 0 1px 0px 0px rgba(119, 119, 119, 0.5);
   -moz-box-shadow: 0 1px 0px 0px rgba(119, 119, 119, 0.5);
   box-shadow: 0 1px 0px 0px rgba(119, 119, 119, 0.5);
   background-color: rgba(255, 255, 255, 0.85);
   z-index: 999;
-  min-height: 140px;
 }
 
-/* line 27, ../../app/assets/layouts/partials/_header.scss */
-header .logo {
+/* line 31, ../../app/assets/layouts/partials/_header.scss */
+.logo {
+  background-image: url("/images/header/logo.svg");
+  background-repeat: no-repeat;
+  background-position: 50% -25px;
+  background-size: 150px;
+  height: 150px;
+  position: relative;
+  line-height: 100%;
+}
+
+/* line 41, ../../app/assets/layouts/partials/_header.scss */
+.logo .site-name strong {
+  display: block;
+}
+
+/* line 42, ../../app/assets/layouts/partials/_header.scss */
+.logo .site-name {
+  font-size: 1.2rem;
+  display: block;
+  position: absolute;
+  margin: auto;
+  width: 100%;
+  bottom: 0%;
   text-align: center;
 }
 
-/* line 28, ../../app/assets/layouts/partials/_header.scss */
-header .logo strong {
-  font-size: 1.4em;
-  display: block;
-  line-height: .45;
-  margin: 4px 0 0 0;
-}
-
-/* line 35, ../../app/assets/layouts/partials/_header.scss */
-header .logo span {
-  font-size: 1.2em;
+/* line 53, ../../app/assets/layouts/partials/_header.scss */
+.logo a {
   display: block;
 }
 
-/* line 36, ../../app/assets/layouts/partials/_header.scss */
-header .logo a {
-  border: 0;
-}
-
-/* line 38, ../../app/assets/layouts/partials/_header.scss */
-header strong {
-  color: indianred;
-  font-size: 1.6em;
-}
-
-/* line 44, ../../app/assets/layouts/partials/_header.scss */
+/* line 63, ../../app/assets/layouts/partials/_header.scss */
 header a {
   color: #373737;
-  -webkit-transition: border 0.2s ease-in-out;
-  -moz-transition: border 0.2s ease-in-out;
-  transition: border 0.2s ease-in-out;
 }
-/* line 48, ../../app/assets/layouts/partials/_header.scss */
+/* line 67, ../../app/assets/layouts/partials/_header.scss */
 header a:hover {
   border-bottom: 1px dashed indigo;
 }
 
-/* line 55, ../../app/assets/layouts/partials/_header.scss */
-header address {
-  line-height: 1.2em;
-}
-
-/* line 56, ../../app/assets/layouts/partials/_header.scss */
-header .address {
-  white-space: nowrap;
-}
-
-/* line 57, ../../app/assets/layouts/partials/_header.scss */
-header .address a {
-  font-size: 1.3em;
-}
-
-/* line 60, ../../app/assets/layouts/partials/_header.scss */
-header .phone {
-  white-space: nowrap;
-}
-
-/* line 63, ../../app/assets/layouts/partials/_header.scss */
+/* line 82, ../../app/assets/layouts/partials/_header.scss */
 .call_btn a {
   border: 1px dashed indianred;
   border-radius: 5px;
-  padding: .7% 3%;
-  margin: 17px;
+  padding: 3px 12px 0;
+  /* margin: 17px; */
   color: indianred;
 }
-/* line 69, ../../app/assets/layouts/partials/_header.scss */
+/* line 88, ../../app/assets/layouts/partials/_header.scss */
 .call_btn a:hover {
-  border: 1px solid indianred;
+  color: #cd3d58;
+  text-decoration: none;
 }
 
 /* line 3, ../../app/assets/layouts/partials/_main.scss */
@@ -453,15 +387,13 @@ main .ymaps-controls-pane {
 /* line 6, ../../app/assets/layouts/partials/_price-menu.scss */
 ul.price-nav {
   display: table;
-  width: 100%;
-  table-layout: fixed;
-  padding: 0;
+  padding: 15px;
   margin: 0 auto;
   height: 100%;
   list-style-type: none;
 }
 
-/* line 14, ../../app/assets/layouts/partials/_price-menu.scss */
+/* line 16, ../../app/assets/layouts/partials/_price-menu.scss */
 ul.price-nav li {
   display: table-cell;
   vertical-align: middle;
@@ -469,13 +401,12 @@ ul.price-nav li {
   height: 120px;
   width: 15%;
 }
-/* line 21, ../../app/assets/layouts/partials/_price-menu.scss */
+/* line 23, ../../app/assets/layouts/partials/_price-menu.scss */
 ul.price-nav li:hover {
-  border-left: 1px solid #fff;
-  border-right: 1px solid #fff;
+  background: palevioletred;
 }
 
-/* line 28, ../../app/assets/layouts/partials/_price-menu.scss */
+/* line 29, ../../app/assets/layouts/partials/_price-menu.scss */
 ul.price-nav li a {
   height: 100%;
   width: 100%;
@@ -484,44 +415,46 @@ ul.price-nav li a {
   border-bottom: 1px dashed #ffffff;
 }
 
-/* line 36, ../../app/assets/layouts/partials/_price-menu.scss */
+/* line 37, ../../app/assets/layouts/partials/_price-menu.scss */
 ul.price-nav i {
   background-image: url("/images/icons/menu-price/icons_sprite.png");
   height: 80px;
-  width: 35%;
+  width: 100%;
+  left: auto;
+  right: auto;
   margin: 0 auto;
   display: block;
   text-align: center;
 }
 
-/* line 45, ../../app/assets/layouts/partials/_price-menu.scss */
-.icon-to {
-  background-position-x: 0px;
-}
-
-/* line 46, ../../app/assets/layouts/partials/_price-menu.scss */
-.icon-remont {
-  background-position-x: -200px;
-}
-
-/* line 47, ../../app/assets/layouts/partials/_price-menu.scss */
-.icon-custom {
-  background-position-x: -408px;
-}
-
 /* line 48, ../../app/assets/layouts/partials/_price-menu.scss */
-.icon-mount {
-  background-position-x: -610px;
+.icon-to {
+  background-position: 25px 0;
 }
 
 /* line 49, ../../app/assets/layouts/partials/_price-menu.scss */
-.icon-wash {
-  background-position-x: -812px;
+.icon-remont {
+  background-position: -180px  0;
 }
 
 /* line 50, ../../app/assets/layouts/partials/_price-menu.scss */
+.icon-custom {
+  background-position: -392px 0;
+}
+
+/* line 51, ../../app/assets/layouts/partials/_price-menu.scss */
+.icon-mount {
+  background-position: -595px 0;
+}
+
+/* line 52, ../../app/assets/layouts/partials/_price-menu.scss */
+.icon-wash {
+  background-position: -800px 0;
+}
+
+/* line 53, ../../app/assets/layouts/partials/_price-menu.scss */
 .icon-paint {
-  background-position-x: -1018px;
+  background-position: -1007px 0;
 }
 
 /* line 2, ../../app/assets/layouts/partials/_footer.scss */
@@ -534,82 +467,222 @@ footer nav {
 }
 /* line 9, ../../app/assets/layouts/partials/_footer.scss */
 footer ul.main-menu {
+  display: table;
+  width: 100%;
   text-align: center;
-  padding: 0;
   margin: 0;
   list-style-type: none;
 }
-/* line 14, ../../app/assets/layouts/partials/_footer.scss */
+/* line 15, ../../app/assets/layouts/partials/_footer.scss */
 footer ul.main-menu li {
-  display: inline-block;
+  display: table-cell;
   padding: 10px;
   background-color: indianred;
   max-width: 225px;
-  min-width: 50px;
   width: 49%;
 }
-/* line 21, ../../app/assets/layouts/partials/_footer.scss */
+/* line 22, ../../app/assets/layouts/partials/_footer.scss */
 footer ul.main-menu li:hover {
-  padding: 20px;
+  padding: 10px 0 0 0;
 }
-/* line 26, ../../app/assets/layouts/partials/_footer.scss */
+/* line 27, ../../app/assets/layouts/partials/_footer.scss */
 footer ul.main-menu a {
   display: block;
   text-decoration: none;
   border: 0;
   font-family: BebasBold;
-  font-size: 1.5em;
+  font-size: em(24);
   color: #ffffff;
 }
-/* line 35, ../../app/assets/layouts/partials/_footer.scss */
+/* line 36, ../../app/assets/layouts/partials/_footer.scss */
 footer .footer-info {
-  font-size: 0.625em;
+  font-size: 65%;
   color: rgba(255, 255, 255, 0.8);
 }
-/* line 38, ../../app/assets/layouts/partials/_footer.scss */
+/* line 39, ../../app/assets/layouts/partials/_footer.scss */
 footer .footer-info p {
   margin: 0;
 }
-/* line 39, ../../app/assets/layouts/partials/_footer.scss */
+/* line 40, ../../app/assets/layouts/partials/_footer.scss */
 footer .footer-info a {
   color: rgba(255, 255, 255, 0.8);
   border-bottom: 1px dashed rgba(255, 255, 255, 0.6);
 }
+/* line 49, ../../app/assets/layouts/partials/_footer.scss */
+footer .created-by {
+  text-align: right;
+  font-style: italic;
+}
 
+/* line 5, ../../../../.rvm/gems/ruby-1.9.3-p551-dev/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../.rvm/gems/ruby-1.9.3-p551-dev/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../.rvm/gems/ruby-1.9.3-p551-dev/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../.rvm/gems/ruby-1.9.3-p551-dev/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../.rvm/gems/ruby-1.9.3-p551-dev/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../.rvm/gems/ruby-1.9.3-p551-dev/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../.rvm/gems/ruby-1.9.3-p551-dev/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../.rvm/gems/ruby-1.9.3-p551-dev/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../.rvm/gems/ruby-1.9.3-p551-dev/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/*fonts*/
 @font-face {
   font-family: "BebasRegular";
-  font-style: normal;
-  font-weight: normal;
-  src: url("/fonts/BebasRegular/BebasRegular.eot?#iefix") format("embedded-opentype"), url("/fonts/BebasRegular/BebasRegular.woff2") format("woff2"), url("/fonts/BebasRegular/BebasRegular.woff") format("woff"), url("/fonts/BebasRegular/BebasRegular.ttf") format("truetype"), url("/fonts/BebasRegular/BebasRegular.svg#BebasRegular") format("svg");
+  src: url(/fonts/BebasRegular/BebasRegular.ttf) format('truetype'), url(/fonts/BebasRegular/BebasRegular.eot) format('embedded-opentype'), url(/fonts/BebasRegular/BebasRegular.woff) format('woff');
 }
 @font-face {
   font-family: "BebasBold";
-  font-style: normal;
-  font-weight: normal;
-  src: url("/fonts/BebasBold/BebasBold.eot?#iefix") format("embedded-opentype"), url("/fonts/BebasBold/BebasBold.woff2") format("woff2"), url("/fonts/BebasBold/BebasBold.woff") format("woff"), url("/fonts/BebasBold/BebasBold.ttf") format("truetype"), url("/fonts/BebasBold/BebasBold.svg#BebasBold") format("svg");
+  src: url(/fonts/BebasBold/BebasBold.ttf) format('truetype'), url(/fonts/BebasBold/BebasBold.eot) format('embedded-opentype'), url(/fonts/BebasBold/BebasBold.woff) format('woff');
 }
-/* line 9, ../../app/assets/style/_typography.scss */
-body {
-  font: 1em "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
-  line-height: 1.618em;
+/*base */
+/* line 106, ../../../../.rvm/gems/ruby-1.9.3-p551-dev/gems/compass-core-1.0.3/stylesheets/compass/typography/_vertical_rhythm.scss */
+html {
+  font-size: 137.5%;
+  line-height: 1.5em;
 }
 
-/* line 14, ../../app/assets/style/_typography.scss */
+@media (min-width: 500px) {
+  /* line 106, ../../../../.rvm/gems/ruby-1.9.3-p551-dev/gems/compass-core-1.0.3/stylesheets/compass/typography/_vertical_rhythm.scss */
+  html {
+    font-size: 150%;
+    line-height: 1.45833em;
+  }
+}
+/* line 31, ../../app/assets/style/_typography.scss */
+.contacts {
+  line-height: 120%;
+}
+
+/* line 45, ../../app/assets/style/_typography.scss */
+header .contacts strong {
+  color: #373737;
+}
+
+/* line 57, ../../app/assets/style/_typography.scss */
+h1, h2, h3, h4, h5, p, iframe {
+  margin-bottom: 35px;
+  margin-bottom: 1.45833rem;
+}
+
+/* line 63, ../../app/assets/style/_typography.scss */
+h1 {
+  font-size: 76px;
+  font-size: 3.157rem;
+  line-height: 105px;
+  line-height: 4.375rem;
+}
+
+/* line 64, ../../app/assets/style/_typography.scss */
+h2 {
+  font-size: 57px;
+  font-size: 2.369rem;
+  line-height: 70px;
+  line-height: 2.91667rem;
+}
+
+/* line 65, ../../app/assets/style/_typography.scss */
+h3 {
+  font-size: 43px;
+  font-size: 1.777rem;
+  line-height: 70px;
+  line-height: 2.91667rem;
+}
+
+/* line 66, ../../app/assets/style/_typography.scss */
+h4 {
+  font-size: 27px;
+  font-size: 1.133rem;
+  line-height: 35px;
+  line-height: 1.45833rem;
+}
+
+/* line 67, ../../app/assets/style/_typography.scss */
+h5 {
+  font-size: 24px;
+  font-size: 1rem;
+  line-height: 35px;
+  line-height: 1.45833rem;
+}
+
+/* line 68, ../../app/assets/style/_typography.scss */
+h6 {
+  font-size: 18px;
+  font-size: 0.75rem;
+  line-height: 35px;
+  line-height: 1.45833rem;
+}
+
+/* line 70, ../../app/assets/style/_typography.scss */
 a {
   text-decoration: none;
 }
 
-/* line 18, ../../app/assets/style/_typography.scss */
+/* line 75, ../../app/assets/style/_typography.scss */
 ul {
   list-style-type: none;
 }
 
-/* line 21, ../../app/assets/style/_typography.scss */
-header a, header p, header span {
+/* line 78, ../../app/assets/style/_typography.scss */
+a, p, span {
   font-family: "BebasRegular";
 }
-/* line 24, ../../app/assets/style/_typography.scss */
-header strong {
+
+/* line 81, ../../app/assets/style/_typography.scss */
+strong {
   font-family: "BebasBold";
 }
 

@@ -4,11 +4,13 @@
   }
 
   ul.price-nav {
-    @include row(table);
-    padding: 0;
+    display: table;
+    padding: 15px;
     margin: 0 auto;
     height: 100%;
     list-style-type: none;
+
+
   }
 
   ul.price-nav li {
@@ -19,8 +21,7 @@
     width: 15%;
 
     &:hover {
-      border-left: 1px solid #fff;
-      border-right: 1px solid #fff;
+      background: palevioletred;
     }
 
   }
@@ -36,16 +37,18 @@
   ul.price-nav i {
     background-image: url("/images/icons/menu-price/icons_sprite.png");
     height: 80px;
-    width: 35%;
+    width: 100%;
+    left: auto;
+    right: auto;
     margin: 0 auto;
     display: block;
     text-align: center;
   }
 
-.icon-to    {background-position-x: 0px;}
-.icon-remont{background-position-x: -200px ;}
-.icon-custom{background-position-x: -408px;}
-.icon-mount {background-position-x: -610px; }
-.icon-wash  {background-position-x: -812px;}
-.icon-paint {background-position-x: -1018px;}
+.icon-to    {background-position: 25px 0;}
+.icon-remont{background-position: -180px  0;}
+.icon-custom{background-position: -392px 0;}
+.icon-mount {background-position: -595px 0; }
+.icon-wash  {background-position: -800px 0;}
+.icon-paint {background-position: -1007px 0;}
 

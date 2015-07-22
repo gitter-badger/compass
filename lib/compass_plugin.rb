@@ -5,6 +5,8 @@
 module CompassInitializer
   def self.registered(app)
     require 'sass/plugin/rack'
+    # require 'susy'
+    # require 'breakpoint'
 
     Compass.configuration do |config|
       config.project_path = Padrino.root

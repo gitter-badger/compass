@@ -1,18 +1,20 @@
 %footer
-	%nav
-		%ul.main-menu
-			%li
-				=link_to 'Контакты', url(:page, :contacts, :format => :js), remote: true
-			%li
-				=link_to 'Цены', url(:page, :price, :format => :js), remote: true
+	.wrap
 
-	.footer-info
-		.copyright
-			%p
-				©
-				= Time.now.year
-				Maslov Service
-		.created-by
-			%p
-				created by
-				%a{href: '#exsisto' }  Exsisto
+		%nav
+			%ul.main-menu
+				%li
+					=link_to 'Контакты', url(:page, :contacts, :format => :js), remote: true
+				%li
+					=link_to 'Цены', url(:page, :price, :format => :js), remote: true
+
+		.footer-info
+			.copyright
+				%p
+					©
+					= Time.now.year
+					Maslov Service
+			.created-by
+				%p
+					created by
+					%a{href: '#exsisto' }  Exsisto

@@ -2,15 +2,22 @@ $metka_icon:  url('/images/header/metka.png');
 $phone_icon: url('/images/header/phone.png');
 
 
-.metka-icon{
-  background-image: $metka_icon;
-  background-position: 50% 30%;
-}
-.phone-icon{
-  background-image: $phone_icon;
-  background-position: 50% 30%;
-}
+.metka-icon{background-image: $metka_icon;}
+.phone-icon{background-image: $phone_icon;}
 
+.icon {
+  height: 30px;
+  display: block;
+  background-position: 50% 30%;
+  background-repeat: no-repeat;
+
+  @media(max-width: 500px){
+
+    display: none;
+  }
+
+
+}
 
 header {
   -webkit-box-shadow: 0 1px 0px -0px rgba(119, 119, 119, 0.5);
@@ -18,203 +25,217 @@ header {
   box-shadow: 0 1px 0px -0px rgba(119, 119, 119, 0.5);
   background-color: rgba(255, 255, 255, 0.85);
   z-index: 999;
-  min-height: 140px;
 
 }
 
+.logo {
+  background-image: url("/images/header/logo.svg");
+  background-repeat: no-repeat;
+  background-position: 50% -25px;
+  background-size: 150px;
+  height: 150px;
+  position: relative;
+  line-height: 100%;
 
-
-header .logo {text-align: center; }
-header .logo strong {
-  font-size: 1.4em;
+}
+.logo .site-name strong {display: block;}
+.logo .site-name {
+  font-size: 1.2rem;
   display: block;
-  line-height: .45;
-  margin: 4px 0 0 0;
-
-}
-header .logo span {font-size: 1.2em; display: block;}
-header .logo a {border: 0;}
-
-header strong {
-  color: indianred;
-  font-size: 1.6em;
+  position: absolute;
+  margin: auto;
+  width: 100%;
+  bottom: 0%;
+  text-align: center;
 
 }
 
+.logo a {display: block; }
+
+//header .logo span {font-size: 1.2em; display: block;}
+//header .logo a {border: 0;}
+//
+//header strong {
+//  color: indianred;
+//
+//}
+//
 header  a {
 
   color: #373737;
-  @include transition (border 0.2s ease-in-out);
+  //@include transition (border 0.2s ease-in-out);
   &:hover {
     border-bottom: 1px dashed indigo;
 
   }
 
 }
-
-header address {line-height: 1.2em;}
-header .address {white-space: nowrap;}
-header .address a {font-size: 1.3em;}
-
-header .phone {}
-header .phone {  white-space: nowrap;}
-
-//.call_btn {margin: 10px;}
+//
+//header address {}
+//header .address {white-space: nowrap;}
+//header .address a {font-size: 1.3em;}
+//
+//header .phone {}
+//header .phone {  white-space: nowrap;}
+//
+////.call_btn {margin: 10px;}
 .call_btn a {
   border: 1px dashed indianred;
   border-radius: 5px;
-  padding: .7% 3%;
-  margin: 17px;
+  padding: 3px 12px 0;
+  /* margin: 17px; */
   color: indianred;
   &:hover {
 
-    border: 1px solid indianred;
+    color: #cd3d58;
+    //border-bottom: none;
+    text-decoration: none;
   }
 }
 
-//header .phone .call_btn {display: block;}
-
+////header .phone .call_btn {display: block;}
+//
+////
+////
+////
+////.site-name strong {
+////  font-size: 1.6em;
+////  line-height: 1.25em;
+////}
+////.site-name span {
+////  line-height: .4;
+////  font-size: 1.3em;
+////  display: block;
+////}
+////.telephone {
+////  font-size: 1.4em;
+////}
+////
+////
+////
+////@include media($mobile) {
+////
+////  .site-name strong {
+////    font-size: 1.6em;
+////  }
+////  .site-name span {
+////    font-size: 1.2em;
+////    display: block;
+////  }
+////}
+////
+////
+////
+////@include media($tablet) {
+////
+////  .site-name strong {
+////    font-size: 1.6em;
+////    line-height: 1em;
+////  }
+////  .site-name span {
+////    line-height: .4;
+////    font-size: 1.2em;
+////    display: block;
+////  }
+////
+////}
+////
+////
+////@include media($desktop) {
+////
+////  .site-name strong {
+////    font-size: 2em;
+////    line-height: 1.25em;
+////  }
+////  .site-name span {
+////    line-height: .4;
+////    font-size: 1.4em;
+////    display: block;
+////  }
+////}
+//
+////header {
+////  color: #373737;
+////  text-align: center;
+////  //border-bottom: 0 none;
+////  //box-shadow: 0 5px 0 0 rgba(0, 0, 0, 0.46);
+////
+////  a {
+////    display: block;
+////  }
+////
+////  .logo a {border: 0;}
+////
+////  p {
+////    margin: 0;
+////  }
+////
+////  .sitename strong {
+////    display: block;
+////    font-size: em(24);
+////    line-height: 1.25em;
+////  }
+////
+////
+////  .site-name span {
+////    line-height: .4;
+////    display: block;
+////
+////  }
+////
+////}
+////  .site-name{
+////    a {border: 0;}
+////  }
+////
+////
+////
+////.address, .address a {
+////
+////}
 //
 //
+////  .city-name {
+////    color: #373737;
+////    display: inline;
+////    vertical-align: bottom;
+////    font: 1.3em BebasBold;
+////
+////  }
+////
+////  .street {
+////      display: inline;
+////      color: #333333;
+////      border-bottom: 1px dashed #293a4b;
+////  }
+////
+////
+////  .phone {
+////  }
+////    span {
+////      display: block;
+////    }
+////
+////
+////    .call_btn a {
+////      display: inline-block;
+////
+////    }
+////
 //
-//.site-name strong {
-//  font-size: 1.6em;
-//  line-height: 1.25em;
-//}
-//.site-name span {
-//  line-height: .4;
-//  font-size: 1.3em;
-//  display: block;
-//}
-//.telephone {
-//  font-size: 1.4em;
-//}
+////
+////     header a {
+////        font-size: 1.3em;
+////        display: inline-block;
+////        color: crimson;
+////        border-bottom: 1px dashed #293a4b;
+////      }
+////
+////
+////
+////  .phone:before{
+////    content: "";
+////
+////    //background-size: 12%;
+////  }
 //
-//
-//
-//@include media($mobile) {
-//
-//  .site-name strong {
-//    font-size: 1.6em;
-//  }
-//  .site-name span {
-//    font-size: 1.2em;
-//    display: block;
-//  }
-//}
-//
-//
-//
-//@include media($tablet) {
-//
-//  .site-name strong {
-//    font-size: 1.6em;
-//    line-height: 1em;
-//  }
-//  .site-name span {
-//    line-height: .4;
-//    font-size: 1.2em;
-//    display: block;
-//  }
-//
-//}
-//
-//
-//@include media($desktop) {
-//
-//  .site-name strong {
-//    font-size: 2em;
-//    line-height: 1.25em;
-//  }
-//  .site-name span {
-//    line-height: .4;
-//    font-size: 1.4em;
-//    display: block;
-//  }
-//}
-
-//header {
-//  color: #373737;
-//  text-align: center;
-//  //border-bottom: 0 none;
-//  //box-shadow: 0 5px 0 0 rgba(0, 0, 0, 0.46);
-//
-//  a {
-//    display: block;
-//  }
-//
-//  .logo a {border: 0;}
-//
-//  p {
-//    margin: 0;
-//  }
-//
-//  .sitename strong {
-//    display: block;
-//    font-size: em(24);
-//    line-height: 1.25em;
-//  }
-//
-//
-//  .site-name span {
-//    line-height: .4;
-//    display: block;
-//
-//  }
-//
-//}
-//  .site-name{
-//    a {border: 0;}
-//  }
-//
-//
-//
-//.address, .address a {
-//
-//}
-
-
-//  .city-name {
-//    color: #373737;
-//    display: inline;
-//    vertical-align: bottom;
-//    font: 1.3em BebasBold;
-//
-//  }
-//
-//  .street {
-//      display: inline;
-//      color: #333333;
-//      border-bottom: 1px dashed #293a4b;
-//  }
-//
-//
-//  .phone {
-//  }
-//    span {
-//      display: block;
-//    }
-//
-//
-//    .call_btn a {
-//      display: inline-block;
-//
-//    }
-//
-
-//
-//     header a {
-//        font-size: 1.3em;
-//        display: inline-block;
-//        color: crimson;
-//        border-bottom: 1px dashed #293a4b;
-//      }
-//
-//
-//
-//  .phone:before{
-//    content: "";
-//
-//    //background-size: 12%;
-//  }
-

@@ -1,27 +1,83 @@
-$body-font-size: 1em !default;
-$body-line-height: golden-ratio(1em, 1) !default;
-$body-font-family: $helvetica !default;
-
-@include font-face('BebasRegular', "/fonts/BebasRegular/BebasRegular");
-@include font-face('BebasBold', "/fonts/BebasBold/BebasBold");
+@import "compass/reset";
+@import "compass/typography/vertical_rhythm";
+@import "compass/css3";
+@import "breakpoint";
 
 
-body {
-  font: $body-font-size $body-font-family ;
-  line-height: $body-line-height;
+
+/*fonts*/
+@include font-face("BebasRegular", font-files("/fonts/BebasRegular/BebasRegular.ttf", "/fonts/BebasRegular/BebasRegular.eot", "/fonts/BebasRegular/BebasRegular.woff"));
+@include font-face("BebasBold", font-files("/fonts/BebasBold/BebasBold.ttf", "/fonts/BebasBold/BebasBold.eot", "/fonts/BebasBold/BebasBold.woff"));
+
+
+/*base */
+$base-font-size: 22px!global;
+$base-line-height: 33px!global;
+$rhythm-unit: "rem"!global;
+$rem-with-px-fallback: true!global;
+@include establish-baseline();
+
+
+
+@media (min-width: $tablet-size) {
+  $base-font-size: 24px !global;
+  $base-line-height: 35px!global;
+  $rhythm-unit: "rem"!global;
+  $rem-with-px-fallback: true!global;
+  @include establish-baseline();
 }
+
+
+.contacts {
+  line-height: 120%;
+
+
+}
+
+//header .contacts {
+//  line-height: 1.5em;
+//  overflow: hidden;
+//}
+//header .contacts  a{
+//  @include adjust-font-size-to(1.133rem);
+//
+//}
+header .contacts strong{
+//  @include adjust-font-size-to(1.777rem);
+//  line-height: 1.133rem;
+//  //@include debug-vertical-alignment();
+//  //font: $body-font-size $body-font-family ;
+//  //line-height: $body-line-height;
+//  line-height: $base-line-height;
+  color: #373737;
+}
+//
+
+
+h1,h2,h3,h4,h5,p,iframe,{
+  @include margin-trailer();
+}
+
+
+
+h1 { @include adjust-font-size-to(3.157rem); }
+h2 { @include adjust-font-size-to(2.369rem); }
+h3 { @include adjust-font-size-to(1.777rem); }
+h4 { @include adjust-font-size-to(1.133rem); }
+h5 { @include adjust-font-size-to(1rem); }
+h6 { @include adjust-font-size-to(.75rem); }
 
 a {
   text-decoration: none;
+   //@include adjust-font-size-to(1.133rem);
 }
 
 ul {list-style-type: none;}
 
-header{
-  a, p, span {
+
+a, p, span {
     font-family: "BebasRegular";
   }
-  strong {
+strong {
     font-family: "BebasBold";
   }
-}

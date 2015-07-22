@@ -1,19 +1,19 @@
 %header
+	.wrap
+		.logo
+			-#= link_to image_tag('/images/header/logo.png', class:' img-responsive', alt:'Maslov service'), url(:page, :contacts, :format => :js), remote: true
+			%span.site-name
+				%strong Maslov
+				service
 
-	.logo
-		= link_to image_tag('/images/header/logo.png', class:' img-responsive', alt:'Maslov service'), url(:page, :contacts, :format => :js), remote: true
-		.site-name
-			%strong Maslov
-			%span service
-
-	.contacts
-		.address
-			%i.metka-icon
-			%strong.city-name Москва,
-			.street
-				%a{:href => "#map"} 1-я Фрезерная д.2 к.1
-		.phone
-			%i.phone-icon
-			%strong.telephone Тел. 968&#x2012;21&#x2012;25
-			.call_btn
-				%a{:href => "tel:+79039682125"} Позвонить
+		.contacts
+			.address
+				%i.icon.metka-icon
+				%strong.city-name Москва,
+				.street
+					%a{:href => "#map"} 1-я Фрезерная д.2 к.1
+			.phone
+				%i.icon.phone-icon
+				%strong.telephone Тел. 968&#x2012;21&#x2012;25
+				.call_btn
+					%a{:href => "tel:+79039682125"} Позвонить
