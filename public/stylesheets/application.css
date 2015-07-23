@@ -1,365 +1,105 @@
-/* line 18, ../../app/assets/layouts/susy_grid.scss */
-a {
-  color: indianred;
-}
-/* line 18, ../../../../.rvm/gems/ruby-1.9.3-p551-dev/gems/compass-core-1.0.3/stylesheets/compass/typography/links/_link-colors.scss */
-a:visited {
-  color: purple;
-}
-/* line 21, ../../../../.rvm/gems/ruby-1.9.3-p551-dev/gems/compass-core-1.0.3/stylesheets/compass/typography/links/_link-colors.scss */
-a:focus {
-  color: blue;
-}
-/* line 24, ../../../../.rvm/gems/ruby-1.9.3-p551-dev/gems/compass-core-1.0.3/stylesheets/compass/typography/links/_link-colors.scss */
-a:hover {
-  color: red;
-}
-/* line 27, ../../../../.rvm/gems/ruby-1.9.3-p551-dev/gems/compass-core-1.0.3/stylesheets/compass/typography/links/_link-colors.scss */
-a:active {
-  color: blue;
-}
-
-/* line 22, ../../app/assets/layouts/susy_grid.scss */
-img {
-  max-width: 100%;
-  margin: auto;
-  display: block;
-}
-
-/* line 28, ../../app/assets/layouts/susy_grid.scss */
-header {
-  height: 150px;
-}
-
-/* line 34, ../../app/assets/layouts/susy_grid.scss */
-header .wrap {
-  max-width: 960px;
-  margin-left: auto;
-  margin-right: auto;
-  height: 100%;
-  z-index: 1;
-  padding: 0 .5em;
-}
-/* line 12, ../../../../.rvm/gems/ruby-1.9.3-p551-dev/gems/susy-2.2.5/sass/susy/output/support/_clearfix.scss */
-header .wrap:after {
-  content: " ";
-  display: block;
-  clear: both;
-}
-/* line 65, ../../../../.rvm/gems/ruby-1.9.3-p551-dev/gems/susy-2.2.5/sass/susy/language/susy/_background.scss */
-head {
-  display: block;
-  position: fixed;
-  right: 10px;
-  bottom: 10px;
-  z-index: 999;
-  color: #333;
-  background: rgba(255, 255, 255, 0.25);
-}
-/* line 66, ../../../../.rvm/gems/ruby-1.9.3-p551-dev/gems/susy-2.2.5/sass/susy/language/susy/_background.scss */
-head:before {
-  content: "|||";
-  display: block;
-  padding: 5px 10px;
-  font-family: sans-serif;
-  font-size: 16px;
-  font-weight: bold;
-}
-/* line 67, ../../../../.rvm/gems/ruby-1.9.3-p551-dev/gems/susy-2.2.5/sass/susy/language/susy/_background.scss */
-head:hover {
-  background: rgba(255, 255, 255, 0.5);
-  color: red;
-}
-/* line 71, ../../../../.rvm/gems/ruby-1.9.3-p551-dev/gems/susy-2.2.5/sass/susy/language/susy/_background.scss */
-head:hover ~ header .wrap, head:hover ~ body header .wrap {
-  position: relative;
-}
-/* line 74, ../../../../.rvm/gems/ruby-1.9.3-p551-dev/gems/susy-2.2.5/sass/susy/language/susy/_background.scss */
-head:hover ~ header .wrap:before, head:hover ~ body header .wrap:before {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  content: " ";
-  z-index: 998;
-  background-image: linear-gradient(to right, blue, #4d4dff 80%, transparent 80%);
-  background-size: 12.82051%;
-  background-origin: content-box;
-  background-clip: content-box;
-  background-position: left top;
-}
-
-/* HEADER PAGE-CONTACTS */
-/* line 51, ../../app/assets/layouts/susy_grid.scss */
-.page.contacts header .logo {
-  width: 23.07692%;
-  float: left;
-  height: 100%;
-}
-@media (min-width: 500px) {
-  /* line 51, ../../app/assets/layouts/susy_grid.scss */
-  .page.contacts header .logo {
-    width: 15.25424%;
-    float: left;
-    float: left;
-    margin-left: 42.37288%;
-    margin-right: -100%;
-    text-align: center;
-  }
-}
-
-/* line 62, ../../app/assets/layouts/susy_grid.scss */
-.page.contacts header .phone {
-  width: 74.35897%;
-  float: right;
-  text-align: right;
-}
-@media (min-width: 500px) {
-  /* line 62, ../../app/assets/layouts/susy_grid.scss */
-  .page.contacts header .phone {
-    width: 49.15254%;
-    float: right;
-    margin: 25px 0;
-    text-align: center;
-  }
-}
-
-/* line 73, ../../app/assets/layouts/susy_grid.scss */
-.page.contacts header .address {
-  width: 74.35897%;
-  float: right;
-  text-align: right;
-}
-@media (min-width: 500px) {
-  /* line 73, ../../app/assets/layouts/susy_grid.scss */
-  .page.contacts header .address {
-    width: 49.15254%;
-    float: left;
-    text-align: center;
-    margin: 25px 0;
-  }
-}
-
-/*---------------------*/
-/* HEADER PAGE-PRICE */
-/* line 89, ../../app/assets/layouts/susy_grid.scss */
-.page.price header {
-  height: 95px;
-}
-
-/* line 92, ../../app/assets/layouts/susy_grid.scss */
-.page.price header .logo {
-  width: 23.07692%;
-  float: left;
-}
-
-/* line 95, ../../app/assets/layouts/susy_grid.scss */
-.page.price header .address {
-  width: 35.89744%;
-  float: left;
-  text-align: center;
-}
-
-/* line 101, ../../app/assets/layouts/susy_grid.scss */
-.page.price header .phone {
-  width: 35.89744%;
-  float: right;
-  text-align: center;
-}
-
-/* line 106, ../../app/assets/layouts/susy_grid.scss */
-.page.price header .logo {
-  background-size: 100px;
-  background-position: 0 0;
-  height: 100%;
-}
-
-/* line 111, ../../app/assets/layouts/susy_grid.scss */
-.page.price header .site-name {
-  top: 30%;
-}
-
-/* line 115, ../../app/assets/layouts/susy_grid.scss */
-.page.price header .address,
-.page.price header .phone {
-  margin: 15px 0;
-}
-
-/* line 119, ../../app/assets/layouts/susy_grid.scss */
-.page.price header .address > div,
-.page.price header .phone > div {
-  display: inline;
-}
-
-/* line 124, ../../app/assets/layouts/susy_grid.scss */
-.price-page .price-menu {
-  position: fixed;
-}
-
-/*---------------------*/
-/* line 134, ../../app/assets/layouts/susy_grid.scss */
-.price-page {
-  max-width: 960px;
-  margin-left: auto;
-  margin-right: auto;
-  overflow-x: auto;
-}
-/* line 12, ../../../../.rvm/gems/ruby-1.9.3-p551-dev/gems/susy-2.2.5/sass/susy/output/support/_clearfix.scss */
-.price-page:after {
-  content: " ";
-  display: block;
-  clear: both;
-}
-/* line 71, ../../../../.rvm/gems/ruby-1.9.3-p551-dev/gems/susy-2.2.5/sass/susy/language/susy/_background.scss */
-head:hover ~ .price-page, head:hover ~ body .price-page {
-  position: relative;
-}
-/* line 74, ../../../../.rvm/gems/ruby-1.9.3-p551-dev/gems/susy-2.2.5/sass/susy/language/susy/_background.scss */
-head:hover ~ .price-page:before, head:hover ~ body .price-page:before {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  content: " ";
-  z-index: 998;
-  background-image: linear-gradient(to right, blue, #4d4dff 80%, transparent 80%);
-  background-size: 12.82051%;
-  background-origin: content-box;
-  background-clip: content-box;
-  background-position: left top;
-}
-
-/* line 143, ../../app/assets/layouts/susy_grid.scss */
-#map {
-  position: absolute;
-  top: 0;
-  bottom: 120px;
-  width: 100%;
-  height: auto;
-  z-index: -1;
-}
-
-/* line 155, ../../app/assets/layouts/susy_grid.scss */
-footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 130px;
-}
-
-/* line 161, ../../app/assets/layouts/susy_grid.scss */
-footer .wrap {
-  height: 100%;
-}
-
-/* line 164, ../../app/assets/layouts/susy_grid.scss */
-.footer-info {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: 99%;
-  margin: 0 auto;
-}
-
-/* line 173, ../../app/assets/layouts/susy_grid.scss */
-footer .created-by {
-  width: 48.71795%;
-  float: right;
-}
-
-/* line 174, ../../app/assets/layouts/susy_grid.scss */
-footer .copyright {
-  width: 48.71795%;
-  float: left;
-}
-
-/* line 9, ../../app/assets/layouts/_layouts.scss */
-html, body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
 /* line 5, ../../app/assets/layouts/partials/_header.scss */
 .metka-icon {
-  background-image: url("/images/header/metka.png");
+  background-image: url("/images/icons_svg/metka.svg");
 }
 
 /* line 6, ../../app/assets/layouts/partials/_header.scss */
 .phone-icon {
-  background-image: url("/images/header/phone.png");
+  background-image: url("/images/icons_svg/tel.svg");
 }
 
 /* line 8, ../../app/assets/layouts/partials/_header.scss */
-.icon {
-  height: 30px;
+.h_icon {
   display: block;
-  background-position: 50% 30%;
+  background-position: 50%;
   background-repeat: no-repeat;
+  background-size: 35px;
+  height: 45px;
 }
 @media (max-width: 500px) {
   /* line 8, ../../app/assets/layouts/partials/_header.scss */
-  .icon {
+  .h_icon {
     display: none;
   }
 }
 
-/* line 22, ../../app/assets/layouts/partials/_header.scss */
+/* line 23, ../../app/assets/layouts/partials/_header.scss */
 header {
   -webkit-box-shadow: 0 1px 0px 0px rgba(119, 119, 119, 0.5);
   -moz-box-shadow: 0 1px 0px 0px rgba(119, 119, 119, 0.5);
   box-shadow: 0 1px 0px 0px rgba(119, 119, 119, 0.5);
   background-color: rgba(255, 255, 255, 0.85);
   z-index: 999;
+  padding: 0 1rem;
 }
 
-/* line 31, ../../app/assets/layouts/partials/_header.scss */
+/* line 33, ../../app/assets/layouts/partials/_header.scss */
 .logo {
   background-image: url("/images/header/logo.svg");
   background-repeat: no-repeat;
-  background-position: 50% -25px;
-  background-size: 150px;
-  height: 150px;
+  background-position: 50% -10px;
+  background-size: 200px;
+  height: 100%;
   position: relative;
   line-height: 100%;
 }
 
-/* line 41, ../../app/assets/layouts/partials/_header.scss */
+/* line 43, ../../app/assets/layouts/partials/_header.scss */
+.logo a {
+  display: block;
+  height: 100%;
+}
+/* line 47, ../../app/assets/layouts/partials/_header.scss */
+.logo a:hover {
+  border: 0;
+  color: #333333;
+}
+/* line 50, ../../app/assets/layouts/partials/_header.scss */
+.logo a:visited {
+  color: #373737;
+}
+
+/* line 55, ../../app/assets/layouts/partials/_header.scss */
 .logo .site-name strong {
   display: block;
 }
 
-/* line 42, ../../app/assets/layouts/partials/_header.scss */
+/* line 56, ../../app/assets/layouts/partials/_header.scss */
 .logo .site-name {
-  font-size: 1.2rem;
+  font-size: 1rem;
   display: block;
-  position: absolute;
-  margin: auto;
-  width: 100%;
-  bottom: 0%;
-  text-align: center;
+}
+/* line 61, ../../app/assets/layouts/partials/_header.scss */
+.logo .site-name:hover {
+  color: #50687d;
 }
 
-/* line 53, ../../app/assets/layouts/partials/_header.scss */
+/* line 67, ../../app/assets/layouts/partials/_header.scss */
 .logo a {
   display: block;
 }
 
-/* line 63, ../../app/assets/layouts/partials/_header.scss */
+/* line 69, ../../app/assets/layouts/partials/_header.scss */
 header a {
+  -webkit-transition: all,.6s;
+  -moz-transition: all,.6s;
+  -ms-transition: all,.6s;
+  -o-transition: all,.6s;
+  transition: all,.6s;
+  border-bottom: 1px dashed indianred;
   color: #373737;
 }
-/* line 67, ../../app/assets/layouts/partials/_header.scss */
+/* line 80, ../../app/assets/layouts/partials/_header.scss */
 header a:hover {
-  border-bottom: 1px dashed indigo;
+  border-bottom: 1px dashed indianred;
 }
 
-/* line 82, ../../app/assets/layouts/partials/_header.scss */
+/* line 86, ../../app/assets/layouts/partials/_header.scss */
+.address, .phone {
+  white-space: nowrap;
+}
+
+/* line 102, ../../app/assets/layouts/partials/_header.scss */
 .call_btn a {
   border: 1px dashed indianred;
   border-radius: 5px;
@@ -367,7 +107,7 @@ header a:hover {
   /* margin: 17px; */
   color: indianred;
 }
-/* line 88, ../../app/assets/layouts/partials/_header.scss */
+/* line 108, ../../app/assets/layouts/partials/_header.scss */
 .call_btn a:hover {
   color: #cd3d58;
   text-decoration: none;
@@ -381,32 +121,30 @@ main .ymaps-controls-pane {
 /* line 1, ../../app/assets/layouts/partials/_price-menu.scss */
 .price-menu {
   background-color: #34495e;
-  height: 140px;
+  height: 120px;
 }
 
 /* line 6, ../../app/assets/layouts/partials/_price-menu.scss */
 ul.price-nav {
-  display: table;
-  padding: 15px;
-  margin: 0 auto;
   height: 100%;
   list-style-type: none;
 }
 
-/* line 16, ../../app/assets/layouts/partials/_price-menu.scss */
+/* line 14, ../../app/assets/layouts/partials/_price-menu.scss */
 ul.price-nav li {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
   height: 120px;
   width: 15%;
+  padding: 10px 15px;
 }
-/* line 23, ../../app/assets/layouts/partials/_price-menu.scss */
+/* line 22, ../../app/assets/layouts/partials/_price-menu.scss */
 ul.price-nav li:hover {
   background: palevioletred;
 }
 
-/* line 29, ../../app/assets/layouts/partials/_price-menu.scss */
+/* line 28, ../../app/assets/layouts/partials/_price-menu.scss */
 ul.price-nav li a {
   height: 100%;
   width: 100%;
@@ -415,11 +153,11 @@ ul.price-nav li a {
   border-bottom: 1px dashed #ffffff;
 }
 
-/* line 37, ../../app/assets/layouts/partials/_price-menu.scss */
+/* line 36, ../../app/assets/layouts/partials/_price-menu.scss */
 ul.price-nav i {
   background-image: url("/images/icons/menu-price/icons_sprite.png");
   height: 80px;
-  width: 100%;
+  width: 70px;
   left: auto;
   right: auto;
   margin: 0 auto;
@@ -427,34 +165,34 @@ ul.price-nav i {
   text-align: center;
 }
 
-/* line 48, ../../app/assets/layouts/partials/_price-menu.scss */
+/* line 47, ../../app/assets/layouts/partials/_price-menu.scss */
 .icon-to {
-  background-position: 25px 0;
+  background-position: 0px 0;
+}
+
+/* line 48, ../../app/assets/layouts/partials/_price-menu.scss */
+.icon-remont {
+  background-position: -205px  0;
 }
 
 /* line 49, ../../app/assets/layouts/partials/_price-menu.scss */
-.icon-remont {
-  background-position: -180px  0;
+.icon-custom {
+  background-position: -420px 0;
 }
 
 /* line 50, ../../app/assets/layouts/partials/_price-menu.scss */
-.icon-custom {
-  background-position: -392px 0;
+.icon-mount {
+  background-position: -620px 0;
 }
 
 /* line 51, ../../app/assets/layouts/partials/_price-menu.scss */
-.icon-mount {
-  background-position: -595px 0;
+.icon-wash {
+  background-position: -820px 0;
 }
 
 /* line 52, ../../app/assets/layouts/partials/_price-menu.scss */
-.icon-wash {
-  background-position: -800px 0;
-}
-
-/* line 53, ../../app/assets/layouts/partials/_price-menu.scss */
 .icon-paint {
-  background-position: -1007px 0;
+  background-position: -1025px 0;
 }
 
 /* line 2, ../../app/assets/layouts/partials/_footer.scss */
@@ -475,17 +213,18 @@ footer ul.main-menu {
 }
 /* line 15, ../../app/assets/layouts/partials/_footer.scss */
 footer ul.main-menu li {
-  display: table-cell;
+  display: inline-block;
   padding: 10px;
+  margin: 0 5px;
   background-color: indianred;
   max-width: 225px;
-  width: 49%;
+  min-width: 120px;
 }
-/* line 22, ../../app/assets/layouts/partials/_footer.scss */
+/* line 24, ../../app/assets/layouts/partials/_footer.scss */
 footer ul.main-menu li:hover {
   padding: 10px 0 0 0;
 }
-/* line 27, ../../app/assets/layouts/partials/_footer.scss */
+/* line 29, ../../app/assets/layouts/partials/_footer.scss */
 footer ul.main-menu a {
   display: block;
   text-decoration: none;
@@ -494,21 +233,21 @@ footer ul.main-menu a {
   font-size: em(24);
   color: #ffffff;
 }
-/* line 36, ../../app/assets/layouts/partials/_footer.scss */
+/* line 38, ../../app/assets/layouts/partials/_footer.scss */
 footer .footer-info {
   font-size: 65%;
   color: rgba(255, 255, 255, 0.8);
 }
-/* line 39, ../../app/assets/layouts/partials/_footer.scss */
+/* line 41, ../../app/assets/layouts/partials/_footer.scss */
 footer .footer-info p {
   margin: 0;
 }
-/* line 40, ../../app/assets/layouts/partials/_footer.scss */
+/* line 42, ../../app/assets/layouts/partials/_footer.scss */
 footer .footer-info a {
   color: rgba(255, 255, 255, 0.8);
   border-bottom: 1px dashed rgba(255, 255, 255, 0.6);
 }
-/* line 49, ../../app/assets/layouts/partials/_footer.scss */
+/* line 51, ../../app/assets/layouts/partials/_footer.scss */
 footer .created-by {
   text-align: right;
   font-style: italic;
@@ -591,102 +330,512 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /*base */
 /* line 106, ../../../../.rvm/gems/ruby-1.9.3-p551-dev/gems/compass-core-1.0.3/stylesheets/compass/typography/_vertical_rhythm.scss */
 html {
-  font-size: 137.5%;
-  line-height: 1.5em;
+  font-size: 112.5%;
+  line-height: 1.22222em;
 }
 
 @media (min-width: 500px) {
   /* line 106, ../../../../.rvm/gems/ruby-1.9.3-p551-dev/gems/compass-core-1.0.3/stylesheets/compass/typography/_vertical_rhythm.scss */
   html {
-    font-size: 150%;
-    line-height: 1.45833em;
+    font-size: 137.5%;
+    line-height: 1.13636em;
   }
 }
-/* line 31, ../../app/assets/style/_typography.scss */
-.contacts {
-  line-height: 120%;
+/*DEBUG*/
+/* line 34, ../../app/assets/style/_typography.scss */
+body {
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjEuMCIgeDI9IjAuNSIgeTI9IjAuMCI+PHN0b3Agb2Zmc2V0PSI1JSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjUiLz48c3RvcCBvZmZzZXQ9IjUlIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAuMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(5%, rgba(0, 0, 0, 0.5)), color-stop(5%, rgba(0, 0, 0, 0)));
+  background-image: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+  -moz-background-size: 100% 1.13636rem;
+  -o-background-size: 100% 1.13636rem;
+  -webkit-background-size: 100% 1.13636rem;
+  background-size: 100% 1.13636rem;
+  background-position: left top;
 }
 
-/* line 45, ../../app/assets/style/_typography.scss */
-header .contacts strong {
-  color: #373737;
+/**/
+/* line 51, ../../app/assets/style/_typography.scss */
+h1, h2, h3, h4, h5, p, iframe {
+  margin-bottom: 25px;
+  margin-bottom: 1.13636rem;
 }
 
 /* line 57, ../../app/assets/style/_typography.scss */
-h1, h2, h3, h4, h5, p, iframe {
-  margin-bottom: 35px;
-  margin-bottom: 1.45833rem;
+h1 {
+  font-size: 69px;
+  font-size: 3.157rem;
+  line-height: 75px;
+  line-height: 3.40909rem;
 }
 
-/* line 63, ../../app/assets/style/_typography.scss */
-h1 {
-  font-size: 76px;
-  font-size: 3.157rem;
-  line-height: 105px;
-  line-height: 4.375rem;
+/* line 58, ../../app/assets/style/_typography.scss */
+h2 {
+  font-size: 52px;
+  font-size: 2.369rem;
+  line-height: 75px;
+  line-height: 3.40909rem;
+}
+
+/* line 59, ../../app/assets/style/_typography.scss */
+h3 {
+  font-size: 39px;
+  font-size: 1.777rem;
+  line-height: 50px;
+  line-height: 2.27273rem;
+}
+
+/* line 60, ../../app/assets/style/_typography.scss */
+h4 {
+  font-size: 25px;
+  font-size: 1.133rem;
+  line-height: 50px;
+  line-height: 2.27273rem;
+}
+
+/* line 61, ../../app/assets/style/_typography.scss */
+h5 {
+  font-size: 22px;
+  font-size: 1rem;
+  line-height: 50px;
+  line-height: 2.27273rem;
+}
+
+/* line 62, ../../app/assets/style/_typography.scss */
+h6 {
+  font-size: 17px;
+  font-size: 0.75rem;
+  line-height: 25px;
+  line-height: 1.13636rem;
 }
 
 /* line 64, ../../app/assets/style/_typography.scss */
-h2 {
-  font-size: 57px;
-  font-size: 2.369rem;
-  line-height: 70px;
-  line-height: 2.91667rem;
-}
-
-/* line 65, ../../app/assets/style/_typography.scss */
-h3 {
-  font-size: 43px;
-  font-size: 1.777rem;
-  line-height: 70px;
-  line-height: 2.91667rem;
-}
-
-/* line 66, ../../app/assets/style/_typography.scss */
-h4 {
-  font-size: 27px;
-  font-size: 1.133rem;
-  line-height: 35px;
-  line-height: 1.45833rem;
-}
-
-/* line 67, ../../app/assets/style/_typography.scss */
-h5 {
-  font-size: 24px;
-  font-size: 1rem;
-  line-height: 35px;
-  line-height: 1.45833rem;
-}
-
-/* line 68, ../../app/assets/style/_typography.scss */
-h6 {
-  font-size: 18px;
-  font-size: 0.75rem;
-  line-height: 35px;
-  line-height: 1.45833rem;
-}
-
-/* line 70, ../../app/assets/style/_typography.scss */
 a {
   text-decoration: none;
 }
 
-/* line 75, ../../app/assets/style/_typography.scss */
+/* line 69, ../../app/assets/style/_typography.scss */
 ul {
   list-style-type: none;
 }
 
-/* line 78, ../../app/assets/style/_typography.scss */
+/* line 72, ../../app/assets/style/_typography.scss */
 a, p, span {
   font-family: "BebasRegular";
 }
 
-/* line 81, ../../app/assets/style/_typography.scss */
+/* line 75, ../../app/assets/style/_typography.scss */
 strong {
   font-family: "BebasBold";
 }
 
-/* line 9, ../../app/assets/_base.scss */
+/* line 79, ../../app/assets/style/_typography.scss */
+header .contacts {
+  line-height: 1.1rem;
+}
+/* line 83, ../../app/assets/style/_typography.scss */
+header .contacts strong {
+  color: rgba(55, 55, 55, 0.92);
+}
+
+/* line 22, ../../app/assets/_susy_grid.scss */
+img {
+  max-width: 100%;
+  margin: auto;
+  display: block;
+}
+
+/* line 28, ../../app/assets/_susy_grid.scss */
+header {
+  height: 130px;
+}
+
+/* line 34, ../../app/assets/_susy_grid.scss */
+header .wrap {
+  max-width: 960px;
+  max-width: 43.63636rem;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  z-index: 1;
+}
+/* line 12, ../../../../.rvm/gems/ruby-1.9.3-p551-dev/gems/susy-2.2.5/sass/susy/output/support/_clearfix.scss */
+header .wrap:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+/* line 65, ../../../../.rvm/gems/ruby-1.9.3-p551-dev/gems/susy-2.2.5/sass/susy/language/susy/_background.scss */
+head {
+  display: block;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  z-index: 999;
+  color: #333;
+  background: rgba(255, 255, 255, 0.25);
+}
+/* line 66, ../../../../.rvm/gems/ruby-1.9.3-p551-dev/gems/susy-2.2.5/sass/susy/language/susy/_background.scss */
+head:before {
+  content: "|||";
+  display: block;
+  padding: 5px 10px;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+/* line 67, ../../../../.rvm/gems/ruby-1.9.3-p551-dev/gems/susy-2.2.5/sass/susy/language/susy/_background.scss */
+head:hover {
+  background: rgba(255, 255, 255, 0.5);
+  color: red;
+}
+/* line 71, ../../../../.rvm/gems/ruby-1.9.3-p551-dev/gems/susy-2.2.5/sass/susy/language/susy/_background.scss */
+head:hover ~ header .wrap, head:hover ~ body header .wrap {
+  position: relative;
+}
+/* line 74, ../../../../.rvm/gems/ruby-1.9.3-p551-dev/gems/susy-2.2.5/sass/susy/language/susy/_background.scss */
+head:hover ~ header .wrap:before, head:hover ~ body header .wrap:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  content: " ";
+  z-index: 998;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuNSIgeDI9IjEuMCIgeTI9IjAuNSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMDBmZiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzRkNGRmZiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA=='), url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAuNSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjAiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #0000ff), color-stop(100%, #4d4dff)), -webkit-gradient(linear, 50% 0%, 50% 1, color-stop(100%, rgba(0, 0, 0, 0.5)), color-stop(100%, rgba(0, 0, 0, 0)));
+  background-image: -moz-linear-gradient(left, #0000ff, #4d4dff), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+  background-image: -webkit-linear-gradient(left, #0000ff, #4d4dff), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+  background-image: linear-gradient(to right, #0000ff, #4d4dff), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+  background-size: 25%, 100% 25px;
+  background-origin: content-box, border-box;
+  background-clip: content-box, border-box;
+  background-position: left top;
+}
+
+/* HEADER PAGE-CONTACTS */
+/* line 49, ../../app/assets/_susy_grid.scss */
+.page.contacts header .logo {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 25%;
+  float: left;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  height: 100%;
+  min-width: 70px;
+}
+@media (min-width: 500px) {
+  /* line 49, ../../app/assets/_susy_grid.scss */
+  .page.contacts header .logo {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 16.66667%;
+    float: left;
+    padding-left: 0.83333%;
+    padding-right: 0.83333%;
+    float: left;
+    margin-left: 41.66667%;
+    margin-right: -100%;
+    text-align: center;
+  }
+}
+/* line 61, ../../app/assets/_susy_grid.scss */
+.page.contacts header .site-name {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+}
+@media (min-width: 500px) {
+  /* line 61, ../../app/assets/_susy_grid.scss */
+  .page.contacts header .site-name {
+    bottom: 0px;
+  }
+}
+/* line 80, ../../app/assets/_susy_grid.scss */
+.page.contacts header .contacts {
+  height: 100%;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 75%;
+  float: left;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  float: left;
+  margin-left: 0;
+  margin-right: -100%;
+  position: relative;
+}
+@media (min-width: 500px) {
+  /* line 80, ../../app/assets/_susy_grid.scss */
+  .page.contacts header .contacts {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    float: left;
+    padding-left: 0.83333%;
+    padding-right: 0.83333%;
+  }
+}
+/* line 91, ../../app/assets/_susy_grid.scss */
+.page.contacts header .phone {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  float: right;
+  padding-left: 3.33333%;
+  padding-right: 3.33333%;
+  height: 50%;
+  text-align: right;
+  padding: 10px 0;
+}
+@media (min-width: 500px) {
+  /* line 91, ../../app/assets/_susy_grid.scss */
+  .page.contacts header .phone {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 50%;
+    float: right;
+    padding-left: 0.83333%;
+    padding-right: 0.83333%;
+    margin: 5px 0;
+    text-align: center;
+  }
+}
+/* line 103, ../../app/assets/_susy_grid.scss */
+.page.contacts header .address {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  float: right;
+  padding-left: 3.33333%;
+  padding-right: 3.33333%;
+  text-align: right;
+  height: 50%;
+  padding: 10px 0;
+}
+@media (min-width: 500px) {
+  /* line 103, ../../app/assets/_susy_grid.scss */
+  .page.contacts header .address {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+    padding-left: 0.83333%;
+    padding-right: 0.83333%;
+    text-align: center;
+    margin: 5px 0;
+  }
+}
+
+/*---------------------*/
+/* HEADER PAGE-PRICE */
+/* line 122, ../../app/assets/_susy_grid.scss */
+.page.price header {
+  height: 80px;
+}
+/* line 125, ../../app/assets/_susy_grid.scss */
+.page.price header .logo {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 25%;
+  float: left;
+  padding-left: 1.25%;
+  padding-right: 1.25%;
+}
+/* line 128, ../../app/assets/_susy_grid.scss */
+.page.price header .address {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 37.5%;
+  float: left;
+  padding-left: 1.25%;
+  padding-right: 1.25%;
+  text-align: center;
+}
+/* line 134, ../../app/assets/_susy_grid.scss */
+.page.price header .phone {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 37.5%;
+  float: right;
+  padding-left: 1.25%;
+  padding-right: 1.25%;
+  text-align: center;
+}
+/* line 139, ../../app/assets/_susy_grid.scss */
+.page.price header .logo {
+  background-size: 100px;
+  background-position: 0 -10px;
+  height: 100%;
+}
+/* line 144, ../../app/assets/_susy_grid.scss */
+.page.price header .site-name {
+  top: 25%;
+  position: relative;
+  left: 70px;
+}
+/* line 150, ../../app/assets/_susy_grid.scss */
+.page.price header .address,
+.page.price header .phone {
+  margin: 0px 0;
+}
+/* line 154, ../../app/assets/_susy_grid.scss */
+.page.price header .address > div,
+.page.price header .phone > div {
+  display: inline;
+}
+
+/* line 162, ../../app/assets/_susy_grid.scss */
+.price-menu {
+  display: none;
+}
+@media (min-width: 500px) {
+  /* line 162, ../../app/assets/_susy_grid.scss */
+  .price-menu {
+    display: block;
+  }
+}
+
+@media (min-width: 500px) {
+  /* line 168, ../../app/assets/_susy_grid.scss */
+  .price-nav {
+    display: table;
+    max-width: 960px;
+    max-width: 43.63636rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 12, ../../../../.rvm/gems/ruby-1.9.3-p551-dev/gems/susy-2.2.5/sass/susy/output/support/_clearfix.scss */
+  .price-nav:after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+  /* line 71, ../../../../.rvm/gems/ruby-1.9.3-p551-dev/gems/susy-2.2.5/sass/susy/language/susy/_background.scss */
+  head:hover ~ .price-nav, head:hover ~ body .price-nav {
+    position: relative;
+  }
+  /* line 74, ../../../../.rvm/gems/ruby-1.9.3-p551-dev/gems/susy-2.2.5/sass/susy/language/susy/_background.scss */
+  head:hover ~ .price-nav:before, head:hover ~ body .price-nav:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    content: " ";
+    z-index: 998;
+    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuNSIgeDI9IjEuMCIgeTI9IjAuNSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMDBmZiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzRkNGRmZiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA=='), url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAuNSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjAiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
+    background-size: 100%;
+    background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #0000ff), color-stop(100%, #4d4dff)), -webkit-gradient(linear, 50% 0%, 50% 1, color-stop(100%, rgba(0, 0, 0, 0.5)), color-stop(100%, rgba(0, 0, 0, 0)));
+    background-image: -moz-linear-gradient(left, #0000ff, #4d4dff), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+    background-image: -webkit-linear-gradient(left, #0000ff, #4d4dff), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+    background-image: linear-gradient(to right, #0000ff, #4d4dff), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+    background-size: 25%, 100% 25px;
+    background-origin: content-box, border-box;
+    background-clip: content-box, border-box;
+    background-position: left top;
+  }
+}
+
+/* line 177, ../../app/assets/_susy_grid.scss */
+body.page.price {
+  background: url("/images/bg/bg.jpg");
+}
+
+/* line 182, ../../app/assets/_susy_grid.scss */
+.page.price .price-page {
+  background-color: #ffffff;
+}
+
+/* line 191, ../../app/assets/_susy_grid.scss */
+.price-page {
+  top: 200px;
+  position: absolute;
+  bottom: 90px;
+  overflow-x: auto;
+  max-width: 960px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: white;
+}
+
+/*---------------------*/
+/* line 213, ../../app/assets/_susy_grid.scss */
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 90px;
+  width: 100%;
+  height: auto;
+  z-index: -1;
+}
+
+/* line 234, ../../app/assets/_susy_grid.scss */
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 120px;
+}
+
+/* line 240, ../../app/assets/_susy_grid.scss */
+footer .wrap {
+  height: 100%;
+}
+
+/* line 243, ../../app/assets/_susy_grid.scss */
+.footer-info {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 99%;
+  margin: 0 auto;
+}
+
+/* line 252, ../../app/assets/_susy_grid.scss */
+footer .created-by {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 50%;
+  float: right;
+  padding-left: 1.25%;
+  padding-right: 1.25%;
+}
+
+/* line 253, ../../app/assets/_susy_grid.scss */
+footer .copyright {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 50%;
+  float: left;
+  padding-left: 1.25%;
+  padding-right: 1.25%;
+}
+
+/* line 3, ../../app/assets/_base.scss */
 header > div {
   -webkit-transition: all,.6s;
   -moz-transition: all,.6s;
@@ -695,7 +844,7 @@ header > div {
   transition: all,.6s;
 }
 
-/* line 17, ../../app/assets/_base.scss */
+/* line 11, ../../app/assets/_base.scss */
 body, img {
   -webkit-transition: all,.6s;
   -moz-transition: all,.6s;
@@ -704,7 +853,7 @@ body, img {
   transition: all,.6s;
 }
 
-/* line 25, ../../app/assets/_base.scss */
+/* line 19, ../../app/assets/_base.scss */
 nav li {
   -webkit-transition: all,.6s;
   -moz-transition: all,.6s;

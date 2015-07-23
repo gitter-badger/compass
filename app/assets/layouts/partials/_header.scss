@@ -1,15 +1,16 @@
-$metka_icon:  url('/images/header/metka.png');
-$phone_icon: url('/images/header/phone.png');
+$metka_icon:  url('/images/icons_svg/metka.svg');
+$phone_icon: url('/images/icons_svg/tel.svg');
 
 
 .metka-icon{background-image: $metka_icon;}
 .phone-icon{background-image: $phone_icon;}
 
-.icon {
-  height: 30px;
+.h_icon {
   display: block;
-  background-position: 50% 30%;
+  background-position: 50%;
   background-repeat: no-repeat;
+  background-size: 35px;
+  height: 45px;
 
   @media(max-width: 500px){
 
@@ -25,51 +26,70 @@ header {
   box-shadow: 0 1px 0px -0px rgba(119, 119, 119, 0.5);
   background-color: rgba(255, 255, 255, 0.85);
   z-index: 999;
+  padding:0 1rem;
 
 }
 
 .logo {
   background-image: url("/images/header/logo.svg");
   background-repeat: no-repeat;
-  background-position: 50% -25px;
-  background-size: 150px;
-  height: 150px;
+  background-position: 50% -10px;
+  background-size: 200px;
+  height: 100%;
   position: relative;
   line-height: 100%;
 
 }
+.logo a {
+  display: block;
+  height: 100%;
+  
+  &:hover {border: 0;
+    color: #333333;
+  }
+  &:visited {
+    color: #373737;}
+}
+
+
 .logo .site-name strong {display: block;}
 .logo .site-name {
-  font-size: 1.2rem;
+  font-size: 1rem;
   display: block;
-  position: absolute;
-  margin: auto;
-  width: 100%;
-  bottom: 0%;
-  text-align: center;
+
+
+  &:hover {
+    color: #50687d;
+  }
 
 }
 
 .logo a {display: block; }
 
-//header .logo span {font-size: 1.2em; display: block;}
-//header .logo a {border: 0;}
-//
-//header strong {
-//  color: indianred;
-//
-//}
-//
-header  a {
+header a {
+
+  -webkit-transition: all,.6s;
+  -moz-transition: all,.6s;
+  -ms-transition: all,.6s;
+  -o-transition: all,.6s;
+  transition: all,.6s;
+  border-bottom: 1px dashed indianred;
 
   color: #373737;
   //@include transition (border 0.2s ease-in-out);
   &:hover {
-    border-bottom: 1px dashed indigo;
-
+    border-bottom: 1px dashed indianred;
   }
 
 }
+
+.address, .phone {
+
+  white-space: nowrap;
+
+}
+
+
 //
 //header address {}
 //header .address {white-space: nowrap;}

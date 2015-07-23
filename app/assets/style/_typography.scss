@@ -11,28 +11,30 @@
 
 
 /*base */
-$base-font-size: 22px!global;
-$base-line-height: 33px!global;
+$base-font-size: 18px!global;
+$base-line-height: 22px!global;
 $rhythm-unit: "rem"!global;
 $rem-with-px-fallback: true!global;
 @include establish-baseline();
 
 
-
+//
 @media (min-width: $tablet-size) {
-  $base-font-size: 24px !global;
-  $base-line-height: 35px!global;
+  $base-font-size: 22px !global;
+  $base-line-height: 25px!global;
   $rhythm-unit: "rem"!global;
   $rem-with-px-fallback: true!global;
   @include establish-baseline();
 }
 
 
-.contacts {
-  line-height: 120%;
 
 
-}
+/*DEBUG*/
+  body {@include debug-vertical-alignment();}
+/**/
+
+
 
 //header .contacts {
 //  line-height: 1.5em;
@@ -42,15 +44,7 @@ $rem-with-px-fallback: true!global;
 //  @include adjust-font-size-to(1.133rem);
 //
 //}
-header .contacts strong{
-//  @include adjust-font-size-to(1.777rem);
-//  line-height: 1.133rem;
-//  //@include debug-vertical-alignment();
-//  //font: $body-font-size $body-font-family ;
-//  //line-height: $body-line-height;
-//  line-height: $base-line-height;
-  color: #373737;
-}
+
 //
 
 
@@ -81,3 +75,34 @@ a, p, span {
 strong {
     font-family: "BebasBold";
   }
+
+header .contacts {
+
+
+  line-height: 1.1rem;
+  strong {
+
+    //font-size: 1.3rem;
+    //  @include adjust-font-size-to(1.777rem);
+    //  line-height: 1.133rem;
+    //  //font: $body-font-size $body-font-family ;
+    //  //line-height: $body-line-height;
+    //  line-height: $base-line-height;
+    color: rgba(55, 55, 55, 0.92);
+    //font-size: 1.133rem;
+
+  }
+
+  .address, .phone{
+
+
+    @include breakpoint($tablet-size, 12) {
+      //line-height: $base-line-height;
+    }
+
+
+  }
+
+
+
+}

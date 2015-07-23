@@ -17,7 +17,7 @@ module CompassInitializer
       config.images_dir = "public/images"
       config.javascripts_dir = "public/javascripts"
       config.fonts_dir = "public/fonts"
-      config.output_style =  :expanded
+      # config.output_style =  :expanded
 
     end
 

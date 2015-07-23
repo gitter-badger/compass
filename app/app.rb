@@ -1,12 +1,17 @@
 module Compass
   class App < Padrino::Application
+
     use ConnectionPoolManagement
+
     register Padrino::Mailer
     register Padrino::Helpers
     register CompassInitializer
 
+    # use Rack::LiveReload, :host => 'localhost'
 
     enable :sessions
+
+
 
     ##
     # Caching support.
