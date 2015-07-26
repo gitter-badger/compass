@@ -15,6 +15,7 @@
   background-repeat: no-repeat;
   background-size: 35px;
   height: 45px;
+  width: 40px;
 }
 @media (max-width: 500px) {
   /* line 8, ../../app/assets/layouts/partials/_header.scss */
@@ -23,7 +24,7 @@
   }
 }
 
-/* line 23, ../../app/assets/layouts/partials/_header.scss */
+/* line 24, ../../app/assets/layouts/partials/_header.scss */
 header {
   -webkit-box-shadow: 0 1px 0px 0px rgba(119, 119, 119, 0.5);
   -moz-box-shadow: 0 1px 0px 0px rgba(119, 119, 119, 0.5);
@@ -33,53 +34,53 @@ header {
   padding: 0 1rem;
 }
 
-/* line 33, ../../app/assets/layouts/partials/_header.scss */
+/* line 34, ../../app/assets/layouts/partials/_header.scss */
 .logo {
   background-image: url("/images/header/logo.svg");
   background-repeat: no-repeat;
   background-position: 50% -10px;
-  background-size: 200px;
+  background-size: 100px;
   height: 100%;
   position: relative;
   line-height: 100%;
 }
 
-/* line 43, ../../app/assets/layouts/partials/_header.scss */
+/* line 44, ../../app/assets/layouts/partials/_header.scss */
 .logo a {
   display: block;
   height: 100%;
 }
-/* line 47, ../../app/assets/layouts/partials/_header.scss */
+/* line 48, ../../app/assets/layouts/partials/_header.scss */
 .logo a:hover {
   border: 0;
   color: #333333;
 }
-/* line 50, ../../app/assets/layouts/partials/_header.scss */
+/* line 51, ../../app/assets/layouts/partials/_header.scss */
 .logo a:visited {
   color: #373737;
 }
 
-/* line 55, ../../app/assets/layouts/partials/_header.scss */
+/* line 56, ../../app/assets/layouts/partials/_header.scss */
 .logo .site-name strong {
   display: block;
 }
 
-/* line 56, ../../app/assets/layouts/partials/_header.scss */
+/* line 57, ../../app/assets/layouts/partials/_header.scss */
 .logo .site-name {
   font-size: 1rem;
   display: block;
 }
-/* line 61, ../../app/assets/layouts/partials/_header.scss */
+/* line 62, ../../app/assets/layouts/partials/_header.scss */
 .logo .site-name:hover {
   color: #50687d;
 }
 
-/* line 67, ../../app/assets/layouts/partials/_header.scss */
+/* line 68, ../../app/assets/layouts/partials/_header.scss */
 .logo a {
   display: block;
 }
 
-/* line 69, ../../app/assets/layouts/partials/_header.scss */
+/* line 70, ../../app/assets/layouts/partials/_header.scss */
 header a {
   -webkit-transition: all,.6s;
   -moz-transition: all,.6s;
@@ -89,17 +90,17 @@ header a {
   border-bottom: 1px dashed indianred;
   color: #373737;
 }
-/* line 80, ../../app/assets/layouts/partials/_header.scss */
+/* line 81, ../../app/assets/layouts/partials/_header.scss */
 header a:hover {
   border-bottom: 1px dashed indianred;
 }
 
-/* line 86, ../../app/assets/layouts/partials/_header.scss */
+/* line 87, ../../app/assets/layouts/partials/_header.scss */
 .address, .phone {
   white-space: nowrap;
 }
 
-/* line 102, ../../app/assets/layouts/partials/_header.scss */
+/* line 103, ../../app/assets/layouts/partials/_header.scss */
 .call_btn a {
   border: 1px dashed indianred;
   border-radius: 5px;
@@ -107,10 +108,61 @@ header a:hover {
   /* margin: 17px; */
   color: indianred;
 }
-/* line 108, ../../app/assets/layouts/partials/_header.scss */
+/* line 109, ../../app/assets/layouts/partials/_header.scss */
 .call_btn a:hover {
   color: #cd3d58;
   text-decoration: none;
+}
+
+/* line 11, ../../app/assets/layouts/partials/_header_price-page.scss */
+.page.price header .wrap {
+  height: 80px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 12, ../../../../.rvm/gems/ruby-1.9.3-p551-dev/gems/susy-2.2.5/sass/susy/output/support/_clearfix.scss */
+.page.price header .wrap:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+/* line 15, ../../app/assets/layouts/partials/_header_price-page.scss */
+.page.price header .wrap .logo {
+  width: 47.36842%;
+  float: left;
+  margin-right: 5.26316%;
+  height: 100%;
+  min-width: 70px;
+}
+/* line 21, ../../app/assets/layouts/partials/_header_price-page.scss */
+.page.price header .wrap .contacts {
+  height: 100%;
+  width: 152.63158%;
+  float: right;
+  margin-right: 0;
+  position: relative;
+}
+/* line 29, ../../app/assets/layouts/partials/_header_price-page.scss */
+.page.price header .wrap .address {
+  width: 50%;
+  float: left;
+  text-align: right;
+}
+@media (min-width: 500px) {
+  /* line 29, ../../app/assets/layouts/partials/_header_price-page.scss */
+  .page.price header .wrap .address {
+    width: 35.89744%;
+    float: left;
+    margin-right: 2.5641%;
+    text-align: center;
+  }
+}
+/* line 39, ../../app/assets/layouts/partials/_header_price-page.scss */
+.page.price header .wrap .phone {
+  width: 48.27586%;
+  float: left;
+  margin-right: 3.44828%;
 }
 
 /* line 3, ../../app/assets/layouts/partials/_main.scss */
@@ -511,27 +563,27 @@ head:hover ~ header .wrap:before, head:hover ~ body header .wrap:before {
   background-image: -moz-linear-gradient(left, #0000ff, #4d4dff), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
   background-image: -webkit-linear-gradient(left, #0000ff, #4d4dff), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
   background-image: linear-gradient(to right, #0000ff, #4d4dff), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
-  background-size: 25%, 100% 25px;
+  background-size: 12.5%, 100% 25px;
   background-origin: content-box, border-box;
   background-clip: content-box, border-box;
   background-position: left top;
 }
 
 /* HEADER PAGE-CONTACTS */
-/* line 49, ../../app/assets/_susy_grid.scss */
+/* line 45, ../../app/assets/_susy_grid.scss */
 .page.contacts header .logo {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  width: 25%;
+  width: 12.5%;
   float: left;
-  padding-left: 2.5%;
-  padding-right: 2.5%;
+  padding-left: 1.25%;
+  padding-right: 1.25%;
   height: 100%;
   min-width: 70px;
 }
 @media (min-width: 500px) {
-  /* line 49, ../../app/assets/_susy_grid.scss */
+  /* line 45, ../../app/assets/_susy_grid.scss */
   .page.contacts header .logo {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -546,7 +598,7 @@ head:hover ~ header .wrap:before, head:hover ~ body header .wrap:before {
     text-align: center;
   }
 }
-/* line 61, ../../app/assets/_susy_grid.scss */
+/* line 57, ../../app/assets/_susy_grid.scss */
 .page.contacts header .site-name {
   position: absolute;
   bottom: 10px;
@@ -556,28 +608,28 @@ head:hover ~ header .wrap:before, head:hover ~ body header .wrap:before {
   text-align: center;
 }
 @media (min-width: 500px) {
-  /* line 61, ../../app/assets/_susy_grid.scss */
+  /* line 57, ../../app/assets/_susy_grid.scss */
   .page.contacts header .site-name {
     bottom: 0px;
   }
 }
-/* line 80, ../../app/assets/_susy_grid.scss */
+/* line 76, ../../app/assets/_susy_grid.scss */
 .page.contacts header .contacts {
   height: 100%;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  width: 75%;
+  width: 37.5%;
   float: left;
-  padding-left: 2.5%;
-  padding-right: 2.5%;
+  padding-left: 1.25%;
+  padding-right: 1.25%;
   float: left;
   margin-left: 0;
   margin-right: -100%;
   position: relative;
 }
 @media (min-width: 500px) {
-  /* line 80, ../../app/assets/_susy_grid.scss */
+  /* line 76, ../../app/assets/_susy_grid.scss */
   .page.contacts header .contacts {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -588,7 +640,7 @@ head:hover ~ header .wrap:before, head:hover ~ body header .wrap:before {
     padding-right: 0.83333%;
   }
 }
-/* line 91, ../../app/assets/_susy_grid.scss */
+/* line 87, ../../app/assets/_susy_grid.scss */
 .page.contacts header .phone {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -602,7 +654,7 @@ head:hover ~ header .wrap:before, head:hover ~ body header .wrap:before {
   padding: 10px 0;
 }
 @media (min-width: 500px) {
-  /* line 91, ../../app/assets/_susy_grid.scss */
+  /* line 87, ../../app/assets/_susy_grid.scss */
   .page.contacts header .phone {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -615,7 +667,7 @@ head:hover ~ header .wrap:before, head:hover ~ body header .wrap:before {
     text-align: center;
   }
 }
-/* line 103, ../../app/assets/_susy_grid.scss */
+/* line 99, ../../app/assets/_susy_grid.scss */
 .page.contacts header .address {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -629,7 +681,7 @@ head:hover ~ header .wrap:before, head:hover ~ body header .wrap:before {
   padding: 10px 0;
 }
 @media (min-width: 500px) {
-  /* line 103, ../../app/assets/_susy_grid.scss */
+  /* line 99, ../../app/assets/_susy_grid.scss */
   .page.contacts header .address {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -643,80 +695,19 @@ head:hover ~ header .wrap:before, head:hover ~ body header .wrap:before {
   }
 }
 
-/*---------------------*/
-/* HEADER PAGE-PRICE */
-/* line 122, ../../app/assets/_susy_grid.scss */
-.page.price header {
-  height: 80px;
-}
-/* line 125, ../../app/assets/_susy_grid.scss */
-.page.price header .logo {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  width: 25%;
-  float: left;
-  padding-left: 1.25%;
-  padding-right: 1.25%;
-}
-/* line 128, ../../app/assets/_susy_grid.scss */
-.page.price header .address {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  width: 37.5%;
-  float: left;
-  padding-left: 1.25%;
-  padding-right: 1.25%;
-  text-align: center;
-}
-/* line 134, ../../app/assets/_susy_grid.scss */
-.page.price header .phone {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  width: 37.5%;
-  float: right;
-  padding-left: 1.25%;
-  padding-right: 1.25%;
-  text-align: center;
-}
-/* line 139, ../../app/assets/_susy_grid.scss */
-.page.price header .logo {
-  background-size: 100px;
-  background-position: 0 -10px;
-  height: 100%;
-}
-/* line 144, ../../app/assets/_susy_grid.scss */
-.page.price header .site-name {
-  top: 25%;
-  position: relative;
-  left: 70px;
-}
-/* line 150, ../../app/assets/_susy_grid.scss */
-.page.price header .address,
-.page.price header .phone {
-  margin: 0px 0;
-}
-/* line 154, ../../app/assets/_susy_grid.scss */
-.page.price header .address > div,
-.page.price header .phone > div {
-  display: inline;
-}
-
-/* line 162, ../../app/assets/_susy_grid.scss */
+/* line 121, ../../app/assets/_susy_grid.scss */
 .price-menu {
   display: none;
 }
 @media (min-width: 500px) {
-  /* line 162, ../../app/assets/_susy_grid.scss */
+  /* line 121, ../../app/assets/_susy_grid.scss */
   .price-menu {
     display: block;
   }
 }
 
 @media (min-width: 500px) {
-  /* line 168, ../../app/assets/_susy_grid.scss */
+  /* line 127, ../../app/assets/_susy_grid.scss */
   .price-nav {
     display: table;
     max-width: 960px;
@@ -749,24 +740,24 @@ head:hover ~ header .wrap:before, head:hover ~ body header .wrap:before {
     background-image: -moz-linear-gradient(left, #0000ff, #4d4dff), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
     background-image: -webkit-linear-gradient(left, #0000ff, #4d4dff), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
     background-image: linear-gradient(to right, #0000ff, #4d4dff), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
-    background-size: 25%, 100% 25px;
+    background-size: 12.5%, 100% 25px;
     background-origin: content-box, border-box;
     background-clip: content-box, border-box;
     background-position: left top;
   }
 }
 
-/* line 177, ../../app/assets/_susy_grid.scss */
+/* line 136, ../../app/assets/_susy_grid.scss */
 body.page.price {
   background: url("/images/bg/bg.jpg");
 }
 
-/* line 182, ../../app/assets/_susy_grid.scss */
+/* line 141, ../../app/assets/_susy_grid.scss */
 .page.price .price-page {
   background-color: #ffffff;
 }
 
-/* line 191, ../../app/assets/_susy_grid.scss */
+/* line 150, ../../app/assets/_susy_grid.scss */
 .price-page {
   top: 200px;
   position: absolute;
@@ -780,7 +771,7 @@ body.page.price {
 }
 
 /*---------------------*/
-/* line 213, ../../app/assets/_susy_grid.scss */
+/* line 172, ../../app/assets/_susy_grid.scss */
 #map {
   position: absolute;
   top: 0;
@@ -790,7 +781,7 @@ body.page.price {
   z-index: -1;
 }
 
-/* line 234, ../../app/assets/_susy_grid.scss */
+/* line 193, ../../app/assets/_susy_grid.scss */
 footer {
   position: absolute;
   bottom: 0;
@@ -798,12 +789,12 @@ footer {
   height: 120px;
 }
 
-/* line 240, ../../app/assets/_susy_grid.scss */
+/* line 199, ../../app/assets/_susy_grid.scss */
 footer .wrap {
   height: 100%;
 }
 
-/* line 243, ../../app/assets/_susy_grid.scss */
+/* line 202, ../../app/assets/_susy_grid.scss */
 .footer-info {
   position: absolute;
   left: 0;
@@ -813,7 +804,7 @@ footer .wrap {
   margin: 0 auto;
 }
 
-/* line 252, ../../app/assets/_susy_grid.scss */
+/* line 211, ../../app/assets/_susy_grid.scss */
 footer .created-by {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -824,7 +815,7 @@ footer .created-by {
   padding-right: 1.25%;
 }
 
-/* line 253, ../../app/assets/_susy_grid.scss */
+/* line 212, ../../app/assets/_susy_grid.scss */
 footer .copyright {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;

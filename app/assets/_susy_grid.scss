@@ -3,7 +3,7 @@
 
 
 $susy: (
-        columns: 4,
+        columns: 8,
         gutters: 1/4,
         gutter-position: inside,
         container:960px,
@@ -32,13 +32,9 @@ header {
 
 
 header .wrap {
-  @include container();
+  @include container(show);
   height: 100%;
   z-index: 1;
-  @include susy-breakpoint($tablet-size, 12) {
-
-  }
-
 
 }
 
@@ -114,49 +110,12 @@ header .wrap {
 
     }
 
-  }/*---------------------*/
+  }
 
 
-  /* HEADER PAGE-PRICE */
 
-.page.price header {
-    height: 80px;
 
-    .logo {
-      @include span(2 of 8);
-    }
-    .address {
 
-      @include span (3 of 8);
-      text-align: center;
-
-    }
-    .phone {
-      @include span (3 of 8 last);
-      text-align: center;
-    }
-
-    .logo {
-      background-size: 100px;
-      background-position: 0 -10px;
-      height: 100%;
-    }
-    .site-name {
-      top: 25%;
-      position: relative;
-      left: 70px;
-
-    }
-    .address,
-    .phone {
-      margin: 0px 0;
-    }
-    .address > div,
-    .phone > div {
-      display: inline;
-    }
-
-}
 
 
 .price-menu {

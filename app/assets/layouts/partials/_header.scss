@@ -11,6 +11,7 @@ $phone_icon: url('/images/icons_svg/tel.svg');
   background-repeat: no-repeat;
   background-size: 35px;
   height: 45px;
+  width: 40px;
 
   @media(max-width: 500px){
 
@@ -34,7 +35,7 @@ header {
   background-image: url("/images/header/logo.svg");
   background-repeat: no-repeat;
   background-position: 50% -10px;
-  background-size: 200px;
+  background-size: 100px;
   height: 100%;
   position: relative;
   line-height: 100%;

@@ -1,0 +1,169 @@
+
+@import "breakpoint";
+@import "susy";
+
+
+
+
+///* HEADER PAGE-PRICE */
+//
+//
+.page.price header .wrap {
+  height: 80px;
+  @include container();
+
+  .logo {
+    @include span(2);
+    height: 100%;
+    min-width: 70px;
+  }
+
+  .contacts {
+
+    height: 100%;
+    @include span(last 6 );
+    position: relative;
+
+  }
+
+  .address {
+    @include span (3 of 6 isolate());
+    text-align: right;
+
+    @include susy-breakpoint($tablet-size, 12) {
+      @include span (3 of 8);
+      text-align: center;
+    }
+
+  }
+  .phone {
+    @include span (3 of 6);
+  }
+}
+//
+////
+////
+////
+
+////    @include susy-breakpoint($tablet-size, 8) {
+////      @include span (3 of 8 last);
+////      text-align: center;
+////    }
+////  }
+////
+////  .logo {
+////    background-size: 100px;
+////    background-position: 0 -10px;
+////    height: 100%;
+////  }
+////  .site-name {
+////    position: absolute;
+////    bottom: 10px;
+////    left: 0;
+////    right:0;
+////    margin: auto;
+////
+////    text-align: center;
+////
+////    @include breakpoint($tablet-size) {
+////
+////      top: 25%;
+////      position: relative;
+////      left: 70px;
+////
+////    }
+////
+////
+////  }
+////  .address,
+////  .phone {
+////    margin: 0px 0;
+////  }
+////
+//
+///*   .address > strong,
+//  .address > span,
+//  .address > i,
+//  .phone > i,
+//  .phone > span,
+//  .phone > strong {
+//    float: left;
+//    display: inline-block;
+//  } */
+//
+//
+////}
+//
+////@mixin centerer_block($position-margin) {
+////   $with_margin = @include span($position-margin);
+////    left: $with_margin;
+////}
+////
+////
+////
+//@include border-box-sizing();
+//
+//
+//
+//
+//
+//@mixin centerer{
+//  position: absolute;
+//  top: 50%;
+//  transform: translate(-50%, -50%);
+//}
+//
+//
+//
+
+//
+//      .page.price header .wrap  {@include span(4);}
+//    }
+//
+//
+//@include susy-breakpoint($tablet-size, 12 show) {
+//
+//  .page.price header .wrap {
+//    @include container();
+//    position: relative;
+//  }
+//
+//
+//  .page.price header {
+//
+//    height: 80px;
+//
+//
+//    .logo {
+//      @include span(1);
+//      text-align: center;
+//    }
+//    a.home {
+//      left: span(1 at 2);
+//
+//    }
+//
+//    .contacts {
+//      height: 100%;
+//
+//        @include span(last 10);
+//    }
+//
+//    .address {
+//      //@include span(3);
+//      //@include centerer;
+//      @include span(5 of 10);
+//    }
+//
+//    .phone {
+//      //@include centerer;
+//      @include span(last 5 of 10);
+//    }
+//
+//    .h_icon {
+//      float: left;
+//    }
+//
+//  }
+//
+//}
