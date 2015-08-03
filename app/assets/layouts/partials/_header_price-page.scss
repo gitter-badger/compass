@@ -4,48 +4,230 @@
 
 
 
-
 ///* HEADER PAGE-PRICE */
 //
 //
-.page.price header .wrap {
-  height: 80px;
-  @include container();
 
-  .logo {
-    @include span(2);
-    height: 100%;
-    min-width: 70px;
-  }
+@mixin vertical-center() {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 
-  .contacts {
+}
 
-    height: 100%;
-    @include span(last 6 );
+@include susy-breakpoint($mobile-size, $mobile) {
+
+  header {
+    height: 80px;
+    background: rgba(255, 0, 0, 0);
     position: relative;
-
   }
 
-  .address {
-    @include span (3 of 6 isolate());
-    text-align: right;
+  .page.price header .wrap {
+    @include container;
+    //padding: 0 1em ;
+    position: relative;
+    height: 80px;
 
-    @include susy-breakpoint($tablet-size, 12) {
-      @include span (3 of 8);
+    .logo {
+      @include span(2);
+      height: 100%;
       text-align: center;
+      position: relative;
+      top:50%;
+      transform: translateY(-30%);
     }
 
+    a.home {
+      position: relative;
+      left: 50px;
+      top: 25%;
+      line-height: 20px;
+      @include span(1 of 2);
+
+      border: none;
+    }
+    .site-name {
+      top: 55%;
+      left: 60%;
+    }
+
+    .contacts {
+
+      height: 100%;
+      @include span(4);
+      position: relative;
+      text-align: right;
+    }
+
+    .address {
+      @include span(4 of 4);
+      text-align: right;
+    }
+
+    .address a {
+      display: block;
+    }
+
+    .phone {
+      @include span(4 of 4);
+      text-align: right;
+    }
+
+
+
+    .h_icon {
+      float: left;
+      background-size: 27px;
+    }
   }
-  .phone {
-    @include span (3 of 6);
-  }
+
 }
+
+
+
+@include susy-breakpoint($tablet-size, $tablet ) {
+
+  header {
+    height: 80px;
+    background: rgba(255, 0, 0, 0);
+    position: relative;
+    padding: 0 5%;
+  }
+  .page.price header .wrap {
+    @include container();
+    position: relative;
+    height: 60px;
+
+    .logo {
+      @include span(2);
+      height: 100%;
+      min-width: 70px;
+      position: relative;
+      top:50%;
+      transform: translateY(-30%);
+    }
+
+    a.home {
+      position: relative;
+      left: 50px;
+      top:25%;
+      line-height: 20px;
+
+      border: none;
+    }
+    .site-name {
+      top: 55%;
+      left: 60%;
+    }
+
+    .contacts {
+
+      height: 100%;
+      @include span(last 10);
+      position: relative;
+      text-align: right;
+      top:5%;
+    }
+
+    .address {
+      @include span( 4 of 10);
+      @include push(1);
+      //@include vertical-center;
+      top:55%;
+      line-height: 1.6rem;
+    }
+    .phone {
+      @include span(last 4 of 10) ;
+
+      //@include vertical-center;
+      top:55%;
+      line-height: 1.6rem;
+    }
+
+    .h_icon {
+      float: none;
+      margin: 0 auto;
+      height:35px;
+      background-size: 30px;
+    }
+  }
+
+}
+
+
+@include susy-breakpoint($desktop-size, $large ) {
+
+  header {
+    height: 80px;
+    background: rgba(255, 0, 0, 0);
+  }
+  .page.price header .wrap {
+    @include container;
+    position: relative;
+    height: 60px;
+    padding: 10px 0;
+
+    .logo {
+      @include span(2);
+      height: 100%;
+      min-width: 70px;
+      max-width: 80px;
+      position: relative;
+
+    }
+
+    a.home {
+      border: none;
+    }
+    .site-name {
+      position: relative;
+      top: 25%;
+      left: 55px;
+
+    }
+
+    .contacts {
+
+      height: 100%;
+      @include span(last 10);
+      position: relative;
+
+
+    }
+
+    .address {
+
+      @include span(first 5 of 10);
+      @include vertical-center;
+      @include prefix(2);
+
+      top:55%;
+      line-height: 2.6rem;
+
+    }
+    .phone {
+      @include vertical-center;
+      top:55%;
+      @include span(last 5 of 10);
+      @include prefix(2);
+
+      line-height: 2.6rem;
+
+      left:50%;
+    }
+
+    .h_icon {float: left;}
+  }
+
+}
+
 //
 ////
 ////
 ////
 
-////    @include susy-breakpoint($tablet-size, 8) {
+//    @include susy-breakpoint($tablet-size, 8) {
 ////      @include span (3 of 8 last);
 ////      text-align: center;
 ////    }

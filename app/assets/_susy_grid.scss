@@ -2,18 +2,14 @@
 @import "breakpoint";
 
 
-$susy: (
-        columns: 8,
-        gutters: 1/4,
-        gutter-position: inside,
-        container:960px,
-        debug: (
-                image: show,
-                color: blue,
-                output: overlay,
-                toggle: bottom right,
-        ),
-);
+//$micro-size: em(200);
+//$mobile-size:320px 400px;
+//$tablet-size:401px 960px;
+//$desktop-size:961px;
+//$largedesktop-size:em(1050);
+
+
+
 
 a {
   //@include link-colors(indianred, red, blue, purple, blue)
@@ -26,17 +22,11 @@ img {
 }
 
 header {
-  height: 130px;
+  //height: 130px;
 }
 
 
 
-header .wrap {
-  @include container(show);
-  height: 100%;
-  z-index: 1;
-
-}
 
   /* HEADER PAGE-CONTACTS */
 
@@ -78,11 +68,18 @@ header .wrap {
       @include span(3);
       @include isolate(1);
       position: relative;
+
+
+
+
       @include susy-breakpoint($tablet-size, 12) {
 
         @include span(12);
 
       }
+
+
+
     }
     .phone {
       @include span (last 3 of 3);
@@ -119,22 +116,28 @@ header .wrap {
 
 
 .price-menu {
-  display: none;
-  @include breakpoint($tablet-size,12) {
-    display: block;
+  @include susy-breakpoint($tablet-size, $tablet) {
+
   }
 }
 .price-nav  {
 
-  @include breakpoint($tablet-size,12) {
-    display: table;
-   @include container();
+  @include container(720px);
 
-  }
+  //@include susy-breakpoint($tablet-size, $tablet) {
+  // @include container;
+  //}
+  //
+  //@include susy-breakpoint($desktop-size, $large) {
+  //  @include container;
+  //
+  //}
 }
 
 body.page.price {
   background: url("/images/bg/bg.jpg");
+  background-size: 100%;
+  background-position: 200px 120px;
 
 }
 
@@ -148,15 +151,27 @@ body.page.price {
 
 
 .price-page {
+
   top: 200px;
   position: absolute;
-  bottom: 90px;
+  bottom: 120px;
   overflow-x: auto;
-  max-width: 960px;
+  max-width: 720px;
   left: 0;
   right: 0;
   margin: auto;
   background-color: white;;
+
+}
+.price--menu {
+
+  @include span(12);
+}
+
+.price-menu ul li{
+
+  @include gallery(2 of 12);
+
 
 }
 

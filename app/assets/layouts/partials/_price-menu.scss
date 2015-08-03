@@ -12,13 +12,12 @@
   }
 
   ul.price-nav li {
-    display:table-cell;
-    vertical-align:middle;
+
     text-align: center;
     height: 120px;
-    width: 15%;
+    width: 16%;
+    padding-top: 12px;
 
-    padding: 10px 15px;
     &:hover {
       background: palevioletred;
     }
@@ -31,23 +30,42 @@
     display: inline-block;
     color:white;
     border-bottom:1px dashed #ffffff;
+
   }
 
+
+
   ul.price-nav i {
-    background-image: url("/images/icons/menu-price/icons_sprite.png");
-    height: 80px;
+    background-position: 50% 50%;
+    background-size: 50%;
+
+    @include breakpoint($tablet-size) {
+
+      background-size: 80%;
+
+    }
+  @include breakpoint($desktop-size) {
+
+      background-size: 90%;
+
+    }
+
+    background-repeat: no-repeat;
+    height: 70px;
     width: 70px;
     left: auto;
     right: auto;
+
     margin: 0 auto;
     display: block;
     text-align: center;
   }
 
-.icon-to    {background-position: 0px 0;}
-.icon-remont{background-position: -205px  0;}
-.icon-custom{background-position: -420px 0;}
-.icon-mount {background-position: -620px 0; }
-.icon-wash  {background-position: -820px 0;}
-.icon-paint {background-position: -1025px 0;}
+
+.icon-to    {background-image: url("/images/icons/menu-price/1.svg");}
+.icon-remont{background-image: url("/images/icons/menu-price/2.svg");}
+.icon-custom{background-image: url("/images/icons/menu-price/3.svg");}
+.icon-mount {background-image: url("/images/icons/menu-price/4.svg"); }
+.icon-wash  {background-image: url("/images/icons/menu-price/5.svg");}
+.icon-paint {background-image: url("/images/icons/menu-price/6.svg");}
 

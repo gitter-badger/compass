@@ -13,13 +13,7 @@ $phone_icon: url('/images/icons_svg/tel.svg');
   height: 45px;
   width: 40px;
 
-  @media(max-width: 500px){
-
-    display: none;
-  }
-
-
-}
+ }
 
 header {
   -webkit-box-shadow: 0 1px 0px -0px rgba(119, 119, 119, 0.5);
@@ -27,14 +21,24 @@ header {
   box-shadow: 0 1px 0px -0px rgba(119, 119, 119, 0.5);
   background-color: rgba(255, 255, 255, 0.85);
   z-index: 999;
-  padding:0 1rem;
+  //padding:0 1rem;
 
 }
 
-.logo {
+.page.contacts .logo {
   background-image: url("/images/header/logo.svg");
   background-repeat: no-repeat;
-  background-position: 50% -10px;
+  background-position: 0% -10px;
+  background-size: 100px;
+  height: 100%;
+  position: relative;
+  line-height: 100%;
+
+}
+.page.price .logo {
+  background-image: url("/images/header/logo.svg");
+  background-repeat: no-repeat;
+  background-position: -25px -20px;
   background-size: 100px;
   height: 100%;
   position: relative;
@@ -100,7 +104,7 @@ header a {
 //header .phone {  white-space: nowrap;}
 //
 ////.call_btn {margin: 10px;}
-.call_btn a {
+ a.call_btn {
   border: 1px dashed indianred;
   border-radius: 5px;
   padding: 3px 12px 0;

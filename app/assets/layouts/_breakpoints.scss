@@ -1,8 +1,50 @@
 //$micro-size: em(200);
-$mobile-size:em(320);
-$tablet-size:500px;
-$desktop-size:em(960);
-$largedesktop-size:em(1050);
+$mobile-size:200px 500px;
+$tablet-size:501px 720px;
+$desktop-size:721px;
+
+
+
+$susy: (
+        columns: 8,
+        gutters: 1/4,
+        gutter-position: inside,
+        container:960px,
+        debug: (
+                image: show,
+                color: blue,
+                output: overlay,
+                toggle: bottom right,
+        ),
+);
+
+
+$mobile: (
+        columns: 6,
+        gutters: 1/4,
+        gutter-position: inside,
+        container:auto,
+);
+
+
+
+
+$tablet: (
+        columns: 12,
+        gutters: 1/4,
+        gutter-position: inside,
+        container:720px,
+);
+
+
+$large: (
+        columns: 12,
+        gutters: 1/4,
+        gutter-position: inside,
+        container:720px,
+
+);
+
 
 
 // Bourbon Neat Breakpoints
