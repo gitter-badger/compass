@@ -1,406 +1,406 @@
-
-//mobile
 //
-@include media($mobile) {
-  //
-
-  header {
-    .logo {
-      @include span-columns(3);
-    }
-    .contacts {
-      @include span-columns(5);
-      float: right;
-
-    }
-
-    .contacts > div {
-      line-height: 1.3em;
-      margin: 10px auto;
-      text-align: right;
-
-    }
-  }
-  .phone-icon, .metka-icon {
-    background-repeat: no-repeat;
-    height: 30px;
-    width: 30px;
-    display: block;
-    margin: 0 auto;
-    float:left;
-  }
-
-  footer{
-
-    .copyright {
-      @include span-columns(6);
-      text-align: left;
-      p {
-        text-align: left;
-        padding-left: 2%;
-      }
-
-    }
-    .created-by {
-      @include span-columns(6);
-      p {
-        text-align: right;
-        padding-right: 2%;
-      }
-    }
-  }
-
-}
-
-
-
-
-
-
-
-
-
-//  header {
-//
-//    padding: 1%;
-//    height: 130px;
-//
-//    //.contacts > div {
-//    //  margin: 2% 0;
-//    //}
-//
-//    .logo {
-//      @include span-columns(4);
-//    }
-//
-//    .contacts {
-//      @include span-columns(8);
-//      text-align: right;
-//      height: 100%;
-//      position: relative;
-//    }
-//
-//    .phone {
-//      @include span-columns(8 of 8);
-//      text-align: center;
-//      height: 50%;
-//      position: relative;
-//    }
-//   .address {
-//
-//     @include span-columns(8 of 8);
-//     text-align: center;
-//     height: 50%;
-//     position: relative;
-//
-//
-//
-//   }
-//
-//    .phone-icon, .metka-icon {
-//      display: block;
-//    }
-//
-//  }
-//
-//  main {
-//    #map {
-//      height: 100%;
-//      @include position(absolute, 131px 0 115px 0);
-//      width: 100%;
-//    }
-//  }
-//
-//  footer {
-//    .footer-info {@include span-columns(12);}
-//    .created-by {@include span-columns(12);}
-//  }
-//
-//}
-//  @include media($tablet) {
-//
-//    header > div {
-//      margin: 0;
-//    }
-//
-//    header .logo {
-//      position: absolute;
-//      margin-left: auto;
-//      margin-right: auto;
-//      left: 40%;
-//      right: 40%;
-//      text-align: center;
-//      width: 10%;
-//      top: 2%;
-//    }
-//    header .contacts {
-//      @include span-columns(12);
-//    }
-//    header .phone {
-//      text-align: center;
-//      @include span-columns(6);
-//
-//    }
-//    header .address {
-//      text-align: center;
-//      @include span-columns(6);
-//
-//    }
-//    header .address > strong {display: block;}
-//    header .address > a {display: inline-block;}
-//    header .phone-pic, header .metka-pic {
-//      display: block;
-//    }
-//
-//
-//    main {
-//      @include position(absolute, 131px 0 115px 0);
-//      width: 100%;
-//    }
-//    #map {
-//      height: 100%;
-//    }
-//
-//  }
-//
-//
-//
-//.footer-info{
-//  width: 100%;
-//  position: absolute;
-//  bottom: 0;
-//  padding: 0 10px;
-//}
-//.footer-info > div {
-//  @include span-columns(6);
-//}
-//
-//  .footer-info .copyright {
-//    text-align: left;
-//
-//  }
-//
-//  .footer-info .created-by {
-//    text-align: right;
-//
-//  }
-//
-//
-//
-//footer {
-//  position: fixed;
-//  bottom: 0;
-//  height: 115px;
-//  width: 100%;
-//
-//
-//  nav {
-//    display: block;
-//    font-size: .8em;
-//  }
-//
-//   ul .main-menu li {
-//
-//    display: block;
-//    width: 46%;
-//    padding: 10px 0;
-//  }
-//
-//
-//
-//}
-
+////mobile
+////
 //@include media($mobile) {
-//  header > div {margin: 0;}
-//  header {
-//
-//    @include outer-container();
-//
-//    > div {
-//      margin: 0;
-//      text-align: center;
-//    }
-//
-//    .address, .phone,  {
-//      text-align: right;
-//      //margin: .4em 5% 0 0;
-//    }
-//    .metka-pic, .phone-pic {
-//      display: none;
-//    }
-//  }
-//  header {
-//    height: 120px;
-//
-//    .logo {@include span-columns(2); }
-//    .contacts { }
-//    .telephone {
-//      font-size: 2em;
-//      padding-top: 10px;
-//      line-height: 1;
-//    }
-//    .call_btn a { line-height: 1;}
-//
-//
-//
-//  }
-//
-
-//
-//
+//  //
 //
 //  header {
 //    .logo {
 //      @include span-columns(3);
 //    }
 //    .contacts {
-//      .address {
-//        @include span-columns(5);
-//        @include omega();
-//      }
-//      .phone {
-//        @include span-columns(5);
-//      }
+//      @include span-columns(5);
+//      float: right;
+//
+//    }
+//
+//    .contacts > div {
+//      line-height: 1.3em;
+//      margin: 10px auto;
+//      text-align: right;
+//
 //    }
 //  }
-//  main {
-
-  //}
-//
-//  footer .main-menu {
+//  .phone-icon, .metka-icon {
+//    background-repeat: no-repeat;
+//    height: 30px;
+//    width: 30px;
 //    display: block;
-//    font-size: 1.2em;
+//    margin: 0 auto;
+//    float:left;
 //  }
 //
-//  footer ul .main-menu li {
+//  footer{
 //
-//    display: inline-block;
-//    width: 48%;
-//  }
+//    .copyright {
+//      @include span-columns(6);
+//      text-align: left;
+//      p {
+//        text-align: left;
+//        padding-left: 2%;
+//      }
 //
-//  footer {
-//    .info {
-//      font-size: em(10);
-//      color: #ffffff;
 //    }
-//    .info a {
-//      color: #ffffff;
+//    .created-by {
+//      @include span-columns(6);
+//      p {
+//        text-align: right;
+//        padding-right: 2%;
+//      }
 //    }
 //  }
-//  footer {
-//    text-align: center;
-//    position: absolute;
-//    bottom: 0;
-//    height: 115px;
-//    width: 100%;
-//  }
-//
-//
 //
 //}
-
 //
-//@include media($tablet) {
+//
+//
+//
+//
+//
+//
+//
+//
+////  header {
+////
+////    padding: 1%;
+////    height: 130px;
+////
+////    //.contacts > div {
+////    //  margin: 2% 0;
+////    //}
+////
+////    .logo {
+////      @include span-columns(4);
+////    }
+////
+////    .contacts {
+////      @include span-columns(8);
+////      text-align: right;
+////      height: 100%;
+////      position: relative;
+////    }
+////
+////    .phone {
+////      @include span-columns(8 of 8);
+////      text-align: center;
+////      height: 50%;
+////      position: relative;
+////    }
+////   .address {
+////
+////     @include span-columns(8 of 8);
+////     text-align: center;
+////     height: 50%;
+////     position: relative;
+////
+////
+////
+////   }
+////
+////    .phone-icon, .metka-icon {
+////      display: block;
+////    }
+////
+////  }
+////
+////  main {
+////    #map {
+////      height: 100%;
+////      @include position(absolute, 131px 0 115px 0);
+////      width: 100%;
+////    }
+////  }
+////
+////  footer {
+////    .footer-info {@include span-columns(12);}
+////    .created-by {@include span-columns(12);}
+////  }
+////
+////}
+////  @include media($tablet) {
+////
+////    header > div {
+////      margin: 0;
+////    }
+////
+////    header .logo {
+////      position: absolute;
+////      margin-left: auto;
+////      margin-right: auto;
+////      left: 40%;
+////      right: 40%;
+////      text-align: center;
+////      width: 10%;
+////      top: 2%;
+////    }
+////    header .contacts {
+////      @include span-columns(12);
+////    }
+////    header .phone {
+////      text-align: center;
+////      @include span-columns(6);
+////
+////    }
+////    header .address {
+////      text-align: center;
+////      @include span-columns(6);
+////
+////    }
+////    header .address > strong {display: block;}
+////    header .address > a {display: inline-block;}
+////    header .phone-pic, header .metka-pic {
+////      display: block;
+////    }
+////
+////
+////    main {
+////      @include position(absolute, 131px 0 115px 0);
+////      width: 100%;
+////    }
+////    #map {
+////      height: 100%;
+////    }
+////
+////  }
+////
+////
+////
+////.footer-info{
+////  width: 100%;
+////  position: absolute;
+////  bottom: 0;
+////  padding: 0 10px;
+////}
+////.footer-info > div {
+////  @include span-columns(6);
+////}
+////
+////  .footer-info .copyright {
+////    text-align: left;
+////
+////  }
+////
+////  .footer-info .created-by {
+////    text-align: right;
+////
+////  }
+////
+////
+////
+////footer {
+////  position: fixed;
+////  bottom: 0;
+////  height: 115px;
+////  width: 100%;
+////
+////
+////  nav {
+////    display: block;
+////    font-size: .8em;
+////  }
+////
+////   ul .main-menu li {
+////
+////    display: block;
+////    width: 46%;
+////    padding: 10px 0;
+////  }
+////
+////
+////
+////}
+//
+////@include media($mobile) {
+////  header > div {margin: 0;}
+////  header {
+////
+////    @include outer-container();
+////
+////    > div {
+////      margin: 0;
+////      text-align: center;
+////    }
+////
+////    .address, .phone,  {
+////      text-align: right;
+////      //margin: .4em 5% 0 0;
+////    }
+////    .metka-pic, .phone-pic {
+////      display: none;
+////    }
+////  }
+////  header {
+////    height: 120px;
+////
+////    .logo {@include span-columns(2); }
+////    .contacts { }
+////    .telephone {
+////      font-size: 2em;
+////      padding-top: 10px;
+////      line-height: 1;
+////    }
+////    .call_btn a { line-height: 1;}
+////
+////
+////
+////  }
+////
+//
+////
+////
+////
+////  header {
+////    .logo {
+////      @include span-columns(3);
+////    }
+////    .contacts {
+////      .address {
+////        @include span-columns(5);
+////        @include omega();
+////      }
+////      .phone {
+////        @include span-columns(5);
+////      }
+////    }
+////  }
+////  main {
+//
+//  //}
+////
+////  footer .main-menu {
+////    display: block;
+////    font-size: 1.2em;
+////  }
+////
+////  footer ul .main-menu li {
+////
+////    display: inline-block;
+////    width: 48%;
+////  }
+////
+////  footer {
+////    .info {
+////      font-size: em(10);
+////      color: #ffffff;
+////    }
+////    .info a {
+////      color: #ffffff;
+////    }
+////  }
+////  footer {
+////    text-align: center;
+////    position: absolute;
+////    bottom: 0;
+////    height: 115px;
+////    width: 100%;
+////  }
+////
+////
+////
+////}
+//
+////
+////@include media($tablet) {
+////
+////  header {
+////    position: relative;
+////    width: 90%;
+////    margin: 0 auto;
+////    height: 140px;
+////
+////    .logo {
+////      position:absolute;
+////      left:50%;
+////      width: 30%;
+////      margin-left: -15% ;
+////    }
+////    .contacts {
+////      margin: 0;
+////      padding: 0;
+////    }
+////    .address {
+////        font-size: 1.3em;
+////        position: absolute;
+////        left:0;
+////        text-align: center;
+////        width: 30%;
+////
+////    }
+////    .city-name {display: block;}
+////    .street {line-height: 1;}
+////
+////    .phone {
+////      position: absolute;
+////      right: 0;
+////      text-align: center;
+////      width: 30%;
+////    }
+////    .telephone {
+////      padding: 0%;
+////      font-size: 1.6em;
+////     }
+////
+////      .call_btn { line-height: 1;}
+////
+////
+////  }
+////}
+//
+////
+//@include media($desktop) {
 //
 //  header {
 //    position: relative;
-//    width: 90%;
-//    margin: 0 auto;
-//    height: 140px;
 //
-//    .logo {
-//      position:absolute;
-//      left:50%;
-//      width: 30%;
-//      margin-left: -15% ;
-//    }
-//    .contacts {
+//    > div {
 //      margin: 0;
-//      padding: 0;
-//    }
-//    .address {
-//        font-size: 1.3em;
-//        position: absolute;
-//        left:0;
-//        text-align: center;
-//        width: 30%;
-//
-//    }
-//    .city-name {display: block;}
-//    .street {line-height: 1;}
-//
-//    .phone {
-//      position: absolute;
-//      right: 0;
 //      text-align: center;
-//      width: 30%;
-//    }
-//    .telephone {
-//      padding: 0%;
-//      font-size: 1.6em;
-//     }
-//
-//      .call_btn { line-height: 1;}
-//
-//
-//  }
-//}
-
-//
-@include media($desktop) {
-
-  header {
-    position: relative;
-
-    > div {
-      margin: 0;
-      text-align: center;
-    }
-    .contacts {
-      position: absolute;
-    }
-
-    .phone, .address {
-
-      text-align: center;
-      margin: 0;
-
-    }
-
-  }
-}
-//
-//    .logo {
-//      @include span-columns(4);
 //    }
 //    .contacts {
+//      position: absolute;
+//    }
+//
+//    .phone, .address {
+//
+//      text-align: center;
 //      margin: 0;
-//      padding: 0;
-//    }
-//    .address {
-//      font-size: 1.3em;
-//      @include span-columns(4);
-//      position: absolute;
-//      left: 10%;
-//      top: 5%;
-//    }
-//    .city-name {display: block;}
-//    .street {line-height: 1;}
-//
-//    .phone {
-//      @include span-columns(4);
-//      position: absolute;
-//      top: 5%;
-//      right: 10%;
-//    }
-//    .telephone {
-//      padding: 0%;
-//      font-size: 1.6em;
 //
 //    }
-//
-//    .call_btn { line-height: 1;}
-//
 //
 //  }
 //}
+////
+////    .logo {
+////      @include span-columns(4);
+////    }
+////    .contacts {
+////      margin: 0;
+////      padding: 0;
+////    }
+////    .address {
+////      font-size: 1.3em;
+////      @include span-columns(4);
+////      position: absolute;
+////      left: 10%;
+////      top: 5%;
+////    }
+////    .city-name {display: block;}
+////    .street {line-height: 1;}
+////
+////    .phone {
+////      @include span-columns(4);
+////      position: absolute;
+////      top: 5%;
+////      right: 10%;
+////    }
+////    .telephone {
+////      padding: 0%;
+////      font-size: 1.6em;
+////
+////    }
+////
+////    .call_btn { line-height: 1;}
+////
+////
+////  }
+////}

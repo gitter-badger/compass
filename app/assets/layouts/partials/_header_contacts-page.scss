@@ -1,0 +1,246 @@
+.page.contacts header {
+
+  height: 120px;
+  background-color: #fff;
+}
+
+
+
+  @include susy-breakpoint($mobile-size, $mobile) {
+
+    header {
+      z-index: 1;
+    }
+
+    .page.contacts header {
+
+
+    .wrap {
+      @include container;
+      //padding: 0 1em ;
+      position: relative;
+      height: 120px;
+      background-color: rgba(255, 255, 255, 0.85);
+    }
+
+
+      .logo {
+        @include span(2);
+        height: 120px;
+        text-align: center;
+        position: relative;
+        top:32%;
+        transform: translateY(-30%);
+        background-position: 50% -10px;
+      }
+
+      a.home {
+        position: relative;
+        line-height: 20px;
+        @include span(2 of 2);
+        padding: 0;
+        border: none;
+      }
+      .site-name {
+        line-height: 0.9rem;
+        position: absolute;
+        top: 62%;
+        left: 0;
+        margin: 0 auto;
+        right: 0;
+
+      }
+
+      .contacts {
+
+        height: 100%;
+        @include span(4);
+        text-align: center;
+      }
+
+      .address {
+        @include span(4 of 4);
+        text-align: center;
+        margin-top: 25px ;
+        margin-bottom: 5px ;
+      }
+
+      .address a {
+        display: inline;
+      }
+
+      .phone {
+        @include span(4 of 4);
+        text-align: center;
+        margin-top:5px;
+      }
+
+      .telephone {
+        font-size: 1.3rem;
+      }
+
+
+      .call_btn {
+        display: block;
+        width: 30%;
+        margin: 0 auto;
+        min-width: 60px;
+      }
+
+      .h_icon {
+        display: none;
+        float: left;
+        background-size: 27px;
+      }
+    }
+  }
+
+
+
+
+
+  @include susy-breakpoint($tablet-size, $tablet ) {
+
+    header {
+
+    }
+    .page.contacts header .wrap {
+      @include container();
+
+      height: 120px;
+      background-color: rgba(255, 255, 255, 0.85);
+
+      .logo {
+        @include span(2);
+        height: 120px;
+        min-width: 70px;
+        position: absolute;
+        left: 0%;
+        right: 0%;
+        margin: auto;
+        background-position: 50% -10px;
+      }
+
+      a.home {
+        position: relative;
+        line-height: 20px;
+        border: none;
+      }
+      .site-name {
+        position: absolute;
+        bottom: 0px;
+        margin: auto;
+        left: 0;
+        text-align: center;
+        right: 0%;
+      }
+
+      .contacts {
+
+        height: 100%;
+        @include span(12);
+        position: relative;
+        text-align: right;
+        top:5%;
+        transform: translateY(20%);
+
+      }
+
+      .address {
+        @include span(first 6);
+        //@include vertical-center;
+        text-align: center;
+        top:55%;
+        line-height: 1.6rem;
+      }
+      .phone {
+        @include span(last 6) ;
+        text-align: center;
+        //@include vertical-center;
+        top:55%;
+        line-height: 1.6rem;
+      }
+
+      .h_icon {
+        float: none;
+        margin: 0 auto;
+        height:35px;
+        background-size: 30px;
+      }
+    }
+
+  }
+
+
+  @include susy-breakpoint($desktop-size, $large ) {
+
+    header {
+
+
+    }
+    .page.contacts header {
+
+    .wrap {
+      @include container();
+      height: 130px;
+    }
+      .logo {
+        @include span(2);
+        height: 120px;
+        min-width: 70px;
+        position: absolute;
+        left: 0%;
+        right: 0%;
+        margin: auto;
+        background-position: 50% -10px;
+      }
+
+      a.home {
+        position: relative;
+        line-height: 20px;
+        border: none;
+      }
+      .site-name {
+        position: absolute;
+        bottom: 0px;
+        margin: auto;
+        left: 0;
+        text-align: center;
+        right: 0%;
+      }
+
+      .contacts {
+
+        height: 100%;
+        @include span(12);
+        position: relative;
+        text-align: right;
+        top:5%;
+        transform: translateY(20%);
+
+      }
+
+      .address {
+        @include span(first 6);
+        //@include vertical-center;
+        text-align: center;
+        top:55%;
+        line-height: 1.6rem;
+      }
+      .phone {
+        @include span(last 6) ;
+        text-align: center;
+        //@include vertical-center;
+        top:55%;
+        line-height: 1.6rem;
+      }
+
+      .h_icon {
+        float: none;
+        margin: 0 auto;
+        height:35px;
+        background-size: 30px;
+      }
+    }
+
+  }

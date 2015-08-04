@@ -1,50 +1,50 @@
-@include media($desktop) {
-
-  header {
-    padding: 20px 0;
-
-    .logo {
-      text-align: center;
-      position: absolute;
-      left: 0;
-      right: 0;
-      margin: 0 auto;
-      width: 100px;
-
-    }
-    .contacts {
-      @include span-columns(12);
-      //position: absolute;
-      //width: 960px;
-      position: absolute;
-      margin-left: auto;
-      margin-right: auto;
-      left: 0;
-      right: 0;
-      padding: 0 15%;
-      @include reset-all;
-      //@include outer-container();
-    }
-
-
-    .contacts > div {
-      width: 50%;
-      text-align: center;
-      //  line-height: 1.3em;
-      margin: 10px auto;
-      //  text-align: left;
-      //
-    }
-
-    .phone-icon, .metka-icon {
-      height: 42px;
-      float: none;
-    }
-  }
-
-
-  footer {height: 15%;}
-  footer nav {height: 80%;}
-  .footer-info {width: 100%; height: 20%;}
-
-}
+//@include media($desktop) {
+//
+//  header {
+//    padding: 20px 0;
+//
+//    .logo {
+//      text-align: center;
+//      position: absolute;
+//      left: 0;
+//      right: 0;
+//      margin: 0 auto;
+//      width: 100px;
+//
+//    }
+//    .contacts {
+//      @include span-columns(12);
+//      //position: absolute;
+//      //width: 960px;
+//      position: absolute;
+//      margin-left: auto;
+//      margin-right: auto;
+//      left: 0;
+//      right: 0;
+//      padding: 0 15%;
+//      @include reset-all;
+//      //@include outer-container();
+//    }
+//
+//
+//    .contacts > div {
+//      width: 50%;
+//      text-align: center;
+//      //  line-height: 1.3em;
+//      margin: 10px auto;
+//      //  text-align: left;
+//      //
+//    }
+//
+//    .phone-icon, .metka-icon {
+//      height: 42px;
+//      float: none;
+//    }
+//  }
+//
+//
+//  footer {height: 15%;}
+//  footer nav {height: 80%;}
+//  .footer-info {width: 100%; height: 20%;}
+//
+//}

@@ -1,6 +1,6 @@
 //$micro-size: em(200);
-$mobile-size:200px 500px;
-$tablet-size:501px 720px;
+$mobile-size:200px 480px;
+$tablet-size:481px 720px;
 $desktop-size:721px;
 
 
@@ -41,7 +41,7 @@ $large: (
         columns: 12,
         gutters: 1/4,
         gutter-position: inside,
-        container:720px,
+        container:960px,
 
 );
 

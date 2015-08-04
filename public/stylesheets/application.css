@@ -1,3 +1,30 @@
+/* line 3, ../../app/assets/_base.scss */
+header > div {
+  -webkit-transition: all,.6s;
+  -moz-transition: all,.6s;
+  -ms-transition: all,.6s;
+  -o-transition: all,.6s;
+  transition: all,.6s;
+}
+
+/* line 11, ../../app/assets/_base.scss */
+body, img {
+  -webkit-transition: all,.6s;
+  -moz-transition: all,.6s;
+  -ms-transition: all,.6s;
+  -o-transition: all,.6s;
+  transition: all,.6s;
+}
+
+/* line 19, ../../app/assets/_base.scss */
+nav li {
+  -webkit-transition: all,.6s;
+  -moz-transition: all,.6s;
+  -ms-transition: all,.6s;
+  -o-transition: all,.6s;
+  transition: all,.6s;
+}
+
 /* line 5, ../../app/assets/layouts/partials/_header.scss */
 .metka-icon {
   background-image: url("/images/icons_svg/metka.svg");
@@ -118,24 +145,29 @@ a.call_btn:hover {
   text-decoration: none;
 }
 
-@media (min-width: 200px) and (max-width: 500px) {
-  /* line 20, ../../app/assets/layouts/partials/_header_price-page.scss */
+/* line 1, ../../app/assets/layouts/partials/_header_contacts-page.scss */
+.page.contacts header {
+  height: 120px;
+  background-color: #fff;
+}
+
+@media (min-width: 200px) and (max-width: 480px) {
+  /* line 11, ../../app/assets/layouts/partials/_header_contacts-page.scss */
   header {
-    height: 80px;
-    background: rgba(255, 0, 0, 0);
-    position: relative;
+    z-index: 1;
   }
 
-  /* line 26, ../../app/assets/layouts/partials/_header_price-page.scss */
-  .page.price header .wrap {
+  /* line 18, ../../app/assets/layouts/partials/_header_contacts-page.scss */
+  .page.contacts header .wrap {
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    height: 80px;
+    height: 120px;
+    background-color: rgba(255, 255, 255, 0.85);
   }
   /* line 12, ../../../../.rvm/gems/ruby-1.9.3-p551-dev/gems/susy-2.2.5/sass/susy/output/support/_clearfix.scss */
-  .page.price header .wrap:after {
+  .page.contacts header .wrap:after {
     content: " ";
     display: block;
     clear: both;
@@ -165,6 +197,378 @@ a.call_btn:hover {
     color: red;
   }
   /* line 71, ../../../../.rvm/gems/ruby-1.9.3-p551-dev/gems/susy-2.2.5/sass/susy/language/susy/_background.scss */
+  head:hover ~ .page.contacts header .wrap, head:hover ~ body .page.contacts header .wrap {
+    position: relative;
+  }
+  /* line 74, ../../../../.rvm/gems/ruby-1.9.3-p551-dev/gems/susy-2.2.5/sass/susy/language/susy/_background.scss */
+  head:hover ~ .page.contacts header .wrap:before, head:hover ~ body .page.contacts header .wrap:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    content: " ";
+    z-index: 998;
+    background-image: linear-gradient(to right, blue, #4d4dff);
+    background-size: 16.66667%;
+    background-origin: content-box;
+    background-clip: content-box;
+    background-position: left top;
+  }
+  /* line 27, ../../app/assets/layouts/partials/_header_contacts-page.scss */
+  .page.contacts header .logo {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 33.33333%;
+    float: left;
+    padding-left: 1.66667%;
+    padding-right: 1.66667%;
+    height: 120px;
+    text-align: center;
+    position: relative;
+    top: 32%;
+    transform: translateY(-30%);
+    background-position: 50% -10px;
+  }
+  /* line 37, ../../app/assets/layouts/partials/_header_contacts-page.scss */
+  .page.contacts header a.home {
+    position: relative;
+    line-height: 20px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    float: left;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding: 0;
+    border: none;
+  }
+  /* line 44, ../../app/assets/layouts/partials/_header_contacts-page.scss */
+  .page.contacts header .site-name {
+    line-height: 0.9rem;
+    position: absolute;
+    top: 62%;
+    left: 0;
+    margin: 0 auto;
+    right: 0;
+  }
+  /* line 54, ../../app/assets/layouts/partials/_header_contacts-page.scss */
+  .page.contacts header .contacts {
+    height: 100%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 66.66667%;
+    float: left;
+    padding-left: 1.66667%;
+    padding-right: 1.66667%;
+    text-align: center;
+  }
+  /* line 61, ../../app/assets/layouts/partials/_header_contacts-page.scss */
+  .page.contacts header .address {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    float: left;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 5px;
+  }
+  /* line 68, ../../app/assets/layouts/partials/_header_contacts-page.scss */
+  .page.contacts header .address a {
+    display: inline;
+  }
+  /* line 72, ../../app/assets/layouts/partials/_header_contacts-page.scss */
+  .page.contacts header .phone {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    float: left;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    text-align: center;
+    margin-top: 5px;
+  }
+  /* line 78, ../../app/assets/layouts/partials/_header_contacts-page.scss */
+  .page.contacts header .telephone {
+    font-size: 1.3rem;
+  }
+  /* line 83, ../../app/assets/layouts/partials/_header_contacts-page.scss */
+  .page.contacts header .call_btn {
+    display: block;
+    width: 30%;
+    margin: 0 auto;
+    min-width: 60px;
+  }
+  /* line 90, ../../app/assets/layouts/partials/_header_contacts-page.scss */
+  .page.contacts header .h_icon {
+    display: none;
+    float: left;
+    background-size: 27px;
+  }
+}
+@media (min-width: 481px) and (max-width: 720px) {
+  /* line 107, ../../app/assets/layouts/partials/_header_contacts-page.scss */
+  .page.contacts header .wrap {
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 120px;
+    background-color: rgba(255, 255, 255, 0.85);
+  }
+  /* line 12, ../../../../.rvm/gems/ruby-1.9.3-p551-dev/gems/susy-2.2.5/sass/susy/output/support/_clearfix.scss */
+  .page.contacts header .wrap:after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+  /* line 71, ../../../../.rvm/gems/ruby-1.9.3-p551-dev/gems/susy-2.2.5/sass/susy/language/susy/_background.scss */
+  head:hover ~ .page.contacts header .wrap, head:hover ~ body .page.contacts header .wrap {
+    position: relative;
+  }
+  /* line 74, ../../../../.rvm/gems/ruby-1.9.3-p551-dev/gems/susy-2.2.5/sass/susy/language/susy/_background.scss */
+  head:hover ~ .page.contacts header .wrap:before, head:hover ~ body .page.contacts header .wrap:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    content: " ";
+    z-index: 998;
+    background-image: linear-gradient(to right, blue, #4d4dff);
+    background-size: 8.33333%;
+    background-origin: content-box;
+    background-clip: content-box;
+    background-position: left top;
+  }
+  /* line 113, ../../app/assets/layouts/partials/_header_contacts-page.scss */
+  .page.contacts header .wrap .logo {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 16.66667%;
+    float: left;
+    padding-left: 0.83333%;
+    padding-right: 0.83333%;
+    height: 120px;
+    min-width: 70px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    margin: auto;
+    background-position: 50% -10px;
+  }
+  /* line 124, ../../app/assets/layouts/partials/_header_contacts-page.scss */
+  .page.contacts header .wrap a.home {
+    position: relative;
+    line-height: 20px;
+    border: none;
+  }
+  /* line 129, ../../app/assets/layouts/partials/_header_contacts-page.scss */
+  .page.contacts header .wrap .site-name {
+    position: absolute;
+    bottom: 0px;
+    margin: auto;
+    left: 0;
+    text-align: center;
+    right: 0%;
+  }
+  /* line 138, ../../app/assets/layouts/partials/_header_contacts-page.scss */
+  .page.contacts header .wrap .contacts {
+    height: 100%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    float: left;
+    padding-left: 0.83333%;
+    padding-right: 0.83333%;
+    position: relative;
+    text-align: right;
+    top: 5%;
+    transform: translateY(20%);
+  }
+  /* line 149, ../../app/assets/layouts/partials/_header_contacts-page.scss */
+  .page.contacts header .wrap .address {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+    padding-left: 0.83333%;
+    padding-right: 0.83333%;
+    text-align: center;
+    top: 55%;
+    line-height: 1.6rem;
+  }
+  /* line 156, ../../app/assets/layouts/partials/_header_contacts-page.scss */
+  .page.contacts header .wrap .phone {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 50%;
+    float: right;
+    padding-left: 0.83333%;
+    padding-right: 0.83333%;
+    text-align: center;
+    top: 55%;
+    line-height: 1.6rem;
+  }
+  /* line 164, ../../app/assets/layouts/partials/_header_contacts-page.scss */
+  .page.contacts header .wrap .h_icon {
+    float: none;
+    margin: 0 auto;
+    height: 35px;
+    background-size: 30px;
+  }
+}
+@media (min-width: 721px) {
+  /* line 183, ../../app/assets/layouts/partials/_header_contacts-page.scss */
+  .page.contacts header .wrap {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 130px;
+  }
+  /* line 12, ../../../../.rvm/gems/ruby-1.9.3-p551-dev/gems/susy-2.2.5/sass/susy/output/support/_clearfix.scss */
+  .page.contacts header .wrap:after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+  /* line 71, ../../../../.rvm/gems/ruby-1.9.3-p551-dev/gems/susy-2.2.5/sass/susy/language/susy/_background.scss */
+  head:hover ~ .page.contacts header .wrap, head:hover ~ body .page.contacts header .wrap {
+    position: relative;
+  }
+  /* line 74, ../../../../.rvm/gems/ruby-1.9.3-p551-dev/gems/susy-2.2.5/sass/susy/language/susy/_background.scss */
+  head:hover ~ .page.contacts header .wrap:before, head:hover ~ body .page.contacts header .wrap:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    content: " ";
+    z-index: 998;
+    background-image: linear-gradient(to right, blue, #4d4dff);
+    background-size: 8.33333%;
+    background-origin: content-box;
+    background-clip: content-box;
+    background-position: left top;
+  }
+  /* line 187, ../../app/assets/layouts/partials/_header_contacts-page.scss */
+  .page.contacts header .logo {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 16.66667%;
+    float: left;
+    padding-left: 0.83333%;
+    padding-right: 0.83333%;
+    height: 120px;
+    min-width: 70px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    margin: auto;
+    background-position: 50% -10px;
+  }
+  /* line 198, ../../app/assets/layouts/partials/_header_contacts-page.scss */
+  .page.contacts header a.home {
+    position: relative;
+    line-height: 20px;
+    border: none;
+  }
+  /* line 203, ../../app/assets/layouts/partials/_header_contacts-page.scss */
+  .page.contacts header .site-name {
+    position: absolute;
+    bottom: 0px;
+    margin: auto;
+    left: 0;
+    text-align: center;
+    right: 0%;
+  }
+  /* line 212, ../../app/assets/layouts/partials/_header_contacts-page.scss */
+  .page.contacts header .contacts {
+    height: 100%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    float: left;
+    padding-left: 0.83333%;
+    padding-right: 0.83333%;
+    position: relative;
+    text-align: right;
+    top: 5%;
+    transform: translateY(20%);
+  }
+  /* line 223, ../../app/assets/layouts/partials/_header_contacts-page.scss */
+  .page.contacts header .address {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+    padding-left: 0.83333%;
+    padding-right: 0.83333%;
+    text-align: center;
+    top: 55%;
+    line-height: 1.6rem;
+  }
+  /* line 230, ../../app/assets/layouts/partials/_header_contacts-page.scss */
+  .page.contacts header .phone {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 50%;
+    float: right;
+    padding-left: 0.83333%;
+    padding-right: 0.83333%;
+    text-align: center;
+    top: 55%;
+    line-height: 1.6rem;
+  }
+  /* line 238, ../../app/assets/layouts/partials/_header_contacts-page.scss */
+  .page.contacts header .h_icon {
+    float: none;
+    margin: 0 auto;
+    height: 35px;
+    background-size: 30px;
+  }
+}
+/* line 16, ../../app/assets/layouts/partials/_header_price-page.scss */
+header {
+  background: white;
+}
+
+@media (min-width: 200px) and (max-width: 480px) {
+  /* line 20, ../../app/assets/layouts/partials/_header_price-page.scss */
+  header {
+    height: 80px;
+    position: relative;
+  }
+
+  /* line 25, ../../app/assets/layouts/partials/_header_price-page.scss */
+  .page.price header .wrap {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    height: 80px;
+  }
+  /* line 12, ../../../../.rvm/gems/ruby-1.9.3-p551-dev/gems/susy-2.2.5/sass/susy/output/support/_clearfix.scss */
+  .page.price header .wrap:after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+  /* line 71, ../../../../.rvm/gems/ruby-1.9.3-p551-dev/gems/susy-2.2.5/sass/susy/language/susy/_background.scss */
   head:hover ~ .page.price header .wrap, head:hover ~ body .page.price header .wrap {
     position: relative;
   }
@@ -183,7 +587,7 @@ a.call_btn:hover {
     background-clip: content-box;
     background-position: left top;
   }
-  /* line 32, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 31, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .logo {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -198,7 +602,7 @@ a.call_btn:hover {
     top: 50%;
     transform: translateY(-30%);
   }
-  /* line 41, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 40, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap a.home {
     position: relative;
     left: 50px;
@@ -213,12 +617,12 @@ a.call_btn:hover {
     padding-right: 5%;
     border: none;
   }
-  /* line 50, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 49, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .site-name {
     top: 55%;
     left: 60%;
   }
-  /* line 55, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 54, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .contacts {
     height: 100%;
     -moz-box-sizing: border-box;
@@ -231,7 +635,7 @@ a.call_btn:hover {
     position: relative;
     text-align: right;
   }
-  /* line 63, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 62, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .address {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -242,11 +646,11 @@ a.call_btn:hover {
     padding-right: 2.5%;
     text-align: right;
   }
-  /* line 68, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 67, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .address a {
     display: block;
   }
-  /* line 72, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 71, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .phone {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -257,22 +661,21 @@ a.call_btn:hover {
     padding-right: 2.5%;
     text-align: right;
   }
-  /* line 79, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 78, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .h_icon {
     float: left;
     background-size: 27px;
   }
 }
-@media (min-width: 501px) and (max-width: 720px) {
-  /* line 91, ../../app/assets/layouts/partials/_header_price-page.scss */
-  header {
+@media (min-width: 481px) and (max-width: 720px) {
+  /* line 90, ../../app/assets/layouts/partials/_header_price-page.scss */
+  .page.price header {
     height: 80px;
-    background: rgba(255, 0, 0, 0);
     position: relative;
     padding: 0 5%;
   }
 
-  /* line 97, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 95, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap {
     max-width: 720px;
     margin-left: auto;
@@ -305,7 +708,7 @@ a.call_btn:hover {
     background-clip: content-box;
     background-position: left top;
   }
-  /* line 102, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 100, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .logo {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -320,7 +723,7 @@ a.call_btn:hover {
     top: 50%;
     transform: translateY(-30%);
   }
-  /* line 111, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 109, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap a.home {
     position: relative;
     left: 50px;
@@ -328,12 +731,12 @@ a.call_btn:hover {
     line-height: 20px;
     border: none;
   }
-  /* line 119, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 117, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .site-name {
     top: 55%;
     left: 60%;
   }
-  /* line 124, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 122, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .contacts {
     height: 100%;
     -moz-box-sizing: border-box;
@@ -347,7 +750,7 @@ a.call_btn:hover {
     text-align: right;
     top: 5%;
   }
-  /* line 133, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 131, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .address {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -360,7 +763,7 @@ a.call_btn:hover {
     top: 55%;
     line-height: 1.6rem;
   }
-  /* line 140, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 138, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .phone {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -372,7 +775,7 @@ a.call_btn:hover {
     top: 55%;
     line-height: 1.6rem;
   }
-  /* line 148, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 146, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .h_icon {
     float: none;
     margin: 0 auto;
@@ -381,15 +784,14 @@ a.call_btn:hover {
   }
 }
 @media (min-width: 721px) {
-  /* line 161, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 159, ../../app/assets/layouts/partials/_header_price-page.scss */
   header {
     height: 80px;
-    background: rgba(255, 0, 0, 0);
   }
 
-  /* line 165, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 162, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap {
-    max-width: 720px;
+    max-width: 960px;
     margin-left: auto;
     margin-right: auto;
     position: relative;
@@ -421,7 +823,7 @@ a.call_btn:hover {
     background-clip: content-box;
     background-position: left top;
   }
-  /* line 171, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 168, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .logo {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -435,17 +837,17 @@ a.call_btn:hover {
     max-width: 80px;
     position: relative;
   }
-  /* line 180, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 177, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap a.home {
     border: none;
   }
-  /* line 183, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 180, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .site-name {
     position: relative;
     top: 25%;
     left: 55px;
   }
-  /* line 190, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 187, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .contacts {
     height: 100%;
     -moz-box-sizing: border-box;
@@ -457,7 +859,7 @@ a.call_btn:hover {
     padding-right: 0.83333%;
     position: relative;
   }
-  /* line 199, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 196, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .address {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -473,7 +875,7 @@ a.call_btn:hover {
     top: 55%;
     line-height: 2.6rem;
   }
-  /* line 209, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 206, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .phone {
     position: absolute;
     top: 50%;
@@ -490,7 +892,7 @@ a.call_btn:hover {
     line-height: 2.6rem;
     left: 50%;
   }
-  /* line 220, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 217, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .h_icon {
     float: left;
   }
@@ -524,7 +926,12 @@ ul.price-nav li:hover {
   background: palevioletred;
 }
 
-/* line 27, ../../app/assets/layouts/partials/_price-menu.scss */
+/* line 28, ../../app/assets/layouts/partials/_price-menu.scss */
+ul.price-nav li input[type=radio] {
+  display: none;
+}
+
+/* line 33, ../../app/assets/layouts/partials/_price-menu.scss */
 ul.price-nav li a {
   height: 100%;
   width: 100%;
@@ -533,7 +940,7 @@ ul.price-nav li a {
   border-bottom: 1px dashed #ffffff;
 }
 
-/* line 38, ../../app/assets/layouts/partials/_price-menu.scss */
+/* line 44, ../../app/assets/layouts/partials/_price-menu.scss */
 ul.price-nav i {
   background-position: 50% 50%;
   background-size: 50%;
@@ -546,45 +953,45 @@ ul.price-nav i {
   display: block;
   text-align: center;
 }
-@media (min-width: 501px) and (max-width: 720px) {
-  /* line 38, ../../app/assets/layouts/partials/_price-menu.scss */
+@media (min-width: 481px) and (max-width: 720px) {
+  /* line 44, ../../app/assets/layouts/partials/_price-menu.scss */
   ul.price-nav i {
     background-size: 80%;
   }
 }
 @media (min-width: 721px) {
-  /* line 38, ../../app/assets/layouts/partials/_price-menu.scss */
+  /* line 44, ../../app/assets/layouts/partials/_price-menu.scss */
   ul.price-nav i {
     background-size: 90%;
   }
 }
 
-/* line 65, ../../app/assets/layouts/partials/_price-menu.scss */
+/* line 71, ../../app/assets/layouts/partials/_price-menu.scss */
 .icon-to {
   background-image: url("/images/icons/menu-price/1.svg");
 }
 
-/* line 66, ../../app/assets/layouts/partials/_price-menu.scss */
+/* line 72, ../../app/assets/layouts/partials/_price-menu.scss */
 .icon-remont {
   background-image: url("/images/icons/menu-price/2.svg");
 }
 
-/* line 67, ../../app/assets/layouts/partials/_price-menu.scss */
+/* line 73, ../../app/assets/layouts/partials/_price-menu.scss */
 .icon-custom {
   background-image: url("/images/icons/menu-price/3.svg");
 }
 
-/* line 68, ../../app/assets/layouts/partials/_price-menu.scss */
+/* line 74, ../../app/assets/layouts/partials/_price-menu.scss */
 .icon-mount {
   background-image: url("/images/icons/menu-price/4.svg");
 }
 
-/* line 69, ../../app/assets/layouts/partials/_price-menu.scss */
+/* line 75, ../../app/assets/layouts/partials/_price-menu.scss */
 .icon-wash {
   background-image: url("/images/icons/menu-price/5.svg");
 }
 
-/* line 70, ../../app/assets/layouts/partials/_price-menu.scss */
+/* line 76, ../../app/assets/layouts/partials/_price-menu.scss */
 .icon-paint {
   background-image: url("/images/icons/menu-price/6.svg");
 }
@@ -608,40 +1015,42 @@ footer ul.main-menu {
 /* line 15, ../../app/assets/layouts/partials/_footer.scss */
 footer ul.main-menu li {
   display: inline-block;
-  padding: 10px;
+  height: 60px;
+  width: 40%;
   margin: 0 5px;
   background-color: indianred;
   max-width: 225px;
-  min-width: 120px;
+  min-width: 100px;
 }
-/* line 24, ../../app/assets/layouts/partials/_footer.scss */
+/* line 25, ../../app/assets/layouts/partials/_footer.scss */
 footer ul.main-menu li:hover {
-  padding: 10px 0 0 0;
+  padding: 0 0 5px 0;
 }
-/* line 29, ../../app/assets/layouts/partials/_footer.scss */
+/* line 30, ../../app/assets/layouts/partials/_footer.scss */
 footer ul.main-menu a {
   display: block;
+  transform: translateY(80%);
   text-decoration: none;
   border: 0;
   font-family: BebasBold;
-  font-size: em(24);
-  color: #ffffff;
+  font-size: 1.3rem;
+  color: #fff;
 }
-/* line 38, ../../app/assets/layouts/partials/_footer.scss */
+/* line 40, ../../app/assets/layouts/partials/_footer.scss */
 footer .footer-info {
   font-size: 65%;
   color: rgba(255, 255, 255, 0.8);
 }
-/* line 41, ../../app/assets/layouts/partials/_footer.scss */
+/* line 43, ../../app/assets/layouts/partials/_footer.scss */
 footer .footer-info p {
   margin: 0;
 }
-/* line 42, ../../app/assets/layouts/partials/_footer.scss */
+/* line 44, ../../app/assets/layouts/partials/_footer.scss */
 footer .footer-info a {
   color: rgba(255, 255, 255, 0.8);
   border-bottom: 1px dashed rgba(255, 255, 255, 0.6);
 }
-/* line 51, ../../app/assets/layouts/partials/_footer.scss */
+/* line 53, ../../app/assets/layouts/partials/_footer.scss */
 footer .created-by {
   text-align: right;
   font-style: italic;
@@ -728,14 +1137,21 @@ html {
   line-height: 1.22222em;
 }
 
-@media (min-width: 200px 500px) and (max-width: 501px 720px) {
+@media (min-width: 200px 480px) and (max-width: 481px 720px) {
   /* line 106, ../../../../.rvm/gems/ruby-1.9.3-p551-dev/gems/compass-core-1.0.3/stylesheets/compass/typography/_vertical_rhythm.scss */
   html {
     font-size: 112.5%;
     line-height: 1.22222em;
   }
 }
-@media (min-width: 501px 720px) {
+@media (min-width: 481px 720px) {
+  /* line 106, ../../../../.rvm/gems/ruby-1.9.3-p551-dev/gems/compass-core-1.0.3/stylesheets/compass/typography/_vertical_rhythm.scss */
+  html {
+    font-size: 137.5%;
+    line-height: 1.13636em;
+  }
+}
+@media (min-width: 721px) {
   /* line 106, ../../../../.rvm/gems/ruby-1.9.3-p551-dev/gems/compass-core-1.0.3/stylesheets/compass/typography/_vertical_rhythm.scss */
   html {
     font-size: 137.5%;
@@ -744,13 +1160,13 @@ html {
 }
 /*DEBUG*/
 /**/
-/* line 62, ../../app/assets/style/_typography.scss */
+/* line 69, ../../app/assets/style/_typography.scss */
 h1, h2, h3, h4, h5, p, iframe {
   margin-bottom: 25px;
   margin-bottom: 1.13636rem;
 }
 
-/* line 68, ../../app/assets/style/_typography.scss */
+/* line 75, ../../app/assets/style/_typography.scss */
 h1 {
   font-size: 69px;
   font-size: 3.157rem;
@@ -758,7 +1174,7 @@ h1 {
   line-height: 3.40909rem;
 }
 
-/* line 69, ../../app/assets/style/_typography.scss */
+/* line 76, ../../app/assets/style/_typography.scss */
 h2 {
   font-size: 52px;
   font-size: 2.369rem;
@@ -766,7 +1182,7 @@ h2 {
   line-height: 3.40909rem;
 }
 
-/* line 70, ../../app/assets/style/_typography.scss */
+/* line 77, ../../app/assets/style/_typography.scss */
 h3 {
   font-size: 39px;
   font-size: 1.777rem;
@@ -774,7 +1190,7 @@ h3 {
   line-height: 2.27273rem;
 }
 
-/* line 71, ../../app/assets/style/_typography.scss */
+/* line 78, ../../app/assets/style/_typography.scss */
 h4 {
   font-size: 25px;
   font-size: 1.133rem;
@@ -782,7 +1198,7 @@ h4 {
   line-height: 2.27273rem;
 }
 
-/* line 72, ../../app/assets/style/_typography.scss */
+/* line 79, ../../app/assets/style/_typography.scss */
 h5 {
   font-size: 22px;
   font-size: 1rem;
@@ -790,7 +1206,7 @@ h5 {
   line-height: 2.27273rem;
 }
 
-/* line 73, ../../app/assets/style/_typography.scss */
+/* line 80, ../../app/assets/style/_typography.scss */
 h6 {
   font-size: 17px;
   font-size: 0.75rem;
@@ -798,27 +1214,27 @@ h6 {
   line-height: 1.13636rem;
 }
 
-/* line 75, ../../app/assets/style/_typography.scss */
+/* line 82, ../../app/assets/style/_typography.scss */
 a {
   text-decoration: none;
 }
 
-/* line 80, ../../app/assets/style/_typography.scss */
+/* line 87, ../../app/assets/style/_typography.scss */
 ul {
   list-style-type: none;
 }
 
-/* line 83, ../../app/assets/style/_typography.scss */
+/* line 90, ../../app/assets/style/_typography.scss */
 a, p, span {
   font-family: "BebasRegular";
 }
 
-/* line 86, ../../app/assets/style/_typography.scss */
+/* line 93, ../../app/assets/style/_typography.scss */
 strong {
   font-family: "BebasBold";
 }
 
-/* line 90, ../../app/assets/style/_typography.scss */
+/* line 97, ../../app/assets/style/_typography.scss */
 header .contacts {
   font-family: "BebasRegular";
 }
@@ -828,132 +1244,6 @@ img {
   max-width: 100%;
   margin: auto;
   display: block;
-}
-
-/* HEADER PAGE-CONTACTS */
-/* line 35, ../../app/assets/_susy_grid.scss */
-.page.contacts header .logo {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  width: 12.5%;
-  float: left;
-  padding-left: 1.25%;
-  padding-right: 1.25%;
-  height: 100%;
-  min-width: 70px;
-}
-@media (min-width: 501px) and (max-width: 720px) {
-  /* line 35, ../../app/assets/_susy_grid.scss */
-  .page.contacts header .logo {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    width: 16.66667%;
-    float: left;
-    padding-left: 0.83333%;
-    padding-right: 0.83333%;
-    float: left;
-    margin-left: 41.66667%;
-    margin-right: -100%;
-    text-align: center;
-  }
-}
-/* line 47, ../../app/assets/_susy_grid.scss */
-.page.contacts header .site-name {
-  position: absolute;
-  bottom: 10px;
-  left: 0;
-  right: 0;
-  margin: auto;
-  text-align: center;
-}
-@media (min-width: 501px) and (max-width: 720px) {
-  /* line 47, ../../app/assets/_susy_grid.scss */
-  .page.contacts header .site-name {
-    bottom: 0px;
-  }
-}
-/* line 66, ../../app/assets/_susy_grid.scss */
-.page.contacts header .contacts {
-  height: 100%;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  width: 37.5%;
-  float: left;
-  padding-left: 1.25%;
-  padding-right: 1.25%;
-  float: left;
-  margin-left: 0;
-  margin-right: -100%;
-  position: relative;
-}
-@media (min-width: 501px) and (max-width: 720px) {
-  /* line 66, ../../app/assets/_susy_grid.scss */
-  .page.contacts header .contacts {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    width: 100%;
-    float: left;
-    padding-left: 0.83333%;
-    padding-right: 0.83333%;
-  }
-}
-/* line 84, ../../app/assets/_susy_grid.scss */
-.page.contacts header .phone {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  width: 100%;
-  float: right;
-  padding-left: 3.33333%;
-  padding-right: 3.33333%;
-  height: 50%;
-  text-align: right;
-  padding: 10px 0;
-}
-@media (min-width: 501px) and (max-width: 720px) {
-  /* line 84, ../../app/assets/_susy_grid.scss */
-  .page.contacts header .phone {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    width: 50%;
-    float: right;
-    padding-left: 0.83333%;
-    padding-right: 0.83333%;
-    margin: 5px 0;
-    text-align: center;
-  }
-}
-/* line 96, ../../app/assets/_susy_grid.scss */
-.page.contacts header .address {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  width: 100%;
-  float: right;
-  padding-left: 3.33333%;
-  padding-right: 3.33333%;
-  text-align: right;
-  height: 50%;
-  padding: 10px 0;
-}
-@media (min-width: 501px) and (max-width: 720px) {
-  /* line 96, ../../app/assets/_susy_grid.scss */
-  .page.contacts header .address {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    width: 50%;
-    float: left;
-    padding-left: 0.83333%;
-    padding-right: 0.83333%;
-    text-align: center;
-    margin: 5px 0;
-  }
 }
 
 /* line 123, ../../app/assets/_susy_grid.scss */
@@ -1021,7 +1311,6 @@ head:hover ~ .price-nav:before, head:hover ~ body .price-nav:before {
 /* line 137, ../../app/assets/_susy_grid.scss */
 body.page.price {
   background: url("/images/bg/bg.jpg");
-  background-size: 100%;
   background-position: 200px 120px;
 }
 
@@ -1155,31 +1444,4 @@ footer .copyright {
   float: left;
   padding-left: 1.25%;
   padding-right: 1.25%;
-}
-
-/* line 3, ../../app/assets/_base.scss */
-header > div {
-  -webkit-transition: all,.6s;
-  -moz-transition: all,.6s;
-  -ms-transition: all,.6s;
-  -o-transition: all,.6s;
-  transition: all,.6s;
-}
-
-/* line 11, ../../app/assets/_base.scss */
-body, img {
-  -webkit-transition: all,.6s;
-  -moz-transition: all,.6s;
-  -ms-transition: all,.6s;
-  -o-transition: all,.6s;
-  transition: all,.6s;
-}
-
-/* line 19, ../../app/assets/_base.scss */
-nav li {
-  -webkit-transition: all,.6s;
-  -moz-transition: all,.6s;
-  -ms-transition: all,.6s;
-  -o-transition: all,.6s;
-  transition: all,.6s;
 }

@@ -1,7 +1,4 @@
 
-@import "breakpoint";
-@import "susy";
-
 
 
 ///* HEADER PAGE-PRICE */
@@ -15,11 +12,13 @@
 
 }
 
+
+header {    background: rgba(255, 255, 255, 1);  }
+
 @include susy-breakpoint($mobile-size, $mobile) {
 
   header {
     height: 80px;
-    background: rgba(255, 0, 0, 0);
     position: relative;
   }
 
@@ -88,9 +87,8 @@
 
 @include susy-breakpoint($tablet-size, $tablet ) {
 
-  header {
+  .page.price header {
     height: 80px;
-    background: rgba(255, 0, 0, 0);
     position: relative;
     padding: 0 5%;
   }
@@ -156,11 +154,10 @@
 }
 
 
-@include susy-breakpoint($desktop-size, $large ) {
+@include susy-breakpoint($desktop-size, $large) {
 
   header {
     height: 80px;
-    background: rgba(255, 0, 0, 0);
   }
   .page.price header .wrap {
     @include container;

@@ -2,12 +2,14 @@
 //$visual-grid-color: yellow;
 //$visual-grid-index: front;
 //$visual-grid-opacity: 0.2;
+
+
+@import "base";
 @import "layouts/breakpoints";
 @import "layouts/partials";
 @import "style/typography";
 @import "susy_grid";
 
 
-@import "base";
 
 
