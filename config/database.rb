@@ -25,13 +25,7 @@ ActiveRecord::Base.configurations[:development] = {
 
 
 ActiveRecord::Base.configurations[:production] = {
-    :adapter  => 'postgresql',
-    :encoding => 'utf8',
-    :database => '',
-    :username => '',
-    :password => '',
-    :host     => 'ec2-54-217-202-108.eu-west-1.compute.amazonaws.com',
-    :port     => '5432'
+    url:  ENV["DATABASE_URL"] 
 }
 
 
