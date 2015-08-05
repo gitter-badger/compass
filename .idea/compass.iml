@@ -69,7 +69,7 @@
     <orderEntry type="library" scope="PROVIDED" name="arel (v6.0.0, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="breakpoint (v2.5.0, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="builder (v3.2.2, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="bundler (v1.7.12, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="bundler (v1.10.3, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="chunky_png (v1.3.4, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="compass (v1.0.3, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="compass-core (v1.0.3, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
@@ -102,7 +102,6 @@
     <orderEntry type="library" scope="PROVIDED" name="sass (v3.4.15, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sassy-maps (v0.4.0, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sinatra (v1.4.6, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="sqlite3 (v1.3.10, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="susy (v2.2.5, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="thor (v0.19.1, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="thread_safe (v0.3.5, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
