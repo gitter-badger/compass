@@ -14,22 +14,26 @@
 #   }
 #
 ActiveRecord::Base.configurations[:development] = {
-  :adapter => 'sqlite3',
-  :database => Padrino.root('db', 'compass_development.db')
-
+    :adapter  => 'postgresql',
+    :encoding => 'utf8',
+    :database => 'autofrezer',
+    :username => 'postgres',
+    :password => '',
+    :host     => 'localhost'
 }
+
+
 
 ActiveRecord::Base.configurations[:production] = {
-  :adapter => 'sqlite3',
-  :database => Padrino.root('db', 'compass_production.db')
-
+    :adapter  => 'postgresql',
+    :encoding => 'utf8',
+    :database => '',
+    :username => '',
+    :password => '',
+    :host     => 'ec2-54-217-202-108.eu-west-1.compute.amazonaws.com',
+    :port     => '5432'
 }
 
-ActiveRecord::Base.configurations[:test] = {
-  :adapter => 'sqlite3',
-  :database => Padrino.root('db', 'compass_test.db')
-
-}
 
 # Setup our logger
 ActiveRecord::Base.logger = logger
