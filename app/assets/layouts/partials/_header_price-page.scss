@@ -5,6 +5,15 @@
 //
 //
 
+
+.ymaps-image {
+  background: url("/images/icons/address_metka.png");
+
+  
+}
+
+
+
 @mixin vertical-center() {
   position: absolute;
   top: 50%;
@@ -40,7 +49,7 @@ header {    background: rgba(255, 255, 255, 1);  }
     a.home {
       position: relative;
       left: 50px;
-      top: 25%;
+      top: 15%;
       line-height: 20px;
       @include span(1 of 2);
 
@@ -57,20 +66,24 @@ header {    background: rgba(255, 255, 255, 1);  }
       @include span(4);
       position: relative;
       text-align: right;
+      top: 5%;
     }
 
     .address {
       @include span(4 of 4);
       text-align: right;
+      line-height: 1.1rem;
     }
 
     .address a {
       display: block;
+      border: 0;
     }
 
     .phone {
       @include span(4 of 4);
       text-align: right;
+      margin: 7px 0px;
     }
 
 
@@ -78,6 +91,7 @@ header {    background: rgba(255, 255, 255, 1);  }
     .h_icon {
       float: left;
       background-size: 27px;
+      display: none;
     }
   }
 

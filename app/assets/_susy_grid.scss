@@ -120,19 +120,64 @@ header {
 
   }
 }
-.price-nav  {
+.price-nav {
 
   @include container(720px);
-
-  //@include susy-breakpoint($tablet-size, $tablet) {
-  // @include container;
-  //}
-  //
-  //@include susy-breakpoint($desktop-size, $large) {
-  //  @include container;
-  //
-  //}
 }
+
+.price-page {
+
+  @include container();
+  top: 175px;
+  position: absolute;
+  bottom: 120px;
+  overflow-x: auto;
+  padding: 0 5px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: white;
+
+}
+
+  @include susy-breakpoint($tablet-size, $tablet) {
+
+
+
+    .price-page {
+
+      @include container(960px);
+      top: 220px;
+      position: absolute;
+      bottom: 120px;
+      overflow-x: auto;
+
+      left: 0;
+      right: 0;
+      margin: auto;
+      background-color: white;
+
+    }
+  }
+  //
+  @include susy-breakpoint($desktop-size, $large) {
+    .price-page {
+
+      @include container(960px);
+      top: 200px;
+      position: absolute;
+      bottom: 120px;
+      overflow-x: auto;
+
+      left: 0;
+      right: 0;
+      margin: auto;
+      background-color: white;
+
+    }
+
+  }
+
 
 body.page.price {
   background: url("/images/bg/bg.jpg");
@@ -150,19 +195,6 @@ body.page.price {
 
 
 
-.price-page {
-
-  top: 200px;
-  position: absolute;
-  bottom: 120px;
-  overflow-x: auto;
-  max-width: 720px;
-  left: 0;
-  right: 0;
-  margin: auto;
-  background-color: white;;
-
-}
 .price--menu {
 
   @include span(12);

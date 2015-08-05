@@ -8,6 +8,8 @@
 /*fonts*/
 @include font-face("BebasRegular", font-files("/fonts/BebasRegular/BebasRegular.ttf", "/fonts/BebasRegular/BebasRegular.eot", "/fonts/BebasRegular/BebasRegular.woff"));
 @include font-face("BebasBold", font-files("/fonts/BebasBold/BebasBold.ttf", "/fonts/BebasBold/BebasBold.eot", "/fonts/BebasBold/BebasBold.woff"));
+@include font-face("PTSansBold", font-files("/fonts/PTSansBold/PTSansBold.ttf", "/fonts/PTSansBold/PTSansBold.eot", "/fonts/PTSansBold/PTSansBold.woff"));
+@include font-face("PTSansRegular", font-files("/fonts/PTSansRegular/PTSansRegular.ttf", "/fonts/PTSansRegular/PTSansRegular.eot", "/fonts/PTSansRegular/PTSansRegular.woff"));
 
 
 /*base */
@@ -78,6 +80,23 @@ h3 { @include adjust-font-size-to(1.777rem); }
 h4 { @include adjust-font-size-to(1.133rem); }
 h5 { @include adjust-font-size-to(1rem); }
 h6 { @include adjust-font-size-to(.75rem); }
+
+.price-page article{
+  font-family: PTSansRegular;
+
+}
+.price-page article h2 {
+  font-family: PTSansBold;
+
+}
+
+.price-page article h2 {
+
+   font-size: 1.777rem;
+   border-bottom: 1px solid red ;
+
+ }
+
 
 a {
   text-decoration: none;

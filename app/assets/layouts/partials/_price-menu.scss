@@ -1,11 +1,10 @@
   .price-menu {
     background-color: #34495e;
-    height: 120px;
+    height: 90px;
   }
 
   ul.price-nav {
 
-    height: 100%;
     list-style-type: none;
 
 
@@ -24,15 +23,18 @@
 
   }
 
+  ul.price-nav li:nth-child(4) {
+    width: 20%;
+  }
+
 
   ul.price-nav li input[type=radio] {
     display:none;
   }
 
 
-  ul.price-nav li a {
-    height: 100%;
-    width: 100%;
+
+  ul.price-nav li .label {
     display: inline-block;
     color:white;
     border-bottom:1px dashed #ffffff;
@@ -40,32 +42,91 @@
   }
 
 
+.price-nav {
 
-  ul.price-nav i {
-    background-position: 50% 50%;
-    background-size: 50%;
+    i {
 
+      height: 40px;
+
+      background-position: 50% 50%;
+
+      background-size: 60%;
+
+      background-repeat: no-repeat;
+      width: 100%;
+      left: auto;
+      right: auto;
+
+      margin: 0 auto;
+      display: block;
+      text-align: center;
+    }
+
+    li {
+
+      text-align: center;
+      height: 100px;
+      width: 16%;
+      padding-top: 0px;
+
+    }
+
+  }
     @include breakpoint($tablet-size) {
 
-      background-size: 80%;
+      .price-menu {
+        height: 115px;
+      }
+      .price-nav  i {
+
+        background-position: 50% 50%;
+          background-size: 60%;
+         height: 60px
+        }
+
+
+      li {
+
+        height: 100px;
+        width: 16%;
+        padding-top: 10px;
+
+      }
 
     }
+
+
+
   @include breakpoint($desktop-size) {
 
-      background-size: 90%;
+
+
+
+     .price-menu {
+       height: 170px;
+     }
+
+     .price-nav  i {
+         background-position: 50% 50%;
+         height: 65px;
+         background-size: 64%;
+       }
+   }
+
+
+
+    ul.price-nav li:nth-child(4) {
+
+      width:20%;
 
     }
 
-    background-repeat: no-repeat;
-    height: 70px;
-    width: 70px;
-    left: auto;
-    right: auto;
+    .label {
 
-    margin: 0 auto;
-    display: block;
-    text-align: center;
-  }
+     font-size: .7rem;
+
+    }
+
 
 
 .icon-to    {background-image: url("/images/icons/menu-price/1.svg");}

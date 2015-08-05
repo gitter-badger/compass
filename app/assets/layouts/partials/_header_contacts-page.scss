@@ -1,7 +1,7 @@
 .page.contacts header {
 
   height: 120px;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.53);
 }
 
 
@@ -185,7 +185,7 @@
       height: 130px;
     }
       .logo {
-        @include span(2);
+        @include span(1);
         height: 120px;
         min-width: 70px;
         position: absolute;
@@ -193,16 +193,20 @@
         right: 0%;
         margin: auto;
         background-position: 50% -10px;
+        z-index: 2;
+
       }
 
       a.home {
         position: relative;
         line-height: 20px;
         border: none;
+        z-index: 1;
+
       }
       .site-name {
         position: absolute;
-        bottom: 0px;
+        bottom: 3px;
         margin: auto;
         left: 0;
         text-align: center;
@@ -210,13 +214,10 @@
       }
 
       .contacts {
-
-        height: 100%;
         @include span(12);
         position: relative;
         text-align: right;
-        top:5%;
-        transform: translateY(20%);
+        transform: translateY(0%);
 
       }
 
@@ -225,21 +226,33 @@
         //@include vertical-center;
         text-align: center;
         top:55%;
-        line-height: 1.6rem;
+        line-height: 1.2rem;
       }
+
+      .city-name {
+
+        display: block;
+
+      }
+
+
+
       .phone {
         @include span(last 6) ;
         text-align: center;
         //@include vertical-center;
         top:55%;
-        line-height: 1.6rem;
+        line-height: 1.2rem;
+      }
+      .telephone {
+        display: block;
       }
 
       .h_icon {
         float: none;
         margin: 0 auto;
-        height:35px;
-        background-size: 30px;
+        height:55px;
+        background-size: 35px;
       }
     }
 

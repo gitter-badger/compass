@@ -1,0 +1,76 @@
+//article.tab {
+//  display: none;
+//}
+//
+//.to:checked ~ [tabcontent="TO"],
+//.wash:checked ~ [tabcontent="wash"],
+//#tab3:checked ~ [tabcontent="tab3"],
+//#tab4:checked ~ [tabcontent="tab4"],
+//#tab4:checked ~ [tabcontent="tab4"],
+//#tab4:checked ~ [tabcontent="tab4"]
+//
+//{
+//  display: block;
+//}
+
+
+
+.price-page article {
+  display: none;
+}
+
+.price-page article:nth-of-type(1) {
+  display: block;
+}
+
+.price-page article table {
+
+  width: 100%;
+  margin: 0 auto;
+
+  th {
+    color: darkgrey;
+    border-bottom:2px solid #c0392b ;
+    padding: 20px;
+
+    font-size: 1rem;
+
+  }
+
+  th:first-child {
+    font-size: 1.4rem;
+    color: #293a4b;
+    width: 60%;
+
+  }
+
+
+
+  tr:first-child {
+    &:hover {
+      background: none;
+    }
+
+  }
+
+
+
+  tr{
+    &:hover {
+
+      transition: background, .2s ease;
+      background: #c0392b;
+
+    }
+
+  }
+
+  td {
+
+    padding: 10px;
+
+
+
+  }
+
+}

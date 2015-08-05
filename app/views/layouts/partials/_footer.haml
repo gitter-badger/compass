@@ -4,9 +4,9 @@
 		%nav
 			%ul.main-menu
 				%li
-					=link_to 'Контакты', url(:page, :contacts, :format => :js), remote: true
+					=link_to 'Контакты', url(:page, :contacts)#, remote: true
 				%li
-					=link_to 'Цены', url(:page, :price, :format => :js), remote: true
+					=link_to 'Цены', url(:page, :price) #, remote: true
 
 		.footer-info
 			.copyright
