@@ -8,7 +8,7 @@ header > div {
   transition: all,.6s;
 }
 
-/* line 11, ../../app/assets/_base.scss */
+/* line 13, ../../app/assets/_base.scss */
 body, img {
   -webkit-transition: all,.6s;
   -moz-transition: all,.6s;
@@ -17,7 +17,7 @@ body, img {
   transition: all,.6s;
 }
 
-/* line 19, ../../app/assets/_base.scss */
+/* line 21, ../../app/assets/_base.scss */
 nav li {
   -webkit-transition: all,.6s;
   -moz-transition: all,.6s;
@@ -1002,23 +1002,28 @@ ul.price-nav li:hover {
 }
 
 /* line 27, ../../app/assets/layouts/partials/_price-menu.scss */
+.active {
+  background: palevioletred;
+}
+
+/* line 33, ../../app/assets/layouts/partials/_price-menu.scss */
 ul.price-nav li:nth-child(4) {
   width: 20%;
 }
 
-/* line 32, ../../app/assets/layouts/partials/_price-menu.scss */
+/* line 38, ../../app/assets/layouts/partials/_price-menu.scss */
 ul.price-nav li input[type=radio] {
   display: none;
 }
 
-/* line 38, ../../app/assets/layouts/partials/_price-menu.scss */
+/* line 44, ../../app/assets/layouts/partials/_price-menu.scss */
 ul.price-nav li .label {
   display: inline-block;
   color: white;
   border-bottom: 1px dashed #ffffff;
 }
 
-/* line 48, ../../app/assets/layouts/partials/_price-menu.scss */
+/* line 54, ../../app/assets/layouts/partials/_price-menu.scss */
 .price-nav i {
   height: 40px;
   background-position: 50% 50%;
@@ -1031,7 +1036,7 @@ ul.price-nav li .label {
   display: block;
   text-align: center;
 }
-/* line 66, ../../app/assets/layouts/partials/_price-menu.scss */
+/* line 72, ../../app/assets/layouts/partials/_price-menu.scss */
 .price-nav li {
   text-align: center;
   height: 100px;
@@ -1040,19 +1045,19 @@ ul.price-nav li .label {
 }
 
 @media (min-width: 481px) and (max-width: 720px) {
-  /* line 78, ../../app/assets/layouts/partials/_price-menu.scss */
+  /* line 84, ../../app/assets/layouts/partials/_price-menu.scss */
   .price-menu {
     height: 115px;
   }
 
-  /* line 81, ../../app/assets/layouts/partials/_price-menu.scss */
+  /* line 87, ../../app/assets/layouts/partials/_price-menu.scss */
   .price-nav i {
     background-position: 50% 50%;
     background-size: 60%;
     height: 60px;
   }
 
-  /* line 89, ../../app/assets/layouts/partials/_price-menu.scss */
+  /* line 95, ../../app/assets/layouts/partials/_price-menu.scss */
   li {
     height: 100px;
     width: 16%;
@@ -1060,60 +1065,60 @@ ul.price-nav li .label {
   }
 }
 @media (min-width: 721px) {
-  /* line 106, ../../app/assets/layouts/partials/_price-menu.scss */
+  /* line 112, ../../app/assets/layouts/partials/_price-menu.scss */
   .price-menu {
     height: 130px;
   }
 
-  /* line 110, ../../app/assets/layouts/partials/_price-menu.scss */
+  /* line 116, ../../app/assets/layouts/partials/_price-menu.scss */
   .price-nav i {
     background-position: 50% 50%;
     height: 65px;
     background-size: 64%;
   }
 
-  /* line 115, ../../app/assets/layouts/partials/_price-menu.scss */
+  /* line 121, ../../app/assets/layouts/partials/_price-menu.scss */
   .price-nav span {
     padding-top: 10px;
     font-size: 1rem;
   }
 }
-/* line 124, ../../app/assets/layouts/partials/_price-menu.scss */
+/* line 130, ../../app/assets/layouts/partials/_price-menu.scss */
 ul.price-nav li:nth-child(4) {
   width: 20%;
 }
 
-/* line 130, ../../app/assets/layouts/partials/_price-menu.scss */
+/* line 136, ../../app/assets/layouts/partials/_price-menu.scss */
 .label {
   font-size: .7rem;
 }
 
-/* line 138, ../../app/assets/layouts/partials/_price-menu.scss */
+/* line 144, ../../app/assets/layouts/partials/_price-menu.scss */
 .icon-to {
   background-image: url("/images/icons/menu-price/1.svg");
 }
 
-/* line 139, ../../app/assets/layouts/partials/_price-menu.scss */
+/* line 145, ../../app/assets/layouts/partials/_price-menu.scss */
 .icon-remont {
   background-image: url("/images/icons/menu-price/2.svg");
 }
 
-/* line 140, ../../app/assets/layouts/partials/_price-menu.scss */
+/* line 146, ../../app/assets/layouts/partials/_price-menu.scss */
 .icon-custom {
   background-image: url("/images/icons/menu-price/3.svg");
 }
 
-/* line 141, ../../app/assets/layouts/partials/_price-menu.scss */
+/* line 147, ../../app/assets/layouts/partials/_price-menu.scss */
 .icon-mount {
   background-image: url("/images/icons/menu-price/4.svg");
 }
 
-/* line 142, ../../app/assets/layouts/partials/_price-menu.scss */
+/* line 148, ../../app/assets/layouts/partials/_price-menu.scss */
 .icon-wash {
   background-image: url("/images/icons/menu-price/5.svg");
 }
 
-/* line 143, ../../app/assets/layouts/partials/_price-menu.scss */
+/* line 149, ../../app/assets/layouts/partials/_price-menu.scss */
 .icon-paint {
   background-image: url("/images/icons/menu-price/6.svg");
 }
@@ -1294,13 +1299,19 @@ html {
 }
 /*DEBUG*/
 /**/
-/* line 72, ../../app/assets/style/_typography.scss */
+/* line 71, ../../app/assets/style/_typography.scss */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 76, ../../app/assets/style/_typography.scss */
 h1, h2, h3, h4, h5, p, iframe {
   margin-bottom: 25px;
   margin-bottom: 1.13636rem;
 }
 
-/* line 78, ../../app/assets/style/_typography.scss */
+/* line 82, ../../app/assets/style/_typography.scss */
 h1 {
   font-size: 69px;
   font-size: 3.157rem;
@@ -1308,7 +1319,7 @@ h1 {
   line-height: 3.40909rem;
 }
 
-/* line 79, ../../app/assets/style/_typography.scss */
+/* line 83, ../../app/assets/style/_typography.scss */
 h2 {
   font-size: 52px;
   font-size: 2.369rem;
@@ -1316,7 +1327,7 @@ h2 {
   line-height: 3.40909rem;
 }
 
-/* line 80, ../../app/assets/style/_typography.scss */
+/* line 84, ../../app/assets/style/_typography.scss */
 h3 {
   font-size: 39px;
   font-size: 1.777rem;
@@ -1324,7 +1335,7 @@ h3 {
   line-height: 2.27273rem;
 }
 
-/* line 81, ../../app/assets/style/_typography.scss */
+/* line 85, ../../app/assets/style/_typography.scss */
 h4 {
   font-size: 25px;
   font-size: 1.133rem;
@@ -1332,7 +1343,7 @@ h4 {
   line-height: 2.27273rem;
 }
 
-/* line 82, ../../app/assets/style/_typography.scss */
+/* line 86, ../../app/assets/style/_typography.scss */
 h5 {
   font-size: 22px;
   font-size: 1rem;
@@ -1340,7 +1351,7 @@ h5 {
   line-height: 2.27273rem;
 }
 
-/* line 83, ../../app/assets/style/_typography.scss */
+/* line 87, ../../app/assets/style/_typography.scss */
 h6 {
   font-size: 17px;
   font-size: 0.75rem;
@@ -1348,44 +1359,44 @@ h6 {
   line-height: 1.13636rem;
 }
 
-/* line 85, ../../app/assets/style/_typography.scss */
+/* line 89, ../../app/assets/style/_typography.scss */
 .price-page article {
   font-family: "PT Sans";
 }
 
-/* line 89, ../../app/assets/style/_typography.scss */
+/* line 93, ../../app/assets/style/_typography.scss */
 .price-page article .title {
   font-family: "PT Sans ";
   font-weight: bold;
 }
 
-/* line 96, ../../app/assets/style/_typography.scss */
+/* line 100, ../../app/assets/style/_typography.scss */
 .price-page article .title {
   font-size: 1.777rem;
   border-bottom: 1px solid red;
 }
 
-/* line 104, ../../app/assets/style/_typography.scss */
+/* line 108, ../../app/assets/style/_typography.scss */
 a {
   text-decoration: none;
 }
 
-/* line 109, ../../app/assets/style/_typography.scss */
+/* line 113, ../../app/assets/style/_typography.scss */
 ul {
   list-style-type: none;
 }
 
-/* line 112, ../../app/assets/style/_typography.scss */
+/* line 116, ../../app/assets/style/_typography.scss */
 a, p, span {
   font-family: "BebasRegular";
 }
 
-/* line 115, ../../app/assets/style/_typography.scss */
+/* line 119, ../../app/assets/style/_typography.scss */
 strong {
   font-family: "BebasBold";
 }
 
-/* line 119, ../../app/assets/style/_typography.scss */
+/* line 123, ../../app/assets/style/_typography.scss */
 header .contacts {
   font-family: "BebasRegular";
 }
