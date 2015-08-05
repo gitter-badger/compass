@@ -23,16 +23,16 @@ ActiveRecord::Base.configurations[:development] = {
 }
 
 
-  db = URI.parse(ENV['DATABASE_URL'] || 'postgres:///localhost/mydb')
 
-  ActiveRecord::Base.establish_connection[:production] = {
-      :adapter  => db.scheme == 'postgres' ? 'postgresql' : db.scheme,
-      :host     => db.host,
-      :username => db.user,
-      :password => db.password,
-      :database => db.path[1..-1],
-      :encoding => 'utf8'
-  }
+ActiveRecord::Base.configurations[:production] = {
+    :adapter  => 'postgresql',
+    :encoding => 'utf8',
+    :database => 'd4eu150csq4es',
+    :username => 'kcpxryuycytdxj',
+    :password => 'foh_Ud6S2HD5G6LbK2GxNCzZb2',
+    :host     => 'ec2-54-83-14-68.compute-1.amazonaws.com',
+    :port     => '5432'
+}
 
 
 # Setup our logger
