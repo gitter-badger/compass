@@ -982,27 +982,28 @@ ul.price-nav li {
 }
 /* line 20, ../../app/assets/layouts/partials/_price-menu.scss */
 ul.price-nav li:hover {
+  transition: background, .3s ease;
   background: palevioletred;
 }
 
-/* line 26, ../../app/assets/layouts/partials/_price-menu.scss */
+/* line 27, ../../app/assets/layouts/partials/_price-menu.scss */
 ul.price-nav li:nth-child(4) {
   width: 20%;
 }
 
-/* line 31, ../../app/assets/layouts/partials/_price-menu.scss */
+/* line 32, ../../app/assets/layouts/partials/_price-menu.scss */
 ul.price-nav li input[type=radio] {
   display: none;
 }
 
-/* line 37, ../../app/assets/layouts/partials/_price-menu.scss */
+/* line 38, ../../app/assets/layouts/partials/_price-menu.scss */
 ul.price-nav li .label {
   display: inline-block;
   color: white;
   border-bottom: 1px dashed #ffffff;
 }
 
-/* line 47, ../../app/assets/layouts/partials/_price-menu.scss */
+/* line 48, ../../app/assets/layouts/partials/_price-menu.scss */
 .price-nav i {
   height: 40px;
   background-position: 50% 50%;
@@ -1015,7 +1016,7 @@ ul.price-nav li .label {
   display: block;
   text-align: center;
 }
-/* line 65, ../../app/assets/layouts/partials/_price-menu.scss */
+/* line 66, ../../app/assets/layouts/partials/_price-menu.scss */
 .price-nav li {
   text-align: center;
   height: 100px;
@@ -1024,19 +1025,19 @@ ul.price-nav li .label {
 }
 
 @media (min-width: 481px) and (max-width: 720px) {
-  /* line 77, ../../app/assets/layouts/partials/_price-menu.scss */
+  /* line 78, ../../app/assets/layouts/partials/_price-menu.scss */
   .price-menu {
     height: 115px;
   }
 
-  /* line 80, ../../app/assets/layouts/partials/_price-menu.scss */
+  /* line 81, ../../app/assets/layouts/partials/_price-menu.scss */
   .price-nav i {
     background-position: 50% 50%;
     background-size: 60%;
     height: 60px;
   }
 
-  /* line 88, ../../app/assets/layouts/partials/_price-menu.scss */
+  /* line 89, ../../app/assets/layouts/partials/_price-menu.scss */
   li {
     height: 100px;
     width: 16%;
@@ -1044,54 +1045,54 @@ ul.price-nav li .label {
   }
 }
 @media (min-width: 721px) {
-  /* line 105, ../../app/assets/layouts/partials/_price-menu.scss */
+  /* line 106, ../../app/assets/layouts/partials/_price-menu.scss */
   .price-menu {
     height: 170px;
   }
 
-  /* line 109, ../../app/assets/layouts/partials/_price-menu.scss */
+  /* line 110, ../../app/assets/layouts/partials/_price-menu.scss */
   .price-nav i {
     background-position: 50% 50%;
     height: 65px;
     background-size: 64%;
   }
 }
-/* line 118, ../../app/assets/layouts/partials/_price-menu.scss */
+/* line 119, ../../app/assets/layouts/partials/_price-menu.scss */
 ul.price-nav li:nth-child(4) {
   width: 20%;
 }
 
-/* line 124, ../../app/assets/layouts/partials/_price-menu.scss */
+/* line 125, ../../app/assets/layouts/partials/_price-menu.scss */
 .label {
   font-size: .7rem;
 }
 
-/* line 132, ../../app/assets/layouts/partials/_price-menu.scss */
+/* line 133, ../../app/assets/layouts/partials/_price-menu.scss */
 .icon-to {
   background-image: url("/images/icons/menu-price/1.svg");
 }
 
-/* line 133, ../../app/assets/layouts/partials/_price-menu.scss */
+/* line 134, ../../app/assets/layouts/partials/_price-menu.scss */
 .icon-remont {
   background-image: url("/images/icons/menu-price/2.svg");
 }
 
-/* line 134, ../../app/assets/layouts/partials/_price-menu.scss */
+/* line 135, ../../app/assets/layouts/partials/_price-menu.scss */
 .icon-custom {
   background-image: url("/images/icons/menu-price/3.svg");
 }
 
-/* line 135, ../../app/assets/layouts/partials/_price-menu.scss */
+/* line 136, ../../app/assets/layouts/partials/_price-menu.scss */
 .icon-mount {
   background-image: url("/images/icons/menu-price/4.svg");
 }
 
-/* line 136, ../../app/assets/layouts/partials/_price-menu.scss */
+/* line 137, ../../app/assets/layouts/partials/_price-menu.scss */
 .icon-wash {
   background-image: url("/images/icons/menu-price/5.svg");
 }
 
-/* line 137, ../../app/assets/layouts/partials/_price-menu.scss */
+/* line 138, ../../app/assets/layouts/partials/_price-menu.scss */
 .icon-paint {
   background-image: url("/images/icons/menu-price/6.svg");
 }
