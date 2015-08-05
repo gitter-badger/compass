@@ -1,3 +1,4 @@
+@import url(/fonts/PT_Sans/stylesheet.css);
 /* line 3, ../../app/assets/_base.scss */
 header > div {
   -webkit-transition: all,.6s;
@@ -28,41 +29,55 @@ nav li {
 /* line 18, ../../app/assets/layouts/pages/price.scss */
 .price-page article {
   display: none;
+  font-family: 'PT Sans Narrow', sans-serif;
 }
 
-/* line 22, ../../app/assets/layouts/pages/price.scss */
+/* line 23, ../../app/assets/layouts/pages/price.scss */
 .price-page article:nth-of-type(1) {
   display: block;
 }
 
-/* line 26, ../../app/assets/layouts/pages/price.scss */
+/* line 27, ../../app/assets/layouts/pages/price.scss */
 .price-page article table {
   width: 100%;
   margin: 0 auto;
 }
-/* line 31, ../../app/assets/layouts/pages/price.scss */
-.price-page article table th {
+/* line 33, ../../app/assets/layouts/pages/price.scss */
+.price-page article table tr:first-child:hover {
+  background: none;
+}
+/* line 39, ../../app/assets/layouts/pages/price.scss */
+.price-page article table tr:first-child th {
   color: darkgrey;
   border-bottom: 2px solid #c0392b;
-  padding: 20px;
+  padding: 20px 0;
   font-size: 1rem;
 }
-/* line 40, ../../app/assets/layouts/pages/price.scss */
-.price-page article table th:first-child {
+/* line 49, ../../app/assets/layouts/pages/price.scss */
+.price-page article table tr:first-child th:first-child {
   font-size: 1.4rem;
   color: #293a4b;
   width: 60%;
 }
-/* line 50, ../../app/assets/layouts/pages/price.scss */
-.price-page article table tr:first-child:hover {
-  background: none;
+/* line 55, ../../app/assets/layouts/pages/price.scss */
+.price-page article table tr:first-child th.title {
+  font-family: 'PT Sans Bold';
 }
-/* line 59, ../../app/assets/layouts/pages/price.scss */
+/* line 60, ../../app/assets/layouts/pages/price.scss */
+.price-page article table tr:first-child th:nth-child(2) {
+  font-size: .8rem;
+  font-family: PTSansRegular;
+}
+/* line 71, ../../app/assets/layouts/pages/price.scss */
 .price-page article table tr:hover {
   transition: background, .2s ease;
   background: #c0392b;
 }
-/* line 68, ../../app/assets/layouts/pages/price.scss */
+/* line 79, ../../app/assets/layouts/pages/price.scss */
+.price-page article table tr:nth-child(2n) {
+  background-color: #e4e4e4;
+}
+/* line 84, ../../app/assets/layouts/pages/price.scss */
 .price-page article table td {
   padding: 10px;
 }
@@ -1056,43 +1071,49 @@ ul.price-nav li .label {
     height: 65px;
     background-size: 64%;
   }
+
+  /* line 115, ../../app/assets/layouts/partials/_price-menu.scss */
+  .price-nav span {
+    padding-top: 10px;
+    font-size: 1rem;
+  }
 }
-/* line 119, ../../app/assets/layouts/partials/_price-menu.scss */
+/* line 124, ../../app/assets/layouts/partials/_price-menu.scss */
 ul.price-nav li:nth-child(4) {
   width: 20%;
 }
 
-/* line 125, ../../app/assets/layouts/partials/_price-menu.scss */
+/* line 130, ../../app/assets/layouts/partials/_price-menu.scss */
 .label {
   font-size: .7rem;
 }
 
-/* line 133, ../../app/assets/layouts/partials/_price-menu.scss */
+/* line 138, ../../app/assets/layouts/partials/_price-menu.scss */
 .icon-to {
   background-image: url("/images/icons/menu-price/1.svg");
 }
 
-/* line 134, ../../app/assets/layouts/partials/_price-menu.scss */
+/* line 139, ../../app/assets/layouts/partials/_price-menu.scss */
 .icon-remont {
   background-image: url("/images/icons/menu-price/2.svg");
 }
 
-/* line 135, ../../app/assets/layouts/partials/_price-menu.scss */
+/* line 140, ../../app/assets/layouts/partials/_price-menu.scss */
 .icon-custom {
   background-image: url("/images/icons/menu-price/3.svg");
 }
 
-/* line 136, ../../app/assets/layouts/partials/_price-menu.scss */
+/* line 141, ../../app/assets/layouts/partials/_price-menu.scss */
 .icon-mount {
   background-image: url("/images/icons/menu-price/4.svg");
 }
 
-/* line 137, ../../app/assets/layouts/partials/_price-menu.scss */
+/* line 142, ../../app/assets/layouts/partials/_price-menu.scss */
 .icon-wash {
   background-image: url("/images/icons/menu-price/5.svg");
 }
 
-/* line 138, ../../app/assets/layouts/partials/_price-menu.scss */
+/* line 143, ../../app/assets/layouts/partials/_price-menu.scss */
 .icon-paint {
   background-image: url("/images/icons/menu-price/6.svg");
 }
@@ -1239,6 +1260,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-family: "PTSansRegular";
   src: url(/fonts/PTSansRegular/PTSansRegular.ttf) format('truetype'), url(/fonts/PTSansRegular/PTSansRegular.eot) format('embedded-opentype'), url(/fonts/PTSansRegular/PTSansRegular.woff) format('woff');
 }
+@font-face {
+  font-family: "PTSansNarrow";
+  src: url(/fonts/PTSansNarrow/PTSansNarrow.ttf) format('truetype'), url(/fonts/PTSansNarrow/PTSansNarrow.eot) format('embedded-opentype'), url(/fonts/PTSansNarrow/PTSansNarrow.woff) format('woff');
+}
 /*base */
 /* line 106, ../../../../.rvm/gems/ruby-1.9.3-p551-dev/gems/compass-core-1.0.3/stylesheets/compass/typography/_vertical_rhythm.scss */
 html {
@@ -1269,13 +1294,13 @@ html {
 }
 /*DEBUG*/
 /**/
-/* line 71, ../../app/assets/style/_typography.scss */
+/* line 72, ../../app/assets/style/_typography.scss */
 h1, h2, h3, h4, h5, p, iframe {
   margin-bottom: 25px;
   margin-bottom: 1.13636rem;
 }
 
-/* line 77, ../../app/assets/style/_typography.scss */
+/* line 78, ../../app/assets/style/_typography.scss */
 h1 {
   font-size: 69px;
   font-size: 3.157rem;
@@ -1283,7 +1308,7 @@ h1 {
   line-height: 3.40909rem;
 }
 
-/* line 78, ../../app/assets/style/_typography.scss */
+/* line 79, ../../app/assets/style/_typography.scss */
 h2 {
   font-size: 52px;
   font-size: 2.369rem;
@@ -1291,7 +1316,7 @@ h2 {
   line-height: 3.40909rem;
 }
 
-/* line 79, ../../app/assets/style/_typography.scss */
+/* line 80, ../../app/assets/style/_typography.scss */
 h3 {
   font-size: 39px;
   font-size: 1.777rem;
@@ -1299,7 +1324,7 @@ h3 {
   line-height: 2.27273rem;
 }
 
-/* line 80, ../../app/assets/style/_typography.scss */
+/* line 81, ../../app/assets/style/_typography.scss */
 h4 {
   font-size: 25px;
   font-size: 1.133rem;
@@ -1307,7 +1332,7 @@ h4 {
   line-height: 2.27273rem;
 }
 
-/* line 81, ../../app/assets/style/_typography.scss */
+/* line 82, ../../app/assets/style/_typography.scss */
 h5 {
   font-size: 22px;
   font-size: 1rem;
@@ -1315,7 +1340,7 @@ h5 {
   line-height: 2.27273rem;
 }
 
-/* line 82, ../../app/assets/style/_typography.scss */
+/* line 83, ../../app/assets/style/_typography.scss */
 h6 {
   font-size: 17px;
   font-size: 0.75rem;
@@ -1323,43 +1348,43 @@ h6 {
   line-height: 1.13636rem;
 }
 
-/* line 84, ../../app/assets/style/_typography.scss */
+/* line 85, ../../app/assets/style/_typography.scss */
 .price-page article {
-  font-family: PTSansRegular;
+  font-family: "PTSansNarrow";
 }
 
-/* line 88, ../../app/assets/style/_typography.scss */
-.price-page article h2 {
-  font-family: PTSansBold;
+/* line 89, ../../app/assets/style/_typography.scss */
+.price-page article .title {
+  font-family: "PTSansBold";
 }
 
-/* line 93, ../../app/assets/style/_typography.scss */
-.price-page article h2 {
+/* line 94, ../../app/assets/style/_typography.scss */
+.price-page article .title {
   font-size: 1.777rem;
   border-bottom: 1px solid red;
 }
 
-/* line 101, ../../app/assets/style/_typography.scss */
+/* line 102, ../../app/assets/style/_typography.scss */
 a {
   text-decoration: none;
 }
 
-/* line 106, ../../app/assets/style/_typography.scss */
+/* line 107, ../../app/assets/style/_typography.scss */
 ul {
   list-style-type: none;
 }
 
-/* line 109, ../../app/assets/style/_typography.scss */
+/* line 110, ../../app/assets/style/_typography.scss */
 a, p, span {
   font-family: "BebasRegular";
 }
 
-/* line 112, ../../app/assets/style/_typography.scss */
+/* line 113, ../../app/assets/style/_typography.scss */
 strong {
   font-family: "BebasBold";
 }
 
-/* line 116, ../../app/assets/style/_typography.scss */
+/* line 117, ../../app/assets/style/_typography.scss */
 header .contacts {
   font-family: "BebasRegular";
 }

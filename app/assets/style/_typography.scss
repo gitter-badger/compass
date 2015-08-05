@@ -2,7 +2,7 @@
 @import "compass/typography/vertical_rhythm";
 @import "compass/css3";
 @import "breakpoint";
-
+@import '/fonts/PT_Sans/stylesheet.css';
 
 
 /*fonts*/
@@ -10,6 +10,7 @@
 @include font-face("BebasBold", font-files("/fonts/BebasBold/BebasBold.ttf", "/fonts/BebasBold/BebasBold.eot", "/fonts/BebasBold/BebasBold.woff"));
 @include font-face("PTSansBold", font-files("/fonts/PTSansBold/PTSansBold.ttf", "/fonts/PTSansBold/PTSansBold.eot", "/fonts/PTSansBold/PTSansBold.woff"));
 @include font-face("PTSansRegular", font-files("/fonts/PTSansRegular/PTSansRegular.ttf", "/fonts/PTSansRegular/PTSansRegular.eot", "/fonts/PTSansRegular/PTSansRegular.woff"));
+@include font-face("PTSansNarrow", font-files("/fonts/PTSansNarrow/PTSansNarrow.ttf", "/fonts/PTSansNarrow/PTSansNarrow.eot", "/fonts/PTSansNarrow/PTSansNarrow.woff"));
 
 
 /*base */
@@ -82,15 +83,15 @@ h5 { @include adjust-font-size-to(1rem); }
 h6 { @include adjust-font-size-to(.75rem); }
 
 .price-page article{
-  font-family: PTSansRegular;
+  font-family: "PTSansNarrow";
 
 }
-.price-page article h2 {
-  font-family: PTSansBold;
+.price-page article .title {
+  font-family: "PTSansBold";
 
 }
 
-.price-page article h2 {
+.price-page article .title {
 
    font-size: 1.777rem;
    border-bottom: 1px solid red ;

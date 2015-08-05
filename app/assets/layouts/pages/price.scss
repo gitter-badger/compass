@@ -17,6 +17,7 @@
 
 .price-page article {
   display: none;
+  font-family: 'PT Sans Narrow', sans-serif;
 }
 
 .price-page article:nth-of-type(1) {
@@ -28,14 +29,22 @@
   width: 100%;
   margin: 0 auto;
 
-  th {
+  tr:first-child {
+    &:hover {
+      background: none;
+    }
+
+
+
+    th {
     color: darkgrey;
     border-bottom:2px solid #c0392b ;
-    padding: 20px;
+    padding: 20px 0;
 
     font-size: 1rem;
 
   }
+
 
   th:first-child {
     font-size: 1.4rem;
@@ -43,13 +52,16 @@
     width: 60%;
 
   }
-
-
-
-  tr:first-child {
-    &:hover {
-      background: none;
+    th.title {
+      font-family: 'PT Sans Bold';
     }
+
+
+  th:nth-child(2) {
+    font-size: .8rem;
+    font-family: PTSansRegular;
+  }
+
 
   }
 
@@ -63,6 +75,10 @@
 
     }
 
+  }
+  tr:nth-child(2n) {
+
+    background-color: #e4e4e4;
   }
 
   td {
