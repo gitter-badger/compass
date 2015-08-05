@@ -82,6 +82,7 @@ GEM
       padrino-core (= 0.12.5)
     padrino-support (0.12.5)
       activesupport (>= 3.1)
+    pg (0.18.2)
     polyglot (0.3.5)
     rack (1.5.5)
     rack-livereload (0.3.15)
@@ -122,6 +123,7 @@ DEPENDENCIES
   compass
   haml
   padrino (= 0.12.5)
+  pg
   rack-livereload
   rake
   susy
