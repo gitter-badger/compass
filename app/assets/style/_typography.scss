@@ -83,11 +83,13 @@ h5 { @include adjust-font-size-to(1rem); }
 h6 { @include adjust-font-size-to(.75rem); }
 
 .price-page article{
-  font-family: "PTSansNarrow";
+  font-family: "PT Sans";
 
 }
 .price-page article .title {
-  font-family: "PTSansBold";
+  font-family: "PT Sans ";
+  font-weight: bold;
+
 
 }
 

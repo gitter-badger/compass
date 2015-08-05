@@ -1,7 +1,7 @@
 /* line 18, ../../../../app/assets/layouts/pages/price.scss */
 .price-page article {
   display: none;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: 'PT Sans', sans-serif;
 }
 
 /* line 23, ../../../../app/assets/layouts/pages/price.scss */
@@ -33,12 +33,12 @@
 }
 /* line 55, ../../../../app/assets/layouts/pages/price.scss */
 .price-page article table tr:first-child th.title {
-  font-family: 'PT Sans Bold';
+  font-family: 'PT Sans';
 }
 /* line 60, ../../../../app/assets/layouts/pages/price.scss */
 .price-page article table tr:first-child th:nth-child(2) {
   font-size: .8rem;
-  font-family: PTSansRegular;
+  font-family: 'PT Sans';
 }
 /* line 71, ../../../../app/assets/layouts/pages/price.scss */
 .price-page article table tr:hover {

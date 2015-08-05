@@ -29,7 +29,7 @@ nav li {
 /* line 18, ../../app/assets/layouts/pages/price.scss */
 .price-page article {
   display: none;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: 'PT Sans', sans-serif;
 }
 
 /* line 23, ../../app/assets/layouts/pages/price.scss */
@@ -61,12 +61,12 @@ nav li {
 }
 /* line 55, ../../app/assets/layouts/pages/price.scss */
 .price-page article table tr:first-child th.title {
-  font-family: 'PT Sans Bold';
+  font-family: 'PT Sans';
 }
 /* line 60, ../../app/assets/layouts/pages/price.scss */
 .price-page article table tr:first-child th:nth-child(2) {
   font-size: .8rem;
-  font-family: PTSansRegular;
+  font-family: 'PT Sans';
 }
 /* line 71, ../../app/assets/layouts/pages/price.scss */
 .price-page article table tr:hover {
@@ -1062,7 +1062,7 @@ ul.price-nav li .label {
 @media (min-width: 721px) {
   /* line 106, ../../app/assets/layouts/partials/_price-menu.scss */
   .price-menu {
-    height: 170px;
+    height: 130px;
   }
 
   /* line 110, ../../app/assets/layouts/partials/_price-menu.scss */
@@ -1140,7 +1140,7 @@ footer ul.main-menu li {
   height: 50px;
   width: 40%;
   margin: 0 5px;
-  background-color: indianred;
+  background: #c0392b;
   max-width: 225px;
   min-width: 100px;
 }
@@ -1350,41 +1350,42 @@ h6 {
 
 /* line 85, ../../app/assets/style/_typography.scss */
 .price-page article {
-  font-family: "PTSansNarrow";
+  font-family: "PT Sans";
 }
 
 /* line 89, ../../app/assets/style/_typography.scss */
 .price-page article .title {
-  font-family: "PTSansBold";
+  font-family: "PT Sans ";
+  font-weight: bold;
 }
 
-/* line 94, ../../app/assets/style/_typography.scss */
+/* line 96, ../../app/assets/style/_typography.scss */
 .price-page article .title {
   font-size: 1.777rem;
   border-bottom: 1px solid red;
 }
 
-/* line 102, ../../app/assets/style/_typography.scss */
+/* line 104, ../../app/assets/style/_typography.scss */
 a {
   text-decoration: none;
 }
 
-/* line 107, ../../app/assets/style/_typography.scss */
+/* line 109, ../../app/assets/style/_typography.scss */
 ul {
   list-style-type: none;
 }
 
-/* line 110, ../../app/assets/style/_typography.scss */
+/* line 112, ../../app/assets/style/_typography.scss */
 a, p, span {
   font-family: "BebasRegular";
 }
 
-/* line 113, ../../app/assets/style/_typography.scss */
+/* line 115, ../../app/assets/style/_typography.scss */
 strong {
   font-family: "BebasBold";
 }
 
-/* line 117, ../../app/assets/style/_typography.scss */
+/* line 119, ../../app/assets/style/_typography.scss */
 header .contacts {
   font-family: "BebasRegular";
 }
