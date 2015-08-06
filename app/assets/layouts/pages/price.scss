@@ -54,6 +54,7 @@
   }
     th.title {
       font-family: 'PT Sans';
+      padding-left: 1%;
     }
 
 
@@ -70,8 +71,8 @@
   tr{
     &:hover {
 
-      transition: background, .2s ease;
-      background: #c0392b;
+      //transition: background, .2s ease;
+      //background: #c0392b;
 
     }
 

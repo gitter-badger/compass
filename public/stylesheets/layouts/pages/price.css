@@ -34,22 +34,18 @@
 /* line 55, ../../../../app/assets/layouts/pages/price.scss */
 .price-page article table tr:first-child th.title {
   font-family: 'PT Sans';
+  padding-left: 1%;
 }
-/* line 60, ../../../../app/assets/layouts/pages/price.scss */
+/* line 61, ../../../../app/assets/layouts/pages/price.scss */
 .price-page article table tr:first-child th:nth-child(2) {
   font-size: .8rem;
   font-family: 'PT Sans';
 }
-/* line 71, ../../../../app/assets/layouts/pages/price.scss */
-.price-page article table tr:hover {
-  transition: background, .2s ease;
-  background: #c0392b;
-}
-/* line 79, ../../../../app/assets/layouts/pages/price.scss */
+/* line 80, ../../../../app/assets/layouts/pages/price.scss */
 .price-page article table tr:nth-child(2n) {
   background-color: #e4e4e4;
 }
-/* line 84, ../../../../app/assets/layouts/pages/price.scss */
+/* line 85, ../../../../app/assets/layouts/pages/price.scss */
 .price-page article table td {
   padding: 10px;
 }

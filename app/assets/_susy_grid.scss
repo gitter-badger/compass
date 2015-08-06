@@ -114,6 +114,21 @@ header {
   //
 
 
+#slogan {
+  position: absolute;
+  bottom: 130px;
+  left: 0%;
+  right: 0%;
+  margin: auto;
+  width:350px;
+  background-color: rgba(255, 255, 255, 1);
+  padding: 10px;
+  font-family: 'PT Sans Narrow';
+  box-shadow: #373737 0px 1px 5px;
+
+
+}
+
 
 .price-menu {
   @include susy-breakpoint($tablet-size, $tablet) {
@@ -168,13 +183,16 @@ header {
       position: absolute;
       bottom: 120px;
       overflow-x: auto;
-
+      padding: 0;
       left: 0;
       right: 0;
       margin: auto;
       background-color: white;
 
     }
+
+
+
 
   }
 

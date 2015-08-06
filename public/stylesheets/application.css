@@ -62,22 +62,18 @@ nav li {
 /* line 55, ../../app/assets/layouts/pages/price.scss */
 .price-page article table tr:first-child th.title {
   font-family: 'PT Sans';
+  padding-left: 1%;
 }
-/* line 60, ../../app/assets/layouts/pages/price.scss */
+/* line 61, ../../app/assets/layouts/pages/price.scss */
 .price-page article table tr:first-child th:nth-child(2) {
   font-size: .8rem;
   font-family: 'PT Sans';
 }
-/* line 71, ../../app/assets/layouts/pages/price.scss */
-.price-page article table tr:hover {
-  transition: background, .2s ease;
-  background: #c0392b;
-}
-/* line 79, ../../app/assets/layouts/pages/price.scss */
+/* line 80, ../../app/assets/layouts/pages/price.scss */
 .price-page article table tr:nth-child(2n) {
   background-color: #e4e4e4;
 }
-/* line 84, ../../app/assets/layouts/pages/price.scss */
+/* line 85, ../../app/assets/layouts/pages/price.scss */
 .price-page article table td {
   padding: 10px;
 }
@@ -998,12 +994,12 @@ ul.price-nav li {
 /* line 20, ../../app/assets/layouts/partials/_price-menu.scss */
 ul.price-nav li:hover {
   transition: background, .3s ease;
-  background: palevioletred;
+  background: #D15F54;
 }
 
 /* line 27, ../../app/assets/layouts/partials/_price-menu.scss */
 .active {
-  background: palevioletred;
+  background: #D15F54;
 }
 
 /* line 33, ../../app/assets/layouts/partials/_price-menu.scss */
@@ -1408,7 +1404,21 @@ img {
   display: block;
 }
 
-/* line 123, ../../app/assets/_susy_grid.scss */
+/* line 117, ../../app/assets/_susy_grid.scss */
+#slogan {
+  position: absolute;
+  bottom: 130px;
+  left: 0%;
+  right: 0%;
+  margin: auto;
+  width: 350px;
+  background-color: white;
+  padding: 10px;
+  font-family: 'PT Sans Narrow';
+  box-shadow: #373737 0px 1px 5px;
+}
+
+/* line 138, ../../app/assets/_susy_grid.scss */
 .price-nav {
   max-width: 720px;
   max-width: 32.72727rem;
@@ -1470,7 +1480,7 @@ head:hover ~ .price-nav:before, head:hover ~ body .price-nav:before {
   background-position: left top;
 }
 
-/* line 128, ../../app/assets/_susy_grid.scss */
+/* line 143, ../../app/assets/_susy_grid.scss */
 .price-page {
   max-width: 960px;
   max-width: 43.63636rem;
@@ -1518,7 +1528,7 @@ head:hover ~ .price-page:before, head:hover ~ body .price-page:before {
 }
 
 @media (min-width: 481px) and (max-width: 720px) {
-  /* line 147, ../../app/assets/_susy_grid.scss */
+  /* line 162, ../../app/assets/_susy_grid.scss */
   .price-page {
     max-width: 960px;
     max-width: 43.63636rem;
@@ -1565,7 +1575,7 @@ head:hover ~ .price-page:before, head:hover ~ body .price-page:before {
   }
 }
 @media (min-width: 721px) {
-  /* line 164, ../../app/assets/_susy_grid.scss */
+  /* line 179, ../../app/assets/_susy_grid.scss */
   .price-page {
     max-width: 960px;
     max-width: 43.63636rem;
@@ -1575,6 +1585,7 @@ head:hover ~ .price-page:before, head:hover ~ body .price-page:before {
     position: absolute;
     bottom: 120px;
     overflow-x: auto;
+    padding: 0;
     left: 0;
     right: 0;
     margin: auto;
@@ -1611,18 +1622,18 @@ head:hover ~ .price-page:before, head:hover ~ body .price-page:before {
     background-position: left top;
   }
 }
-/* line 182, ../../app/assets/_susy_grid.scss */
+/* line 200, ../../app/assets/_susy_grid.scss */
 body.page.price {
   background: url("/images/bg/bg.jpg");
   background-position: 200px 120px;
 }
 
-/* line 189, ../../app/assets/_susy_grid.scss */
+/* line 207, ../../app/assets/_susy_grid.scss */
 .page.price .price-page {
   background-color: #ffffff;
 }
 
-/* line 198, ../../app/assets/_susy_grid.scss */
+/* line 216, ../../app/assets/_susy_grid.scss */
 .price--menu {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -1633,7 +1644,7 @@ body.page.price {
   padding-right: 1.25%;
 }
 
-/* line 203, ../../app/assets/_susy_grid.scss */
+/* line 221, ../../app/assets/_susy_grid.scss */
 .price-menu ul li {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -1681,7 +1692,7 @@ body.page.price {
 }
 
 /*---------------------*/
-/* line 219, ../../app/assets/_susy_grid.scss */
+/* line 237, ../../app/assets/_susy_grid.scss */
 #map {
   position: absolute;
   top: 0;
@@ -1691,7 +1702,7 @@ body.page.price {
   z-index: -1;
 }
 
-/* line 240, ../../app/assets/_susy_grid.scss */
+/* line 258, ../../app/assets/_susy_grid.scss */
 footer {
   position: absolute;
   bottom: 0;
@@ -1699,12 +1710,12 @@ footer {
   height: 120px;
 }
 
-/* line 246, ../../app/assets/_susy_grid.scss */
+/* line 264, ../../app/assets/_susy_grid.scss */
 footer .wrap {
   height: 100%;
 }
 
-/* line 249, ../../app/assets/_susy_grid.scss */
+/* line 267, ../../app/assets/_susy_grid.scss */
 .footer-info {
   position: absolute;
   left: 0;
@@ -1714,7 +1725,7 @@ footer .wrap {
   margin: 0 auto;
 }
 
-/* line 258, ../../app/assets/_susy_grid.scss */
+/* line 276, ../../app/assets/_susy_grid.scss */
 footer .created-by {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -1725,7 +1736,7 @@ footer .created-by {
   padding-right: 1.25%;
 }
 
-/* line 259, ../../app/assets/_susy_grid.scss */
+/* line 277, ../../app/assets/_susy_grid.scss */
 footer .copyright {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;

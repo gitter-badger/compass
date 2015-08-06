@@ -20,4 +20,5 @@
 		%main
 			= yield
 
-=javascript_include_tag  'jquery.js', 'jquery-ujs.js', 'application.js'
+	%script{:src => "http://api-maps.yandex.ru/2.0-stable/?load=package.standard,geoXml.load&lang=ru-RU", :type => "text/javascript"}
+	=javascript_include_tag  'jquery.js', 'jquery-ujs.js', 'application.js'
