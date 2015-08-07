@@ -1166,24 +1166,29 @@ footer ul.main-menu a {
   font-size: 1.3rem;
   color: #fff;
 }
-/* line 45, ../../app/assets/layouts/partials/_footer.scss */
+/* line 48, ../../app/assets/layouts/partials/_footer.scss */
 footer .footer-info {
   font-size: 65%;
   color: rgba(255, 255, 255, 0.8);
 }
-/* line 48, ../../app/assets/layouts/partials/_footer.scss */
+/* line 51, ../../app/assets/layouts/partials/_footer.scss */
 footer .footer-info p {
   margin: 0;
 }
-/* line 49, ../../app/assets/layouts/partials/_footer.scss */
+/* line 52, ../../app/assets/layouts/partials/_footer.scss */
 footer .footer-info a {
   color: rgba(255, 255, 255, 0.8);
   border-bottom: 1px dashed rgba(255, 255, 255, 0.6);
 }
-/* line 58, ../../app/assets/layouts/partials/_footer.scss */
+/* line 61, ../../app/assets/layouts/partials/_footer.scss */
 footer .created-by {
   text-align: right;
   font-style: italic;
+}
+
+/* line 67, ../../app/assets/layouts/partials/_footer.scss */
+footer ul.main-menu li.active {
+  height: 75px;
 }
 
 /* line 5, ../../../../.rvm/gems/ruby-1.9.3-p551-dev/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
