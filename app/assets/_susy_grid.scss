@@ -116,16 +116,16 @@ header {
 
 #slogan {
   position: absolute;
-  bottom: 130px;
+  bottom: 121px;
   left: 0%;
   right: 0%;
   margin: auto;
-  width:350px;
+  //width:350px;
+  text-align: center;
   background-color: rgba(255, 255, 255, 1);
   padding: 10px;
   font-family: 'PT Sans Narrow';
-  box-shadow: #373737 0px 1px 5px;
-
+  box-shadow: inset 0px -1px 1px rgba(0,0,0,.25),0px 1px 0px rgba(0,0,0,.15);
 
 }
 
@@ -151,7 +151,6 @@ header {
   left: 0;
   right: 0;
   margin: auto;
-  background-color: white;
 
 }
 
@@ -170,7 +169,6 @@ header {
       left: 0;
       right: 0;
       margin: auto;
-      background-color: white;
 
     }
   }
@@ -187,7 +185,6 @@ header {
       left: 0;
       right: 0;
       margin: auto;
-      background-color: white;
 
     }
 
@@ -199,14 +196,12 @@ header {
 
 body.page.price {
   background: url("/images/bg/bg.jpg");
-
-  background-position: 200px 120px;
-
+  background-position: 0 200px;
+  background-size: 70%;
 }
 
 .page.price .price-page {
 
-  background-color: #ffffff;
 
 }
 

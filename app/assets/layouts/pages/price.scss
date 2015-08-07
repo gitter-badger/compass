@@ -18,6 +18,11 @@
 .price-page article {
   display: none;
   font-family: 'PT Sans', sans-serif;
+  background-color: #ffffff;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #BEBBBB;
+  padding-right: 1%;
+
 }
 
 .price-page article:nth-of-type(1) {
@@ -61,6 +66,7 @@
   th:nth-child(2) {
     font-size: .8rem;
     font-family: 'PT Sans';
+    padding-left: 1%;
   }
 
 
@@ -79,7 +85,7 @@
   }
   tr:nth-child(2n) {
 
-    background-color: #D1D1D1;
+    background-color: #EDEDED;
   }
 
   td {
@@ -88,6 +94,9 @@
 
 
 
+  }
+  td:first-child {
+    border-right: 1px solid rgb(41, 58, 75);
   }
 
 }

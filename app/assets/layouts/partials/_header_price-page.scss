@@ -121,16 +121,16 @@ header {    background: rgba(255, 255, 255, 1);  }
     }
 
     a.home {
-      position: relative;
       left: 50px;
-      top:25%;
+      top:0%;
       line-height: 20px;
 
       border: none;
     }
     .site-name {
-      top: 55%;
-      left: 60%;
+      top: 25%;
+      left: 45%;
+      position: absolute;
     }
 
     .contacts {
@@ -190,9 +190,10 @@ header {    background: rgba(255, 255, 255, 1);  }
 
     a.home {
       border: none;
+      width: 120px;
     }
     .site-name {
-      position: relative;
+      position: absolute;
       top: 25%;
       left: 55px;
 

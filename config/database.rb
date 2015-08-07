@@ -16,7 +16,7 @@
 ActiveRecord::Base.configurations[:development] = {
     :adapter  => 'postgresql',
     :encoding => 'utf8',
-    :database => 'autofrezer',
+    :database => 'maslov-service',
     :username => 'postgres',
     :password => '',
     :host     => 'localhost'
