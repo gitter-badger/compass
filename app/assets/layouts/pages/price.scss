@@ -13,8 +13,9 @@
 //  display: block;
 //}
 
-* {
+.price-page {
   -webkit-overflow-scrolling: touch;
+  overflow: auto
 }
 
 .price-page article {
@@ -94,8 +95,6 @@
   td {
 
     padding: 10px;
-
-
 
   }
   td:first-child {

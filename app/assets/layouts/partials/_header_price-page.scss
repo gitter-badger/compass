@@ -14,10 +14,10 @@
 
 
 
-@mixin vertical-center() {
-  position: absolute;
+@mixin vertical-center($position, $y) {
+  position: $position;
   top: 50%;
-  @include transform(translateY(-50%));
+  @include transform(translateY($y));
 
 }
 
@@ -41,23 +41,24 @@ header {    background: rgba(255, 255, 255, 1);  }
       @include span(2);
       height: 100%;
       text-align: center;
-      position: relative;
-      top:50%;
-      transform: translateY(-30%);
+      @include vertical-center(relative, 0%);
+      top:0;
+      background-position: -25px -10px;
     }
 
     a.home {
       position: relative;
-      left: 50px;
-      top: 15%;
+
       line-height: 20px;
       @include span(1 of 2);
-
-      border: none;
+      width: 100%;
+      top: 0%;
+       border: none;
     }
     .site-name {
-      top: 55%;
-      left: 60%;
+      top: 32%;
+      position: relative;
+      margin-left: 45px
     }
 
     .contacts {
@@ -114,22 +115,22 @@ header {    background: rgba(255, 255, 255, 1);  }
     .logo {
       @include span(2);
       height: 100%;
+      @include vertical-center(relative, 15%);
       min-width: 70px;
-      position: relative;
-      top:50%;
-      transform: translateY(-30%);
+      top:0;
+
     }
 
     a.home {
       left: 50px;
-      top:0%;
+      top:0;
       line-height: 20px;
 
       border: none;
     }
     .site-name {
       top: 25%;
-      left: 45%;
+      margin-left: 50px;
       position: absolute;
     }
 
@@ -145,27 +146,55 @@ header {    background: rgba(255, 255, 255, 1);  }
     .address {
       @include span( 4 of 10);
       @include push(1);
-      //@include vertical-center;
-      top:55%;
-      line-height: 1.6rem;
+      @include vertical-center(relative, 35%);
+      top:0%;
+      line-height: 2.6rem;
     }
     .phone {
       @include span(last 4 of 10) ;
-
-      //@include vertical-center;
-      top:55%;
-      line-height: 1.6rem;
+      @include vertical-center(relative, 35%);
+      top:0;
+      line-height: 2.6rem;
     }
+
+
 
     .h_icon {
-      float: none;
+      float: left;
       margin: 0 auto;
-      height:35px;
-      background-size: 30px;
+      height: 35px;
     }
+
+
+
+    @include breakpoint(480px 650px) {
+      .h_icon {
+        float: none;
+        background-size: 32px;
+        height: 30px;
+      }
+
+      .address {
+        @include vertical-center(relative, 15%);
+        top:0%;
+        line-height: 2rem;
+      }
+      .phone {
+        @include vertical-center(relative, 15%);
+        top:0;
+        line-height: 2rem;
+      }
+
+
+    }
+
+
+
+
+    }
+
   }
 
-}
 
 
 @include susy-breakpoint($desktop-size, $large) {
@@ -211,18 +240,19 @@ header {    background: rgba(255, 255, 255, 1);  }
     .address {
 
       @include span(first 5 of 10);
-      @include vertical-center;
+      @include vertical-center(absolute, 15%);
       @include prefix(2);
 
-      top:55%;
+      top:0%;
       line-height: 2.6rem;
 
     }
     .phone {
-      @include vertical-center;
-      top:55%;
+      @include vertical-center(absolute, 15%);
+      //top:55%;
       @include span(last 5 of 10);
       @include prefix(2);
+      top:0%;
 
       line-height: 2.6rem;
 

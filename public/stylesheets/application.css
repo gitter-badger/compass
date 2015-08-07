@@ -18,11 +18,12 @@ nav li {
 }
 
 /* line 16, ../../app/assets/layouts/pages/price.scss */
-* {
+.price-page {
   -webkit-overflow-scrolling: touch;
+  overflow: auto;
 }
 
-/* line 20, ../../app/assets/layouts/pages/price.scss */
+/* line 21, ../../app/assets/layouts/pages/price.scss */
 .price-page article {
   display: none;
   margin-right: 1%;
@@ -34,53 +35,53 @@ nav li {
   -webkit-overflow-scrolling: touch;
 }
 
-/* line 31, ../../app/assets/layouts/pages/price.scss */
+/* line 32, ../../app/assets/layouts/pages/price.scss */
 .price-page article:nth-of-type(1) {
   display: block;
 }
 
-/* line 35, ../../app/assets/layouts/pages/price.scss */
+/* line 36, ../../app/assets/layouts/pages/price.scss */
 .price-page article table {
   width: 100%;
   margin: 0 auto;
 }
-/* line 41, ../../app/assets/layouts/pages/price.scss */
+/* line 42, ../../app/assets/layouts/pages/price.scss */
 .price-page article table tr:first-child:hover {
   background: none;
 }
-/* line 47, ../../app/assets/layouts/pages/price.scss */
+/* line 48, ../../app/assets/layouts/pages/price.scss */
 .price-page article table tr:first-child th {
   color: darkgrey;
   border-bottom: 2px solid #c0392b;
   padding: 20px 0;
   font-size: 1rem;
 }
-/* line 57, ../../app/assets/layouts/pages/price.scss */
+/* line 58, ../../app/assets/layouts/pages/price.scss */
 .price-page article table tr:first-child th:first-child {
   font-size: 1.4rem;
   color: #293a4b;
   width: 60%;
 }
-/* line 63, ../../app/assets/layouts/pages/price.scss */
+/* line 64, ../../app/assets/layouts/pages/price.scss */
 .price-page article table tr:first-child th.title {
   font-family: 'PT Sans';
   padding-left: 1%;
 }
-/* line 69, ../../app/assets/layouts/pages/price.scss */
+/* line 70, ../../app/assets/layouts/pages/price.scss */
 .price-page article table tr:first-child th:nth-child(2) {
   font-size: .8rem;
   font-family: 'PT Sans';
   padding-left: 1%;
 }
-/* line 89, ../../app/assets/layouts/pages/price.scss */
+/* line 90, ../../app/assets/layouts/pages/price.scss */
 .price-page article table tr:nth-child(2n) {
   background-color: #EDEDED;
 }
-/* line 94, ../../app/assets/layouts/pages/price.scss */
+/* line 95, ../../app/assets/layouts/pages/price.scss */
 .price-page article table td {
   padding: 10px;
 }
-/* line 101, ../../app/assets/layouts/pages/price.scss */
+/* line 100, ../../app/assets/layouts/pages/price.scss */
 .price-page article table td:first-child {
   border-right: 1px solid #293a4b;
 }
@@ -570,13 +571,16 @@ header {
     text-align: center;
     position: relative;
     top: 50%;
-    transform: translateY(-30%);
+    -moz-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    -webkit-transform: translateY(0%);
+    transform: translateY(0%);
+    top: 0;
+    background-position: -25px -10px;
   }
   /* line 49, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap a.home {
     position: relative;
-    left: 50px;
-    top: 15%;
     line-height: 20px;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -585,14 +589,17 @@ header {
     float: left;
     padding-left: 5%;
     padding-right: 5%;
+    width: 100%;
+    top: 0%;
     border: none;
   }
   /* line 58, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .site-name {
-    top: 55%;
-    left: 60%;
+    top: 32%;
+    position: relative;
+    margin-left: 45px;
   }
-  /* line 63, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 64, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .contacts {
     height: 100%;
     -moz-box-sizing: border-box;
@@ -606,7 +613,7 @@ header {
     text-align: right;
     top: 5%;
   }
-  /* line 72, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 73, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .address {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -618,12 +625,12 @@ header {
     text-align: right;
     line-height: 1.1rem;
   }
-  /* line 78, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 79, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .address a {
     display: block;
     border: 0;
   }
-  /* line 83, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 84, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .phone {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -635,7 +642,7 @@ header {
     text-align: right;
     margin: 7px 0px;
   }
-  /* line 91, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 92, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .h_icon {
     float: left;
     background-size: 27px;
@@ -643,14 +650,14 @@ header {
   }
 }
 @media (min-width: 481px) and (max-width: 960px) {
-  /* line 104, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 105, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header {
     height: 80px;
     position: relative;
     padding: 0 5%;
   }
 
-  /* line 109, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 110, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap {
     max-width: 720px;
     margin-left: auto;
@@ -664,7 +671,7 @@ header {
     display: block;
     clear: both;
   }
-  /* line 114, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 115, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .logo {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -674,25 +681,29 @@ header {
     padding-left: 0.83333%;
     padding-right: 0.83333%;
     height: 100%;
-    min-width: 70px;
     position: relative;
     top: 50%;
-    transform: translateY(-30%);
+    -moz-transform: translateY(15%);
+    -ms-transform: translateY(15%);
+    -webkit-transform: translateY(15%);
+    transform: translateY(15%);
+    min-width: 70px;
+    top: 0;
   }
-  /* line 123, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 124, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap a.home {
     left: 50px;
-    top: 0%;
+    top: 0;
     line-height: 20px;
     border: none;
   }
-  /* line 130, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 131, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .site-name {
     top: 25%;
-    left: 45%;
+    margin-left: 50px;
     position: absolute;
   }
-  /* line 136, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 137, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .contacts {
     height: 100%;
     -moz-box-sizing: border-box;
@@ -706,7 +717,7 @@ header {
     text-align: right;
     top: 5%;
   }
-  /* line 145, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 146, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .address {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -716,10 +727,16 @@ header {
     padding-left: 1%;
     padding-right: 1%;
     margin-left: 8.33333%;
-    top: 55%;
-    line-height: 1.6rem;
+    position: relative;
+    top: 50%;
+    -moz-transform: translateY(35%);
+    -ms-transform: translateY(35%);
+    -webkit-transform: translateY(35%);
+    transform: translateY(35%);
+    top: 0%;
+    line-height: 2.6rem;
   }
-  /* line 152, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 153, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .phone {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -728,24 +745,60 @@ header {
     float: right;
     padding-left: 1%;
     padding-right: 1%;
-    top: 55%;
-    line-height: 1.6rem;
+    position: relative;
+    top: 50%;
+    -moz-transform: translateY(35%);
+    -ms-transform: translateY(35%);
+    -webkit-transform: translateY(35%);
+    transform: translateY(35%);
+    top: 0;
+    line-height: 2.6rem;
   }
-  /* line 160, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 162, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .h_icon {
-    float: none;
+    float: left;
     margin: 0 auto;
     height: 35px;
-    background-size: 30px;
   }
 }
+@media (min-width: 481px) and (max-width: 960px) and (min-width: 480px) and (max-width: 650px) {
+  /* line 171, ../../app/assets/layouts/partials/_header_price-page.scss */
+  .page.price header .wrap .h_icon {
+    float: none;
+    background-size: 32px;
+    height: 30px;
+  }
+  /* line 177, ../../app/assets/layouts/partials/_header_price-page.scss */
+  .page.price header .wrap .address {
+    position: relative;
+    top: 50%;
+    -moz-transform: translateY(15%);
+    -ms-transform: translateY(15%);
+    -webkit-transform: translateY(15%);
+    transform: translateY(15%);
+    top: 0%;
+    line-height: 2rem;
+  }
+  /* line 182, ../../app/assets/layouts/partials/_header_price-page.scss */
+  .page.price header .wrap .phone {
+    position: relative;
+    top: 50%;
+    -moz-transform: translateY(15%);
+    -ms-transform: translateY(15%);
+    -webkit-transform: translateY(15%);
+    transform: translateY(15%);
+    top: 0;
+    line-height: 2rem;
+  }
+}
+
 @media (min-width: 961px) {
-  /* line 173, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 202, ../../app/assets/layouts/partials/_header_price-page.scss */
   header {
     height: 80px;
   }
 
-  /* line 176, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 205, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap {
     max-width: 960px;
     margin-left: auto;
@@ -760,7 +813,7 @@ header {
     display: block;
     clear: both;
   }
-  /* line 182, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 211, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .logo {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -774,18 +827,18 @@ header {
     max-width: 80px;
     position: relative;
   }
-  /* line 191, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 220, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap a.home {
     border: none;
     width: 120px;
   }
-  /* line 195, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 224, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .site-name {
     position: absolute;
     top: 25%;
     left: 55px;
   }
-  /* line 202, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 231, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .contacts {
     height: 100%;
     -moz-box-sizing: border-box;
@@ -797,7 +850,7 @@ header {
     padding-right: 0.83333%;
     position: relative;
   }
-  /* line 211, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 240, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .address {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -808,23 +861,22 @@ header {
     padding-right: 1%;
     position: absolute;
     top: 50%;
-    -moz-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
+    -moz-transform: translateY(15%);
+    -ms-transform: translateY(15%);
+    -webkit-transform: translateY(15%);
+    transform: translateY(15%);
     padding-left: 17.5%;
-    top: 55%;
+    top: 0%;
     line-height: 2.6rem;
   }
-  /* line 221, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 250, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .phone {
     position: absolute;
     top: 50%;
-    -moz-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
-    top: 55%;
+    -moz-transform: translateY(15%);
+    -ms-transform: translateY(15%);
+    -webkit-transform: translateY(15%);
+    transform: translateY(15%);
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -833,10 +885,11 @@ header {
     padding-left: 1%;
     padding-right: 1%;
     padding-left: 17.5%;
+    top: 0%;
     line-height: 2.6rem;
     left: 50%;
   }
-  /* line 232, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 262, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .h_icon {
     float: left;
   }
@@ -860,7 +913,7 @@ ul.price-nav {
 /* line 13, ../../app/assets/layouts/partials/_price-menu.scss */
 ul.price-nav li {
   text-align: center;
-  height: 120px;
+  height: 90px;
   width: 16%;
   padding-top: 12px;
 }
@@ -906,9 +959,9 @@ ul.price-nav li .label {
   text-align: center;
 }
 /* line 72, ../../app/assets/layouts/partials/_price-menu.scss */
-.price-nav li {
+.price-nav ul.price-nav li {
   text-align: center;
-  height: 100px;
+  height: 120px;
   width: 16%;
   padding-top: 0px;
 }
@@ -927,8 +980,8 @@ ul.price-nav li .label {
   }
 
   /* line 95, ../../app/assets/layouts/partials/_price-menu.scss */
-  li {
-    height: 100px;
+  ul.price-nav li {
+    height: 120px;
     width: 16%;
     padding-top: 10px;
   }
@@ -956,43 +1009,48 @@ ul.price-nav li .label {
     padding-top: 10px;
     font-size: 1rem;
   }
+
+  /* line 134, ../../app/assets/layouts/partials/_price-menu.scss */
+  ul.price-nav li {
+    height: 120px;
+  }
 }
-/* line 136, ../../app/assets/layouts/partials/_price-menu.scss */
+/* line 145, ../../app/assets/layouts/partials/_price-menu.scss */
 ul.price-nav li:nth-child(4) {
   width: 18%;
 }
 
-/* line 142, ../../app/assets/layouts/partials/_price-menu.scss */
+/* line 151, ../../app/assets/layouts/partials/_price-menu.scss */
 .label {
   font-size: .7rem;
 }
 
-/* line 150, ../../app/assets/layouts/partials/_price-menu.scss */
+/* line 159, ../../app/assets/layouts/partials/_price-menu.scss */
 .icon-to {
   background-image: url("/images/icons/menu-price/1.svg");
 }
 
-/* line 151, ../../app/assets/layouts/partials/_price-menu.scss */
+/* line 160, ../../app/assets/layouts/partials/_price-menu.scss */
 .icon-remont {
   background-image: url("/images/icons/menu-price/2.svg");
 }
 
-/* line 152, ../../app/assets/layouts/partials/_price-menu.scss */
+/* line 161, ../../app/assets/layouts/partials/_price-menu.scss */
 .icon-custom {
   background-image: url("/images/icons/menu-price/3.svg");
 }
 
-/* line 153, ../../app/assets/layouts/partials/_price-menu.scss */
+/* line 162, ../../app/assets/layouts/partials/_price-menu.scss */
 .icon-mount {
   background-image: url("/images/icons/menu-price/4.svg");
 }
 
-/* line 154, ../../app/assets/layouts/partials/_price-menu.scss */
+/* line 163, ../../app/assets/layouts/partials/_price-menu.scss */
 .icon-wash {
   background-image: url("/images/icons/menu-price/5.svg");
 }
 
-/* line 155, ../../app/assets/layouts/partials/_price-menu.scss */
+/* line 164, ../../app/assets/layouts/partials/_price-menu.scss */
 .icon-paint {
   background-image: url("/images/icons/menu-price/6.svg");
 }
