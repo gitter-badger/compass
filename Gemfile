@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+ssource 'https://rubygems.org'
 
 # Distribute your app as a gem
 # gemspec
@@ -12,14 +12,12 @@ source 'https://rubygems.org'
 
 # Project requirements
 gem 'rake'
-gem 'webrick'
+gem 'unicorn'
 # Component requirements
 gem 'compass'
-gem 'rack-livereload'
+# gem 'rack-livereload'
 gem 'haml'
 gem 'susy'
-
-
 gem 'breakpoint'
 gem 'activerecord', '>= 3.1', :require => 'active_record'
 gem 'pg'
