@@ -7,9 +7,9 @@ module Compass
     register Padrino::Helpers
     register CompassInitializer
 
-    # use Rack::LiveReload, :host => 'localhost'
 
     enable :sessions
+
 
 
 

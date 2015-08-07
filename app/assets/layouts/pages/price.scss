@@ -17,12 +17,12 @@
 
 .price-page article {
   display: none;
+  margin-right: 1%;
   font-family: 'PT Sans', sans-serif;
   background-color: #ffffff;
-  //padding-bottom: 5px;
   border-bottom: 1px solid #BEBBBB;
-  overflow-x: auto;
-  -webkit-overflow-scrolling:touch;
+  overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
 
 }
 

@@ -21,9 +21,12 @@ module CompassInitializer
 
     end
 
+
     Compass.configure_sass_plugin!
     Compass.handle_configuration_change!
 
     app.use Sass::Plugin::Rack
   end
+
+
 end
