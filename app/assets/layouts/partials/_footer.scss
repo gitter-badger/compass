@@ -29,9 +29,14 @@
       }
       a {
         display: block;
-        transform: translateY(50%);
         text-decoration: none;
         border: 0;
+        top: 0;
+        padding-top: 15px;
+        box-sizing: border-box;
+        width: 100%;
+        position: relative;
+        height: 100%;
         font-family: BebasBold;
         font-size: 1.3rem;
         color: #fff;

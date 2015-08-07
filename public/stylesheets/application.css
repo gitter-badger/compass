@@ -71,7 +71,7 @@ nav li {
 }
 /* line 80, ../../app/assets/layouts/pages/price.scss */
 .price-page article table tr:nth-child(2n) {
-  background-color: #e4e4e4;
+  background-color: #D1D1D1;
 }
 /* line 85, ../../app/assets/layouts/pages/price.scss */
 .price-page article table td {
@@ -1152,28 +1152,33 @@ footer ul.main-menu li:hover {
 /* line 30, ../../app/assets/layouts/partials/_footer.scss */
 footer ul.main-menu a {
   display: block;
-  transform: translateY(50%);
   text-decoration: none;
   border: 0;
+  top: 0;
+  padding-top: 15px;
+  box-sizing: border-box;
+  width: 100%;
+  position: relative;
+  height: 100%;
   font-family: BebasBold;
   font-size: 1.3rem;
   color: #fff;
 }
-/* line 40, ../../app/assets/layouts/partials/_footer.scss */
+/* line 45, ../../app/assets/layouts/partials/_footer.scss */
 footer .footer-info {
   font-size: 65%;
   color: rgba(255, 255, 255, 0.8);
 }
-/* line 43, ../../app/assets/layouts/partials/_footer.scss */
+/* line 48, ../../app/assets/layouts/partials/_footer.scss */
 footer .footer-info p {
   margin: 0;
 }
-/* line 44, ../../app/assets/layouts/partials/_footer.scss */
+/* line 49, ../../app/assets/layouts/partials/_footer.scss */
 footer .footer-info a {
   color: rgba(255, 255, 255, 0.8);
   border-bottom: 1px dashed rgba(255, 255, 255, 0.6);
 }
-/* line 53, ../../app/assets/layouts/partials/_footer.scss */
+/* line 58, ../../app/assets/layouts/partials/_footer.scss */
 footer .created-by {
   text-align: right;
   font-style: italic;
