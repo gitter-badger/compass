@@ -22,9 +22,8 @@ nav li {
   display: none;
   font-family: 'PT Sans', sans-serif;
   background-color: #ffffff;
-  padding-bottom: 5px;
   border-bottom: 1px solid #BEBBBB;
-  padding-right: 1%;
+  overflow-x: auto;
 }
 
 /* line 28, ../../app/assets/layouts/pages/price.scss */
@@ -1497,7 +1496,6 @@ head:hover ~ .price-nav:before, head:hover ~ body .price-nav:before {
   top: 175px;
   position: absolute;
   bottom: 120px;
-  overflow-x: auto;
   padding: 0 5px;
   left: 0;
   right: 0;
@@ -1535,7 +1533,7 @@ head:hover ~ .price-page:before, head:hover ~ body .price-page:before {
 }
 
 @media (min-width: 481px) and (max-width: 960px) {
-  /* line 161, ../../app/assets/_susy_grid.scss */
+  /* line 160, ../../app/assets/_susy_grid.scss */
   .price-page {
     max-width: 960px;
     max-width: 43.63636rem;
@@ -1581,7 +1579,7 @@ head:hover ~ .price-page:before, head:hover ~ body .price-page:before {
   }
 }
 @media (min-width: 961px) {
-  /* line 177, ../../app/assets/_susy_grid.scss */
+  /* line 176, ../../app/assets/_susy_grid.scss */
   .price-page {
     max-width: 960px;
     max-width: 43.63636rem;
@@ -1627,14 +1625,14 @@ head:hover ~ .price-page:before, head:hover ~ body .price-page:before {
     background-position: left top;
   }
 }
-/* line 197, ../../app/assets/_susy_grid.scss */
+/* line 196, ../../app/assets/_susy_grid.scss */
 body.page.price {
   background: url("/images/bg/bg.jpg");
   background-position: 0 200px;
   background-size: 70%;
 }
 
-/* line 211, ../../app/assets/_susy_grid.scss */
+/* line 210, ../../app/assets/_susy_grid.scss */
 .price--menu {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -1645,7 +1643,7 @@ body.page.price {
   padding-right: 1.25%;
 }
 
-/* line 216, ../../app/assets/_susy_grid.scss */
+/* line 215, ../../app/assets/_susy_grid.scss */
 .price-menu ul li {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -1693,7 +1691,7 @@ body.page.price {
 }
 
 /*---------------------*/
-/* line 232, ../../app/assets/_susy_grid.scss */
+/* line 231, ../../app/assets/_susy_grid.scss */
 #map {
   position: absolute;
   top: 0;
@@ -1703,7 +1701,7 @@ body.page.price {
   z-index: -1;
 }
 
-/* line 253, ../../app/assets/_susy_grid.scss */
+/* line 252, ../../app/assets/_susy_grid.scss */
 footer {
   position: absolute;
   bottom: 0;
@@ -1711,12 +1709,12 @@ footer {
   height: 120px;
 }
 
-/* line 259, ../../app/assets/_susy_grid.scss */
+/* line 258, ../../app/assets/_susy_grid.scss */
 footer .wrap {
   height: 100%;
 }
 
-/* line 262, ../../app/assets/_susy_grid.scss */
+/* line 261, ../../app/assets/_susy_grid.scss */
 .footer-info {
   position: absolute;
   left: 0;
@@ -1726,7 +1724,7 @@ footer .wrap {
   margin: 0 auto;
 }
 
-/* line 271, ../../app/assets/_susy_grid.scss */
+/* line 270, ../../app/assets/_susy_grid.scss */
 footer .created-by {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -1737,7 +1735,7 @@ footer .created-by {
   padding-right: 1.25%;
 }
 
-/* line 272, ../../app/assets/_susy_grid.scss */
+/* line 271, ../../app/assets/_susy_grid.scss */
 footer .copyright {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;

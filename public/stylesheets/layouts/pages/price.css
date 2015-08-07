@@ -3,9 +3,8 @@
   display: none;
   font-family: 'PT Sans', sans-serif;
   background-color: #ffffff;
-  padding-bottom: 5px;
   border-bottom: 1px solid #BEBBBB;
-  padding-right: 1%;
+  overflow-x: auto;
 }
 
 /* line 28, ../../../../app/assets/layouts/pages/price.scss */
