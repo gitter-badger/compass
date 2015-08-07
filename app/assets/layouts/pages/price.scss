@@ -13,7 +13,9 @@
 //  display: block;
 //}
 
-
+* {
+  -webkit-overflow-scrolling: touch;
+}
 
 .price-page article {
   display: none;
