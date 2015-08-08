@@ -400,10 +400,11 @@ a.call_btn:hover {
     text-align: center;
     position: relative;
     top: 50%;
-    -moz-transform: translateY(25%);
-    -ms-transform: translateY(25%);
-    -webkit-transform: translateY(25%);
-    transform: translateY(25%);
+    -moz-transform: translateY(50%);
+    -ms-transform: translateY(50%);
+    -webkit-transform: translateY(50%);
+    transform: translateY(50%);
+    top: 0;
     line-height: 1.6rem;
   }
   /* line 155, ../../app/assets/layouts/partials/_header_contacts-page.scss */
@@ -418,10 +419,11 @@ a.call_btn:hover {
     text-align: center;
     position: relative;
     top: 50%;
-    -moz-transform: translateY(25%);
-    -ms-transform: translateY(25%);
-    -webkit-transform: translateY(25%);
-    transform: translateY(25%);
+    -moz-transform: translateY(50%);
+    -ms-transform: translateY(50%);
+    -webkit-transform: translateY(50%);
+    transform: translateY(50%);
+    top: 0;
     line-height: 1.6rem;
   }
   /* line 163, ../../app/assets/layouts/partials/_header_contacts-page.scss */

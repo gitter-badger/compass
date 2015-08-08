@@ -147,16 +147,16 @@
 
       .address {
         @include span(first 6);
-        //@include vertical-center;
         text-align: center;
-        @include vertical-center(relative, 25%);
+        @include vertical-center(relative, 50%);
+        top:0;
         line-height: 1.6rem;
       }
       .phone {
         @include span(last 6) ;
         text-align: center;
-        //@include vertical-center;
-        @include vertical-center(relative, 25%);
+        @include vertical-center(relative, 50%);
+        top:0;
         line-height: 1.6rem;
       }
 
