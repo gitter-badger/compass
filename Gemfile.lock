@@ -130,3 +130,6 @@ DEPENDENCIES
   rake
   susy
   unicorn
+
+BUNDLED WITH
+   1.10.3

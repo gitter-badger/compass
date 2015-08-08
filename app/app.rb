@@ -11,13 +11,11 @@ module Compass
     enable :sessions
 
 
-
-
     ##
     # Caching support.
     #
-    # register Padrino::Cache
-    # enable :caching
+    register Padrino::Cache
+    enable :caching
 
     #
     # You can customize caching store engines:

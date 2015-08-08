@@ -1,5 +1,6 @@
-Compass::App.controllers :page do
-  
+Compass::App.controllers :page, :cache => true do
+
+  expires 3600
   # get :index, :map => '/foo/bar' do
   #   session[:foo] = 'bar'
   #   render 'index'
@@ -20,10 +21,12 @@ Compass::App.controllers :page do
   # end
   
   get :contacts, :map => '/' do
+    cache_key :contacts
     haml :'page/contacts'
   end
 
   get :price do
+    cache_key :price
     haml :'page/price'
   end
 
