@@ -142,8 +142,6 @@
         @include span(12);
         position: relative;
         text-align: right;
-        top:5%;
-        transform: translateY(20%);
 
       }
 
@@ -151,14 +149,14 @@
         @include span(first 6);
         //@include vertical-center;
         text-align: center;
-        top:55%;
+        @include vertical-center(relative, 25%);
         line-height: 1.6rem;
       }
       .phone {
         @include span(last 6) ;
         text-align: center;
         //@include vertical-center;
-        top:55%;
+        @include vertical-center(relative, 25%);
         line-height: 1.6rem;
       }
 
