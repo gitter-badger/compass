@@ -1,11 +1,29 @@
 ymaps.ready(function () {
-    var myMap = new ymaps.Map('map', {
+
+    var viewportWidth = $(window).width();
+
+    if (viewportWidth > '480') {
+
+
+        var myMap = new ymaps.Map('map', {
             center: [55.74328183, 37.73893384],
             //center: [55.74106563, 37.73968799],
-            zoom: 13,
+            zoom: 12,
             controls: []
 
-        }),
+        })
+
+    }
+    else
+    {
+        var myMap = new ymaps.Map('map', {
+            center: [55.74328183, 37.73893384],
+            //center: [55.74106563, 37.73968799],
+            zoom: 11,
+            controls: []
+
+        })
+    }
         myPlacemark = new ymaps.Placemark([55.74118901, 37.73929481], {
             hintContent: 'Маслов-Сервис <br> 1-я Фрезерная д.2 к.1',
             balloonContentBody: [
