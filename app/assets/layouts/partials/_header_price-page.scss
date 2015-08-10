@@ -1,19 +1,6 @@
-
-
-
 ///* HEADER PAGE-PRICE */
 //
 //
-
-
-.ymaps-image {
-  background: url("/images/icons/address_metka.png");
-
-  
-}
-
-
-
 
 header {    background: rgba(255, 255, 255, 1);  }
 
@@ -36,7 +23,7 @@ header {    background: rgba(255, 255, 255, 1);  }
       text-align: center;
       @include vertical-center(relative, 0%);
       top:0;
-      background-position: -25px -10px;
+      background-position: 0% 50%;
     }
 
     a.home {

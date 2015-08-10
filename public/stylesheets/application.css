@@ -115,8 +115,8 @@ header {
 .page.contacts .logo {
   background-image: url("/images/header/logo.svg");
   background-repeat: no-repeat;
-  background-position: 0% -10px;
-  background-size: 100px;
+  background-position: 50% 0px;
+  background-size: 65px;
   height: 100%;
   position: relative;
   line-height: 100%;
@@ -126,8 +126,8 @@ header {
 .page.price .logo {
   background-image: url("/images/header/logo.svg");
   background-repeat: no-repeat;
-  background-position: -25px -20px;
-  background-size: 100px;
+  background-position: 0% 0px;
+  background-size: 60px;
   height: 100%;
   position: relative;
   line-height: 100%;
@@ -204,8 +204,8 @@ a.call_btn:hover {
 
 /* line 1, ../../app/assets/layouts/partials/_header_contacts-page.scss */
 .page.contacts header {
-  height: 120px;
-  background-color: rgba(255, 255, 255, 0.88);
+  height: 130px;
+  background-color: rgba(255, 255, 255, 0.9);
   box-shadow: 0 1px 12px 0 rgba(0, 0, 0, 0.12), 0 1px 1px 0 rgba(0, 0, 0, 0.06);
 }
 
@@ -244,7 +244,7 @@ a.call_btn:hover {
     position: relative;
     top: 32%;
     transform: translateY(-30%);
-    background-position: 50% -10px;
+    background-position: 50% 2px;
   }
   /* line 39, ../../app/assets/layouts/partials/_header_contacts-page.scss */
   .page.contacts header a.home {
@@ -358,7 +358,7 @@ a.call_btn:hover {
     left: 0%;
     right: 0%;
     margin: auto;
-    background-position: 50% -10px;
+    background-position: 50% 5px;
   }
   /* line 126, ../../app/assets/layouts/partials/_header_contacts-page.scss */
   .page.contacts header .wrap a.home {
@@ -468,7 +468,7 @@ a.call_btn:hover {
     left: 0%;
     right: 0%;
     margin: auto;
-    background-position: 50% -10px;
+    background-position: 50% 5px;
     z-index: 2;
   }
   /* line 201, ../../app/assets/layouts/partials/_header_contacts-page.scss */
@@ -542,24 +542,19 @@ a.call_btn:hover {
     background-size: 35px;
   }
 }
-/* line 9, ../../app/assets/layouts/partials/_header_price-page.scss */
-.ymaps-image {
-  background: url("/images/icons/address_metka.png");
-}
-
-/* line 18, ../../app/assets/layouts/partials/_header_price-page.scss */
+/* line 5, ../../app/assets/layouts/partials/_header_price-page.scss */
 header {
   background: white;
 }
 
 @media (min-width: 200px) and (max-width: 480px) {
-  /* line 22, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 9, ../../app/assets/layouts/partials/_header_price-page.scss */
   header {
     height: 80px;
     position: relative;
   }
 
-  /* line 27, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 14, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap {
     max-width: 100%;
     margin-left: auto;
@@ -573,7 +568,7 @@ header {
     display: block;
     clear: both;
   }
-  /* line 33, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 20, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .logo {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -591,9 +586,9 @@ header {
     -webkit-transform: translateY(0%);
     transform: translateY(0%);
     top: 0;
-    background-position: -25px -10px;
+    background-position: 0% 50%;
   }
-  /* line 42, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 29, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap a.home {
     position: relative;
     line-height: 20px;
@@ -608,13 +603,13 @@ header {
     top: 0%;
     border: none;
   }
-  /* line 51, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 38, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .site-name {
     top: 32%;
     position: relative;
     margin-left: 45px;
   }
-  /* line 57, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 44, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .contacts {
     height: 100%;
     -moz-box-sizing: border-box;
@@ -628,7 +623,7 @@ header {
     text-align: right;
     top: 5%;
   }
-  /* line 66, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 53, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .address {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -640,12 +635,12 @@ header {
     text-align: right;
     line-height: 1.1rem;
   }
-  /* line 72, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 59, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .address a {
     display: block;
     border: 0;
   }
-  /* line 77, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 64, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .phone {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -657,7 +652,7 @@ header {
     text-align: right;
     margin: 7px 0px;
   }
-  /* line 85, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 72, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .h_icon {
     float: left;
     background-size: 27px;
@@ -665,14 +660,14 @@ header {
   }
 }
 @media (min-width: 481px) and (max-width: 960px) {
-  /* line 98, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 85, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header {
     height: 80px;
     position: relative;
     padding: 0 5%;
   }
 
-  /* line 103, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 90, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap {
     max-width: 720px;
     margin-left: auto;
@@ -686,7 +681,7 @@ header {
     display: block;
     clear: both;
   }
-  /* line 108, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 95, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .logo {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -705,20 +700,20 @@ header {
     min-width: 70px;
     top: 0;
   }
-  /* line 117, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 104, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap a.home {
     left: 50px;
     top: 0;
     line-height: 20px;
     border: none;
   }
-  /* line 124, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 111, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .site-name {
     top: 25%;
     margin-left: 50px;
     position: absolute;
   }
-  /* line 130, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 117, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .contacts {
     height: 100%;
     -moz-box-sizing: border-box;
@@ -732,7 +727,7 @@ header {
     text-align: right;
     top: 5%;
   }
-  /* line 139, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 126, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .address {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -751,7 +746,7 @@ header {
     top: 0%;
     line-height: 2.6rem;
   }
-  /* line 146, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 133, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .phone {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -769,7 +764,7 @@ header {
     top: 0;
     line-height: 2.6rem;
   }
-  /* line 155, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 142, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .h_icon {
     float: left;
     margin: 0 auto;
@@ -777,13 +772,13 @@ header {
   }
 }
 @media (min-width: 481px) and (max-width: 960px) and (min-width: 480px) and (max-width: 650px) {
-  /* line 164, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 151, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .h_icon {
     float: none;
     background-size: 32px;
     height: 30px;
   }
-  /* line 170, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 157, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .address {
     position: relative;
     top: 50%;
@@ -794,7 +789,7 @@ header {
     top: 0%;
     line-height: 2rem;
   }
-  /* line 175, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 162, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .phone {
     position: relative;
     top: 50%;
@@ -808,12 +803,12 @@ header {
 }
 
 @media (min-width: 961px) {
-  /* line 195, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 182, ../../app/assets/layouts/partials/_header_price-page.scss */
   header {
     height: 80px;
   }
 
-  /* line 198, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 185, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap {
     max-width: 960px;
     margin-left: auto;
@@ -828,7 +823,7 @@ header {
     display: block;
     clear: both;
   }
-  /* line 204, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 191, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .logo {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -842,18 +837,18 @@ header {
     max-width: 80px;
     position: relative;
   }
-  /* line 213, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 200, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap a.home {
     border: none;
     width: 120px;
   }
-  /* line 217, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 204, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .site-name {
     position: absolute;
     top: 25%;
     left: 55px;
   }
-  /* line 224, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 211, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .contacts {
     height: 100%;
     -moz-box-sizing: border-box;
@@ -865,7 +860,7 @@ header {
     padding-right: 0.83333%;
     position: relative;
   }
-  /* line 233, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 220, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .address {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -884,7 +879,7 @@ header {
     top: 0%;
     line-height: 2.6rem;
   }
-  /* line 243, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 230, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .phone {
     position: absolute;
     top: 50%;
@@ -904,7 +899,7 @@ header {
     line-height: 2.6rem;
     left: 50%;
   }
-  /* line 255, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 242, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .h_icon {
     float: left;
   }

@@ -1,7 +1,7 @@
 .page.contacts header {
 
-  height: 120px;
-  background-color: rgba(255, 255, 255, 0.88);
+  height: 130px;
+  background-color: rgba(255, 255, 255, 0.9);
   box-shadow: 0 1px 12px 0 rgba(0,0,0,.12),0 1px 1px 0 rgba(0,0,0,.06);
 
 }
@@ -33,7 +33,7 @@
         position: relative;
         top:32%;
         transform: translateY(-30%);
-        background-position: 50% -10px;
+        background-position: 50% 2px;
       }
 
       a.home {
@@ -120,7 +120,7 @@
         left: 0%;
         right: 0%;
         margin: auto;
-        background-position: 50% -10px;
+        background-position: 50% 5px;
       }
 
       a.home {
@@ -193,7 +193,7 @@
         left: 0%;
         right: 0%;
         margin: auto;
-        background-position: 50% -10px;
+        background-position: 50% 5px;
         z-index: 2;
 
       }
