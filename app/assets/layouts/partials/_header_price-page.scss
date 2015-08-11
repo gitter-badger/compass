@@ -3,6 +3,7 @@
 //
 
 header {    background: rgba(255, 255, 255, 1);  }
+a.call_btn  {  margin: 0 10px; }
 
 @include susy-breakpoint($mobile-size, $mobile) {
 
@@ -83,7 +84,7 @@ header {    background: rgba(255, 255, 255, 1);  }
 @include susy-breakpoint($tablet-size, $tablet ) {
 
   .page.price header {
-    height: 80px;
+    height: 60px;
     position: relative;
     padding: 0 5%;
   }
@@ -180,7 +181,7 @@ header {    background: rgba(255, 255, 255, 1);  }
 @include susy-breakpoint($desktop-size, $large) {
 
   header {
-    height: 80px;
+    height: 70px;
   }
   .page.price header .wrap {
     @include container;
@@ -194,6 +195,8 @@ header {    background: rgba(255, 255, 255, 1);  }
       min-width: 70px;
       max-width: 80px;
       position: relative;
+      background-position: 0 0px;
+      background-size: 55px;
 
     }
 
@@ -203,8 +206,8 @@ header {    background: rgba(255, 255, 255, 1);  }
     }
     .site-name {
       position: absolute;
-      top: 25%;
-      left: 55px;
+      top: 10px;
+      left: 52px;
 
     }
 
@@ -224,7 +227,7 @@ header {    background: rgba(255, 255, 255, 1);  }
       @include prefix(2);
 
       top:0%;
-      line-height: 2.6rem;
+      line-height: 2rem;
 
     }
     .phone {
@@ -234,10 +237,11 @@ header {    background: rgba(255, 255, 255, 1);  }
       @include prefix(2);
       top:0%;
 
-      line-height: 2.6rem;
+      line-height: 2rem;
 
       left:50%;
     }
+
 
     .h_icon {float: left;}
   }

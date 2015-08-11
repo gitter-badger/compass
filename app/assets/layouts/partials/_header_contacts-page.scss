@@ -84,7 +84,7 @@
 
       .call_btn {
         display: block;
-        width: 30%;
+        width: 50%;
         margin: 0 auto;
         min-width: 60px;
       }
@@ -219,16 +219,17 @@
         @include span(12);
         position: relative;
         text-align: right;
-        transform: translateY(0%);
+
 
       }
 
       .address {
         @include span(first 6);
-        //@include vertical-center;
+        @include vertical-center(relative, 15%);
+
         text-align: center;
         top:55%;
-        line-height: 1.2rem;
+
       }
 
       .city-name {
@@ -242,9 +243,7 @@
       .phone {
         @include span(last 6) ;
         text-align: center;
-        //@include vertical-center;
-        top:55%;
-        line-height: 1.2rem;
+        @include vertical-center(relative, 15%);
       }
       .telephone {
         display: block;
@@ -253,7 +252,7 @@
       .h_icon {
         float: none;
         margin: 0 auto;
-        height:55px;
+        height:45px;
         background-size: 35px;
       }
     }

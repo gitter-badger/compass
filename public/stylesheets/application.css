@@ -94,6 +94,7 @@ nav li {
 /* line 6, ../../app/assets/layouts/partials/_header.scss */
 .phone-icon {
   background-image: url("/images/icons_svg/tel.svg");
+  padding: 0 5px;
 }
 
 /* line 8, ../../app/assets/layouts/partials/_header.scss */
@@ -102,7 +103,7 @@ nav li {
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: 35px;
-  height: 45px;
+  height: 40px;
   width: 40px;
 }
 
@@ -126,8 +127,8 @@ header {
 .page.price .logo {
   background-image: url("/images/header/logo.svg");
   background-repeat: no-repeat;
-  background-position: 0% 0px;
-  background-size: 60px;
+  background-position: 0% 50%;
+  background-size: 50px;
   height: 100%;
   position: relative;
   line-height: 100%;
@@ -317,7 +318,7 @@ a.call_btn:hover {
   /* line 85, ../../app/assets/layouts/partials/_header_contacts-page.scss */
   .page.contacts header .call_btn {
     display: block;
-    width: 30%;
+    width: 50%;
     margin: 0 auto;
     min-width: 60px;
   }
@@ -498,7 +499,6 @@ a.call_btn:hover {
     padding-right: 0.83333%;
     position: relative;
     text-align: right;
-    transform: translateY(0%);
   }
   /* line 226, ../../app/assets/layouts/partials/_header_contacts-page.scss */
   .page.contacts header .address {
@@ -509,15 +509,20 @@ a.call_btn:hover {
     float: left;
     padding-left: 0.83333%;
     padding-right: 0.83333%;
+    position: relative;
+    top: 50%;
+    -moz-transform: translateY(15%);
+    -ms-transform: translateY(15%);
+    -webkit-transform: translateY(15%);
+    transform: translateY(15%);
     text-align: center;
     top: 55%;
-    line-height: 1.2rem;
   }
-  /* line 234, ../../app/assets/layouts/partials/_header_contacts-page.scss */
+  /* line 235, ../../app/assets/layouts/partials/_header_contacts-page.scss */
   .page.contacts header .city-name {
     display: block;
   }
-  /* line 242, ../../app/assets/layouts/partials/_header_contacts-page.scss */
+  /* line 243, ../../app/assets/layouts/partials/_header_contacts-page.scss */
   .page.contacts header .phone {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -527,18 +532,22 @@ a.call_btn:hover {
     padding-left: 0.83333%;
     padding-right: 0.83333%;
     text-align: center;
-    top: 55%;
-    line-height: 1.2rem;
+    position: relative;
+    top: 50%;
+    -moz-transform: translateY(15%);
+    -ms-transform: translateY(15%);
+    -webkit-transform: translateY(15%);
+    transform: translateY(15%);
   }
-  /* line 249, ../../app/assets/layouts/partials/_header_contacts-page.scss */
+  /* line 248, ../../app/assets/layouts/partials/_header_contacts-page.scss */
   .page.contacts header .telephone {
     display: block;
   }
-  /* line 253, ../../app/assets/layouts/partials/_header_contacts-page.scss */
+  /* line 252, ../../app/assets/layouts/partials/_header_contacts-page.scss */
   .page.contacts header .h_icon {
     float: none;
     margin: 0 auto;
-    height: 55px;
+    height: 45px;
     background-size: 35px;
   }
 }
@@ -547,14 +556,19 @@ header {
   background: white;
 }
 
+/* line 6, ../../app/assets/layouts/partials/_header_price-page.scss */
+a.call_btn {
+  margin: 0 10px;
+}
+
 @media (min-width: 200px) and (max-width: 480px) {
-  /* line 9, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 10, ../../app/assets/layouts/partials/_header_price-page.scss */
   header {
     height: 80px;
     position: relative;
   }
 
-  /* line 14, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 15, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap {
     max-width: 100%;
     margin-left: auto;
@@ -568,7 +582,7 @@ header {
     display: block;
     clear: both;
   }
-  /* line 20, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 21, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .logo {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -588,7 +602,7 @@ header {
     top: 0;
     background-position: 0% 50%;
   }
-  /* line 29, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 30, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap a.home {
     position: relative;
     line-height: 20px;
@@ -603,13 +617,13 @@ header {
     top: 0%;
     border: none;
   }
-  /* line 38, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 39, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .site-name {
     top: 32%;
     position: relative;
     margin-left: 45px;
   }
-  /* line 44, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 45, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .contacts {
     height: 100%;
     -moz-box-sizing: border-box;
@@ -623,7 +637,7 @@ header {
     text-align: right;
     top: 5%;
   }
-  /* line 53, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 54, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .address {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -635,12 +649,12 @@ header {
     text-align: right;
     line-height: 1.1rem;
   }
-  /* line 59, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 60, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .address a {
     display: block;
     border: 0;
   }
-  /* line 64, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 65, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .phone {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -652,7 +666,7 @@ header {
     text-align: right;
     margin: 7px 0px;
   }
-  /* line 72, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 73, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .h_icon {
     float: left;
     background-size: 27px;
@@ -660,14 +674,14 @@ header {
   }
 }
 @media (min-width: 481px) and (max-width: 960px) {
-  /* line 85, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 86, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header {
-    height: 80px;
+    height: 60px;
     position: relative;
     padding: 0 5%;
   }
 
-  /* line 90, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 91, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap {
     max-width: 720px;
     margin-left: auto;
@@ -681,7 +695,7 @@ header {
     display: block;
     clear: both;
   }
-  /* line 95, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 96, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .logo {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -700,20 +714,20 @@ header {
     min-width: 70px;
     top: 0;
   }
-  /* line 104, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 105, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap a.home {
     left: 50px;
     top: 0;
     line-height: 20px;
     border: none;
   }
-  /* line 111, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 112, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .site-name {
     top: 25%;
     margin-left: 50px;
     position: absolute;
   }
-  /* line 117, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 118, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .contacts {
     height: 100%;
     -moz-box-sizing: border-box;
@@ -727,7 +741,7 @@ header {
     text-align: right;
     top: 5%;
   }
-  /* line 126, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 127, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .address {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -746,7 +760,7 @@ header {
     top: 0%;
     line-height: 2.6rem;
   }
-  /* line 133, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 134, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .phone {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -764,7 +778,7 @@ header {
     top: 0;
     line-height: 2.6rem;
   }
-  /* line 142, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 143, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .h_icon {
     float: left;
     margin: 0 auto;
@@ -772,13 +786,13 @@ header {
   }
 }
 @media (min-width: 481px) and (max-width: 960px) and (min-width: 480px) and (max-width: 650px) {
-  /* line 151, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 152, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .h_icon {
     float: none;
     background-size: 32px;
     height: 30px;
   }
-  /* line 157, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 158, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .address {
     position: relative;
     top: 50%;
@@ -789,7 +803,7 @@ header {
     top: 0%;
     line-height: 2rem;
   }
-  /* line 162, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 163, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .phone {
     position: relative;
     top: 50%;
@@ -803,12 +817,12 @@ header {
 }
 
 @media (min-width: 961px) {
-  /* line 182, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 183, ../../app/assets/layouts/partials/_header_price-page.scss */
   header {
-    height: 80px;
+    height: 70px;
   }
 
-  /* line 185, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 186, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap {
     max-width: 960px;
     margin-left: auto;
@@ -823,7 +837,7 @@ header {
     display: block;
     clear: both;
   }
-  /* line 191, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 192, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .logo {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -836,19 +850,21 @@ header {
     min-width: 70px;
     max-width: 80px;
     position: relative;
+    background-position: 0 0px;
+    background-size: 55px;
   }
-  /* line 200, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 203, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap a.home {
     border: none;
     width: 120px;
   }
-  /* line 204, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 207, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .site-name {
     position: absolute;
-    top: 25%;
-    left: 55px;
+    top: 10px;
+    left: 52px;
   }
-  /* line 211, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 214, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .contacts {
     height: 100%;
     -moz-box-sizing: border-box;
@@ -860,7 +876,7 @@ header {
     padding-right: 0.83333%;
     position: relative;
   }
-  /* line 220, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 223, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .address {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -877,9 +893,9 @@ header {
     transform: translateY(15%);
     padding-left: 17.5%;
     top: 0%;
-    line-height: 2.6rem;
+    line-height: 2rem;
   }
-  /* line 230, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 233, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .phone {
     position: absolute;
     top: 50%;
@@ -896,10 +912,10 @@ header {
     padding-right: 1%;
     padding-left: 17.5%;
     top: 0%;
-    line-height: 2.6rem;
+    line-height: 2rem;
     left: 50%;
   }
-  /* line 242, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 246, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .wrap .h_icon {
     float: left;
   }
