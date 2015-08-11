@@ -90,7 +90,7 @@
     <orderEntry type="library" scope="PROVIDED" name="arel (v6.0.3, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="breakpoint (v2.5.0, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="builder (v3.2.2, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="bundler (v1.10.3, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="bundler (v1.7.12, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="chunky_png (v1.3.4, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="compass (v1.0.3, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="compass-core (v1.0.3, RVM: ruby-1.9.3-p551-dev) [gem]" level="application" />

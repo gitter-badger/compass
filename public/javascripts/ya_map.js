@@ -32,7 +32,7 @@ ymaps.ready(function () {
                 '<br/>',
                 'Адрес: Москва, ул. 1-я Фрезерная д.2 к.1',
                 '<br/>',
-                '<a href="https://maps.yandex.ru/21621/reutov/?ol=biz&ll=37.739105%2C55.741830&z=16&rtext=~55.741830%2C37.739105&rtt=auto&oid=1124201315">Проложить маршрут</a>',
+                '<a href="https://maps.yandex.ru/21621/reutov/?ol=biz&ll=37.739105%2C55.741830&z=16&rtext=~55.741830%2C37.739105&rtt=auto&oid=1124201315" target="_blank">Проложить маршрут</a>',
                 '</address>'
             ].join('')
 
