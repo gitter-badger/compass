@@ -28,17 +28,16 @@
 		%meta{:content => "mstile-310x150.png", :name => "msapplication-wide310x150logo"}/
 		%meta{:content => "mstile-310x310.png", :name => "msapplication-square310x310logo"}/
 
-		=stylesheet_link_tag 'application'
+		=stylesheet_link_tag 'mobile', media: '(max-width: 480px)'
+		-#=stylesheet_link_tag 'application'
 
 
 
-	%body{class: "#{@route.name}" }
-
-		=partial 'layouts/partials/header'
+	%body
+		%main{class: "#{@route.name}" }
+			= yield
 
 		=partial 'layouts/partials/footer'
-		%main
-			= yield
 
 	%script{:src => "https://api-maps.yandex.ru/2.1/?lang=ru_RU", :type => "text/javascript"}
 

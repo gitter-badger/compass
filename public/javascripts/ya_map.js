@@ -51,6 +51,8 @@ ymaps.ready(function () {
             // её "ножки" (точки привязки).
             iconImageOffset: [-60, -80]
         });
+        myMap.controls
+            .add('zoomControl')
 
     myMap.geoObjects.add(myPlacemark);
 });

@@ -5,15 +5,7 @@ $phone_icon: url('/images/icons_svg/tel.svg');
 .metka-icon{background-image: $metka_icon;}
 .phone-icon{background-image: $phone_icon;padding: 0 5px;}
 
-.h_icon {
-  display: block;
-  background-position: 50%;
-  background-repeat: no-repeat;
-  background-size: 35px;
-  height: 40px;
-  width: 40px;
 
- }
 
 header {
   //-webkit-box-shadow: 0 1px 0px -0px rgba(119, 119, 119, 0.5);
@@ -42,7 +34,6 @@ header {
   height: 100%;
   position: relative;
   line-height: 100%;
-
 }
 .logo a {
   display: block;
@@ -110,19 +101,7 @@ header a {
 //header .phone {  white-space: nowrap;}
 //
 ////.call_btn {margin: 10px;}
- a.call_btn {
-  border: 1px dashed indianred;
-  border-radius: 5px;
-  padding: 3px 12px 0;
-  /* margin: 17px; */
-  color: indianred;
-  &:hover {
 
-    color: #cd3d58;
-    //border-bottom: none;
-    text-decoration: none;
-  }
-}
 
 ////header .phone .call_btn {display: block;}
 //
