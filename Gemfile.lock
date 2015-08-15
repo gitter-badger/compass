@@ -116,6 +116,7 @@ GEM
       raindrops (~> 0.7)
     url_mount (0.2.1)
       rack
+    wiselinks (1.2.1)
 
 PLATFORMS
   ruby
@@ -130,3 +131,7 @@ DEPENDENCIES
   rake
   susy
   unicorn
+  wiselinks
+
+BUNDLED WITH
+   1.10.3

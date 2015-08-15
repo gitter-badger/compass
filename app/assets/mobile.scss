@@ -1,4 +1,7 @@
+@import "mixins";
 @import "layouts/breakpoints";
 @import "susy";
 @import "style/typography";
-@import "layouts/mobile";
+@import "susy_grid";
+@import "layouts/partials/price-menu";
+@import "layouts/pages/price";

@@ -1,5 +1,6 @@
 .DS_Store
 .idea/*
+!.idea
 log/**/*
 tmp/**/*
 vendor/gems/*

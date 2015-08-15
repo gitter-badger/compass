@@ -13,17 +13,8 @@ ymaps.ready(function () {
 
         })
 
-    }
-    else
-    {
-        var myMap = new ymaps.Map('map', {
-            center: [55.74328183, 37.73893384],
-            //center: [55.74106563, 37.73968799],
-            zoom: 11,
-            controls: []
 
-        })
-    }
+
         myPlacemark = new ymaps.Placemark([55.74118901, 37.73929481], {
             hintContent: 'Маслов-Сервис <br> 1-я Фрезерная д.2 к.1',
             balloonContentBody: [
@@ -52,9 +43,69 @@ ymaps.ready(function () {
             iconImageOffset: [-60, -80]
         });
         myMap.controls
-            .add('zoomControl')
+            .add('zoomControl', {position: {left: '5px', top: '5px'}});
 
-    myMap.geoObjects.add(myPlacemark);
+        myMap.geoObjects.add(myPlacemark);
+
+    }
+
+/*FOR MOBILE*/
+    else {
+        var myMap = new ymaps.Map('map', {
+            center: [55.75321953, 37.65093211],
+            //center: [55.74106563, 37.73968799],
+            zoom: 10,
+            controls: []
+
+        })
+
+        myPlacemark = new ymaps.Placemark([55.74328183, 37.73893384], {
+
+            hintContent: 'Маслов-Сервис <br> 1-я Фрезерная д.2 к.1',
+            balloonContentHeader: '<strong>Автосервис Маслов-Сервис</strong>',
+            balloonContentBody: [
+                '<address>',
+                'Адрес: Москва, ул. 1-я Фрезерная д.2 к.1',
+                '<br/>',
+                '<a href="https://maps.yandex.ru/21621/reutov/?ol=biz&ll=37.739105%2C55.741830&z=16&rtext=~55.741830%2C37.739105&rtt=auto&oid=1124201315" target="_blank"><strong>Проложить маршрут</strong></a>',
+                '</address>'
+            ].join('')
+
+            //balloonContentFooter: 'Подвал',
+
+        }, {
+            // Опции.
+
+            balloonPanelMaxMapArea: 0,
+            balloonShadow: false,
+            // Необходимо указать данный тип макета.
+            iconLayout: 'default#image',
+            // Своё изображение иконки метки.
+            iconImageHref: '/images/icons/address_metka.png',
+            iconImageShadow: false,
+            // Размеры метки.
+            iconImageSize: [100, 60],
+
+
+            // Смещение левого верхнего угла иконки относительно
+            // её "ножки" (точки привязки).
+            iconImageOffset: [-60, -80]
+        });
+
+
+
+        myMap.controls
+            .add('zoomControl', {
+                float: 'none',
+                position: {
+                    top: 60,
+                    left: 5
+                }
+            })
+        myMap.geoObjects.add(myPlacemark);
+
+    }
+
 });
 
 
