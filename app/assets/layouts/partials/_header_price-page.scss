@@ -2,94 +2,88 @@
 //
 //
 
-header {    background: rgba(255, 255, 255, 1);  }
-a.call_btn  {  margin: 0 10px; }
-
-@include susy-breakpoint($mobile-size, $mobile) {
-
-  header {
-    height: 80px;
-    position: relative;
-  }
-
-  .page.price header .wrap {
-    @include container;
-    //padding: 0 1em ;
-    position: relative;
-    height: 80px;
-
-    .logo {
-      @include span(2);
-      height: 100%;
-      text-align: center;
-      @include vertical-center(relative, 0%);
-      top:0;
-      background-position: 0% 50%;
-    }
-
-    a.home {
-      position: relative;
-
-      line-height: 20px;
-      @include span(1 of 2);
-      width: 100%;
-      top: 0%;
-       border: none;
-    }
-    .site-name {
-      top: 32%;
-      position: relative;
-      margin-left: 45px
-    }
-
-    .contacts {
-
-      height: 100%;
-      @include span(4);
-      position: relative;
-      text-align: right;
-      top: 5%;
-    }
-
-    .address {
-      @include span(4 of 4);
-      text-align: right;
-      line-height: 1.1rem;
-    }
-
-    .address a {
-      display: block;
-      border: 0;
-    }
-
-    .phone {
-      @include span(4 of 4);
-      text-align: right;
-      margin: 7px 0px;
-    }
-
-
-
-    .h_icon {
-      float: left;
-      background-size: 27px;
-      display: none;
-    }
-  }
-
-}
-
+//header {    background: rgba(255, 255, 255, 1);  }
+//a.call_btn  {  margin: 0 10px; }
+//
+//@include susy-breakpoint($mobile-size, $mobile) {
+//
+//  header {
+//    height: 80px;
+//    position: relative;
+//  }
+//
+//  .page.price header .wrap {
+//    @include container;
+//    //padding: 0 1em ;
+//    position: relative;
+//    height: 80px;
+//
+//    .logo {
+//      @include span(2);
+//      height: 100%;
+//      text-align: center;
+//      @include vertical-center(relative, 0%);
+//      top:0;
+//      background-position: 0% 50%;
+//    }
+//
+//    a.home {
+//      position: relative;
+//
+//      line-height: 20px;
+//      @include span(1 of 2);
+//      width: 100%;
+//      top: 0%;
+//       border: none;
+//    }
+//    .site-name {
+//      top: 32%;
+//      position: relative;
+//      margin-left: 45px
+//    }
+//
+//    .contacts {
+//
+//      height: 100%;
+//      @include span(4);
+//      position: relative;
+//      text-align: right;
+//      top: 5%;
+//    }
+//
+//    .address {
+//      @include span(4 of 4);
+//      text-align: right;
+//      line-height: 1.1rem;
+//    }
+//
+//    .address a {
+//      display: block;
+//      border: 0;
+//    }
+//
+//    .phone {
+//      @include span(4 of 4);
+//      text-align: right;
+//      margin: 7px 0px;
+//    }
+//
+//
+//
+//    .h_icon {
+//      float: left;
+//      background-size: 27px;
+//      display: none;
+//    }
+//  }
+//
+//}
+//
 
 
 @include susy-breakpoint($tablet-size, $tablet ) {
 
   .page.price header {
-    height: 60px;
-    position: relative;
-    padding: 0 5%;
-  }
-  .page.price header .wrap {
-    @include container();
     position: relative;
     height: 60px;
 
@@ -115,6 +109,7 @@ a.call_btn  {  margin: 0 10px; }
       position: absolute;
     }
 
+
     .contacts {
 
       height: 100%;
@@ -124,9 +119,12 @@ a.call_btn  {  margin: 0 10px; }
       top:5%;
     }
 
+    .city-name, .tel_num , .call_btn{
+      display: inline;
+    }
+
     .address {
       @include span( 4 of 10);
-      @include push(1);
       @include vertical-center(relative, 35%);
       top:0%;
       line-height: 2.6rem;
@@ -180,10 +178,8 @@ a.call_btn  {  margin: 0 10px; }
 
 @include susy-breakpoint($desktop-size, $large) {
 
-  header {
-    height: 70px;
-  }
-  .page.price header .wrap {
+
+  .page.price header {
     @include container;
     position: relative;
     height: 60px;
@@ -221,11 +217,7 @@ a.call_btn  {  margin: 0 10px; }
     }
 
     .address {
-
-      @include span(first 5 of 10);
       @include vertical-center(absolute, 15%);
-      @include prefix(2);
-
       top:0%;
       line-height: 2rem;
 
@@ -233,18 +225,19 @@ a.call_btn  {  margin: 0 10px; }
     .phone {
       @include vertical-center(absolute, 15%);
       //top:55%;
-      @include span(last 5 of 10);
-      @include prefix(2);
       top:0%;
-
       line-height: 2rem;
-
       left:50%;
     }
 
 
     .h_icon {float: left;}
   }
+
+  .city-name, .tel_num , a.call_btn{
+    display: inline;
+  }
+
 
 }
 
@@ -329,49 +322,49 @@ a.call_btn  {  margin: 0 10px; }
 //    }
 //
 //
-//@include susy-breakpoint($tablet-size, 12 show) {
-//
-//  .page.price header .wrap {
-//    @include container();
-//    position: relative;
-//  }
-//
-//
-//  .page.price header {
-//
-//    height: 80px;
-//
-//
-//    .logo {
-//      @include span(1);
-//      text-align: center;
-//    }
-//    a.home {
-//      left: span(1 at 2);
-//
-//    }
-//
-//    .contacts {
-//      height: 100%;
-//
-//        @include span(last 10);
-//    }
-//
-//    .address {
-//      //@include span(3);
-//      //@include centerer;
-//      @include span(5 of 10);
-//    }
-//
-//    .phone {
-//      //@include centerer;
-//      @include span(last 5 of 10);
-//    }
-//
-//    .h_icon {
-//      float: left;
-//    }
-//
-//  }
-//
-//}
+@include susy-breakpoint($tablet-size, $large) {
+
+  .page.price header .wrap {
+    @include container();
+    position: relative;
+  }
+
+
+  .page.price header {
+
+    height: 80px;
+
+
+    .logo {
+      @include span(1);
+      text-align: center;
+    }
+    a.home {
+      left: span(1 at 2);
+
+    }
+
+    .contacts {
+      height: 100%;
+
+        @include span(last 10);
+    }
+
+    .address {
+      //@include span(3);
+      //@include centerer;
+      @include span(5 of 10);
+    }
+
+    .phone {
+      //@include centerer;
+      @include span(last 5 of 10);
+    }
+
+    .h_icon {
+      float: left;
+    }
+
+  }
+
+}

@@ -1,7 +1,6 @@
 Compass::App.controllers :page do
-
-  # :cache => true
-  # expires 8600 * 30
+# , :cache => true
+# expires 8600 * 30
 
   # get :index, :map => '/foo/bar' do
   #   session[:foo] = 'bar'
@@ -36,9 +35,9 @@ Compass::App.controllers :page do
     # cache_key :price
     # haml :'page/price'
     if request.xhr?
-      render :'page/contacts', layout: false
+      render :'page/price', layout: false
     else
-      haml :'page/contacts',  layout: true
+      haml :'page/price',  layout: true
     end
   end
 

@@ -28,7 +28,8 @@
 		%meta{:content => "mstile-310x150.png", :name => "msapplication-wide310x150logo"}/
 		%meta{:content => "mstile-310x310.png", :name => "msapplication-square310x310logo"}/
 
-		=stylesheet_link_tag 'mobile', media: '(max-width: 480px)'
+		=stylesheet_link_tag 'mobile' #, media: '(max-width: 480px)'
+
 		-#=stylesheet_link_tag 'application'
 
 
@@ -41,4 +42,4 @@
 
 	%script{:src => "https://api-maps.yandex.ru/2.1/?lang=ru_RU", :type => "text/javascript"}
 
-	=javascript_include_tag  'jquery.js', 'jquery-ujs.js', 'ya_map.js', 'application.js'
+	=javascript_include_tag  'jquery.js', 'wiselinks.min.js', 'ya_map.js', 'application.js'

@@ -6,6 +6,5 @@
 
 @mixin vertical-center($position, $y) {
   position: $position;
-  top: 50%;
   @include transform(translateY($y));
 }

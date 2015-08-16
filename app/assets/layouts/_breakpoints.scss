@@ -1,6 +1,6 @@
 //$micro-size: em(200);
-$mobile-size:200px 480px;
-$tablet-size:481px 960px;
+$mobile-size:200px 420px;
+$tablet-size:421px 960px;
 $desktop-size:961px;
 
 
@@ -20,7 +20,7 @@ $susy: (
 
 
 $mobile: (
-        columns: 6,
+        columns: 8,
         gutters: 1/4,
         gutter-position: inside,
         container:auto,

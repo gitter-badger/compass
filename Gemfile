@@ -12,7 +12,7 @@ source 'https://rubygems.org'
 
 # Project requirements
 gem 'rake'
-gem 'unicorn'
+gem 'thin'
 # Component requirements
 gem 'compass'
 # gem 'rack-livereload'
