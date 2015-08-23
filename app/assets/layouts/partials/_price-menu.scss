@@ -1,6 +1,10 @@
   .price-menu {
     background-color: #34495e;
     height: 90px;
+    -webkit-box-shadow: 0 1px 0px -0px rgba(119, 119, 119, 0.5);
+    -moz-box-shadow: 0 1px 0px -0px rgba(119, 119, 119, 0.5);
+    box-shadow: 0 1px 0px -0px rgba(119, 119, 119, 0.5);
+    z-index: 10;
   }
 
   ul.price-nav {
@@ -20,6 +24,7 @@
     &:hover {
       transition: background, .3s ease;
       background: #D15F54;
+      //transform: scale(1.2);
     }
 
   }
@@ -51,14 +56,10 @@
 
 .price-nav {
 
-    i {
-
+    .icon {
       height: 40px;
-
       background-position: 50% 50%;
-
       background-size: 60%;
-
       background-repeat: no-repeat;
       width: 100%;
       left: auto;
@@ -82,9 +83,9 @@
     @include breakpoint($tablet-size) {
 
       .price-menu {
-        height: 115px;
+        height: 105px;
       }
-      .price-nav  i {
+      .price-nav .icon {
 
         background-position: 50% 50%;
           background-size: 60%;
@@ -116,15 +117,17 @@
 
 
      .price-menu {
-       height: 130px;
+       height: 120px;
      }
 
-     .price-nav  i {
+     .price-nav .icon {
          background-position: 50% 50%;
          height: 65px;
          background-size: 64%;
        }
-      .price-nav span {
+
+
+    .price-nav span {
         padding-top: 10px;
         font-size: 1rem;
 
@@ -163,3 +166,29 @@
 .icon-wash  {background-image: url("/images/icons/menu-price/5.svg");}
 .icon-paint {background-image: url("/images/icons/menu-price/6.svg");}
 
+  .price-nav {
+    .icon-to {
+      background-size: 55%;
+      background-position: 50% 5px;
+    }
+    .icon-remont {
+      background-size: 55%;
+      background-position: 50% 5px;
+    }
+    .icon-custom {
+      background-size: 55%;
+      background-position: 50% -5px;
+    }
+    .icon-mount {
+      background-size: 50%;
+      background-position: 50% 0px;
+    }
+    .icon-wash {
+      background-size: 55%;
+      background-position: 50% 10px;
+    }
+    .icon-paint {
+      background-size: 55%;
+      background-position: 50% 5px;
+    }
+  }

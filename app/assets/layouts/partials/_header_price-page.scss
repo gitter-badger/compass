@@ -88,35 +88,33 @@
     height: 60px;
 
     .logo {
-      @include span(2);
+      @include span(first 2);
       height: 100%;
-      @include vertical-center(relative, 15%);
       min-width: 70px;
       top:0;
+      background-position: 0 0;
 
     }
 
     a.home {
-      left: 50px;
-      top:0;
-      line-height: 20px;
 
+      line-height: 20px;
       border: none;
     }
     .site-name {
-      top: 25%;
+      //top: 15px;
+      //left: 52px;
+      @include span(1 of 2);
+      @include vertical-center(relative, 55%);
+      text-align: left;
       margin-left: 50px;
-      position: absolute;
     }
 
 
     .contacts {
-
-      height: 100%;
       @include span(last 10);
+      height: 100%;
       position: relative;
-      text-align: right;
-      top:5%;
     }
 
     .city-name, .tel_num , .call_btn{
@@ -124,50 +122,35 @@
     }
 
     .address {
-      @include span( 4 of 10);
-      @include vertical-center(relative, 35%);
-      top:0%;
+      @include span(5 of 10);
+      @include vertical-center(relative, 10%);
       line-height: 2.6rem;
+
+
     }
     .phone {
-      @include span(last 4 of 10) ;
-      @include vertical-center(relative, 35%);
-      top:0;
+      @include span(5 of 10);
+      @include vertical-center(relative, 10%);
       line-height: 2.6rem;
     }
-
 
 
     .h_icon {
+      @include span(1 of 5);
       float: left;
       margin: 0 auto;
       height: 35px;
+      background-size: 30px;
     }
 
-
-
-    @include breakpoint(480px 650px) {
-      .h_icon {
-        float: none;
-        background-size: 32px;
-        height: 30px;
-      }
-
-      .address {
-        @include vertical-center(relative, 15%);
-        top:0%;
-        line-height: 2rem;
-      }
-      .phone {
-        @include vertical-center(relative, 15%);
-        top:0;
-        line-height: 2rem;
-      }
-
-
+    a.call_btn {
+      margin-left: 10px;
+      display: inline-block;
+      height: 20px;
     }
 
-
+    //
+    //
 
 
     }
@@ -175,15 +158,41 @@
   }
 
 
+@include breakpoint(481px 720px) {
+
+  .page.price header {
+    height: 70px;
+
+    .h_icon {
+      float: none;
+      background-size: 32px;
+      height: 30px;
+      display: block;
+    }
+
+    .address {
+      @include vertical-center(relative, 0%);
+      line-height: 2rem;
+      text-align: center;
+    }
+    .phone {
+      @include vertical-center(relative, 0%);
+      line-height: 2rem;
+      text-align: center;
+    }
+  }
+
+}
+
+
 
 @include susy-breakpoint($desktop-size, $large) {
-
 
   .page.price header {
     @include container;
     position: relative;
-    height: 60px;
-    padding: 10px 0;
+    height: 70px;
+    padding: 0px 0;
 
     .logo {
       @include span(2);
@@ -192,7 +201,7 @@
       max-width: 80px;
       position: relative;
       background-position: 0 0px;
-      background-size: 55px;
+      background-size: 66px;
 
     }
 
@@ -202,45 +211,49 @@
     }
     .site-name {
       position: absolute;
-      top: 10px;
-      left: 52px;
+      top: 18px;
+      left: 65px;
+      line-height: 1rem;
+      text-align: left;
+      font-size: 1.1rem;
 
     }
 
     .contacts {
-
       height: 100%;
       @include span(last 10);
       position: relative;
-
-
     }
 
     .address {
-      @include vertical-center(absolute, 15%);
-      top:0%;
+      @include vertical-center(absolute, 20%);
       line-height: 2rem;
-
+      @include span(5 of 10);
     }
     .phone {
-      @include vertical-center(absolute, 15%);
-      //top:55%;
-      top:0%;
+      @include vertical-center(absolute, 20%);
+      @include span(last 5 of 10);
+
+      top: 0%;
       line-height: 2rem;
-      left:50%;
+      left: 50%;
     }
 
+    .h_icon {
+      float: left;
+    }
 
-    .h_icon {float: left;}
+    .city-name, .tel_num, a.call_btn {
+      display: inline;
+    }
+    a.call_btn {
+      margin-left: 10px;
+      display: inline-block;
+      height: 22px;
+    }
+
   }
-
-  .city-name, .tel_num , a.call_btn{
-    display: inline;
-  }
-
-
 }
-
 //
 ////
 ////
@@ -322,49 +335,49 @@
 //    }
 //
 //
-@include susy-breakpoint($tablet-size, $large) {
-
-  .page.price header .wrap {
-    @include container();
-    position: relative;
-  }
-
-
-  .page.price header {
-
-    height: 80px;
-
-
-    .logo {
-      @include span(1);
-      text-align: center;
-    }
-    a.home {
-      left: span(1 at 2);
-
-    }
-
-    .contacts {
-      height: 100%;
-
-        @include span(last 10);
-    }
-
-    .address {
-      //@include span(3);
-      //@include centerer;
-      @include span(5 of 10);
-    }
-
-    .phone {
-      //@include centerer;
-      @include span(last 5 of 10);
-    }
-
-    .h_icon {
-      float: left;
-    }
-
-  }
-
-}
+//@include susy-breakpoint($tablet-size, $large) {
+//
+//  .page.price header .wrap {
+//    @include container();
+//    position: relative;
+//  }
+//
+//
+//  .page.price header {
+//
+//    height: 80px;
+//
+//
+//    .logo {
+//      @include span(1);
+//      text-align: center;
+//    }
+//    a.home {
+//      left: span(1 at 2);
+//
+//    }
+//
+//    .contacts {
+//      height: 100%;
+//
+//        @include span(last 10);
+//    }
+//
+//    .address {
+//      //@include span(3);
+//      //@include centerer;
+//      @include span(4 of 10);
+//    }
+//
+//    .phone {
+//      //@include centerer;
+//      @include span(4 of 10);
+//    }
+//
+//    .h_icon {
+//      float: left;
+//    }
+//
+//  }
+//
+//}

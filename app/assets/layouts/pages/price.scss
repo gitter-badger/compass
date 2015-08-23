@@ -14,18 +14,27 @@
 //}
 
 .price-page {
+  overflow: hidden;
+  overflow-y: auto;
   -webkit-overflow-scrolling: touch;
-  overflow: auto
+
+}
+
+.price-page article{
+  //overflow: scroll;
+  //overflow-y: auto;
+  //overflow-x: hidden;
+  //-webkit-overflow-scrolling: touch;
 }
 
 .price-page article {
+  //font-size: 0.9rem;
+  //line-height: 1rem;
+
   display: none;
-  margin-right: 1%;
   font-family: 'PT Sans', sans-serif;
   background-color: #ffffff;
   border-bottom: 1px solid #BEBBBB;
-  overflow-y: scroll; /* has to be scroll, not auto */
-  -webkit-overflow-scrolling: touch;
 
 }
 
@@ -92,13 +101,19 @@
     background-color: #EDEDED;
   }
 
+  tr td:nth-child(2), tr th:last-child {
+
+    text-align: right;
+    padding-right: 5px;
+  }
+
   td {
 
-    padding: 10px;
+    padding: 7px;
 
   }
   td:first-child {
-    border-right: 1px solid rgb(41, 58, 75);
+    //border-right: 1px solid rgb(41, 58, 75);
   }
 
 }

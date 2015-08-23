@@ -1,18 +1,13 @@
-//$visual-grid: true;
-//$visual-grid-color: yellow;
-//$visual-grid-index: front;
-//$visual-grid-opacity: 0.2;
+@import "mixins";
+@import "layouts/breakpoints";
+@import "susy";
 
-//@import "breakpoint";
-//
-//@import "base";
-//@import "layouts/breakpoints";
-//@import "layouts/pages/price";
-//
-//@import "layouts/partials";
-//@import "style/typography";
-//@import "susy_grid";
-//
-//
-//
+@import "susy_grid";
+@import "style/typography";
 
+@import 'layouts/partials/header_contacts-page';
+@import 'layouts/partials/header_price-page';
+
+//@import "layouts/partials/header";
+@import "layouts/partials/price-menu";
+@import "layouts/pages/price";

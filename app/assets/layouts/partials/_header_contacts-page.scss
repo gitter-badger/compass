@@ -84,7 +84,7 @@
       height: 100%;
       @include span(12);
       position: relative;
-      text-align: right;
+      text-align: center;
 
     }
 
@@ -216,9 +216,9 @@
     }
 
     a.call_btn {
-
+      display: block;
       height: 22px;
-      padding: 2px 7px;
+      padding: 4px 7px;
 
     }
 
