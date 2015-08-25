@@ -13,107 +13,217 @@
 //  display: block;
 //}
 
-.price-page {
-  overflow: hidden;
-  overflow-y: auto;
-  -webkit-overflow-scrolling: touch;
 
-}
+  .price-page {
+    overflow: hidden;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+  }
 
-.price-page article{
-  //overflow: scroll;
-  //overflow-y: auto;
-  //overflow-x: hidden;
-  //-webkit-overflow-scrolling: touch;
-}
+  .price-page article {
+    overflow: scroll;
+    overflow-y: auto;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+  }
 
-.price-page article {
-  //font-size: 0.9rem;
-  //line-height: 1rem;
+  .price-page article {
+    //font-size: 0.9rem;
+    //line-height: 1rem;
+    display: none;
+    font-family: 'PT Sans', sans-serif;
+    background-color: #ffffff;
+    border-bottom: 1px solid #BEBBBB;
+  }
 
-  display: none;
-  font-family: 'PT Sans', sans-serif;
-  background-color: #ffffff;
-  border-bottom: 1px solid #BEBBBB;
+  .price-page article:nth-of-type(1) {
+    display: block;
+  }
 
-}
 
-.price-page article:nth-of-type(1) {
-  display: block;
-}
 
-.price-page article table {
+@include susy-breakpoint($mobile-size, $mobile) {
 
-  width: 100%;
-  margin: 0 auto;
+  .price-page article table {
+    width: 100%;
 
-  tr:first-child {
-    &:hover {
-      background: none;
+    th:last-child, tbody tr td:last-child {
+      text-align: right;
     }
 
-
-
-    th {
-    color: darkgrey;
-    border-bottom:2px solid #c0392b ;
-    padding: 10px 0;
-
-    font-size: 1rem;
-
-  }
-
-
-  th:first-child {
-    font-size: 1.4rem;
-    color: #293a4b;
-    width: 60%;
-
-  }
-    th.title {
-      font-family: 'PT Sans';
-      padding-left: 1%;
+    thead {
+      display: block;
+      width: 100%;
+      color: darkgrey;
+      border-bottom: 2px solid #c0392b;
     }
 
+    thead tr {
+      display: table;
+      width: 98%;
+      margin: 0 auto;
+    }
+    thead tr th:first-child {
+      font-size: 1.4rem;
+      color: #293a4b;
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
 
-  th:nth-child(2) {
-    font-size: .8rem;
-    font-family: 'PT Sans';
-    padding-left: 1%;
-  }
+    thead tr th:last-child {
+      font-size: .8rem;
+      text-align: right;
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
 
+    tbody {
+      display: table;
+      width: 98%;
+      margin: 0 auto;
+    }
 
-  }
+    tbody tr {
+      border-bottom: 1px solid #C7C7C7;
+    }
+    tbody tr:last-child {
+      border-bottom: none;
+    }
 
+    tbody tr td {
+      padding: 3px;
+    }
 
-
-  tr{
-    &:hover {
-
-      //transition: background, .2s ease;
-      //background: #c0392b;
-
+    tbody tr td:last-child {
+      padding-right: 1%;
+      text-align: right;
     }
 
   }
-  tr:nth-child(2n) {
 
-    background-color: #EDEDED;
+}
+
+
+@include susy-breakpoint($tablet-size, $tablet) {
+
+  .price-page article table {
+    width: 100%;
+
+    th:last-child, tbody tr td:last-child {
+      text-align: right;
+    }
+
+    thead {
+      display: block;
+      width: 100%;
+      color: darkgrey;
+      border-bottom: 2px solid #c0392b;
+    }
+
+    thead tr {
+      display: table;
+      width: 67%;
+      margin: 0 auto;
+    }
+    thead tr th:first-child {
+      font-size: 1.4rem;
+      color: #293a4b;
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+
+    thead tr th:last-child {
+      font-size: .8rem;
+      text-align: right;
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+
+    tbody {
+      display: table;
+      width: 67%;
+      margin: 0 auto;
+    }
+
+    tbody tr {
+      border-bottom: 1px solid #C7C7C7;
+    }
+    tbody tr:last-child {
+      border-bottom: none;
+    }
+
+    tbody tr td {
+      padding: 7px;
+    }
+
+    tbody tr td:last-child {
+      padding-right: 1%;
+      text-align: right;
+    }
+
   }
 
-  tr td:nth-child(2), tr th:last-child {
+}
 
-    text-align: right;
-    padding-right: 5px;
-  }
 
-  td {
 
-    padding: 7px;
+@include susy-breakpoint($desktop-size, $large) {
 
-  }
-  td:first-child {
-    //border-right: 1px solid rgb(41, 58, 75);
+  .price-page article table {
+    width: 100%;
+
+    th:last-child, tbody tr td:last-child {
+      text-align: right;
+    }
+
+    thead {
+      display: block;
+      width: 100%;
+      color: darkgrey;
+      border-bottom: 2px solid #c0392b;
+    }
+
+    thead tr {
+      display: table;
+      width: 67%;
+      margin: 0 auto;
+    }
+    thead tr th:first-child {
+      font-size: 1.4rem;
+      color: #293a4b;
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+
+    thead tr th:last-child {
+      font-size: .8rem;
+      text-align: right;
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+
+    tbody {
+      display: table;
+      width: 67%;
+      margin: 0 auto;
+    }
+
+    tbody tr {
+      border-bottom: 1px solid #C7C7C7;
+    }
+    tbody tr:last-child {
+      border-bottom: none;
+    }
+
+    tbody tr td {
+      padding: 7px;
+    }
+
+    tbody tr td:last-child {
+      padding-right: 1%;
+      text-align: right;
+    }
+
   }
 
 }

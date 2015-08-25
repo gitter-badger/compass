@@ -1,5 +1,5 @@
 Compass::App.controllers :page do
-# , :cache => true
+# ,, :cache => true
 # expires 8600 * 30
 
   # get :index, :map => '/foo/bar' do

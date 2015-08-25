@@ -142,25 +142,7 @@ footer {
   color: ghostwhite;
 }
 
-/* line 138, ../../app/assets/_susy_grid.scss */
-.price-page {
-  position: absolute;
-  bottom: 120px;
-  top: 190px;
-}
-
-/* line 145, ../../app/assets/_susy_grid.scss */
-.price--menu {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  width: 150%;
-  float: left;
-  padding-left: 1.25%;
-  padding-right: 1.25%;
-}
-
-/* line 150, ../../app/assets/_susy_grid.scss */
+/* line 146, ../../app/assets/_susy_grid.scss */
 .price-menu ul li {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -208,18 +190,18 @@ footer {
 }
 
 /* STYLE */
-/* line 165, ../../app/assets/_susy_grid.scss */
+/* line 161, ../../app/assets/_susy_grid.scss */
 .metka-icon {
   background-image: url("/images/icons_svg/metka.svg");
 }
 
-/* line 166, ../../app/assets/_susy_grid.scss */
+/* line 162, ../../app/assets/_susy_grid.scss */
 .phone-icon {
   background-image: url("/images/icons_svg/tel.svg");
   padding: 0 5px;
 }
 
-/* line 168, ../../app/assets/_susy_grid.scss */
+/* line 164, ../../app/assets/_susy_grid.scss */
 .h_icon {
   background-position: 50%;
   background-repeat: no-repeat;
@@ -228,60 +210,60 @@ footer {
   width: 40px;
 }
 
-/* line 175, ../../app/assets/_susy_grid.scss */
+/* line 171, ../../app/assets/_susy_grid.scss */
 header a {
   color: #373737;
 }
-/* line 179, ../../app/assets/_susy_grid.scss */
+/* line 175, ../../app/assets/_susy_grid.scss */
 header a:visited {
   color: #373737;
 }
 
-/* line 186, ../../app/assets/_susy_grid.scss */
+/* line 182, ../../app/assets/_susy_grid.scss */
 .logo a {
   display: block;
   height: 100%;
 }
-/* line 190, ../../app/assets/_susy_grid.scss */
+/* line 186, ../../app/assets/_susy_grid.scss */
 .logo a:hover {
   border: 0;
 }
 
-/* line 194, ../../app/assets/_susy_grid.scss */
+/* line 190, ../../app/assets/_susy_grid.scss */
 .site-name {
   line-height: .9rem;
 }
 
-/* line 203, ../../app/assets/_susy_grid.scss */
+/* line 199, ../../app/assets/_susy_grid.scss */
 .address {
   line-height: 1.1rem;
   padding-top: 5px;
   padding-bottom: 5px;
 }
 
-/* line 209, ../../app/assets/_susy_grid.scss */
+/* line 205, ../../app/assets/_susy_grid.scss */
 .city-name {
   color: #373737;
 }
 
-/* line 214, ../../app/assets/_susy_grid.scss */
+/* line 210, ../../app/assets/_susy_grid.scss */
 .address a {
   border: 0;
 }
 
-/* line 221, ../../app/assets/_susy_grid.scss */
+/* line 217, ../../app/assets/_susy_grid.scss */
 .phone {
   line-height: 1rem;
   padding-top: 5px;
   padding-bottom: 5px;
 }
 
-/* line 228, ../../app/assets/_susy_grid.scss */
+/* line 224, ../../app/assets/_susy_grid.scss */
 .tel_num {
   color: #373737;
 }
 
-/* line 234, ../../app/assets/_susy_grid.scss */
+/* line 230, ../../app/assets/_susy_grid.scss */
 a.call_btn {
   border: 1px dashed #b33528;
   border-radius: 5px;
@@ -297,7 +279,7 @@ a.call_btn {
   color: #b33528;
   text-align: center;
 }
-/* line 250, ../../app/assets/_susy_grid.scss */
+/* line 246, ../../app/assets/_susy_grid.scss */
 a.call_btn:hover {
   color: #ffffff;
   text-decoration: none;
@@ -305,13 +287,13 @@ a.call_btn:hover {
 }
 
 /* CONTACTS HEADER */
-/* line 261, ../../app/assets/_susy_grid.scss */
+/* line 257, ../../app/assets/_susy_grid.scss */
 .page.contacts header {
   background-color: white;
   box-shadow: 0 1px 12px 0 rgba(0, 0, 0, 0.12), 0 1px 1px 0 rgba(0, 0, 0, 0.06);
 }
 
-/* line 266, ../../app/assets/_susy_grid.scss */
+/* line 262, ../../app/assets/_susy_grid.scss */
 .page.contacts .logo {
   background-image: url("/images/header/logo.svg");
   background-repeat: no-repeat;
@@ -321,14 +303,14 @@ a.call_btn:hover {
   line-height: 100%;
 }
 
-/* line 283, ../../app/assets/_susy_grid.scss */
+/* line 279, ../../app/assets/_susy_grid.scss */
 #slogan {
   background-color: white;
   padding: 10px;
   font-family: 'PT Sans Narrow';
 }
 
-/* line 292, ../../app/assets/_susy_grid.scss */
+/* line 288, ../../app/assets/_susy_grid.scss */
 #map {
   background-image: url("/images/header/logo.svg");
   background-position: 50% 25%;
@@ -336,12 +318,12 @@ a.call_btn:hover {
   background-size: 10%;
 }
 
-/* line 301, ../../app/assets/_susy_grid.scss */
+/* line 297, ../../app/assets/_susy_grid.scss */
 footer {
   background-color: #293a4b;
 }
 
-/* line 307, ../../app/assets/_susy_grid.scss */
+/* line 303, ../../app/assets/_susy_grid.scss */
 .main-menu {
   width: 100%;
   text-align: center;
@@ -350,14 +332,6 @@ footer {
   list-style-type: none;
 }
 /* line 314, ../../app/assets/_susy_grid.scss */
-.main-menu li:nth-child(1) {
-  border-right: 2px solid #293a4b;
-}
-/* line 315, ../../app/assets/_susy_grid.scss */
-.main-menu li:nth-child(2) {
-  border-left: 2px solid #293a4b;
-}
-/* line 318, ../../app/assets/_susy_grid.scss */
 .main-menu li {
   display: inline-block;
   box-sizing: border-box;
@@ -371,12 +345,12 @@ footer {
   margin: 0px;
   background: #c0392b;
 }
-/* line 334, ../../app/assets/_susy_grid.scss */
+/* line 330, ../../app/assets/_susy_grid.scss */
 .main-menu li:hover {
   box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.12), 0 1px 1px 0 rgba(0, 0, 0, 0.06);
   transition: padding 0.2s ease;
 }
-/* line 340, ../../app/assets/_susy_grid.scss */
+/* line 336, ../../app/assets/_susy_grid.scss */
 .main-menu li a {
   width: 100%;
   height: 100%;
@@ -387,35 +361,35 @@ footer {
   color: #fff;
 }
 
-/* line 356, ../../app/assets/_susy_grid.scss */
+/* line 352, ../../app/assets/_susy_grid.scss */
 .main-menu li.active {
   height: 75px;
 }
 
-/* line 360, ../../app/assets/_susy_grid.scss */
+/* line 356, ../../app/assets/_susy_grid.scss */
 .footer-info p {
   margin: 0;
   color: #fff;
 }
 
-/* line 366, ../../app/assets/_susy_grid.scss */
+/* line 362, ../../app/assets/_susy_grid.scss */
 .copyright {
   font-size: .6rem;
   margin: 0;
 }
 
-/* line 372, ../../app/assets/_susy_grid.scss */
+/* line 368, ../../app/assets/_susy_grid.scss */
 .created-by {
   text-align: right;
   font-size: .6rem;
   margin: 0;
 }
-/* line 377, ../../app/assets/_susy_grid.scss */
+/* line 373, ../../app/assets/_susy_grid.scss */
 .created-by a {
   font-style: italic;
 }
 
-/* line 390, ../../app/assets/_susy_grid.scss */
+/* line 386, ../../app/assets/_susy_grid.scss */
 .page.price .logo {
   background-image: url("/images/header/logo.svg");
   background-repeat: no-repeat;
@@ -426,9 +400,9 @@ footer {
   line-height: 100%;
 }
 
-/* line 538, ../../app/assets/_susy_grid.scss */
+/* line 534, ../../app/assets/_susy_grid.scss */
 .price-nav {
-  max-width: 720px;
+  max-width: 960px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -439,17 +413,15 @@ footer {
   clear: both;
 }
 
-/* line 543, ../../app/assets/_susy_grid.scss */
+/* line 539, ../../app/assets/_susy_grid.scss */
 .price-page {
   max-width: 960px;
   margin-left: auto;
   margin-right: auto;
-  top: 200px;
-  position: absolute;
-  bottom: 120px;
-  left: 0;
-  right: 0;
-  margin: auto;
+  margin: 0 auto;
+  overflow-y: scroll;
+  /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
 }
 /* line 12, ../../../../.rvm/gems/ruby-1.9.3-p551-dev/gems/susy-2.2.5/sass/susy/output/support/_clearfix.scss */
 .price-page:after {
@@ -458,7 +430,7 @@ footer {
   clear: both;
 }
 
-/* line 560, ../../app/assets/_susy_grid.scss */
+/* line 549, ../../app/assets/_susy_grid.scss */
 .page.price {
   background: url("/images/bg/bg.jpg");
   background-position: 0px 170px;
@@ -466,73 +438,6 @@ footer {
   background-size: 100%;
 }
 
-@media (min-width: 200px) and (max-width: 480px) {
-  /* line 571, ../../app/assets/_susy_grid.scss */
-  .page.price {
-    background-size: 100%;
-  }
-
-  /* line 574, ../../app/assets/_susy_grid.scss */
-  .price-page {
-    top: 190px;
-  }
-}
-@media (min-width: 481px) and (max-width: 960px) {
-  /* line 583, ../../app/assets/_susy_grid.scss */
-  .page.price {
-    background-size: 75%;
-  }
-
-  /* line 587, ../../app/assets/_susy_grid.scss */
-  .price-page {
-    max-width: 720px;
-    margin-left: auto;
-    margin-right: auto;
-    top: 180px;
-    position: absolute;
-    bottom: 120px;
-    left: 0;
-    right: 0;
-    margin: auto;
-  }
-  /* line 12, ../../../../.rvm/gems/ruby-1.9.3-p551-dev/gems/susy-2.2.5/sass/susy/output/support/_clearfix.scss */
-  .price-page:after {
-    content: " ";
-    display: block;
-    clear: both;
-  }
-}
-@media (min-width: 961px) {
-  /* line 607, ../../app/assets/_susy_grid.scss */
-  .page.price {
-    background-size: 75%;
-  }
-
-  /* line 611, ../../app/assets/_susy_grid.scss */
-  .price-page {
-    max-width: 720px;
-    margin-left: auto;
-    margin-right: auto;
-    top: 190px;
-    position: absolute;
-    bottom: 120px;
-    padding: 0;
-    left: 10%;
-    right: 10%;
-    margin: auto;
-  }
-  /* line 12, ../../../../.rvm/gems/ruby-1.9.3-p551-dev/gems/susy-2.2.5/sass/susy/output/support/_clearfix.scss */
-  .price-page:after {
-    content: " ";
-    display: block;
-    clear: both;
-  }
-
-  /* line 624, ../../app/assets/_susy_grid.scss */
-  .price-page article {
-    font-size: 0.8rem;
-  }
-}
 /* line 5, ../../../../.rvm/gems/ruby-1.9.3-p551-dev/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -735,39 +640,33 @@ h6 {
   font-family: "PT Sans";
 }
 
-/* line 97, ../../app/assets/style/_typography.scss */
+/* line 96, ../../app/assets/style/_typography.scss */
 .price-page article .title {
-  font-family: "PT Sans ";
+  font-family: "PT Sans";
   font-weight: bold;
 }
 
-/* line 104, ../../app/assets/style/_typography.scss */
-.price-page article .title {
-  font-size: 1.777rem;
-  border-bottom: 1px solid red;
-}
-
-/* line 112, ../../app/assets/style/_typography.scss */
+/* line 106, ../../app/assets/style/_typography.scss */
 a {
   text-decoration: none;
 }
 
-/* line 117, ../../app/assets/style/_typography.scss */
+/* line 111, ../../app/assets/style/_typography.scss */
 ul {
   list-style-type: none;
 }
 
-/* line 120, ../../app/assets/style/_typography.scss */
+/* line 114, ../../app/assets/style/_typography.scss */
 a, p, span {
   font-family: "BebasRegular";
 }
 
-/* line 123, ../../app/assets/style/_typography.scss */
+/* line 117, ../../app/assets/style/_typography.scss */
 strong {
   font-family: "BebasBold";
 }
 
-/* line 127, ../../app/assets/style/_typography.scss */
+/* line 121, ../../app/assets/style/_typography.scss */
 header .contacts {
   font-family: "BebasRegular";
 }
@@ -1279,8 +1178,9 @@ header .contacts {
     float: left;
     padding-left: 1%;
     padding-right: 1%;
+    padding-left: 9.16667%;
   }
-  /* line 233, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 234, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .phone {
     position: absolute;
     -moz-transform: translateY(20%);
@@ -1294,19 +1194,20 @@ header .contacts {
     float: right;
     padding-left: 1%;
     padding-right: 1%;
+    padding-left: 9.16667%;
     top: 0%;
     line-height: 2rem;
     left: 50%;
   }
-  /* line 242, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 244, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .h_icon {
     float: left;
   }
-  /* line 246, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 248, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header .city-name, .page.price header .tel_num, .page.price header a.call_btn {
     display: inline;
   }
-  /* line 249, ../../app/assets/layouts/partials/_header_price-page.scss */
+  /* line 251, ../../app/assets/layouts/partials/_header_price-page.scss */
   .page.price header a.call_btn {
     margin-left: 10px;
     display: inline-block;
@@ -1399,7 +1300,7 @@ ul.price-nav li .label {
 
   /* line 96, ../../app/assets/layouts/partials/_price-menu.scss */
   ul.price-nav li {
-    height: 120px;
+    height: 105px;
     width: 16%;
     padding-top: 10px;
   }
@@ -1423,91 +1324,170 @@ ul.price-nav li .label {
   }
 
   /* line 130, ../../app/assets/layouts/partials/_price-menu.scss */
+  .price-nav .icon-to {
+    background-size: 55%;
+    background-position: 50% 5px;
+  }
+  /* line 134, ../../app/assets/layouts/partials/_price-menu.scss */
+  .price-nav .icon-remont {
+    background-size: 55%;
+    background-position: 50% 5px;
+  }
+  /* line 138, ../../app/assets/layouts/partials/_price-menu.scss */
+  .price-nav .icon-custom {
+    background-size: 55%;
+    background-position: 50% -5px;
+  }
+  /* line 142, ../../app/assets/layouts/partials/_price-menu.scss */
+  .price-nav .icon-mount {
+    background-size: 50%;
+    background-position: 50% 0px;
+  }
+  /* line 146, ../../app/assets/layouts/partials/_price-menu.scss */
+  .price-nav .icon-wash {
+    background-size: 55%;
+    background-position: 50% 10px;
+  }
+  /* line 150, ../../app/assets/layouts/partials/_price-menu.scss */
+  .price-nav .icon-paint {
+    background-size: 55%;
+    background-position: 50% 5px;
+  }
+
+  /* line 156, ../../app/assets/layouts/partials/_price-menu.scss */
   .price-nav span {
     padding-top: 10px;
     font-size: 1rem;
   }
 
-  /* line 137, ../../app/assets/layouts/partials/_price-menu.scss */
+  /* line 163, ../../app/assets/layouts/partials/_price-menu.scss */
   ul.price-nav li {
     height: 120px;
   }
 }
-/* line 148, ../../app/assets/layouts/partials/_price-menu.scss */
+/* line 174, ../../app/assets/layouts/partials/_price-menu.scss */
 ul.price-nav li:nth-child(4) {
   width: 18%;
 }
 
-/* line 154, ../../app/assets/layouts/partials/_price-menu.scss */
+/* line 180, ../../app/assets/layouts/partials/_price-menu.scss */
 .label {
   font-size: .7rem;
 }
 
-/* line 162, ../../app/assets/layouts/partials/_price-menu.scss */
+/* line 188, ../../app/assets/layouts/partials/_price-menu.scss */
 .icon-to {
   background-image: url("/images/icons/menu-price/1.svg");
 }
 
-/* line 163, ../../app/assets/layouts/partials/_price-menu.scss */
+/* line 189, ../../app/assets/layouts/partials/_price-menu.scss */
 .icon-remont {
   background-image: url("/images/icons/menu-price/2.svg");
 }
 
-/* line 164, ../../app/assets/layouts/partials/_price-menu.scss */
+/* line 190, ../../app/assets/layouts/partials/_price-menu.scss */
 .icon-custom {
   background-image: url("/images/icons/menu-price/3.svg");
 }
 
-/* line 165, ../../app/assets/layouts/partials/_price-menu.scss */
+/* line 191, ../../app/assets/layouts/partials/_price-menu.scss */
 .icon-mount {
   background-image: url("/images/icons/menu-price/4.svg");
 }
 
-/* line 166, ../../app/assets/layouts/partials/_price-menu.scss */
+/* line 192, ../../app/assets/layouts/partials/_price-menu.scss */
 .icon-wash {
   background-image: url("/images/icons/menu-price/5.svg");
 }
 
-/* line 167, ../../app/assets/layouts/partials/_price-menu.scss */
+/* line 193, ../../app/assets/layouts/partials/_price-menu.scss */
 .icon-paint {
   background-image: url("/images/icons/menu-price/6.svg");
 }
 
-/* line 170, ../../app/assets/layouts/partials/_price-menu.scss */
-.price-nav .icon-to {
-  background-size: 55%;
-  background-position: 50% 5px;
+/* line 2, ../../app/assets/layouts/partials/_footer.scss */
+footer {
+  background-color: #293a4b;
 }
-/* line 174, ../../app/assets/layouts/partials/_price-menu.scss */
-.price-nav .icon-remont {
-  background-size: 55%;
-  background-position: 50% 5px;
+/* line 6, ../../app/assets/layouts/partials/_footer.scss */
+footer nav {
+  padding: 0px 0;
 }
-/* line 178, ../../app/assets/layouts/partials/_price-menu.scss */
-.price-nav .icon-custom {
-  background-size: 55%;
-  background-position: 50% -5px;
+/* line 10, ../../app/assets/layouts/partials/_footer.scss */
+footer ul.main-menu {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  list-style-type: none;
 }
-/* line 182, ../../app/assets/layouts/partials/_price-menu.scss */
-.price-nav .icon-mount {
-  background-size: 50%;
-  background-position: 50% 0px;
+/* line 17, ../../app/assets/layouts/partials/_footer.scss */
+footer ul.main-menu li {
+  display: inline-block;
+  box-shadow: 0 1px 12px 0 rgba(0, 0, 0, 0.12), 0 1px 1px 0 rgba(0, 0, 0, 0.06);
+  height: 60px;
+  width: 40%;
+  margin: 0 5px;
+  background: #c0392b;
+  max-width: 225px;
+  min-width: 100px;
 }
-/* line 186, ../../app/assets/layouts/partials/_price-menu.scss */
-.price-nav .icon-wash {
-  background-size: 55%;
-  background-position: 50% 10px;
+/* line 27, ../../app/assets/layouts/partials/_footer.scss */
+footer ul.main-menu li:hover {
+  box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.12), 0 1px 1px 0 rgba(0, 0, 0, 0.06);
 }
-/* line 190, ../../app/assets/layouts/partials/_price-menu.scss */
-.price-nav .icon-paint {
-  background-size: 55%;
-  background-position: 50% 5px;
+/* line 34, ../../app/assets/layouts/partials/_footer.scss */
+footer ul.main-menu a {
+  display: block;
+  text-decoration: none;
+  border: 0;
+  top: 0;
+  padding-top: 15px;
+  box-sizing: border-box;
+  width: 100%;
+  position: relative;
+  height: 100%;
+  font-family: BebasBold;
+  font-size: 1.3rem;
+  color: #fff;
+}
+/* line 52, ../../app/assets/layouts/partials/_footer.scss */
+footer .footer-info {
+  font-size: 65%;
+  color: rgba(255, 255, 255, 0.8);
+}
+/* line 55, ../../app/assets/layouts/partials/_footer.scss */
+footer .footer-info p {
+  margin: 0;
+}
+/* line 56, ../../app/assets/layouts/partials/_footer.scss */
+footer .footer-info a {
+  color: rgba(255, 255, 255, 0.8);
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.6);
+}
+/* line 65, ../../app/assets/layouts/partials/_footer.scss */
+footer .created-by {
+  text-align: right;
+  font-style: italic;
 }
 
-/* line 16, ../../app/assets/layouts/pages/price.scss */
+/* line 71, ../../app/assets/layouts/partials/_footer.scss */
+footer ul.main-menu li.active {
+  height: 75px;
+}
+
+/* line 17, ../../app/assets/layouts/pages/price.scss */
 .price-page {
   overflow: hidden;
   overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* line 23, ../../app/assets/layouts/pages/price.scss */
+.price-page article {
+  overflow: scroll;
+  overflow-y: auto;
+  overflow-x: hidden;
   -webkit-overflow-scrolling: touch;
 }
 
@@ -1519,54 +1499,188 @@ ul.price-nav li:nth-child(4) {
   border-bottom: 1px solid #BEBBBB;
 }
 
-/* line 41, ../../app/assets/layouts/pages/price.scss */
+/* line 39, ../../app/assets/layouts/pages/price.scss */
 .price-page article:nth-of-type(1) {
   display: block;
 }
 
-/* line 45, ../../app/assets/layouts/pages/price.scss */
-.price-page article table {
-  width: 100%;
-  margin: 0 auto;
+@media (min-width: 200px) and (max-width: 480px) {
+  /* line 47, ../../app/assets/layouts/pages/price.scss */
+  .price-page article table {
+    width: 100%;
+  }
+  /* line 50, ../../app/assets/layouts/pages/price.scss */
+  .price-page article table th:last-child, .price-page article table tbody tr td:last-child {
+    text-align: right;
+  }
+  /* line 54, ../../app/assets/layouts/pages/price.scss */
+  .price-page article table thead {
+    display: block;
+    width: 100%;
+    color: darkgrey;
+    border-bottom: 2px solid #c0392b;
+  }
+  /* line 61, ../../app/assets/layouts/pages/price.scss */
+  .price-page article table thead tr {
+    display: table;
+    width: 98%;
+    margin: 0 auto;
+  }
+  /* line 66, ../../app/assets/layouts/pages/price.scss */
+  .price-page article table thead tr th:first-child {
+    font-size: 1.4rem;
+    color: #293a4b;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  /* line 73, ../../app/assets/layouts/pages/price.scss */
+  .price-page article table thead tr th:last-child {
+    font-size: .8rem;
+    text-align: right;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  /* line 80, ../../app/assets/layouts/pages/price.scss */
+  .price-page article table tbody {
+    display: table;
+    width: 98%;
+    margin: 0 auto;
+  }
+  /* line 86, ../../app/assets/layouts/pages/price.scss */
+  .price-page article table tbody tr {
+    border-bottom: 1px solid #C7C7C7;
+  }
+  /* line 89, ../../app/assets/layouts/pages/price.scss */
+  .price-page article table tbody tr:last-child {
+    border-bottom: none;
+  }
+  /* line 93, ../../app/assets/layouts/pages/price.scss */
+  .price-page article table tbody tr td {
+    padding: 3px;
+  }
+  /* line 97, ../../app/assets/layouts/pages/price.scss */
+  .price-page article table tbody tr td:last-child {
+    padding-right: 1%;
+    text-align: right;
+  }
 }
-/* line 51, ../../app/assets/layouts/pages/price.scss */
-.price-page article table tr:first-child:hover {
-  background: none;
+@media (min-width: 481px) and (max-width: 960px) {
+  /* line 109, ../../app/assets/layouts/pages/price.scss */
+  .price-page article table {
+    width: 100%;
+  }
+  /* line 112, ../../app/assets/layouts/pages/price.scss */
+  .price-page article table th:last-child, .price-page article table tbody tr td:last-child {
+    text-align: right;
+  }
+  /* line 116, ../../app/assets/layouts/pages/price.scss */
+  .price-page article table thead {
+    display: block;
+    width: 100%;
+    color: darkgrey;
+    border-bottom: 2px solid #c0392b;
+  }
+  /* line 123, ../../app/assets/layouts/pages/price.scss */
+  .price-page article table thead tr {
+    display: table;
+    width: 67%;
+    margin: 0 auto;
+  }
+  /* line 128, ../../app/assets/layouts/pages/price.scss */
+  .price-page article table thead tr th:first-child {
+    font-size: 1.4rem;
+    color: #293a4b;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  /* line 135, ../../app/assets/layouts/pages/price.scss */
+  .price-page article table thead tr th:last-child {
+    font-size: .8rem;
+    text-align: right;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  /* line 142, ../../app/assets/layouts/pages/price.scss */
+  .price-page article table tbody {
+    display: table;
+    width: 67%;
+    margin: 0 auto;
+  }
+  /* line 148, ../../app/assets/layouts/pages/price.scss */
+  .price-page article table tbody tr {
+    border-bottom: 1px solid #C7C7C7;
+  }
+  /* line 151, ../../app/assets/layouts/pages/price.scss */
+  .price-page article table tbody tr:last-child {
+    border-bottom: none;
+  }
+  /* line 155, ../../app/assets/layouts/pages/price.scss */
+  .price-page article table tbody tr td {
+    padding: 7px;
+  }
+  /* line 159, ../../app/assets/layouts/pages/price.scss */
+  .price-page article table tbody tr td:last-child {
+    padding-right: 1%;
+    text-align: right;
+  }
 }
-/* line 57, ../../app/assets/layouts/pages/price.scss */
-.price-page article table tr:first-child th {
-  color: darkgrey;
-  border-bottom: 2px solid #c0392b;
-  padding: 10px 0;
-  font-size: 1rem;
-}
-/* line 67, ../../app/assets/layouts/pages/price.scss */
-.price-page article table tr:first-child th:first-child {
-  font-size: 1.4rem;
-  color: #293a4b;
-  width: 60%;
-}
-/* line 73, ../../app/assets/layouts/pages/price.scss */
-.price-page article table tr:first-child th.title {
-  font-family: 'PT Sans';
-  padding-left: 1%;
-}
-/* line 79, ../../app/assets/layouts/pages/price.scss */
-.price-page article table tr:first-child th:nth-child(2) {
-  font-size: .8rem;
-  font-family: 'PT Sans';
-  padding-left: 1%;
-}
-/* line 99, ../../app/assets/layouts/pages/price.scss */
-.price-page article table tr:nth-child(2n) {
-  background-color: #EDEDED;
-}
-/* line 104, ../../app/assets/layouts/pages/price.scss */
-.price-page article table tr td:nth-child(2), .price-page article table tr th:last-child {
-  text-align: right;
-  padding-right: 5px;
-}
-/* line 110, ../../app/assets/layouts/pages/price.scss */
-.price-page article table td {
-  padding: 7px;
+@media (min-width: 961px) {
+  /* line 172, ../../app/assets/layouts/pages/price.scss */
+  .price-page article table {
+    width: 100%;
+  }
+  /* line 175, ../../app/assets/layouts/pages/price.scss */
+  .price-page article table th:last-child, .price-page article table tbody tr td:last-child {
+    text-align: right;
+  }
+  /* line 179, ../../app/assets/layouts/pages/price.scss */
+  .price-page article table thead {
+    display: block;
+    width: 100%;
+    color: darkgrey;
+    border-bottom: 2px solid #c0392b;
+  }
+  /* line 186, ../../app/assets/layouts/pages/price.scss */
+  .price-page article table thead tr {
+    display: table;
+    width: 67%;
+    margin: 0 auto;
+  }
+  /* line 191, ../../app/assets/layouts/pages/price.scss */
+  .price-page article table thead tr th:first-child {
+    font-size: 1.4rem;
+    color: #293a4b;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  /* line 198, ../../app/assets/layouts/pages/price.scss */
+  .price-page article table thead tr th:last-child {
+    font-size: .8rem;
+    text-align: right;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  /* line 205, ../../app/assets/layouts/pages/price.scss */
+  .price-page article table tbody {
+    display: table;
+    width: 67%;
+    margin: 0 auto;
+  }
+  /* line 211, ../../app/assets/layouts/pages/price.scss */
+  .price-page article table tbody tr {
+    border-bottom: 1px solid #C7C7C7;
+  }
+  /* line 214, ../../app/assets/layouts/pages/price.scss */
+  .price-page article table tbody tr:last-child {
+    border-bottom: none;
+  }
+  /* line 218, ../../app/assets/layouts/pages/price.scss */
+  .price-page article table tbody tr td {
+    padding: 7px;
+  }
+  /* line 222, ../../app/assets/layouts/pages/price.scss */
+  .price-page article table tbody tr td:last-child {
+    padding-right: 1%;
+    text-align: right;
+  }
 }

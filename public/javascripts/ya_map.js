@@ -32,8 +32,8 @@ ymaps.ready(function () {
             // Необходимо указать данный тип макета.
             iconLayout: 'default#image',
             // Своё изображение иконки метки.
-            iconImageHref: '/images/icons/address_metka.png',
-            iconImageShadow: false,
+            iconImageHref: '/images/icons/address_metka_ru.png',
+            iconImageShadow: true,
             // Размеры метки.
             iconImageSize: [120, 80],
 
@@ -81,8 +81,8 @@ ymaps.ready(function () {
             // Необходимо указать данный тип макета.
             iconLayout: 'default#image',
             // Своё изображение иконки метки.
-            iconImageHref: '/images/icons/address_metka.png',
-            iconImageShadow: false,
+            iconImageHref: '/images/icons/address_metka_ru.png',
+            iconImageShadow: true,
             // Размеры метки.
             iconImageSize: [100, 60],
 

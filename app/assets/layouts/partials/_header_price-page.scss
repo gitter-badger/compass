@@ -229,10 +229,12 @@
       @include vertical-center(absolute, 20%);
       line-height: 2rem;
       @include span(5 of 10);
+      @include prefix(1);
     }
     .phone {
       @include vertical-center(absolute, 20%);
       @include span(last 5 of 10);
+      @include prefix(1);
 
       top: 0%;
       line-height: 2rem;

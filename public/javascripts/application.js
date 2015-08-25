@@ -57,14 +57,15 @@ $(".tab").click(function() {
     //    return console.log("Wiselinks page loading completed");
     //});
     //$(document).off('page:done').on('page:done', function(event, $target, status, url, data) {
-    //    $('main').fadeTo(200, 1);
+    //    //$('main').removeClass("contacts");
+    //
     //    return console.log("Wiselinks status: '" + status + "'");
     //});
     //return $(document).off('page:fail').on('page:fail', function(event, $target, status, url, error, code) {
     //    return console.log("Wiselinks status: '" + status + "'");
     //});
-
-
+     //
+     //
      //for Yandex metrics & Google analitics
 
     //$(document).off('page:done').on('page:done', function(event, $target, status, url, data) {

@@ -6,28 +6,28 @@
     nav {
       padding: 0px 0;
     }
+
     ul.main-menu {
       display: block;
       width: 100%;
       text-align: center;
       margin: 0;
       list-style-type: none;
+
       li {
         display: inline-block;
         //padding: 10px;
         box-shadow: 0 1px 12px 0 rgba(0,0,0,.12),0 1px 1px 0 rgba(0,0,0,.06);
-
-        height: 50px;
+        height: 60px;
         width: 40%;
         margin: 0 5px;
         background: #c0392b;
         max-width: 225px;
         min-width: 100px;
-
         &:hover {
           //padding: 0 0 5px 0 ;
           box-shadow: 0 1px 8px 0 rgba(0,0,0,.12),0 1px 1px 0 rgba(0,0,0,.06);
-
+          //-webkit-transform: scaleY(1.1);
         }
 
       }

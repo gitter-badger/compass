@@ -135,17 +135,13 @@ footer {
 .created-by a {color: ghostwhite;}
 
 
-.price-page {
-  position: absolute;
-  bottom: 120px;
-  top: 190px;
+//.price-page {
+//  position: absolute;
+//  bottom: 120px;
+//  top: 190px;
   //overflow-y: auto;
-}
+//}
 
-.price--menu {
-  @include span(12);
-
-}
 
 .price-menu ul li {
   @include gallery(2 of 12);
@@ -311,8 +307,8 @@ footer {
   padding: 0;
   list-style-type: none;
 
-  li:nth-child(1){border-right: 2px solid rgb(41, 58, 75); }
-  li:nth-child(2){border-left: 2px solid rgb(41, 58, 75); }
+  //li:nth-child(1){border-right: 2px solid rgb(41, 58, 75); }
+  //li:nth-child(2){border-left: 2px solid rgb(41, 58, 75); }
 
 
   li {
@@ -537,22 +533,15 @@ footer {
 //}
 .price-nav {
 
-  @include container(720px);
+  @include container;
 }
 
 .price-page {
 
-  @include container();
-  top: 200px;
-  position: absolute;
-  bottom: 120px;
-  left: 0;
-  right: 0;
-  margin: auto;
-  //overflow-y: scroll; /* has to be scroll, not auto */
-  //-webkit-overflow-scrolling: touch;
-
-
+  @include container;
+  margin: 0 auto;
+  overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
 
 }
 
@@ -565,67 +554,67 @@ footer {
 
 }
 
-
-@include susy-breakpoint($mobile-size, $mobile) {
-
-  .page.price {
-    background-size: 100%;
-  }
-  .price-page {
-    top: 190px;
-  }
-}
-
-
-
-  @include susy-breakpoint($tablet-size, $tablet) {
-
-    .page.price {
-      background-size: 75%;
-    }
-
-    .price-page {
-
-      @include container(720px);
-      top: 180px;
-      position: absolute;
-      bottom: 120px;
-      //overflow-x: auto;
-
-      left: 0;
-      right: 0;
-      margin: auto;
-
-    }
-
-
-
-  }
-  //
-  @include susy-breakpoint($desktop-size, $large) {
-
-    .page.price {
-      background-size: 75%;
-    }
-
-    .price-page {
-      @include container(720px);
-      top: 190px;
-      position: absolute;
-      bottom: 120px;
-      //overflow-x: auto;
-      padding: 0;
-      left: 10%;
-      right: 10%;
-      margin: auto;
-
-    }
-
-    .price-page article {
-      font-size: 0.8rem;
-
-    }
-  }
+//
+//@include susy-breakpoint($mobile-size, $mobile) {
+//
+//  .page.price {
+//    background-size: 100%;
+//  }
+//  .price-page {
+//    top: 190px;
+//  }
+//}
+//
+//
+//
+//  @include susy-breakpoint($tablet-size, $tablet) {
+//
+//    .page.price {
+//      background-size: 75%;
+//    }
+//
+//    .price-page {
+//
+//      @include container(720px);
+//      top: 180px;
+//      position: absolute;
+//      bottom: 120px;
+//      //overflow-x: auto;
+//
+//      left: 0;
+//      right: 0;
+//      margin: auto;
+//
+//    }
+//
+//
+//
+//  }
+//  //
+//  @include susy-breakpoint($desktop-size, $large) {
+//
+//    .page.price {
+//      background-size: 75%;
+//    }
+//
+//    .price-page {
+//      @include container(720px);
+//      top: 190px;
+//      position: absolute;
+//      bottom: 120px;
+//      //overflow-x: auto;
+//      padding: 0;
+//      left: 10%;
+//      right: 10%;
+//      margin: auto;
+//
+//    }
+//
+//    .price-page article {
+//      font-size: 0.8rem;
+//
+//    }
+//  }
 
 
 

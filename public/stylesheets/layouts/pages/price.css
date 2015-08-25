@@ -1,66 +1,106 @@
-/* line 16, ../../../../app/assets/layouts/pages/price.scss */
-.price-page {
-  overflow: hidden;
-  overflow-y: auto;
-  -webkit-overflow-scrolling: touch;
-}
+/*
+Error: Undefined mixin 'susy-breakpoint'.
+        on line 45 of /home/frolin/RubymineProjects/compass/app/assets/layouts/pages/price.scss, in `susy-breakpoint'
+        from line 45 of /home/frolin/RubymineProjects/compass/app/assets/layouts/pages/price.scss
 
-/* line 30, ../../../../app/assets/layouts/pages/price.scss */
-.price-page article {
-  display: none;
-  font-family: 'PT Sans', sans-serif;
-  background-color: #ffffff;
-  border-bottom: 1px solid #BEBBBB;
-}
+40:     display: block;
+41:   }
+42: 
+43: 
+44: 
+45: @include susy-breakpoint($mobile-size, $mobile) {
+46: 
+47:   .price-page article table {
+48:     width: 100%;
+49: 
+50:     th:last-child, tbody tr td:last-child {
 
-/* line 41, ../../../../app/assets/layouts/pages/price.scss */
-.price-page article:nth-of-type(1) {
-  display: block;
-}
-
-/* line 45, ../../../../app/assets/layouts/pages/price.scss */
-.price-page article table {
-  width: 100%;
-  margin: 0 auto;
-}
-/* line 51, ../../../../app/assets/layouts/pages/price.scss */
-.price-page article table tr:first-child:hover {
-  background: none;
-}
-/* line 57, ../../../../app/assets/layouts/pages/price.scss */
-.price-page article table tr:first-child th {
-  color: darkgrey;
-  border-bottom: 2px solid #c0392b;
-  padding: 10px 0;
-  font-size: 1rem;
-}
-/* line 67, ../../../../app/assets/layouts/pages/price.scss */
-.price-page article table tr:first-child th:first-child {
-  font-size: 1.4rem;
-  color: #293a4b;
-  width: 60%;
-}
-/* line 73, ../../../../app/assets/layouts/pages/price.scss */
-.price-page article table tr:first-child th.title {
-  font-family: 'PT Sans';
-  padding-left: 1%;
-}
-/* line 79, ../../../../app/assets/layouts/pages/price.scss */
-.price-page article table tr:first-child th:nth-child(2) {
-  font-size: .8rem;
-  font-family: 'PT Sans';
-  padding-left: 1%;
-}
-/* line 99, ../../../../app/assets/layouts/pages/price.scss */
-.price-page article table tr:nth-child(2n) {
-  background-color: #EDEDED;
-}
-/* line 104, ../../../../app/assets/layouts/pages/price.scss */
-.price-page article table tr td:nth-child(2), .price-page article table tr th:last-child {
-  text-align: right;
-  padding-right: 5px;
-}
-/* line 110, ../../../../app/assets/layouts/pages/price.scss */
-.price-page article table td {
-  padding: 7px;
-}
+Backtrace:
+/home/frolin/RubymineProjects/compass/app/assets/layouts/pages/price.scss:45:in `susy-breakpoint'
+/home/frolin/RubymineProjects/compass/app/assets/layouts/pages/price.scss:45
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/sass-3.4.16/lib/sass/tree/visitors/perform.rb:348:in `block in visit_mixin'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/sass-3.4.16/lib/sass/stack.rb:98:in `block in with_mixin'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/sass-3.4.16/lib/sass/stack.rb:115:in `with_frame'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/sass-3.4.16/lib/sass/stack.rb:98:in `with_mixin'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/sass-3.4.16/lib/sass/tree/visitors/perform.rb:346:in `visit_mixin'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/sass-3.4.16/lib/sass/tree/visitors/base.rb:36:in `visit'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/sass-3.4.16/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/sass-3.4.16/lib/sass/stack.rb:79:in `block in with_base'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/sass-3.4.16/lib/sass/stack.rb:115:in `with_frame'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/sass-3.4.16/lib/sass/stack.rb:79:in `with_base'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/sass-3.4.16/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/sass-3.4.16/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/sass-3.4.16/lib/sass/tree/visitors/base.rb:52:in `map'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/sass-3.4.16/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/sass-3.4.16/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/sass-3.4.16/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/sass-3.4.16/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/sass-3.4.16/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/sass-3.4.16/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/sass-3.4.16/lib/sass/tree/visitors/base.rb:36:in `visit'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/sass-3.4.16/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/sass-3.4.16/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/sass-3.4.16/lib/sass/tree/root_node.rb:36:in `css_tree'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/sass-3.4.16/lib/sass/tree/root_node.rb:20:in `render'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/sass-3.4.16/lib/sass/engine.rb:278:in `render'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/sass-3.4.16/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/sass-3.4.16/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/sass-3.4.16/lib/sass/plugin/compiler.rb:209:in `each'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/sass-3.4.16/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/sass-3.4.16/lib/sass/plugin.rb:82:in `update_stylesheets'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/sass-3.4.16/lib/sass/plugin.rb:54:in `check_for_updates'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/sass-3.4.16/lib/sass/plugin/rack.rb:51:in `call'
+/home/frolin/RubymineProjects/compass/lib/connection_pool_management_middleware.rb:7:in `block in call'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/activerecord-4.2.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:292:in `with_connection'
+/home/frolin/RubymineProjects/compass/lib/connection_pool_management_middleware.rb:7:in `call'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/rack-protection-1.5.3/lib/rack/protection/xss_header.rb:18:in `call'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/rack-protection-1.5.3/lib/rack/protection/json_csrf.rb:18:in `call'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/rack-protection-1.5.3/lib/rack/protection/frame_options.rb:31:in `call'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/rack-1.5.5/lib/rack/head.rb:11:in `call'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/rack-1.5.5/lib/rack/methodoverride.rb:21:in `call'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/padrino-core-0.12.5/lib/padrino-core/reloader/rack.rb:22:in `call'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/padrino-core-0.12.5/lib/padrino-core/logger.rb:420:in `call'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/sinatra-1.4.6/lib/sinatra/show_exceptions.rb:21:in `call'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/rack-1.5.5/lib/rack/session/abstract/id.rb:225:in `context'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/rack-1.5.5/lib/rack/session/abstract/id.rb:220:in `call'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/sinatra-1.4.6/lib/sinatra/base.rb:2021:in `call'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/sinatra-1.4.6/lib/sinatra/base.rb:1486:in `block in call'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/sinatra-1.4.6/lib/sinatra/base.rb:1795:in `synchronize'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/sinatra-1.4.6/lib/sinatra/base.rb:1486:in `call'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/padrino-core-0.12.5/lib/padrino-core/router.rb:84:in `block in call'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/padrino-core-0.12.5/lib/padrino-core/router.rb:75:in `each'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/padrino-core-0.12.5/lib/padrino-core/router.rb:75:in `call'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/rack-1.5.5/lib/rack/lint.rb:49:in `_call'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/rack-1.5.5/lib/rack/lint.rb:37:in `call'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/rack-1.5.5/lib/rack/showexceptions.rb:24:in `call'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/rack-1.5.5/lib/rack/commonlogger.rb:33:in `call'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/sinatra-1.4.6/lib/sinatra/base.rb:218:in `call'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/rack-1.5.5/lib/rack/chunked.rb:43:in `call'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/rack-1.5.5/lib/rack/content_length.rb:14:in `call'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/thin-1.6.2/lib/thin/connection.rb:86:in `block in pre_process'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/thin-1.6.2/lib/thin/connection.rb:84:in `catch'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/thin-1.6.2/lib/thin/connection.rb:84:in `pre_process'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/thin-1.6.2/lib/thin/connection.rb:53:in `process'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/thin-1.6.2/lib/thin/connection.rb:39:in `receive_data'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run_machine'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/thin-1.6.2/lib/thin/backends/base.rb:73:in `start'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/thin-1.6.2/lib/thin/server.rb:162:in `start'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/rack-1.5.5/lib/rack/handler/thin.rb:16:in `run'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/rack-1.5.5/lib/rack/server.rb:264:in `start'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/rack-1.5.5/lib/rack/server.rb:141:in `start'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/rack-1.5.5/bin/rackup:4:in `<top (required)>'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/bin/rackup:23:in `load'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/bin/rackup:23:in `<top (required)>'
+-e:1:in `load'
+-e:1:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined mixin 'susy-breakpoint'.\A         on line 45 of /home/frolin/RubymineProjects/compass/app/assets/layouts/pages/price.scss, in `susy-breakpoint'\A         from line 45 of /home/frolin/RubymineProjects/compass/app/assets/layouts/pages/price.scss\A \A 40:     display: block;\A 41:   }\A 42: \A 43: \A 44: \A 45: @include susy-breakpoint($mobile-size, $mobile) {\A 46: \A 47:   .price-page article table {\A 48:     width: 100%;\A 49: \A 50:     th:last-child, tbody tr td:last-child {"; }

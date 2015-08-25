@@ -95,7 +95,7 @@
 
       ul.price-nav li {
 
-        height: 120px;
+        height: 105px;
         width: 16%;
         padding-top: 10px;
 
@@ -126,6 +126,32 @@
          background-size: 64%;
        }
 
+    .price-nav {
+      .icon-to {
+        background-size: 55%;
+        background-position: 50% 5px;
+      }
+      .icon-remont {
+        background-size: 55%;
+        background-position: 50% 5px;
+      }
+      .icon-custom {
+        background-size: 55%;
+        background-position: 50% -5px;
+      }
+      .icon-mount {
+        background-size: 50%;
+        background-position: 50% 0px;
+      }
+      .icon-wash {
+        background-size: 55%;
+        background-position: 50% 10px;
+      }
+      .icon-paint {
+        background-size: 55%;
+        background-position: 50% 5px;
+      }
+    }
 
     .price-nav span {
         padding-top: 10px;
@@ -166,29 +192,3 @@
 .icon-wash  {background-image: url("/images/icons/menu-price/5.svg");}
 .icon-paint {background-image: url("/images/icons/menu-price/6.svg");}
 
-  .price-nav {
-    .icon-to {
-      background-size: 55%;
-      background-position: 50% 5px;
-    }
-    .icon-remont {
-      background-size: 55%;
-      background-position: 50% 5px;
-    }
-    .icon-custom {
-      background-size: 55%;
-      background-position: 50% -5px;
-    }
-    .icon-mount {
-      background-size: 50%;
-      background-position: 50% 0px;
-    }
-    .icon-wash {
-      background-size: 55%;
-      background-position: 50% 10px;
-    }
-    .icon-paint {
-      background-size: 55%;
-      background-position: 50% 5px;
-    }
-  }
