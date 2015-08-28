@@ -18,10 +18,9 @@ $(".tab").click(function() {
                 //.removeClass('pt-page-moveToLeft').addClass('pt-page-moveToLeft pt-page-moveFromLeft');
         else
             $('main').addClass('price').removeClass('contacts');
-            $target.css({'opacity':0}).animate({'opacity': '1'}, 500);
+                //.removeClass('pt-page-moveToLeft pt-page-moveFromLeft').addClass('pt-page-moveToLeft');
 
-        //.removeClass('pt-page-moveToLeft pt-page-moveFromLeft').addClass('pt-page-moveToLeft');
-
+        $target.css({'opacity':0}).animate({'opacity': '1'},500);
         //$target.animate({
         //transform: 'translateY(600px)'}, 1000);
         //$('main').show("slide", { direction: "left" }, 500);

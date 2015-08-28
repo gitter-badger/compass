@@ -48,8 +48,8 @@
       <file leaf-file-name="application.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/javascripts/application.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.40458015">
-              <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.6335878">
+              <caret line="22" column="59" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -779,7 +779,13 @@
       <option name="project" value="LOCAL" />
       <updated>1440727778622</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="fixed transition bug">
+      <created>1440728515447</created>
+      <option name="number" value="00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1440728515447</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TodoView">
@@ -845,7 +851,8 @@
     <MESSAGE value="refactor  price page" />
     <MESSAGE value="add ajax&#10;add page opacity &#10;add some styling" />
     <MESSAGE value="fixed scroll bar" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed scroll bar" />
+    <MESSAGE value="fixed transition bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed transition bug" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1254,8 +1261,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/application.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40458015">
-          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.6335878">
+          <caret line="22" column="59" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="59" />
           <folding />
         </state>
       </provider>
