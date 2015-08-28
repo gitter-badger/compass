@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6d15d0b-34cc-4af7-aafc-06c9b93fa8e9" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/page/contacts.haml" afterPath="$PROJECT_DIR$/app/views/page/contacts.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/page.rb" afterPath="$PROJECT_DIR$/app/controllers/page.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="compass.iws" />
@@ -16,7 +18,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/compass@Local.coverage" NAME="Local Coverage Results" MODIFIED="1440759911210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="compass" />
+    <SUITE FILE_PATH="coverage/compass@Local.coverage" NAME="Local Coverage Results" MODIFIED="1440761791174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="compass" />
     <SUITE FILE_PATH="coverage/compass@IRB_console__compass.coverage" NAME="IRB console: compass Coverage Results" MODIFIED="1438963960914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="compass" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -38,7 +40,7 @@
         <entry file="file://$PROJECT_DIR$/app/controllers/page.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="17" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+              <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -104,12 +106,46 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.haml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="application.haml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.24590164">
-              <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+            <state vertical-scroll-proportion="-4.888889">
+              <caret line="37" column="39" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="price.haml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/page/price.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="35" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contacts.haml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/page/contacts.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="34" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
+              <folding>
+                <marker date="1440761982903" expanded="true" signature="74:2128" placeholder="{...}" />
+                <marker date="1440761982903" expanded="true" signature="145:1071" placeholder="{...}" />
+                <marker date="1440761982903" expanded="true" signature="183:256" placeholder="{&quot;zoom&quot;: 12...}" />
+                <marker date="1440761982903" expanded="true" signature="326:761" placeholder="{&quot;hintContent&quot;: 'Маслов-Сервис &lt;br&gt; 1-я Фрезерная д.2 к.1'...}" />
+                <marker date="1440761982903" expanded="true" signature="411:747" placeholder="[...]" />
+                <marker date="1440761982903" expanded="true" signature="763:945" placeholder="{&quot;iconLayout&quot;: 'default#image'...}" />
+                <marker date="1440761982903" expanded="true" signature="1078:2125" placeholder="{...}" />
+                <marker date="1440761982903" expanded="true" signature="1115:1189" placeholder="{&quot;zoom&quot;: 10...}" />
+                <marker date="1440761982903" expanded="true" signature="1257:1727" placeholder="{&quot;hintContent&quot;: 'Маслов-Сервис &lt;br&gt; 1-я Фрезерная д.2 к.1'...}" />
+                <marker date="1440761982903" expanded="true" signature="1413:1713" placeholder="[...]" />
+                <marker date="1440761982903" expanded="true" signature="1729:1964" placeholder="{&quot;balloonPanelMaxMapArea&quot;: 0...}" />
+                <marker date="1440761982903" expanded="true" signature="2009:2081" placeholder="{&quot;float&quot;: 'none'...}" />
+                <marker date="1440761982903" expanded="true" signature="2044:2076" placeholder="{&quot;top&quot;: 60...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -159,18 +195,18 @@
         <option value="$PROJECT_DIR$/app/views/layouts/partials/_footer.haml" />
         <option value="$PROJECT_DIR$/app/assets/application.scss" />
         <option value="$PROJECT_DIR$/app/assets/_base.scss" />
-        <option value="$PROJECT_DIR$/app/views/page/contacts.haml" />
         <option value="$PROJECT_DIR$/app/views/layouts/partials/_header.haml" />
         <option value="$PROJECT_DIR$/public/javascripts/pagetransitions.js" />
         <option value="$PROJECT_DIR$/app/views/layouts/partials/_price-menu.erb" />
         <option value="$PROJECT_DIR$/app/assets/_susy_grid.scss" />
         <option value="$PROJECT_DIR$/app/assets/layouts/pages/price.scss" />
-        <option value="$PROJECT_DIR$/app/views/page/price.haml" />
         <option value="$PROJECT_DIR$/public/javascripts/ya_map.js" />
         <option value="$PROJECT_DIR$/public/javascripts/application.js" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.haml" />
         <option value="$PROJECT_DIR$/config.ru" />
         <option value="$PROJECT_DIR$/app/controllers/page.rb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.haml" />
+        <option value="$PROJECT_DIR$/app/views/page/contacts.haml" />
+        <option value="$PROJECT_DIR$/app/views/page/price.haml" />
       </list>
     </option>
   </component>
@@ -771,7 +807,13 @@
       <option name="project" value="LOCAL" />
       <updated>1440759112566</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="refactor">
+      <created>1440759974370</created>
+      <option name="number" value="00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1440759974370</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TodoView">
@@ -785,7 +827,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1600" height="771" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31920528" sideWeight="0.4978903" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289256" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -798,7 +840,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980132" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18452759" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18452759" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30578512" sideWeight="0.49186257" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -820,7 +862,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add response7" />
     <MESSAGE value="add response77" />
     <MESSAGE value="ignore idea" />
     <MESSAGE value="add map viewport zoom" />
@@ -845,7 +886,8 @@
     <MESSAGE value="title fix-3" />
     <MESSAGE value="title fix-4" />
     <MESSAGE value="add utf -8" />
-    <option name="LAST_COMMIT_MESSAGE" value="add utf -8" />
+    <MESSAGE value="refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1045,38 +1087,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/page/contacts.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3333334">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <marker date="1440722871115" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1440722871115" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1440722871115" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1440722871115" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1440722871115" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1440722871115" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1440722871115" expanded="true" signature="-1:-1" placeholder="{&quot;zoom&quot;: 12...}" />
-            <marker date="1440722871115" expanded="true" signature="-1:-1" placeholder="{&quot;hintContent&quot;: 'Маслов-Сервис &lt;br&gt; 1-я Фрезерная д.2 к.1'...}" />
-            <marker date="1440722871115" expanded="true" signature="-1:-1" placeholder="[...]" />
-            <marker date="1440722871115" expanded="true" signature="-1:-1" placeholder="{&quot;iconLayout&quot;: 'default#image'...}" />
-            <marker date="1440722871115" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1440722871115" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1440722871115" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1440722871115" expanded="true" signature="-1:-1" placeholder="{&quot;zoom&quot;: 10...}" />
-            <marker date="1440722871115" expanded="true" signature="-1:-1" placeholder="{&quot;zoom&quot;: 10...}" />
-            <marker date="1440722871115" expanded="true" signature="-1:-1" placeholder="{&quot;hintContent&quot;: 'Маслов-Сервис &lt;br&gt; 1-я Фрезерная д.2 к.1'...}" />
-            <marker date="1440722871115" expanded="true" signature="-1:-1" placeholder="{&quot;hintContent&quot;: 'Маслов-Сервис &lt;br&gt; 1-я Фрезерная д.2 к.1'...}" />
-            <marker date="1440722871115" expanded="true" signature="-1:-1" placeholder="[...]" />
-            <marker date="1440722871115" expanded="true" signature="-1:-1" placeholder="{&quot;balloonPanelMaxMapArea&quot;: 0...}" />
-            <marker date="1440722871115" expanded="true" signature="-1:-1" placeholder="{&quot;balloonPanelMaxMapArea&quot;: 0...}" />
-            <marker date="1440722871115" expanded="true" signature="-1:-1" placeholder="{&quot;balloonPanelMaxMapArea&quot;: 0...}" />
-            <marker date="1440722871115" expanded="true" signature="-1:-1" placeholder="{&quot;float&quot;: 'none'...}" />
-            <marker date="1440722871115" expanded="true" signature="-1:-1" placeholder="{&quot;top&quot;: 60...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/_footer.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.5555556">
@@ -1129,14 +1139,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/page/price.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.6666667">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -1253,18 +1255,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/page.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="17" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+        <state vertical-scroll-proportion="-4.888889">
+          <caret line="37" column="39" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.haml">
+    <entry file="file://$PROJECT_DIR$/app/controllers/page.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24590164">
-          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/page/contacts.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="34" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
+          <folding>
+            <marker date="1440761982903" expanded="true" signature="74:2128" placeholder="{...}" />
+            <marker date="1440761982903" expanded="true" signature="145:1071" placeholder="{...}" />
+            <marker date="1440761982903" expanded="true" signature="183:256" placeholder="{&quot;zoom&quot;: 12...}" />
+            <marker date="1440761982903" expanded="true" signature="326:761" placeholder="{&quot;hintContent&quot;: 'Маслов-Сервис &lt;br&gt; 1-я Фрезерная д.2 к.1'...}" />
+            <marker date="1440761982903" expanded="true" signature="411:747" placeholder="[...]" />
+            <marker date="1440761982903" expanded="true" signature="763:945" placeholder="{&quot;iconLayout&quot;: 'default#image'...}" />
+            <marker date="1440761982903" expanded="true" signature="1078:2125" placeholder="{...}" />
+            <marker date="1440761982903" expanded="true" signature="1115:1189" placeholder="{&quot;zoom&quot;: 10...}" />
+            <marker date="1440761982903" expanded="true" signature="1257:1727" placeholder="{&quot;hintContent&quot;: 'Маслов-Сервис &lt;br&gt; 1-я Фрезерная д.2 к.1'...}" />
+            <marker date="1440761982903" expanded="true" signature="1413:1713" placeholder="[...]" />
+            <marker date="1440761982903" expanded="true" signature="1729:1964" placeholder="{&quot;balloonPanelMaxMapArea&quot;: 0...}" />
+            <marker date="1440761982903" expanded="true" signature="2009:2081" placeholder="{&quot;float&quot;: 'none'...}" />
+            <marker date="1440761982903" expanded="true" signature="2044:2076" placeholder="{&quot;top&quot;: 60...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/page/price.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="35" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="35" />
           <folding />
         </state>
       </provider>
