@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f6d15d0b-34cc-4af7-aafc-06c9b93fa8e9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.haml" afterPath="$PROJECT_DIR$/app/views/layouts/application.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/page.rb" afterPath="$PROJECT_DIR$/app/controllers/page.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="compass.iws" />
@@ -100,7 +99,7 @@
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.haml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.24590164">
-              <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+              <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -840,7 +839,13 @@
       <option name="project" value="LOCAL" />
       <updated>1440757595084</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="title fix">
+      <created>1440758021406</created>
+      <option name="number" value="00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1440758021406</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TodoView">
@@ -913,7 +918,8 @@
     <MESSAGE value="add opacity true point" />
     <MESSAGE value="animation speed faster" />
     <MESSAGE value="bugfix&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="bugfix&#10;" />
+    <MESSAGE value="title fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="title fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1317,7 +1323,7 @@
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.24590164">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
           <folding />
         </state>
       </provider>
