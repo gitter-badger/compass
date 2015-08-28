@@ -23,7 +23,7 @@ Compass::App.controllers :page, :cache => true do
   
   get :contacts, :map => '/' do
     cache_key :contacts
-    # @title='Контакты'
+    @title='Контакты'
     if request.xhr?
       render :'page/contacts', layout: false
     else
@@ -34,7 +34,7 @@ Compass::App.controllers :page, :cache => true do
 
   get :price, :map => '/price' do
     cache_key :price
-    @title='Цена'
+    @title='Цены'
 
     # haml :'page/price'
     if request.xhr?
