@@ -11,17 +11,6 @@ $(document).ready(function() {
     window.wiselinks = new Wiselinks($('main'));
 
     $(document).off('page:loading').on('page:loading', function(event, $target, render, url) {
-        //$('main').addClass();
-        //$target.hide();
-        $target.css({'opacity':0}).animate({'opacity': '1'},500);
-
-
-        if (window.location.pathname == '/')
-            $('main').addClass('contacts').removeClass('price');
-                //.removeClass('pt-page-moveToLeft').addClass('pt-page-moveToLeft pt-page-moveFromLeft');
-        else
-            $('main').addClass('price').removeClass('contacts');
-                //.removeClass('pt-page-moveToLeft pt-page-moveFromLeft').addClass('pt-page-moveToLeft');
 
 
 
@@ -36,6 +25,16 @@ $(document).ready(function() {
         return console.log("Redirected to: " + url);
     });
     $(document).off('page:always').on('page:always', function(event, xhr, settings) {
+
+        if (window.location.pathname == '/')
+            $('main').addClass('contacts').removeClass('price');
+        //.removeClass('pt-page-moveToLeft').addClass('pt-page-moveToLeft pt-page-moveFromLeft');
+        else
+            $('main').addClass('price').removeClass('contacts')
+        //.removeClass('pt-page-moveToLeft pt-page-moveFromLeft').addClass('pt-page-moveToLeft');
+
+
+        $('main').css({'opacity':0}).animate({'opacity': '1'},1000);
 
         return console.log("Wiselinks page loading completed");
     });
