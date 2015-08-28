@@ -1,5 +1,6 @@
+# encoding: utf-8
+
 Compass::App.controllers :page, :cache => true do
-# ,
   expires 86400*30
 
   # get :index, :map => '/foo/bar' do
@@ -23,7 +24,7 @@ Compass::App.controllers :page, :cache => true do
   
   get :contacts, :map => '/' do
     cache_key :contacts
-    @title='Контакты'
+    @title="Контакты"
     if request.xhr?
       render :'page/contacts', layout: false
     else
@@ -34,7 +35,7 @@ Compass::App.controllers :page, :cache => true do
 
   get :price, :map => '/price' do
     cache_key :price
-    @title='Цены'
+    @title="Цены"
 
     # haml :'page/price'
     if request.xhr?
