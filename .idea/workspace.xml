@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6d15d0b-34cc-4af7-aafc-06c9b93fa8e9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/application.css" afterPath="$PROJECT_DIR$/public/stylesheets/application.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/layouts/pages/price.css" afterPath="$PROJECT_DIR$/public/stylesheets/layouts/pages/price.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/layouts/pages/price.scss" afterPath="$PROJECT_DIR$/app/assets/layouts/pages/price.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/application.js" afterPath="$PROJECT_DIR$/public/javascripts/application.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="compass.iws" />
@@ -19,7 +17,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/compass@Local.coverage" NAME="Local Coverage Results" MODIFIED="1440722969717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="compass" />
+    <SUITE FILE_PATH="coverage/compass@Local.coverage" NAME="Local Coverage Results" MODIFIED="1440727996647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="compass" />
     <SUITE FILE_PATH="coverage/compass@IRB_console__compass.coverage" NAME="IRB console: compass Coverage Results" MODIFIED="1438963960914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="compass" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -47,20 +45,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="application.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/javascripts/application.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+            <state vertical-scroll-proportion="0.40458015">
+              <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="price.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="price.haml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/page/price.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.6666667">
+              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="price.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/layouts/pages/price.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6885246">
+            <state vertical-scroll-proportion="-9.333333">
               <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
               <folding />
             </state>
@@ -87,40 +95,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contacts.haml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/page/contacts.haml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.3333334">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding>
-                <marker date="1440722871115" expanded="true" signature="74:1071" placeholder="{...}" />
-                <marker date="1440722871115" expanded="true" signature="74:2125" placeholder="{...}" />
-                <marker date="1440722871115" expanded="true" signature="74:2128" placeholder="{...}" />
-                <marker date="1440722871115" expanded="true" signature="145:1028" placeholder="{...}" />
-                <marker date="1440722871115" expanded="true" signature="145:1067" placeholder="{...}" />
-                <marker date="1440722871115" expanded="true" signature="145:1071" placeholder="{...}" />
-                <marker date="1440722871115" expanded="true" signature="183:256" placeholder="{&quot;zoom&quot;: 12...}" />
-                <marker date="1440722871115" expanded="true" signature="326:761" placeholder="{&quot;hintContent&quot;: 'Маслов-Сервис &lt;br&gt; 1-я Фрезерная д.2 к.1'...}" />
-                <marker date="1440722871115" expanded="true" signature="411:747" placeholder="[...]" />
-                <marker date="1440722871115" expanded="true" signature="763:945" placeholder="{&quot;iconLayout&quot;: 'default#image'...}" />
-                <marker date="1440722871115" expanded="true" signature="1078:1191" placeholder="{...}" />
-                <marker date="1440722871115" expanded="true" signature="1078:2120" placeholder="{...}" />
-                <marker date="1440722871115" expanded="true" signature="1078:2125" placeholder="{...}" />
-                <marker date="1440722871115" expanded="true" signature="1115:1184" placeholder="{&quot;zoom&quot;: 10...}" />
-                <marker date="1440722871115" expanded="true" signature="1115:1189" placeholder="{&quot;zoom&quot;: 10...}" />
-                <marker date="1440722871115" expanded="true" signature="1257:1722" placeholder="{&quot;hintContent&quot;: 'Маслов-Сервис &lt;br&gt; 1-я Фрезерная д.2 к.1'...}" />
-                <marker date="1440722871115" expanded="true" signature="1257:1727" placeholder="{&quot;hintContent&quot;: 'Маслов-Сервис &lt;br&gt; 1-я Фрезерная д.2 к.1'...}" />
-                <marker date="1440722871115" expanded="true" signature="1413:1713" placeholder="[...]" />
-                <marker date="1440722871115" expanded="true" signature="1729:1785" placeholder="{&quot;balloonPanelMaxMapArea&quot;: 0...}" />
-                <marker date="1440722871115" expanded="true" signature="1729:1928" placeholder="{&quot;balloonPanelMaxMapArea&quot;: 0...}" />
-                <marker date="1440722871115" expanded="true" signature="1729:1964" placeholder="{&quot;balloonPanelMaxMapArea&quot;: 0...}" />
-                <marker date="1440722871115" expanded="true" signature="2009:2081" placeholder="{&quot;float&quot;: 'none'...}" />
-                <marker date="1440722871115" expanded="true" signature="2044:2076" placeholder="{&quot;top&quot;: 60...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="_price-menu.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/_price-menu.erb">
           <provider selected="true" editor-type-id="text-editor">
@@ -131,21 +105,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_footer.haml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/_footer.haml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.5555556">
-              <caret line="8" column="57" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="82" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="application.haml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.haml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-11.555555">
               <caret line="43" column="78" selection-start-line="43" selection-start-column="78" selection-end-line="43" selection-end-column="78" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/stylesheets/application.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -201,7 +175,6 @@
         <option value="$PROJECT_DIR$/app/assets/layouts/_breakpoints.scss" />
         <option value="$PROJECT_DIR$/app/assets/layouts/partials/_footer.scss" />
         <option value="$PROJECT_DIR$/app/controllers/page.rb" />
-        <option value="$PROJECT_DIR$/app/views/page/price.haml" />
         <option value="$PROJECT_DIR$/app/assets/layouts/partials/_header_price-page.scss" />
         <option value="$PROJECT_DIR$/app/assets/layouts/partials/_price-menu.scss" />
         <option value="$PROJECT_DIR$/app/assets/style/_typography.scss" />
@@ -213,10 +186,11 @@
         <option value="$PROJECT_DIR$/app/views/layouts/partials/_header.haml" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.haml" />
         <option value="$PROJECT_DIR$/public/javascripts/pagetransitions.js" />
-        <option value="$PROJECT_DIR$/public/javascripts/application.js" />
         <option value="$PROJECT_DIR$/app/views/layouts/partials/_price-menu.erb" />
         <option value="$PROJECT_DIR$/app/assets/_susy_grid.scss" />
         <option value="$PROJECT_DIR$/app/assets/layouts/pages/price.scss" />
+        <option value="$PROJECT_DIR$/app/views/page/price.haml" />
+        <option value="$PROJECT_DIR$/public/javascripts/application.js" />
       </list>
     </option>
   </component>
@@ -386,6 +360,46 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="compass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="compass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="page" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="compass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="compass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -759,7 +773,13 @@
       <option name="project" value="LOCAL" />
       <updated>1440727083689</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="fixed scroll bar">
+      <created>1440727778622</created>
+      <option name="number" value="00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1440727778622</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TodoView">
@@ -824,20 +844,14 @@
     <MESSAGE value="optimize step 1" />
     <MESSAGE value="refactor  price page" />
     <MESSAGE value="add ajax&#10;add page opacity &#10;add some styling" />
-    <option name="LAST_COMMIT_MESSAGE" value="add ajax&#10;add page opacity &#10;add some styling" />
+    <MESSAGE value="fixed scroll bar" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed scroll bar" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/images/icons_svg/metka.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/images/icons_svg/tel.svg">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1047,6 +1061,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.962963">
           <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1054,13 +1069,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/page/price.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.5555553">
-          <caret line="94" column="18" selection-start-line="94" selection-start-column="18" selection-end-line="94" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -1137,29 +1145,29 @@
         <state vertical-scroll-proportion="-1.3333334">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
-            <marker date="1440722871115" expanded="true" signature="74:1071" placeholder="{...}" />
-            <marker date="1440722871115" expanded="true" signature="74:2125" placeholder="{...}" />
-            <marker date="1440722871115" expanded="true" signature="74:2128" placeholder="{...}" />
-            <marker date="1440722871115" expanded="true" signature="145:1028" placeholder="{...}" />
-            <marker date="1440722871115" expanded="true" signature="145:1067" placeholder="{...}" />
-            <marker date="1440722871115" expanded="true" signature="145:1071" placeholder="{...}" />
-            <marker date="1440722871115" expanded="true" signature="183:256" placeholder="{&quot;zoom&quot;: 12...}" />
-            <marker date="1440722871115" expanded="true" signature="326:761" placeholder="{&quot;hintContent&quot;: 'Маслов-Сервис &lt;br&gt; 1-я Фрезерная д.2 к.1'...}" />
-            <marker date="1440722871115" expanded="true" signature="411:747" placeholder="[...]" />
-            <marker date="1440722871115" expanded="true" signature="763:945" placeholder="{&quot;iconLayout&quot;: 'default#image'...}" />
-            <marker date="1440722871115" expanded="true" signature="1078:1191" placeholder="{...}" />
-            <marker date="1440722871115" expanded="true" signature="1078:2120" placeholder="{...}" />
-            <marker date="1440722871115" expanded="true" signature="1078:2125" placeholder="{...}" />
-            <marker date="1440722871115" expanded="true" signature="1115:1184" placeholder="{&quot;zoom&quot;: 10...}" />
-            <marker date="1440722871115" expanded="true" signature="1115:1189" placeholder="{&quot;zoom&quot;: 10...}" />
-            <marker date="1440722871115" expanded="true" signature="1257:1722" placeholder="{&quot;hintContent&quot;: 'Маслов-Сервис &lt;br&gt; 1-я Фрезерная д.2 к.1'...}" />
-            <marker date="1440722871115" expanded="true" signature="1257:1727" placeholder="{&quot;hintContent&quot;: 'Маслов-Сервис &lt;br&gt; 1-я Фрезерная д.2 к.1'...}" />
-            <marker date="1440722871115" expanded="true" signature="1413:1713" placeholder="[...]" />
-            <marker date="1440722871115" expanded="true" signature="1729:1785" placeholder="{&quot;balloonPanelMaxMapArea&quot;: 0...}" />
-            <marker date="1440722871115" expanded="true" signature="1729:1928" placeholder="{&quot;balloonPanelMaxMapArea&quot;: 0...}" />
-            <marker date="1440722871115" expanded="true" signature="1729:1964" placeholder="{&quot;balloonPanelMaxMapArea&quot;: 0...}" />
-            <marker date="1440722871115" expanded="true" signature="2009:2081" placeholder="{&quot;float&quot;: 'none'...}" />
-            <marker date="1440722871115" expanded="true" signature="2044:2076" placeholder="{&quot;top&quot;: 60...}" />
+            <marker date="1440722871115" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1440722871115" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1440722871115" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1440722871115" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1440722871115" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1440722871115" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1440722871115" expanded="true" signature="-1:-1" placeholder="{&quot;zoom&quot;: 12...}" />
+            <marker date="1440722871115" expanded="true" signature="-1:-1" placeholder="{&quot;hintContent&quot;: 'Маслов-Сервис &lt;br&gt; 1-я Фрезерная д.2 к.1'...}" />
+            <marker date="1440722871115" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1440722871115" expanded="true" signature="-1:-1" placeholder="{&quot;iconLayout&quot;: 'default#image'...}" />
+            <marker date="1440722871115" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1440722871115" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1440722871115" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1440722871115" expanded="true" signature="-1:-1" placeholder="{&quot;zoom&quot;: 10...}" />
+            <marker date="1440722871115" expanded="true" signature="-1:-1" placeholder="{&quot;zoom&quot;: 10...}" />
+            <marker date="1440722871115" expanded="true" signature="-1:-1" placeholder="{&quot;hintContent&quot;: 'Маслов-Сервис &lt;br&gt; 1-я Фрезерная д.2 к.1'...}" />
+            <marker date="1440722871115" expanded="true" signature="-1:-1" placeholder="{&quot;hintContent&quot;: 'Маслов-Сервис &lt;br&gt; 1-я Фрезерная д.2 к.1'...}" />
+            <marker date="1440722871115" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1440722871115" expanded="true" signature="-1:-1" placeholder="{&quot;balloonPanelMaxMapArea&quot;: 0...}" />
+            <marker date="1440722871115" expanded="true" signature="-1:-1" placeholder="{&quot;balloonPanelMaxMapArea&quot;: 0...}" />
+            <marker date="1440722871115" expanded="true" signature="-1:-1" placeholder="{&quot;balloonPanelMaxMapArea&quot;: 0...}" />
+            <marker date="1440722871115" expanded="true" signature="-1:-1" placeholder="{&quot;float&quot;: 'none'...}" />
+            <marker date="1440722871115" expanded="true" signature="-1:-1" placeholder="{&quot;top&quot;: 60...}" />
           </folding>
         </state>
       </provider>
@@ -1184,22 +1192,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.555555">
-          <caret line="43" column="78" selection-start-line="43" selection-start-column="78" selection-end-line="43" selection-end-column="78" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -1230,8 +1222,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/layouts/pages/price.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6885246">
+        <state vertical-scroll-proportion="-9.333333">
           <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.555555">
+          <caret line="43" column="78" selection-start-line="43" selection-start-column="78" selection-end-line="43" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/application.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/page/price.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.6666667">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40458015">
+          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
           <folding />
         </state>
       </provider>

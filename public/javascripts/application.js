@@ -1,62 +1,27 @@
 // Put your application scripts here
-
+$(document).ready(function() {
 
 $(".tab").click(function() {
     $(".tab").removeClass("active").eq($(this).index()).addClass("active").css("z-index:-1;");
     $(".tab_item").hide().eq($(this).index()).fadeIn()
 }).eq(0).addClass("active");
 
-
 //
-//$('.main-menu li a ').on('ajax:success', function(event, xhr, status, error) {
-//    // insert the failure message inside the "#account_settings" element
-//    console.log(xhr)
-//    $(".main-menu li").html(xhr.responseText)
-//});
-//
-//$('.main-menu a').on('ajax:error', function(event, xhr, status, error) {
-//    // insert the failure message inside the "#account_settings" element
-//    console.log(error)
-//});
-
-//
-$(document).ready(function() {
 
     window.wiselinks = new Wiselinks($('main'));
-
-    //var contacts_page = $(".page.contacts");
-    //
-    //ymaps.ready(function() {
-    //
-    //    var $map =  $('#map');
-    //    console.log("map loading");
-    //
-    //    if (contacts_page) {
-    //        $map.fadeIn();
-    //        console.log("map show");
-    //
-    //    }
-    //    else
-    //        {
-    //            $map.fadeOut();
-    //            console.log("map hide");
-    //
-    //    }
-    //
-    //
-    //});
 
     $(document).off('page:loading').on('page:loading', function(event, $target, render, url) {
         //$('main').addClass();
         //$target.hide();
         if (window.location.pathname == '/')
-            $('main').addClass('contacts').removeClass('price')
+            $('main').addClass('contacts').removeClass('price');
                 //.removeClass('pt-page-moveToLeft').addClass('pt-page-moveToLeft pt-page-moveFromLeft');
         else
-            $('main').addClass('price').removeClass('contacts')
-                //.removeClass('pt-page-moveToLeft pt-page-moveFromLeft').addClass('pt-page-moveToLeft');
+            $('main').addClass('price').removeClass('contacts');
+            $target.css({'opacity':0}).animate({'opacity': '1'}, 500);
 
-        $target.css({'opacity':0}).animate({'opacity': '1'},500);
+        //.removeClass('pt-page-moveToLeft pt-page-moveFromLeft').addClass('pt-page-moveToLeft');
+
         //$target.animate({
         //transform: 'translateY(600px)'}, 1000);
         //$('main').show("slide", { direction: "left" }, 500);
