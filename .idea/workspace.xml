@@ -99,7 +99,7 @@
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.haml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.24590164">
-              <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+              <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -845,7 +845,13 @@
       <option name="project" value="LOCAL" />
       <updated>1440758021406</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="title fix-2">
+      <created>1440758105224</created>
+      <option name="number" value="00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1440758105224</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TodoView">
@@ -894,7 +900,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add response" />
     <MESSAGE value="add response2" />
     <MESSAGE value="add response4" />
     <MESSAGE value="add response6" />
@@ -919,7 +924,8 @@
     <MESSAGE value="animation speed faster" />
     <MESSAGE value="bugfix&#10;" />
     <MESSAGE value="title fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="title fix" />
+    <MESSAGE value="title fix-2" />
+    <option name="LAST_COMMIT_MESSAGE" value="title fix-2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1323,7 +1329,7 @@
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.24590164">
-          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
           <folding />
         </state>
       </provider>
