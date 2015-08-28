@@ -13,12 +13,16 @@ $(document).ready(function() {
     $(document).off('page:loading').on('page:loading', function(event, $target, render, url) {
         //$('main').addClass();
         //$target.hide();
+        $target.css({'opacity':0}).animate({'opacity': '1'},500);
+
+
         if (window.location.pathname == '/')
             $('main').addClass('contacts').removeClass('price');
                 //.removeClass('pt-page-moveToLeft').addClass('pt-page-moveToLeft pt-page-moveFromLeft');
         else
             $('main').addClass('price').removeClass('contacts');
                 //.removeClass('pt-page-moveToLeft pt-page-moveFromLeft').addClass('pt-page-moveToLeft');
+
 
 
         //$target.animate({
@@ -28,7 +32,6 @@ $(document).ready(function() {
     });
     $(document).off('page:redirected').on('page:redirected', function(event, $target, render, url) {
 
-        $target.css({'opacity':0}).animate({'opacity': '1'},500);
 
         return console.log("Redirected to: " + url);
     });
