@@ -27,10 +27,10 @@
 		%meta{:content => "mstile-150x150.png", :name => "msapplication-square150x150logo"}/
 		%meta{:content => "mstile-310x150.png", :name => "msapplication-wide310x150logo"}/
 		%meta{:content => "mstile-310x310.png", :name => "msapplication-square310x310logo"}/
-
-		-#=stylesheet_link_tag 'application' #, media: '(max-width: 480px)'
+		%script{:src => "https://api-maps.yandex.ru/2.1/?lang=ru_RU", :type => "text/javascript"}
 
 		=stylesheet_link_tag 'application'
+		=stylesheet_link_tag 'animations'
 
 
 
@@ -40,6 +40,5 @@
 
 		=partial 'layouts/partials/footer'
 
-	%script{:src => "https://api-maps.yandex.ru/2.1/?lang=ru_RU", :type => "text/javascript"}
 
-	=javascript_include_tag  'jquery.js', 'wiselinks.min.js', 'ya_map.js', 'application.js'
+	=javascript_include_tag  'jquery.js', 'wiselinks.min.js', 'application.js'

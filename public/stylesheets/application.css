@@ -310,14 +310,6 @@ a.call_btn:hover {
   font-family: 'PT Sans Narrow';
 }
 
-/* line 288, ../../app/assets/_susy_grid.scss */
-#map {
-  background-image: url("/images/header/logo.svg");
-  background-position: 50% 25%;
-  background-repeat: no-repeat;
-  background-size: 10%;
-}
-
 /* line 297, ../../app/assets/_susy_grid.scss */
 footer {
   background-color: #293a4b;
@@ -436,6 +428,24 @@ footer {
   background-position: 0px 170px;
   background-repeat-y: no-repeat;
   background-size: 100%;
+}
+
+/* line 14, ../../app/assets/_base.scss */
+body, img {
+  -webkit-transition: all,.6s;
+  -moz-transition: all,.6s;
+  -ms-transition: all,.6s;
+  -o-transition: all,.6s;
+  transition: all,.6s;
+}
+
+/* line 22, ../../app/assets/_base.scss */
+nav li {
+  -webkit-transition: all,.2s;
+  -moz-transition: all,.2s;
+  -ms-transition: all,.2s;
+  -o-transition: all,.2s;
+  transition: all,.2s;
 }
 
 /* line 5, ../../../../.rvm/gems/ruby-1.9.3-p551-dev/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
@@ -640,33 +650,27 @@ h6 {
   font-family: "PT Sans";
 }
 
-/* line 96, ../../app/assets/style/_typography.scss */
-.price-page article .title {
-  font-family: "PT Sans";
-  font-weight: bold;
-}
-
-/* line 106, ../../app/assets/style/_typography.scss */
+/* line 103, ../../app/assets/style/_typography.scss */
 a {
   text-decoration: none;
 }
 
-/* line 111, ../../app/assets/style/_typography.scss */
+/* line 108, ../../app/assets/style/_typography.scss */
 ul {
   list-style-type: none;
 }
 
-/* line 114, ../../app/assets/style/_typography.scss */
+/* line 111, ../../app/assets/style/_typography.scss */
 a, p, span {
   font-family: "BebasRegular";
 }
 
-/* line 117, ../../app/assets/style/_typography.scss */
+/* line 114, ../../app/assets/style/_typography.scss */
 strong {
   font-family: "BebasBold";
 }
 
-/* line 121, ../../app/assets/style/_typography.scss */
+/* line 118, ../../app/assets/style/_typography.scss */
 header .contacts {
   font-family: "BebasRegular";
 }

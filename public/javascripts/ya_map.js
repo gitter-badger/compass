@@ -1,9 +1,10 @@
+
 ymaps.ready(function () {
 
+    console.log("Yamaps loaded");
     var viewportWidth = $(window).width();
 
     if (viewportWidth > '480') {
-
 
         var myMap = new ymaps.Map('map', {
             center: [55.74328183, 37.73893384],
@@ -106,7 +107,7 @@ ymaps.ready(function () {
 
     }
 
-});
+    });
 
 
 
