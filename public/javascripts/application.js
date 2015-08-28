@@ -34,7 +34,7 @@ $(document).ready(function() {
         //.removeClass('pt-page-moveToLeft pt-page-moveFromLeft').addClass('pt-page-moveToLeft');
 
 
-        $('main').css({'opacity':0}).animate({'opacity': '1'},1000);
+        $('main').css({'opacity':0}).animate({'opacity': '1'},500);
 
         return console.log("Wiselinks page loading completed");
     });
