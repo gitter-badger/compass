@@ -1482,20 +1482,19 @@ footer ul.main-menu li.active {
 
 /* line 17, ../../app/assets/layouts/pages/price.scss */
 .price-page {
-  overflow: hidden;
+  position: relative;
+  height: calc(100% - 190px);
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
 }
 
-/* line 23, ../../app/assets/layouts/pages/price.scss */
+/* line 25, ../../app/assets/layouts/pages/price.scss */
 .price-page article {
-  overflow: scroll;
   overflow-y: auto;
-  overflow-x: hidden;
   -webkit-overflow-scrolling: touch;
 }
 
-/* line 30, ../../app/assets/layouts/pages/price.scss */
+/* line 32, ../../app/assets/layouts/pages/price.scss */
 .price-page article {
   display: none;
   font-family: 'PT Sans', sans-serif;
@@ -1503,186 +1502,186 @@ footer ul.main-menu li.active {
   border-bottom: 1px solid #BEBBBB;
 }
 
-/* line 39, ../../app/assets/layouts/pages/price.scss */
+/* line 41, ../../app/assets/layouts/pages/price.scss */
 .price-page article:nth-of-type(1) {
   display: block;
 }
 
 @media (min-width: 200px) and (max-width: 480px) {
-  /* line 47, ../../app/assets/layouts/pages/price.scss */
+  /* line 49, ../../app/assets/layouts/pages/price.scss */
   .price-page article table {
     width: 100%;
   }
-  /* line 50, ../../app/assets/layouts/pages/price.scss */
+  /* line 52, ../../app/assets/layouts/pages/price.scss */
   .price-page article table th:last-child, .price-page article table tbody tr td:last-child {
     text-align: right;
   }
-  /* line 54, ../../app/assets/layouts/pages/price.scss */
+  /* line 56, ../../app/assets/layouts/pages/price.scss */
   .price-page article table thead {
     display: block;
     width: 100%;
     color: darkgrey;
     border-bottom: 2px solid #c0392b;
   }
-  /* line 61, ../../app/assets/layouts/pages/price.scss */
+  /* line 63, ../../app/assets/layouts/pages/price.scss */
   .price-page article table thead tr {
     display: table;
     width: 98%;
     margin: 0 auto;
   }
-  /* line 66, ../../app/assets/layouts/pages/price.scss */
+  /* line 68, ../../app/assets/layouts/pages/price.scss */
   .price-page article table thead tr th:first-child {
     font-size: 1.4rem;
     color: #293a4b;
     padding-top: 15px;
     padding-bottom: 15px;
   }
-  /* line 73, ../../app/assets/layouts/pages/price.scss */
+  /* line 75, ../../app/assets/layouts/pages/price.scss */
   .price-page article table thead tr th:last-child {
     font-size: .8rem;
     text-align: right;
     padding-top: 15px;
     padding-bottom: 15px;
   }
-  /* line 80, ../../app/assets/layouts/pages/price.scss */
+  /* line 82, ../../app/assets/layouts/pages/price.scss */
   .price-page article table tbody {
     display: table;
     width: 98%;
     margin: 0 auto;
   }
-  /* line 86, ../../app/assets/layouts/pages/price.scss */
+  /* line 88, ../../app/assets/layouts/pages/price.scss */
   .price-page article table tbody tr {
     border-bottom: 1px solid #C7C7C7;
   }
-  /* line 89, ../../app/assets/layouts/pages/price.scss */
+  /* line 91, ../../app/assets/layouts/pages/price.scss */
   .price-page article table tbody tr:last-child {
     border-bottom: none;
   }
-  /* line 93, ../../app/assets/layouts/pages/price.scss */
+  /* line 95, ../../app/assets/layouts/pages/price.scss */
   .price-page article table tbody tr td {
     padding: 3px;
   }
-  /* line 97, ../../app/assets/layouts/pages/price.scss */
+  /* line 99, ../../app/assets/layouts/pages/price.scss */
   .price-page article table tbody tr td:last-child {
     padding-right: 1%;
     text-align: right;
   }
 }
 @media (min-width: 481px) and (max-width: 960px) {
-  /* line 109, ../../app/assets/layouts/pages/price.scss */
+  /* line 111, ../../app/assets/layouts/pages/price.scss */
   .price-page article table {
     width: 100%;
   }
-  /* line 112, ../../app/assets/layouts/pages/price.scss */
+  /* line 114, ../../app/assets/layouts/pages/price.scss */
   .price-page article table th:last-child, .price-page article table tbody tr td:last-child {
     text-align: right;
   }
-  /* line 116, ../../app/assets/layouts/pages/price.scss */
+  /* line 118, ../../app/assets/layouts/pages/price.scss */
   .price-page article table thead {
     display: block;
     width: 100%;
     color: darkgrey;
     border-bottom: 2px solid #c0392b;
   }
-  /* line 123, ../../app/assets/layouts/pages/price.scss */
+  /* line 125, ../../app/assets/layouts/pages/price.scss */
   .price-page article table thead tr {
     display: table;
     width: 67%;
     margin: 0 auto;
   }
-  /* line 128, ../../app/assets/layouts/pages/price.scss */
+  /* line 130, ../../app/assets/layouts/pages/price.scss */
   .price-page article table thead tr th:first-child {
     font-size: 1.4rem;
     color: #293a4b;
     padding-top: 15px;
     padding-bottom: 15px;
   }
-  /* line 135, ../../app/assets/layouts/pages/price.scss */
+  /* line 137, ../../app/assets/layouts/pages/price.scss */
   .price-page article table thead tr th:last-child {
     font-size: .8rem;
     text-align: right;
     padding-top: 15px;
     padding-bottom: 15px;
   }
-  /* line 142, ../../app/assets/layouts/pages/price.scss */
+  /* line 144, ../../app/assets/layouts/pages/price.scss */
   .price-page article table tbody {
     display: table;
     width: 67%;
     margin: 0 auto;
   }
-  /* line 148, ../../app/assets/layouts/pages/price.scss */
+  /* line 150, ../../app/assets/layouts/pages/price.scss */
   .price-page article table tbody tr {
     border-bottom: 1px solid #C7C7C7;
   }
-  /* line 151, ../../app/assets/layouts/pages/price.scss */
+  /* line 153, ../../app/assets/layouts/pages/price.scss */
   .price-page article table tbody tr:last-child {
     border-bottom: none;
   }
-  /* line 155, ../../app/assets/layouts/pages/price.scss */
+  /* line 157, ../../app/assets/layouts/pages/price.scss */
   .price-page article table tbody tr td {
     padding: 7px;
   }
-  /* line 159, ../../app/assets/layouts/pages/price.scss */
+  /* line 161, ../../app/assets/layouts/pages/price.scss */
   .price-page article table tbody tr td:last-child {
     padding-right: 1%;
     text-align: right;
   }
 }
 @media (min-width: 961px) {
-  /* line 172, ../../app/assets/layouts/pages/price.scss */
+  /* line 174, ../../app/assets/layouts/pages/price.scss */
   .price-page article table {
     width: 100%;
   }
-  /* line 175, ../../app/assets/layouts/pages/price.scss */
+  /* line 177, ../../app/assets/layouts/pages/price.scss */
   .price-page article table th:last-child, .price-page article table tbody tr td:last-child {
     text-align: right;
   }
-  /* line 179, ../../app/assets/layouts/pages/price.scss */
+  /* line 181, ../../app/assets/layouts/pages/price.scss */
   .price-page article table thead {
     display: block;
     width: 100%;
     color: darkgrey;
     border-bottom: 2px solid #c0392b;
   }
-  /* line 186, ../../app/assets/layouts/pages/price.scss */
+  /* line 188, ../../app/assets/layouts/pages/price.scss */
   .price-page article table thead tr {
     display: table;
     width: 67%;
     margin: 0 auto;
   }
-  /* line 191, ../../app/assets/layouts/pages/price.scss */
+  /* line 193, ../../app/assets/layouts/pages/price.scss */
   .price-page article table thead tr th:first-child {
     font-size: 1.4rem;
     color: #293a4b;
     padding-top: 15px;
     padding-bottom: 15px;
   }
-  /* line 198, ../../app/assets/layouts/pages/price.scss */
+  /* line 200, ../../app/assets/layouts/pages/price.scss */
   .price-page article table thead tr th:last-child {
     font-size: .8rem;
     text-align: right;
     padding-top: 15px;
     padding-bottom: 15px;
   }
-  /* line 205, ../../app/assets/layouts/pages/price.scss */
+  /* line 207, ../../app/assets/layouts/pages/price.scss */
   .price-page article table tbody {
     display: table;
     width: 67%;
     margin: 0 auto;
   }
-  /* line 211, ../../app/assets/layouts/pages/price.scss */
+  /* line 213, ../../app/assets/layouts/pages/price.scss */
   .price-page article table tbody tr {
     border-bottom: 1px solid #C7C7C7;
   }
-  /* line 214, ../../app/assets/layouts/pages/price.scss */
+  /* line 216, ../../app/assets/layouts/pages/price.scss */
   .price-page article table tbody tr:last-child {
     border-bottom: none;
   }
-  /* line 218, ../../app/assets/layouts/pages/price.scss */
+  /* line 220, ../../app/assets/layouts/pages/price.scss */
   .price-page article table tbody tr td {
     padding: 7px;
   }
-  /* line 222, ../../app/assets/layouts/pages/price.scss */
+  /* line 224, ../../app/assets/layouts/pages/price.scss */
   .price-page article table tbody tr td:last-child {
     padding-right: 1%;
     text-align: right;

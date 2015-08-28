@@ -1,23 +1,23 @@
 /*
 Error: Undefined mixin 'susy-breakpoint'.
-        on line 45 of /home/frolin/RubymineProjects/compass/app/assets/layouts/pages/price.scss, in `susy-breakpoint'
-        from line 45 of /home/frolin/RubymineProjects/compass/app/assets/layouts/pages/price.scss
+        on line 47 of /home/frolin/RubymineProjects/compass/app/assets/layouts/pages/price.scss, in `susy-breakpoint'
+        from line 47 of /home/frolin/RubymineProjects/compass/app/assets/layouts/pages/price.scss
 
-40:     display: block;
-41:   }
-42: 
-43: 
+42:     display: block;
+43:   }
 44: 
-45: @include susy-breakpoint($mobile-size, $mobile) {
+45: 
 46: 
-47:   .price-page article table {
-48:     width: 100%;
-49: 
-50:     th:last-child, tbody tr td:last-child {
+47: @include susy-breakpoint($mobile-size, $mobile) {
+48: 
+49:   .price-page article table {
+50:     width: 100%;
+51: 
+52:     th:last-child, tbody tr td:last-child {
 
 Backtrace:
-/home/frolin/RubymineProjects/compass/app/assets/layouts/pages/price.scss:45:in `susy-breakpoint'
-/home/frolin/RubymineProjects/compass/app/assets/layouts/pages/price.scss:45
+/home/frolin/RubymineProjects/compass/app/assets/layouts/pages/price.scss:47:in `susy-breakpoint'
+/home/frolin/RubymineProjects/compass/app/assets/layouts/pages/price.scss:47
 /home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/sass-3.4.16/lib/sass/tree/visitors/perform.rb:348:in `block in visit_mixin'
 /home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/sass-3.4.16/lib/sass/stack.rb:98:in `block in with_mixin'
 /home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/sass-3.4.16/lib/sass/stack.rb:115:in `with_frame'
@@ -103,4 +103,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'susy-breakpoint'.\A         on line 45 of /home/frolin/RubymineProjects/compass/app/assets/layouts/pages/price.scss, in `susy-breakpoint'\A         from line 45 of /home/frolin/RubymineProjects/compass/app/assets/layouts/pages/price.scss\A \A 40:     display: block;\A 41:   }\A 42: \A 43: \A 44: \A 45: @include susy-breakpoint($mobile-size, $mobile) {\A 46: \A 47:   .price-page article table {\A 48:     width: 100%;\A 49: \A 50:     th:last-child, tbody tr td:last-child {"; }
+  content: "Error: Undefined mixin 'susy-breakpoint'.\A         on line 47 of /home/frolin/RubymineProjects/compass/app/assets/layouts/pages/price.scss, in `susy-breakpoint'\A         from line 47 of /home/frolin/RubymineProjects/compass/app/assets/layouts/pages/price.scss\A \A 42:     display: block;\A 43:   }\A 44: \A 45: \A 46: \A 47: @include susy-breakpoint($mobile-size, $mobile) {\A 48: \A 49:   .price-page article table {\A 50:     width: 100%;\A 51: \A 52:     th:last-child, tbody tr td:last-child {"; }

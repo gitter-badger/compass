@@ -15,15 +15,17 @@
 
 
   .price-page {
-    overflow: hidden;
+    position: relative;
+    height: calc(100% - 190px);
+    //overflow: hidden;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
   }
 
   .price-page article {
-    overflow: scroll;
+    ////overflow: scroll;
     overflow-y: auto;
-    overflow-x: hidden;
+    //overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
   }
 
