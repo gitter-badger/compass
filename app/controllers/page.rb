@@ -1,6 +1,6 @@
-Compass::App.controllers :page do
-# ,, :cache => true
-# expires 8600 * 30
+Compass::App.controllers :page, :cache => true do
+# ,
+expires 8600 * 30
 
   # get :index, :map => '/foo/bar' do
   #   session[:foo] = 'bar'
