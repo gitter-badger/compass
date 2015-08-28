@@ -98,8 +98,8 @@
       <file leaf-file-name="application.haml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.24590164">
-              <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.14754099">
+              <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -851,7 +851,13 @@
       <option name="project" value="LOCAL" />
       <updated>1440758105224</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="title fix-3">
+      <created>1440758460780</created>
+      <option name="number" value="00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1440758460780</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TodoView">
@@ -900,7 +906,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add response2" />
     <MESSAGE value="add response4" />
     <MESSAGE value="add response6" />
     <MESSAGE value="add response7" />
@@ -925,7 +930,8 @@
     <MESSAGE value="bugfix&#10;" />
     <MESSAGE value="title fix" />
     <MESSAGE value="title fix-2" />
-    <option name="LAST_COMMIT_MESSAGE" value="title fix-2" />
+    <MESSAGE value="title fix-3" />
+    <option name="LAST_COMMIT_MESSAGE" value="title fix-3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1328,8 +1334,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24590164">
-          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.14754099">
+          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
           <folding />
         </state>
       </provider>
