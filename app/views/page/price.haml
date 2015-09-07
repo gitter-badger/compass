@@ -1,4 +1,4 @@
-= partial 'layouts/partials/header'
+= partial 'layouts/partials/header'   
 = partial 'layouts/partials/price-menu'
 
 .price-page
@@ -98,18 +98,22 @@
 					%td Цена
 	%article.tab_item.wash
 		%table
-			%tr
-				%th.title Мойка
-				%th цена указана в рублях
-			%tr
-				%td Название
-				%td Цена
-
+			%thead
+				%tr
+					%th.title Шиномонтаж
+					%th цена указана в рублях
+			%tbody
+				%tr
+					%td Название
+					%td Цена
 	%article.tab_item.paint
 		%table
-			%tr
-				%th.title	Покраска
-				%th цена указана в рублях
-			%tr
-				%td Название
-				%td Цена
+			%thead
+				%tr
+					%th.title Шиномонтаж
+					%th цена указана в рублях
+
+			%tbody
+				%tr
+					%td Название
+					%td Цена

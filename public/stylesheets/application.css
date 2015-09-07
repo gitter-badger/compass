@@ -71,9 +71,16 @@ header .site-name {
 /* line 73, ../../app/assets/_susy_grid.scss */
 header .site-name strong {
   display: block;
+  font-size: 1.1rem;
+  line-height: 1rem;
+}
+/* line 78, ../../app/assets/_susy_grid.scss */
+header .site-name span {
+  display: block;
+  line-height: 1rem;
 }
 
-/* line 86, ../../app/assets/_susy_grid.scss */
+/* line 92, ../../app/assets/_susy_grid.scss */
 main {
   height: -moz-calc(100% - 120px);
   height: -webkit-calc(100% - 120px);
@@ -81,7 +88,7 @@ main {
   overflow: hidden;
 }
 
-/* line 91, ../../app/assets/_susy_grid.scss */
+/* line 97, ../../app/assets/_susy_grid.scss */
 #map {
   width: 100%;
   height: -moz-calc(100% - 155px);
@@ -90,7 +97,7 @@ main {
   overflow: hidden;
 }
 
-/* line 98, ../../app/assets/_susy_grid.scss */
+/* line 104, ../../app/assets/_susy_grid.scss */
 #slogan {
   position: absolute;
   bottom: 130px;
@@ -100,17 +107,17 @@ main {
   text-align: center;
 }
 
-/* line 109, ../../app/assets/_susy_grid.scss */
+/* line 115, ../../app/assets/_susy_grid.scss */
 footer {
   height: 120px;
 }
 
-/* line 113, ../../app/assets/_susy_grid.scss */
+/* line 119, ../../app/assets/_susy_grid.scss */
 .main-menu {
   height: 80px;
 }
 
-/* line 122, ../../app/assets/_susy_grid.scss */
+/* line 128, ../../app/assets/_susy_grid.scss */
 .copyright {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -123,7 +130,7 @@ footer {
   bottom: 0;
 }
 
-/* line 129, ../../app/assets/_susy_grid.scss */
+/* line 135, ../../app/assets/_susy_grid.scss */
 .created-by {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -137,12 +144,12 @@ footer {
   left: 50%;
 }
 
-/* line 135, ../../app/assets/_susy_grid.scss */
+/* line 141, ../../app/assets/_susy_grid.scss */
 .created-by a {
   color: ghostwhite;
 }
 
-/* line 146, ../../app/assets/_susy_grid.scss */
+/* line 152, ../../app/assets/_susy_grid.scss */
 .price-menu ul li {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -190,18 +197,18 @@ footer {
 }
 
 /* STYLE */
-/* line 161, ../../app/assets/_susy_grid.scss */
+/* line 167, ../../app/assets/_susy_grid.scss */
 .metka-icon {
   background-image: url("/images/icons_svg/metka.svg");
 }
 
-/* line 162, ../../app/assets/_susy_grid.scss */
+/* line 168, ../../app/assets/_susy_grid.scss */
 .phone-icon {
   background-image: url("/images/icons_svg/tel.svg");
   padding: 0 5px;
 }
 
-/* line 164, ../../app/assets/_susy_grid.scss */
+/* line 170, ../../app/assets/_susy_grid.scss */
 .h_icon {
   background-position: 50%;
   background-repeat: no-repeat;
@@ -210,60 +217,66 @@ footer {
   width: 40px;
 }
 
-/* line 171, ../../app/assets/_susy_grid.scss */
+/* line 177, ../../app/assets/_susy_grid.scss */
 header a {
   color: #373737;
 }
-/* line 175, ../../app/assets/_susy_grid.scss */
+/* line 181, ../../app/assets/_susy_grid.scss */
 header a:visited {
   color: #373737;
 }
 
-/* line 182, ../../app/assets/_susy_grid.scss */
+/* line 188, ../../app/assets/_susy_grid.scss */
 .logo a {
   display: block;
   height: 100%;
 }
-/* line 186, ../../app/assets/_susy_grid.scss */
+/* line 192, ../../app/assets/_susy_grid.scss */
 .logo a:hover {
   border: 0;
+  color: #50687d;
+  -webkit-transition: all,.6s;
+  -moz-transition: all,.6s;
+  -ms-transition: all,.6s;
+  -o-transition: all,.6s;
+  transition: all,.6s;
 }
 
-/* line 190, ../../app/assets/_susy_grid.scss */
+/* line 204, ../../app/assets/_susy_grid.scss */
 .site-name {
   line-height: .9rem;
 }
 
-/* line 199, ../../app/assets/_susy_grid.scss */
+/* line 213, ../../app/assets/_susy_grid.scss */
 .address {
   line-height: 1.1rem;
   padding-top: 5px;
   padding-bottom: 5px;
 }
 
-/* line 205, ../../app/assets/_susy_grid.scss */
+/* line 219, ../../app/assets/_susy_grid.scss */
 .city-name {
   color: #373737;
 }
 
-/* line 210, ../../app/assets/_susy_grid.scss */
+/* line 224, ../../app/assets/_susy_grid.scss */
 .address a {
   border: 0;
 }
 
-/* line 217, ../../app/assets/_susy_grid.scss */
+/* line 231, ../../app/assets/_susy_grid.scss */
 .phone {
   line-height: 1rem;
   padding-top: 5px;
   padding-bottom: 5px;
 }
 
-/* line 224, ../../app/assets/_susy_grid.scss */
+/* line 238, ../../app/assets/_susy_grid.scss */
 .tel_num {
   color: #373737;
 }
 
-/* line 230, ../../app/assets/_susy_grid.scss */
+/* line 244, ../../app/assets/_susy_grid.scss */
 a.call_btn {
   border: 1px dashed #b33528;
   border-radius: 5px;
@@ -279,21 +292,27 @@ a.call_btn {
   color: #b33528;
   text-align: center;
 }
-/* line 246, ../../app/assets/_susy_grid.scss */
+/* line 260, ../../app/assets/_susy_grid.scss */
 a.call_btn:hover {
   color: #ffffff;
   text-decoration: none;
   background-color: rgba(179, 53, 40, 0.9);
+  border: 1px solid #b33528;
+  -webkit-transition: all,.6s;
+  -moz-transition: all,.6s;
+  -ms-transition: all,.6s;
+  -o-transition: all,.6s;
+  transition: all,.6s;
 }
 
 /* CONTACTS HEADER */
-/* line 257, ../../app/assets/_susy_grid.scss */
+/* line 280, ../../app/assets/_susy_grid.scss */
 .page.contacts header {
   background-color: white;
   box-shadow: 0 1px 12px 0 rgba(0, 0, 0, 0.12), 0 1px 1px 0 rgba(0, 0, 0, 0.06);
 }
 
-/* line 262, ../../app/assets/_susy_grid.scss */
+/* line 285, ../../app/assets/_susy_grid.scss */
 .page.contacts .logo {
   background-image: url("/images/header/logo.svg");
   background-repeat: no-repeat;
@@ -303,19 +322,19 @@ a.call_btn:hover {
   line-height: 100%;
 }
 
-/* line 279, ../../app/assets/_susy_grid.scss */
+/* line 302, ../../app/assets/_susy_grid.scss */
 #slogan {
   background-color: white;
   padding: 10px;
   font-family: 'PT Sans Narrow';
 }
 
-/* line 297, ../../app/assets/_susy_grid.scss */
+/* line 320, ../../app/assets/_susy_grid.scss */
 footer {
   background-color: #293a4b;
 }
 
-/* line 303, ../../app/assets/_susy_grid.scss */
+/* line 326, ../../app/assets/_susy_grid.scss */
 .main-menu {
   width: 100%;
   text-align: center;
@@ -323,7 +342,7 @@ footer {
   padding: 0;
   list-style-type: none;
 }
-/* line 314, ../../app/assets/_susy_grid.scss */
+/* line 337, ../../app/assets/_susy_grid.scss */
 .main-menu li {
   display: inline-block;
   box-sizing: border-box;
@@ -337,12 +356,12 @@ footer {
   margin: 0px;
   background: #c0392b;
 }
-/* line 330, ../../app/assets/_susy_grid.scss */
+/* line 353, ../../app/assets/_susy_grid.scss */
 .main-menu li:hover {
   box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.12), 0 1px 1px 0 rgba(0, 0, 0, 0.06);
   transition: padding 0.2s ease;
 }
-/* line 336, ../../app/assets/_susy_grid.scss */
+/* line 359, ../../app/assets/_susy_grid.scss */
 .main-menu li a {
   width: 100%;
   height: 100%;
@@ -353,35 +372,35 @@ footer {
   color: #fff;
 }
 
-/* line 352, ../../app/assets/_susy_grid.scss */
+/* line 375, ../../app/assets/_susy_grid.scss */
 .main-menu li.active {
   height: 75px;
 }
 
-/* line 356, ../../app/assets/_susy_grid.scss */
+/* line 379, ../../app/assets/_susy_grid.scss */
 .footer-info p {
   margin: 0;
   color: #fff;
 }
 
-/* line 362, ../../app/assets/_susy_grid.scss */
+/* line 385, ../../app/assets/_susy_grid.scss */
 .copyright {
   font-size: .6rem;
   margin: 0;
 }
 
-/* line 368, ../../app/assets/_susy_grid.scss */
+/* line 391, ../../app/assets/_susy_grid.scss */
 .created-by {
   text-align: right;
   font-size: .6rem;
   margin: 0;
 }
-/* line 373, ../../app/assets/_susy_grid.scss */
+/* line 396, ../../app/assets/_susy_grid.scss */
 .created-by a {
   font-style: italic;
 }
 
-/* line 386, ../../app/assets/_susy_grid.scss */
+/* line 409, ../../app/assets/_susy_grid.scss */
 .page.price .logo {
   background-image: url("/images/header/logo.svg");
   background-repeat: no-repeat;
@@ -392,7 +411,7 @@ footer {
   line-height: 100%;
 }
 
-/* line 534, ../../app/assets/_susy_grid.scss */
+/* line 557, ../../app/assets/_susy_grid.scss */
 .price-nav {
   max-width: 960px;
   margin-left: auto;
@@ -405,7 +424,7 @@ footer {
   clear: both;
 }
 
-/* line 539, ../../app/assets/_susy_grid.scss */
+/* line 562, ../../app/assets/_susy_grid.scss */
 .price-page {
   max-width: 960px;
   margin-left: auto;
@@ -422,7 +441,7 @@ footer {
   clear: both;
 }
 
-/* line 549, ../../app/assets/_susy_grid.scss */
+/* line 572, ../../app/assets/_susy_grid.scss */
 .page.price {
   background: url("/images/bg/bg.jpg");
   background-position: 0px 170px;
@@ -880,7 +899,7 @@ header .contacts {
   /* line 178, ../../app/assets/layouts/partials/_header_contacts-page.scss */
   .page.contacts header .site-name {
     position: absolute;
-    bottom: 3px;
+    bottom: 0px;
     margin: auto;
     left: 0;
     text-align: center;
@@ -1438,9 +1457,19 @@ footer ul.main-menu li {
 }
 /* line 27, ../../app/assets/layouts/partials/_footer.scss */
 footer ul.main-menu li:hover {
+  height: 70px;
   box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.12), 0 1px 1px 0 rgba(0, 0, 0, 0.06);
+  -webkit-transition: all,.6s;
+  -moz-transition: all,.6s;
+  -ms-transition: all,.6s;
+  -o-transition: all,.6s;
+  transition: all,.6s;
 }
-/* line 34, ../../app/assets/layouts/partials/_footer.scss */
+/* line 39, ../../app/assets/layouts/partials/_footer.scss */
+footer ul.main-menu li:active {
+  color: red;
+}
+/* line 44, ../../app/assets/layouts/partials/_footer.scss */
 footer ul.main-menu a {
   display: block;
   text-decoration: none;
@@ -1455,27 +1484,27 @@ footer ul.main-menu a {
   font-size: 1.3rem;
   color: #fff;
 }
-/* line 52, ../../app/assets/layouts/partials/_footer.scss */
+/* line 62, ../../app/assets/layouts/partials/_footer.scss */
 footer .footer-info {
   font-size: 65%;
   color: rgba(255, 255, 255, 0.8);
 }
-/* line 55, ../../app/assets/layouts/partials/_footer.scss */
+/* line 65, ../../app/assets/layouts/partials/_footer.scss */
 footer .footer-info p {
   margin: 0;
 }
-/* line 56, ../../app/assets/layouts/partials/_footer.scss */
+/* line 66, ../../app/assets/layouts/partials/_footer.scss */
 footer .footer-info a {
   color: rgba(255, 255, 255, 0.8);
   border-bottom: 1px dashed rgba(255, 255, 255, 0.6);
 }
-/* line 65, ../../app/assets/layouts/partials/_footer.scss */
+/* line 75, ../../app/assets/layouts/partials/_footer.scss */
 footer .created-by {
   text-align: right;
   font-style: italic;
 }
 
-/* line 71, ../../app/assets/layouts/partials/_footer.scss */
+/* line 81, ../../app/assets/layouts/partials/_footer.scss */
 footer ul.main-menu li.active {
   height: 75px;
 }

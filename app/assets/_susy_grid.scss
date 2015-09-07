@@ -72,6 +72,12 @@ header {
 
     strong {
       display: block;
+      font-size: 1.1rem;
+      line-height: 1rem;
+    }
+    span {
+      display: block;
+      line-height: 1rem;
     }
   }
 
@@ -183,7 +189,15 @@ header a {
   display: block;
   height: 100%;
 
-  &:hover {border: 0;
+  &:hover {
+    border: 0;
+    color: #50687d;
+
+    -webkit-transition: all,.6s;
+    -moz-transition: all,.6s;
+    -ms-transition: all,.6s;
+    -o-transition: all,.6s;
+    transition: all,.6s;
   }
 
 }
@@ -247,6 +261,15 @@ a.call_btn {
     color: #ffffff;
     text-decoration: none;
     background-color: rgba(179, 53, 40, 0.9);
+    border: 1px solid rgba(179, 53, 40, 1);
+
+
+    -webkit-transition: all,.6s;
+    -moz-transition: all,.6s;
+    -ms-transition: all,.6s;
+    -o-transition: all,.6s;
+    transition: all,.6s;
+
 
   }
 }
