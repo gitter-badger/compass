@@ -971,14 +971,15 @@ header .contacts {
   /* line 218, ../../app/assets/layouts/partials/_header_contacts-page.scss */
   .page.contacts header a.call_btn {
     display: block;
-    height: 34px;
-    padding: 6px 0px;
+    height: 33px;
+    padding: 4px;
+    width: 98px;
   }
-  /* line 226, ../../app/assets/layouts/partials/_header_contacts-page.scss */
+  /* line 227, ../../app/assets/layouts/partials/_header_contacts-page.scss */
   .page.contacts header .city-name, .page.contacts header .tel_num {
     display: block;
   }
-  /* line 231, ../../app/assets/layouts/partials/_header_contacts-page.scss */
+  /* line 232, ../../app/assets/layouts/partials/_header_contacts-page.scss */
   .page.contacts header .h_icon {
     display: block;
     float: none;
