@@ -1,7 +1,7 @@
 # encoding: utf-8
 
-Compass::App.controllers :page do
-  # expires 86400*30
+Compass::App.controllers :page, :cache => true do
+  expires 86400*30
   # :cache => true
 
   # get :index, :map => '/foo/bar' do
@@ -24,7 +24,7 @@ Compass::App.controllers :page do
   # end
   
   get :index, :map => '/' do
-    # # cache_key :contacts
+    cache_key :index
     # @title="Контакты"
     # if request.xhr?
     #   render :'page/contacts', layout: false
