@@ -110,14 +110,17 @@ main {
 /* line 115, ../../app/assets/_susy_grid.scss */
 footer {
   height: 120px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
 }
 
-/* line 119, ../../app/assets/_susy_grid.scss */
+/* line 122, ../../app/assets/_susy_grid.scss */
 .main-menu {
   height: 80px;
 }
 
-/* line 128, ../../app/assets/_susy_grid.scss */
+/* line 131, ../../app/assets/_susy_grid.scss */
 .copyright {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -130,7 +133,7 @@ footer {
   bottom: 0;
 }
 
-/* line 135, ../../app/assets/_susy_grid.scss */
+/* line 138, ../../app/assets/_susy_grid.scss */
 .created-by {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -144,12 +147,12 @@ footer {
   left: 50%;
 }
 
-/* line 141, ../../app/assets/_susy_grid.scss */
+/* line 144, ../../app/assets/_susy_grid.scss */
 .created-by a {
   color: ghostwhite;
 }
 
-/* line 152, ../../app/assets/_susy_grid.scss */
+/* line 155, ../../app/assets/_susy_grid.scss */
 .price-menu ul li {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -197,18 +200,18 @@ footer {
 }
 
 /* STYLE */
-/* line 167, ../../app/assets/_susy_grid.scss */
+/* line 170, ../../app/assets/_susy_grid.scss */
 .metka-icon {
   background-image: url("/images/icons_svg/metka.svg");
 }
 
-/* line 168, ../../app/assets/_susy_grid.scss */
+/* line 171, ../../app/assets/_susy_grid.scss */
 .phone-icon {
   background-image: url("/images/icons_svg/tel.svg");
   padding: 0 5px;
 }
 
-/* line 170, ../../app/assets/_susy_grid.scss */
+/* line 173, ../../app/assets/_susy_grid.scss */
 .h_icon {
   background-position: 50%;
   background-repeat: no-repeat;
@@ -217,21 +220,21 @@ footer {
   width: 40px;
 }
 
-/* line 177, ../../app/assets/_susy_grid.scss */
+/* line 180, ../../app/assets/_susy_grid.scss */
 header a {
   color: #373737;
 }
-/* line 181, ../../app/assets/_susy_grid.scss */
+/* line 184, ../../app/assets/_susy_grid.scss */
 header a:visited {
   color: #373737;
 }
 
-/* line 188, ../../app/assets/_susy_grid.scss */
+/* line 191, ../../app/assets/_susy_grid.scss */
 .logo a {
   display: block;
   height: 100%;
 }
-/* line 192, ../../app/assets/_susy_grid.scss */
+/* line 195, ../../app/assets/_susy_grid.scss */
 .logo a:hover {
   border: 0;
   color: #50687d;
@@ -242,41 +245,41 @@ header a:visited {
   transition: all,.6s;
 }
 
-/* line 204, ../../app/assets/_susy_grid.scss */
+/* line 207, ../../app/assets/_susy_grid.scss */
 .site-name {
   line-height: .9rem;
 }
 
-/* line 213, ../../app/assets/_susy_grid.scss */
+/* line 216, ../../app/assets/_susy_grid.scss */
 .address {
   line-height: 1.1rem;
   padding-top: 5px;
   padding-bottom: 5px;
 }
 
-/* line 219, ../../app/assets/_susy_grid.scss */
+/* line 222, ../../app/assets/_susy_grid.scss */
 .city-name {
   color: #373737;
 }
 
-/* line 224, ../../app/assets/_susy_grid.scss */
+/* line 227, ../../app/assets/_susy_grid.scss */
 .address a {
   border: 0;
 }
 
-/* line 231, ../../app/assets/_susy_grid.scss */
+/* line 234, ../../app/assets/_susy_grid.scss */
 .phone {
   line-height: 1rem;
   padding-top: 5px;
   padding-bottom: 5px;
 }
 
-/* line 238, ../../app/assets/_susy_grid.scss */
+/* line 241, ../../app/assets/_susy_grid.scss */
 .tel_num {
   color: #373737;
 }
 
-/* line 244, ../../app/assets/_susy_grid.scss */
+/* line 247, ../../app/assets/_susy_grid.scss */
 a.call_btn {
   border: 1px dashed #b33528;
   border-radius: 5px;
@@ -292,7 +295,7 @@ a.call_btn {
   color: #b33528;
   text-align: center;
 }
-/* line 260, ../../app/assets/_susy_grid.scss */
+/* line 263, ../../app/assets/_susy_grid.scss */
 a.call_btn:hover {
   color: #ffffff;
   text-decoration: none;
@@ -306,13 +309,13 @@ a.call_btn:hover {
 }
 
 /* CONTACTS HEADER */
-/* line 280, ../../app/assets/_susy_grid.scss */
+/* line 283, ../../app/assets/_susy_grid.scss */
 .page.contacts header {
   background-color: white;
   box-shadow: 0 1px 12px 0 rgba(0, 0, 0, 0.12), 0 1px 1px 0 rgba(0, 0, 0, 0.06);
 }
 
-/* line 285, ../../app/assets/_susy_grid.scss */
+/* line 288, ../../app/assets/_susy_grid.scss */
 .page.contacts .logo {
   background-image: url("/images/header/logo.svg");
   background-repeat: no-repeat;
@@ -322,27 +325,28 @@ a.call_btn:hover {
   line-height: 100%;
 }
 
-/* line 302, ../../app/assets/_susy_grid.scss */
+/* line 305, ../../app/assets/_susy_grid.scss */
 #slogan {
   background-color: white;
   padding: 10px;
   font-family: 'PT Sans Narrow';
 }
 
-/* line 320, ../../app/assets/_susy_grid.scss */
+/* line 323, ../../app/assets/_susy_grid.scss */
 footer {
   background-color: #293a4b;
 }
 
-/* line 326, ../../app/assets/_susy_grid.scss */
+/* line 329, ../../app/assets/_susy_grid.scss */
 .main-menu {
   width: 100%;
   text-align: center;
   margin: 0;
   padding: 0;
   list-style-type: none;
+  z-index: 999999;
 }
-/* line 337, ../../app/assets/_susy_grid.scss */
+/* line 342, ../../app/assets/_susy_grid.scss */
 .main-menu li {
   display: inline-block;
   box-sizing: border-box;
@@ -356,12 +360,12 @@ footer {
   margin: 0px;
   background: #c0392b;
 }
-/* line 353, ../../app/assets/_susy_grid.scss */
+/* line 358, ../../app/assets/_susy_grid.scss */
 .main-menu li:hover {
   box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.12), 0 1px 1px 0 rgba(0, 0, 0, 0.06);
   transition: padding 0.2s ease;
 }
-/* line 359, ../../app/assets/_susy_grid.scss */
+/* line 364, ../../app/assets/_susy_grid.scss */
 .main-menu li a {
   width: 100%;
   height: 100%;
@@ -372,35 +376,35 @@ footer {
   color: #fff;
 }
 
-/* line 375, ../../app/assets/_susy_grid.scss */
+/* line 380, ../../app/assets/_susy_grid.scss */
 .main-menu li.active {
   height: 75px;
 }
 
-/* line 379, ../../app/assets/_susy_grid.scss */
+/* line 384, ../../app/assets/_susy_grid.scss */
 .footer-info p {
   margin: 0;
   color: #fff;
 }
 
-/* line 385, ../../app/assets/_susy_grid.scss */
+/* line 390, ../../app/assets/_susy_grid.scss */
 .copyright {
   font-size: .6rem;
   margin: 0;
 }
 
-/* line 391, ../../app/assets/_susy_grid.scss */
+/* line 396, ../../app/assets/_susy_grid.scss */
 .created-by {
   text-align: right;
   font-size: .6rem;
   margin: 0;
 }
-/* line 396, ../../app/assets/_susy_grid.scss */
+/* line 401, ../../app/assets/_susy_grid.scss */
 .created-by a {
   font-style: italic;
 }
 
-/* line 409, ../../app/assets/_susy_grid.scss */
+/* line 414, ../../app/assets/_susy_grid.scss */
 .page.price .logo {
   background-image: url("/images/header/logo.svg");
   background-repeat: no-repeat;
@@ -411,7 +415,7 @@ footer {
   line-height: 100%;
 }
 
-/* line 557, ../../app/assets/_susy_grid.scss */
+/* line 562, ../../app/assets/_susy_grid.scss */
 .price-nav {
   max-width: 960px;
   margin-left: auto;
@@ -424,7 +428,7 @@ footer {
   clear: both;
 }
 
-/* line 562, ../../app/assets/_susy_grid.scss */
+/* line 567, ../../app/assets/_susy_grid.scss */
 .price-page {
   max-width: 960px;
   margin-left: auto;
@@ -441,12 +445,12 @@ footer {
   clear: both;
 }
 
-/* line 572, ../../app/assets/_susy_grid.scss */
+/* line 577, ../../app/assets/_susy_grid.scss */
 .page.price {
   background: url("/images/bg/bg.jpg");
   background-position: 0px 170px;
-  background-repeat-y: no-repeat;
-  background-size: 100%;
+  background-repeat: repeat-x;
+  background-size: 50%;
 }
 
 /* line 14, ../../app/assets/_base.scss */
@@ -967,8 +971,8 @@ header .contacts {
   /* line 218, ../../app/assets/layouts/partials/_header_contacts-page.scss */
   .page.contacts header a.call_btn {
     display: block;
-    height: 22px;
-    padding: 4px 7px;
+    height: 34px;
+    padding: 6px 0px;
   }
   /* line 226, ../../app/assets/layouts/partials/_header_contacts-page.scss */
   .page.contacts header .city-name, .page.contacts header .tel_num {
@@ -1234,7 +1238,7 @@ header .contacts {
   .page.price header a.call_btn {
     margin-left: 10px;
     display: inline-block;
-    height: 22px;
+    height: 32px;
   }
 }
 /* line 1, ../../app/assets/layouts/partials/_price-menu.scss */
@@ -1431,21 +1435,22 @@ ul.price-nav li:nth-child(4) {
 /* line 2, ../../app/assets/layouts/partials/_footer.scss */
 footer {
   background-color: #293a4b;
+  z-index: 2;
 }
-/* line 6, ../../app/assets/layouts/partials/_footer.scss */
+/* line 7, ../../app/assets/layouts/partials/_footer.scss */
 footer nav {
   padding: 0px 0;
 }
-/* line 10, ../../app/assets/layouts/partials/_footer.scss */
-footer ul.main-menu {
+/* line 11, ../../app/assets/layouts/partials/_footer.scss */
+footer .main-menu {
   display: block;
   width: 100%;
   text-align: center;
   margin: 0;
   list-style-type: none;
 }
-/* line 17, ../../app/assets/layouts/partials/_footer.scss */
-footer ul.main-menu li {
+/* line 18, ../../app/assets/layouts/partials/_footer.scss */
+footer .main-menu li {
   display: inline-block;
   box-shadow: 0 1px 12px 0 rgba(0, 0, 0, 0.12), 0 1px 1px 0 rgba(0, 0, 0, 0.06);
   height: 60px;
@@ -1455,8 +1460,8 @@ footer ul.main-menu li {
   max-width: 225px;
   min-width: 100px;
 }
-/* line 27, ../../app/assets/layouts/partials/_footer.scss */
-footer ul.main-menu li:hover {
+/* line 28, ../../app/assets/layouts/partials/_footer.scss */
+footer .main-menu li:hover {
   height: 70px;
   box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.12), 0 1px 1px 0 rgba(0, 0, 0, 0.06);
   -webkit-transition: all,.6s;
@@ -1465,12 +1470,12 @@ footer ul.main-menu li:hover {
   -o-transition: all,.6s;
   transition: all,.6s;
 }
-/* line 39, ../../app/assets/layouts/partials/_footer.scss */
-footer ul.main-menu li:active {
+/* line 40, ../../app/assets/layouts/partials/_footer.scss */
+footer .main-menu li:active {
   color: red;
 }
-/* line 44, ../../app/assets/layouts/partials/_footer.scss */
-footer ul.main-menu a {
+/* line 45, ../../app/assets/layouts/partials/_footer.scss */
+footer .main-menu a {
   display: block;
   text-decoration: none;
   border: 0;
@@ -1484,27 +1489,27 @@ footer ul.main-menu a {
   font-size: 1.3rem;
   color: #fff;
 }
-/* line 62, ../../app/assets/layouts/partials/_footer.scss */
+/* line 63, ../../app/assets/layouts/partials/_footer.scss */
 footer .footer-info {
   font-size: 65%;
   color: rgba(255, 255, 255, 0.8);
 }
-/* line 65, ../../app/assets/layouts/partials/_footer.scss */
+/* line 66, ../../app/assets/layouts/partials/_footer.scss */
 footer .footer-info p {
   margin: 0;
 }
-/* line 66, ../../app/assets/layouts/partials/_footer.scss */
+/* line 67, ../../app/assets/layouts/partials/_footer.scss */
 footer .footer-info a {
   color: rgba(255, 255, 255, 0.8);
   border-bottom: 1px dashed rgba(255, 255, 255, 0.6);
 }
-/* line 75, ../../app/assets/layouts/partials/_footer.scss */
+/* line 76, ../../app/assets/layouts/partials/_footer.scss */
 footer .created-by {
   text-align: right;
   font-style: italic;
 }
 
-/* line 81, ../../app/assets/layouts/partials/_footer.scss */
+/* line 82, ../../app/assets/layouts/partials/_footer.scss */
 footer ul.main-menu li.active {
   height: 75px;
 }

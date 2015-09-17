@@ -2,12 +2,13 @@
   footer {
 
     background-color: #293a4b;
+    z-index: 2;
 
     nav {
       padding: 0px 0;
     }
 
-    ul.main-menu {
+    .main-menu {
       display: block;
       width: 100%;
       text-align: center;

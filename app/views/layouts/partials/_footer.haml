@@ -1,20 +1,19 @@
 %footer
-	.wrap
 
-		%nav
-			%ul.main-menu
-				%li
-					=link_to 'Контакты', url(:page, :contacts), :'data-replace' => "true"
-				%li
-					=link_to 'Цены', url(:page, :price), :'data-replace' => "true"
+	%nav.main-menu
+		%ul.pt-trigger-container
+			%li
+				%a.pt-trigger{href: '#', "data-animation" => "2", "data-goto" => "1" } Контакты
+			%li
+				%a.pt-trigger{href: '#', "data-animation" => "1", "data-goto" => "2"} Цены
 
-		.footer-info
-			.copyright
-				%p
-					©
-					= Time.now.year
-					Maslov Service
-			.created-by
-				%p
-					created by
-					%a{href: '#exsisto' }  Exsisto
+	.footer-info
+		.copyright
+			%p
+				©
+				= Time.now.year
+				Maslov Service
+		.created-by
+			%p
+				created by
+				%a{href: '#exsisto' }  Exsisto

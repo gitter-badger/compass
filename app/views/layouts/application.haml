@@ -35,10 +35,20 @@
 
 
 	%body
-		%main{class: "#{@route.name}" }
-			= yield
+		.pt-wrapper
 
-		=partial 'layouts/partials/footer'
+			/ All Pages
+			.pt-page.pt-page-1.page.contacts
+				= partial 'layouts/partials/header'
+				= partial 'page/contacts'
+			.pt-page.pt-page-2.page.price
+				= partial 'layouts/partials/header'
+				= partial 'page/price'
 
 
-	=javascript_include_tag  'jquery.js', 'tabs.js', 'wiselinks.min.js', 'application.js'
+
+
+			= partial 'layouts/partials/footer'
+
+
+	=javascript_include_tag  'jquery.js', 'wiselinks.min.js', 'tabs.js', 'pagetransitions.js', 'application.js'

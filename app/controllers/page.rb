@@ -23,27 +23,28 @@ Compass::App.controllers :page do
   #   'Hello world!'
   # end
   
-  get :contacts, :map => '/' do
-    # cache_key :contacts
-    @title="Контакты"
-    if request.xhr?
-      render :'page/contacts', layout: false
-    else
-      haml :'page/contacts', layout: true
-    end
+  get :index, :map => '/' do
+    # # cache_key :contacts
+    # @title="Контакты"
+    # if request.xhr?
+    #   render :'page/contacts', layout: false
+    # else
+    # render :text => "", :layout => true
+    render 'layouts/application'
+    # end
 
   end
 
-  get :price, :map => '/price' do
-    # cache_key :price
-    @title="Цены"
-
-    # haml :'page/price'
-    if request.xhr?
-      render :'page/price', layout: false
-    else
-      haml :'page/price',  layout: true
-    end
-  end
+  # get :price, :map => '/price' do
+  #   # cache_key :price
+  #   @title="Цены"
+  #
+  #   # haml :'page/price'
+  #   if request.xhr?
+  #     render :'page/price', layout: false
+  #   else
+  #     haml :'page/price',  layout: true
+  #   end
+  # end
 
 end

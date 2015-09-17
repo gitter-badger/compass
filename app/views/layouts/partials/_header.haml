@@ -1,7 +1,6 @@
 %header
-
 	.logo
-		%a.home{href:'/', :'data-replace' => "true"}
+		%a.home{class: 'pt-trigger', href:'#', "data-animation" => "2", "data-goto" => "1" }
 			%span.site-name
 				%strong Маслов
 				%span сервис
@@ -16,3 +15,4 @@
 			%span.telephone
 				%span.tel_num 8 (495) 968&#x2012;21&#x2012;25
 				%a.call_btn{:href => "tel:+79039682125"} Позвонить
+

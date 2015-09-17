@@ -114,6 +114,9 @@ main {
 
 footer {
   height: 120px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
 }
 
 .main-menu {
@@ -329,7 +332,9 @@ footer {
   margin: 0;
   padding: 0;
   list-style-type: none;
-
+  //position: absolute;
+  //bottom: 300px;
+  z-index: 999999;
   //li:nth-child(1){border-right: 2px solid rgb(41, 58, 75); }
   //li:nth-child(2){border-left: 2px solid rgb(41, 58, 75); }
 
@@ -572,9 +577,8 @@ footer {
 .page.price {
   background: url("/images/bg/bg.jpg");
   background-position: 0px 170px;
-  background-repeat-y: no-repeat;
-  background-size: 100%;
-
+  background-repeat: repeat-x;
+  background-size: 50%;
 }
 
 //
