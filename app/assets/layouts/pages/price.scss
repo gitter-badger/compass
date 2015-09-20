@@ -33,9 +33,13 @@
     //font-size: 0.9rem;
     //line-height: 1rem;
     display: none;
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'PTSansRegular', sans-serif;
     background-color: #ffffff;
     border-bottom: 1px solid #BEBBBB;
+  }
+
+  .price-page article table thead {
+    font-family: PTSansNarrow, sans-serif;
   }
 
   .price-page article:nth-of-type(1) {

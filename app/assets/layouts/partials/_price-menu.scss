@@ -50,7 +50,6 @@
     display: inline-block;
     color:white;
     border-bottom:1px dashed #ffffff;
-
   }
 
 
@@ -185,10 +184,10 @@
 
 
 
-.icon-to    {background-image: url("/images/icons/menu-price/1.svg");}
-.icon-remont{background-image: url("/images/icons/menu-price/2.svg");}
-.icon-custom{background-image: url("/images/icons/menu-price/3.svg");}
-.icon-mount {background-image: url("/images/icons/menu-price/4.svg"); }
-.icon-wash  {background-image: url("/images/icons/menu-price/5.svg");}
-.icon-paint {background-image: url("/images/icons/menu-price/6.svg");}
+.icon-to    {background-image: inline-image("icons/menu-price/1.svg");}
+.icon-remont{background-image: inline-image("icons/menu-price/2.svg");}
+.icon-custom{background-image: inline-image("icons/menu-price/3.svg");}
+.icon-mount {background-image: inline-image("icons/menu-price/4.svg"); }
+.icon-wash  {background-image: inline-image("icons/menu-price/5.svg");}
+.icon-paint {background-image: inline-image("icons/menu-price/6.svg");}
 

@@ -3,15 +3,14 @@
 @import "compass/typography/links/link-colors";
 @import "compass/css3";
 @import "breakpoint";
-@import '/fonts/PT_Sans/stylesheet.css';
+//@import '/fonts/PT_Sans/stylesheet.css';
 
 
 /*fonts*/
-@include font-face("BebasRegular", font-files("/fonts/BebasRegular/BebasRegular.ttf", "/fonts/BebasRegular/BebasRegular.eot", "/fonts/BebasRegular/BebasRegular.woff"));
-@include font-face("BebasBold", font-files("/fonts/BebasBold/BebasBold.ttf", "/fonts/BebasBold/BebasBold.eot", "/fonts/BebasBold/BebasBold.woff"));
-@include font-face("PTSansBold", font-files("/fonts/PTSansBold/PTSansBold.ttf", "/fonts/PTSansBold/PTSansBold.eot", "/fonts/PTSansBold/PTSansBold.woff"));
-@include font-face("PTSansRegular", font-files("/fonts/PTSansRegular/PTSansRegular.ttf", "/fonts/PTSansRegular/PTSansRegular.eot", "/fonts/PTSansRegular/PTSansRegular.woff"));
-@include font-face("PTSansNarrow", font-files("/fonts/PTSansNarrow/PTSansNarrow.ttf", "/fonts/PTSansNarrow/PTSansNarrow.eot", "/fonts/PTSansNarrow/PTSansNarrow.woff"));
+@include font-face("BebasRegular", inline-font-files("BebasRegular/BebasRegular.ttf", "BebasRegular/BebasRegular.eot", "BebasRegular/BebasRegular.woff"));
+@include font-face("BebasBold", inline-font-files("BebasBold/BebasBold.ttf", "BebasBold/BebasBold.eot", "BebasBold/BebasBold.woff"));
+@include font-face("PTSansRegular", inline-font-files("PT_Sans/PTS55F_W.ttf", "PT_Sans/PTS55F_W.eot", "PT_Sans/PTS55F_W.woff"));
+@include font-face("PTSansNarrow", inline-font-files("PT_Sans/PTN57F_W.ttf", "PT_Sans/PTN57F_W.eot", "PT_Sans/PTN57F_W.woff"));
 
 
 /*base */
