@@ -61,7 +61,7 @@ module Compass
     # You can manage errors like:
     #
       error 404 do
-        render 'errors/404'
+        haml :'errors/404'
       end
 
       error 500 do
