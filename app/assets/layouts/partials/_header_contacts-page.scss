@@ -1,354 +1,260 @@
-@include susy-breakpoint($mobile-size, $mobile) {
-  header {
-    height: 100px;
-    z-index: 20;
-    position: relative;
-
-    .logo {
-      @include span(3);
-      height: inherit;
-      position: relative;
-    }
-
-    .contacts {
-      @include span(last 5);
-      height: inherit;
-      position: relative;
-    }
-
-    .site-name {
-
-      width: 50px;
-      position: absolute;
-      bottom: 5%;
-      right: 0;
-      left: 0;
-      text-align: center;
-      margin: 0 auto;
-    }
-
-    .address, .phone {
-      text-align: center;
-    }
-    .phone {
-      padding-top: 0;
-    }
-
-    .city-name, .tel_num {
-
-      display: block;
-
-    }
-
-    .h_icon {
-     display: none;
-    }
-
-  }
-
-}
-@include susy-breakpoint($tablet-size, $tablet ) {
-
-  .page.contacts header  {
-
-    height: 110px;
-    background-color: rgba(255, 255, 255, 0.85);
-
-    .logo {
-      @include span(1);
-      height: 120px;
-      min-width: 70px;
-      position: absolute;
-      left: 0%;
-      right: 0%;
-      margin: auto;
-      background-position: 50% 5px;
-    }
-
-    a.home {
-      position: relative;
-      line-height: 20px;
-      border: none;
-    }
-    .site-name {
-      position: absolute;
-      bottom: 20px;
-      margin: auto;
-      left: 0;
-      text-align: center;
-      right: 0%;
-    }
-
-    .contacts {
-
-      height: 100%;
-      @include span(12);
-      position: relative;
-      text-align: center;
-
-    }
-
-    .address {
-      @include span(first 4);
-      @include isolate(2);
-
-      text-align: center;
-      //@include vertical-center(relative, 15%);
-      top:0;
-      line-height: 1.2rem;
-    }
-    .phone {
-      @include span(4);
-      @include isolate(8);
-      //@include vertical-center(relative, 15%);
-      top:0;
-      padding-top: 5px;
-
-      line-height: 1.2rem;
-    }
-
-    .telephone {
-      line-height: 1rem;
-    }
-
-
-    a.call_btn {
-
-      height: 18px;
-      padding: 1px 0px;
-    }
-
-    .h_icon {
-      display: block;
-      float: none;
-      margin: 0 auto;
-      height:35px;
-      background-size: 28px;
-    }
-
-
-    .city-name, .tel_num {
-
-      display: block;
-
-    }
-
-
-    .phone-icon {
-      margin-bottom: 5px;
-    }
-
-    .metka-icon {
-      margin-bottom: 3px;
-    }
-
-  }
-
-}
-
-
-@include susy-breakpoint($desktop-size, $large ) {
-
-
-  .page.contacts header {
-    height: 125px;
-
-    .logo {
-      @include span(1);
-      height: 120px;
-      min-width: 70px;
-      position: absolute;
-      left: 0%;
-      right: 0%;
-      margin: auto;
-      background-position: 50% 5px;
-      background-size: 64px;
-      z-index: 2;
-
-    }
-
-    a.home {
-      position: relative;
-      line-height: 20px;
-      border: none;
-      z-index: 1;
-
-
-    }
-    .site-name {
-      position: absolute;
-      bottom: 0px;
-      margin: auto;
-      left: 0;
-      text-align: center;
-      right: 0%;
-    }
-
-    .contacts {
-      @include span(12);
-      position: relative;
-      text-align: center;
-    }
-
-    .address {
-      @include span(3);
-      @include isolate(3);
-      @include vertical-center(relative, 5%);
-      text-align: center;
-    }
-
-    .city-name {
-
-      display: block;
-      line-height: 1.2rem;
-
-    }
-
-
-    .phone {
-      @include span(3);
-      @include isolate(8);
-      text-align: center;
-      @include vertical-center(relative, 5%);
-    }
-    .telephone {
-      display: block;
-    }
-
-    a.call_btn {
-      display: block;
-      height: 33px;
-      padding: 4px;
-      width: 98px;
-
-    }
-
-
-    .city-name, .tel_num {
-
-      display: block;
-
-    }
-    .h_icon {
-      display: block;
-      float: none;
-      margin: 0 auto;
-      height:45px;
-      background-size: 35px;
-    }
-  }
-
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  //
-
-  //
-  //  header {
-  //    z-index: 1;
-  //  }
-  //
-  //  .page.contacts header {
-  //
-  //
-  //  .wrap {
-  //    @include container;
-  //    //padding: 0 1em ;
-  //    position: relative;
-  //    height: 120px;
-  //    background-color: rgba(255, 255, 255, 0.85);
-  //  }
-  //
-  //
-  //    .logo {
-  //      @include span(2);
-  //      height: 120px;
-  //      text-align: center;
-  //      position: relative;
-  //      top:32%;
-  //      transform: translateY(-30%);
-  //      background-position: 50% 2px;
-  //    }
-  //
-  //    a.home {
-  //      position: relative;
-  //      line-height: 20px;
-  //      @include span(2 of 2);
-  //      padding: 0;
-  //      border: none;
-  //    }
-  //    .site-name {
-  //      line-height: 0.9rem;
-  //      position: absolute;
-  //      top: 62%;
-  //      left: 0;
-  //      margin: 0 auto;
-  //      right: 0;
-  //
-  //    }
-  //
-  //    .contacts {
-  //
-  //      height: 100%;
-  //      @include span(4);
-  //      text-align: center;
-  //    }
-  //
-  //    .address {
-  //      @include span(4 of 4);
-  //      text-align: center;
-  //      margin-top: 25px ;
-  //      margin-bottom: 5px ;
-  //    }
-  //
-  //    .address a {
-  //      display: inline;
-  //    }
-  //
-  //    .phone {
-  //      @include span(4 of 4);
-  //      text-align: center;
-  //      margin-top:5px;
-  //    }
-  //
-  //    .telephone {
-  //      font-size: 1.3rem;
-  //    }
-  //
-  //
-  //    .call_btn {
-  //      display: block;
-  //      width: 50%;
-  //      margin: 0 auto;
-  //      min-width: 60px;
-  //    }
-  //
-  //    .h_icon {
-  //      display: none;
-  //      float: left;
-  //      background-size: 27px;
-  //    }
-  //  }
-  //}
-  //
-  //
-
-
+//@include susy-breakpoint($mobile-size, $mobile) {
+//  header {
+//    height: 100px;
+//    z-index: 20;
+//    position: relative;
+//
+//    .logo {
+//      @include span(3);
+//      height: inherit;
+//      position: relative;
+//    }
+//
+//    .contacts {
+//      @include span(last 5);
+//      height: inherit;
+//      position: relative;
+//    }
+//
+//    .site-name {
+//
+//      width: 50px;
+//      position: absolute;
+//      bottom: 5%;
+//      right: 0;
+//      left: 0;
+//      text-align: center;
+//      margin: 0 auto;
+//    }
+//
+//    .address, .phone {
+//      text-align: center;
+//    }
+//    .phone {
+//      padding-top: 0;
+//    }
+//
+//    .city-name, .tel_num {
+//
+//      display: block;
+//
+//    }
+//
+//    .h_icon {
+//     display: none;
+//    }
+//
+//  }
+//
+//}
+//@include susy-breakpoint($tablet-size, $tablet ) {
+//
+//  .page.contacts header  {
+//
+//    height: 110px;
+//    background-color: rgba(255, 255, 255, 0.85);
+//
+//    .logo {
+//      @include span(1);
+//      height: 120px;
+//      min-width: 70px;
+//      position: absolute;
+//      left: 0%;
+//      right: 0%;
+//      margin: auto;
+//      background-position: 50% 5px;
+//    }
+//
+//    a.home {
+//      position: relative;
+//      line-height: 20px;
+//      border: none;
+//    }
+//    .site-name {
+//      position: absolute;
+//      bottom: 20px;
+//      margin: auto;
+//      left: 0;
+//      text-align: center;
+//      right: 0%;
+//    }
+//
+//    .contacts {
+//
+//      height: 100%;
+//      @include span(12);
+//      position: relative;
+//      text-align: center;
+//
+//    }
+//
+//    .address {
+//      @include span(first 4);
+//      @include isolate(2);
+//
+//      text-align: center;
+//      //@include vertical-center(relative, 15%);
+//      top:0;
+//      line-height: 1.2rem;
+//    }
+//    .phone {
+//      @include span(4);
+//      @include isolate(8);
+//      //@include vertical-center(relative, 15%);
+//      top:0;
+//      padding-top: 5px;
+//
+//      line-height: 1.2rem;
+//    }
+//
+//    .telephone {
+//      line-height: 1rem;
+//    }
+//
+//
+//    a.call_btn {
+//
+//      height: 18px;
+//      padding: 1px 0px;
+//    }
+//
+//    .h_icon {
+//      display: block;
+//      float: none;
+//      margin: 0 auto;
+//      height:35px;
+//      background-size: 28px;
+//    }
+//
+//
+//    .city-name, .tel_num {
+//
+//      display: block;
+//
+//    }
+//
+//
+//    .phone-icon {
+//      margin-bottom: 5px;
+//    }
+//
+//    .metka-icon {
+//      margin-bottom: 3px;
+//    }
+//
+//  }
+//
+//}
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//  //
+//
+//  //
+//  //  header {
+//  //    z-index: 1;
+//  //  }
+//  //
+//  //  .page.contacts header {
+//  //
+//  //
+//  //  .wrap {
+//  //    @include container;
+//  //    //padding: 0 1em ;
+//  //    position: relative;
+//  //    height: 120px;
+//  //    background-color: rgba(255, 255, 255, 0.85);
+//  //  }
+//  //
+//  //
+//  //    .logo {
+//  //      @include span(2);
+//  //      height: 120px;
+//  //      text-align: center;
+//  //      position: relative;
+//  //      top:32%;
+//  //      transform: translateY(-30%);
+//  //      background-position: 50% 2px;
+//  //    }
+//  //
+//  //    a.home {
+//  //      position: relative;
+//  //      line-height: 20px;
+//  //      @include span(2 of 2);
+//  //      padding: 0;
+//  //      border: none;
+//  //    }
+//  //    .site-name {
+//  //      line-height: 0.9rem;
+//  //      position: absolute;
+//  //      top: 62%;
+//  //      left: 0;
+//  //      margin: 0 auto;
+//  //      right: 0;
+//  //
+//  //    }
+//  //
+//  //    .contacts {
+//  //
+//  //      height: 100%;
+//  //      @include span(4);
+//  //      text-align: center;
+//  //    }
+//  //
+//  //    .address {
+//  //      @include span(4 of 4);
+//  //      text-align: center;
+//  //      margin-top: 25px ;
+//  //      margin-bottom: 5px ;
+//  //    }
+//  //
+//  //    .address a {
+//  //      display: inline;
+//  //    }
+//  //
+//  //    .phone {
+//  //      @include span(4 of 4);
+//  //      text-align: center;
+//  //      margin-top:5px;
+//  //    }
+//  //
+//  //    .telephone {
+//  //      font-size: 1.3rem;
+//  //    }
+//  //
+//  //
+//  //    .call_btn {
+//  //      display: block;
+//  //      width: 50%;
+//  //      margin: 0 auto;
+//  //      min-width: 60px;
+//  //    }
+//  //
+//  //    .h_icon {
+//  //      display: none;
+//  //      float: left;
+//  //      background-size: 27px;
+//  //    }
+//  //  }
+//  //}
+//  //
+//  //
+//
+//

@@ -41,73 +41,23 @@ body {
 header, main, footer {
 }
 
-header {
-  height: 100px;
-  z-index: 20;
-  position: relative;
 
-  .logo {
-    @include span(1);
-    height: inherit;
-    position: relative;
-    z-index: 2;
-  }
-
-  .contacts {
-    @include span(last 5);
-    height: inherit;
-    position: relative;
-    z-index: 1;
-  }
-
-
-  .site-name {
-    width: 100%;
-    position: absolute;
-    bottom: 5%;
-    right: 0;
-    left: 0;
-    text-align: center;
-    margin: 0 auto;
-
-    strong {
-      display: block;
-      font-size: 1.1rem;
-      line-height: 1rem;
-    }
-    span {
-      display: block;
-      line-height: 1rem;
-    }
-  }
-
-
-
-
-
-
-
-}
-
-main {
-  @include calc(height, '100% - 120px');
-  overflow: hidden;
-}
 
 #map {
   width: 100%;
-  @include calc(height, '100% - 155px');
+  height: 100%;
   overflow: hidden;
 }
 
 
 #slogan {
   position: absolute;
-  bottom: 130px;
+  bottom: 0px;
   left: 0%;
   right: 0%;
   margin: auto;
   text-align: center;
+  //height: 100px;
 }
 
 
@@ -158,149 +108,6 @@ footer {
 
 
  /* STYLE */
-
-
-
-
-///* icons */
-
-$metka_icon:  url('/images/icons_svg/metka.svg');
-$phone_icon: url('/images/icons_svg/tel.svg');
-
-.metka-icon{background-image: $metka_icon;}
-.phone-icon{background-image: $phone_icon;padding: 0 5px;}
-
-.h_icon {
-  background-position: 50%;
-  background-repeat: no-repeat;
-  background-size: 35px;
-  height: 40px;
-  width: 40px;
-}
-header a {
-
-  color: #373737;
-
-  &:visited {
-    color: #373737;
-  }
-
-}
-
-
-.logo a {
-  display: block;
-  height: 100%;
-
-  &:hover {
-    border: 0;
-    color: #50687d;
-
-    -webkit-transition: all,.6s;
-    -moz-transition: all,.6s;
-    -ms-transition: all,.6s;
-    -o-transition: all,.6s;
-    transition: all,.6s;
-  }
-
-}
-.site-name {
-  line-height: .9rem;
-}
-
-.site-name strong{
-
-  //font-size: 1.1rem;
-}
-
-.address {
-  line-height: 1.1rem;
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-
-.city-name {
-  //font-size: 1.2rem;
-  color: #373737
-}
-
-.address a  {
-
-  border: 0;
-
-}
-
-
-.phone {
-  line-height: 1rem;
-  padding-top: 5px;
-  padding-bottom: 5px;
-
-}
-
-.tel_num {
-  //font-size: 1.2rem;
-  color: #373737;
-}
-
-
-a.call_btn {
-  border: 1px dashed rgba(179, 53, 40, 1);
-  border-radius: 5px;
-  /* box-sizing: border-box; */
-  line-height: 1.2rem;
-  //background-color:rgba(179, 53, 40, 1);
-  display: block;
-  padding: 3px 7px;
-  font-size: 1rem;
-  height: 18px;
-  /* margin: -3px 15px; */
-  margin: 0 auto;
-  width: 90px;
-  color: rgba(179, 53, 40, 1);
-  text-align: center;
-
-  &:hover {
-    color: #ffffff;
-    text-decoration: none;
-    background-color: rgba(179, 53, 40, 0.9);
-    border: 1px solid rgba(179, 53, 40, 1);
-
-
-    -webkit-transition: all,.6s;
-    -moz-transition: all,.6s;
-    -ms-transition: all,.6s;
-    -o-transition: all,.6s;
-    transition: all,.6s;
-
-
-  }
-}
-
-
-/* CONTACTS HEADER */
-
-.page.contacts header {
-  background-color: rgba(255, 255, 255, 1);
-  box-shadow: 0 1px 12px 0 rgba(0,0,0,.12),0 1px 1px 0 rgba(0,0,0,.06);
-}
-
-.page.contacts .logo {
-  background-image: url("/images/header/logo.svg");
-  background-repeat: no-repeat;
-  background-position: 50% 5%;
-  background-size: 54px;
-  position: relative;
-  line-height: 100%;
-
-}
-
-
-
-
-
-
-
 
 #slogan {
 
@@ -374,15 +181,11 @@ footer {
   }
 }
 
-
-
-
 .main-menu li.active {
   height: 75px;
 }
 
 .footer-info p {
-
   margin: 0;
   color: #fff;
 }
@@ -390,8 +193,6 @@ footer {
 .copyright  {
   font-size: .6rem;
   margin: 0;
-
-
 }
 .created-by  {
   text-align: right;
@@ -399,7 +200,6 @@ footer {
   margin: 0;
 
   a { font-style: italic; }
-
 }
 
 
@@ -407,19 +207,6 @@ footer {
 
 
 
-///* PRICE PAGE */
-
-
-
-.page.price .logo {
-  background-image: url("/images/header/logo.svg");
-  background-repeat: no-repeat;
-  background-position: 50% 5%;
-  background-size:56px;
-  height: 100%;
-  position: relative;
-  line-height: 100%;
-}
 
 
 
@@ -564,14 +351,14 @@ footer {
   @include container;
 }
 
-.price-page {
-
-  @include container;
-  margin: 0 auto;
-  overflow-y: scroll; /* has to be scroll, not auto */
-  -webkit-overflow-scrolling: touch;
-
-}
+//.price.page {
+//
+//  @include container;
+//  margin: 0 auto;
+//  overflow-y: scroll; /* has to be scroll, not auto */
+//  -webkit-overflow-scrolling: touch;
+//
+//}
 
 
 .page.price {
@@ -582,23 +369,30 @@ footer {
 }
 
 //
-//@include susy-breakpoint($mobile-size, $mobile) {
+@include susy-breakpoint($mobile-size, $mobile) {
+
+  .page.price {
+    background-size: 100%;
+  }
+  .price.page {
+    top: 100px;
+  }
+  .page.contacts {
+    top:100px;
+  }
+}
 //
-//  .page.price {
-//    background-size: 100%;
-//  }
-//  .price-page {
-//    top: 190px;
-//  }
-//}
 //
 //
+  @include susy-breakpoint($tablet-size, $tablet) {
 //
-//  @include susy-breakpoint($tablet-size, $tablet) {
-//
-//    .page.price {
-//      background-size: 75%;
-//    }
+
+    .page.contacts {
+      top:70px;
+    }
+    .page.price {
+      top: 70px;
+    }
 //
 //    .price-page {
 //
@@ -616,9 +410,20 @@ footer {
 //
 //
 //
-//  }
-//  //
-//  @include susy-breakpoint($desktop-size, $large) {
+  }
+
+  @include susy-breakpoint($desktop-size, $large) {
+
+    .page.contacts {
+      top:125px;
+      bottom: 120px;
+    }
+    .page.price {
+      top: 125px;
+      bottom: 120px;
+    }
+
+
 //
 //    .page.price {
 //      background-size: 75%;
@@ -641,7 +446,7 @@ footer {
 //      font-size: 0.8rem;
 //
 //    }
-//  }
+  }
 
 
 

@@ -26,88 +26,24 @@ body {
   padding: 0;
 }
 
-/* line 44, ../../app/assets/_susy_grid.scss */
-header {
-  height: 100px;
-  z-index: 20;
-  position: relative;
-}
-/* line 49, ../../app/assets/_susy_grid.scss */
-header .logo {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  width: 12.5%;
-  float: left;
-  padding-left: 1.25%;
-  padding-right: 1.25%;
-  height: inherit;
-  position: relative;
-  z-index: 2;
-}
-/* line 56, ../../app/assets/_susy_grid.scss */
-header .contacts {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  width: 62.5%;
-  float: right;
-  padding-left: 1.25%;
-  padding-right: 1.25%;
-  height: inherit;
-  position: relative;
-  z-index: 1;
-}
-/* line 64, ../../app/assets/_susy_grid.scss */
-header .site-name {
-  width: 100%;
-  position: absolute;
-  bottom: 5%;
-  right: 0;
-  left: 0;
-  text-align: center;
-  margin: 0 auto;
-}
-/* line 73, ../../app/assets/_susy_grid.scss */
-header .site-name strong {
-  display: block;
-  font-size: 1.1rem;
-  line-height: 1rem;
-}
-/* line 78, ../../app/assets/_susy_grid.scss */
-header .site-name span {
-  display: block;
-  line-height: 1rem;
-}
-
-/* line 92, ../../app/assets/_susy_grid.scss */
-main {
-  height: -moz-calc(100% - 120px);
-  height: -webkit-calc(100% - 120px);
-  height: calc(100% - 120px);
-  overflow: hidden;
-}
-
-/* line 97, ../../app/assets/_susy_grid.scss */
+/* line 46, ../../app/assets/_susy_grid.scss */
 #map {
   width: 100%;
-  height: -moz-calc(100% - 155px);
-  height: -webkit-calc(100% - 155px);
-  height: calc(100% - 155px);
+  height: 100%;
   overflow: hidden;
 }
 
-/* line 104, ../../app/assets/_susy_grid.scss */
+/* line 53, ../../app/assets/_susy_grid.scss */
 #slogan {
   position: absolute;
-  bottom: 130px;
+  bottom: 0px;
   left: 0%;
   right: 0%;
   margin: auto;
   text-align: center;
 }
 
-/* line 115, ../../app/assets/_susy_grid.scss */
+/* line 65, ../../app/assets/_susy_grid.scss */
 footer {
   height: 120px;
   width: 100%;
@@ -115,12 +51,12 @@ footer {
   bottom: 0;
 }
 
-/* line 122, ../../app/assets/_susy_grid.scss */
+/* line 72, ../../app/assets/_susy_grid.scss */
 .main-menu {
   height: 80px;
 }
 
-/* line 131, ../../app/assets/_susy_grid.scss */
+/* line 81, ../../app/assets/_susy_grid.scss */
 .copyright {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -133,7 +69,7 @@ footer {
   bottom: 0;
 }
 
-/* line 138, ../../app/assets/_susy_grid.scss */
+/* line 88, ../../app/assets/_susy_grid.scss */
 .created-by {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -147,12 +83,12 @@ footer {
   left: 50%;
 }
 
-/* line 144, ../../app/assets/_susy_grid.scss */
+/* line 94, ../../app/assets/_susy_grid.scss */
 .created-by a {
   color: ghostwhite;
 }
 
-/* line 155, ../../app/assets/_susy_grid.scss */
+/* line 105, ../../app/assets/_susy_grid.scss */
 .price-menu ul li {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -200,144 +136,19 @@ footer {
 }
 
 /* STYLE */
-/* line 170, ../../app/assets/_susy_grid.scss */
-.metka-icon {
-  background-image: url("/images/icons_svg/metka.svg");
-}
-
-/* line 171, ../../app/assets/_susy_grid.scss */
-.phone-icon {
-  background-image: url("/images/icons_svg/tel.svg");
-  padding: 0 5px;
-}
-
-/* line 173, ../../app/assets/_susy_grid.scss */
-.h_icon {
-  background-position: 50%;
-  background-repeat: no-repeat;
-  background-size: 35px;
-  height: 40px;
-  width: 40px;
-}
-
-/* line 180, ../../app/assets/_susy_grid.scss */
-header a {
-  color: #373737;
-}
-/* line 184, ../../app/assets/_susy_grid.scss */
-header a:visited {
-  color: #373737;
-}
-
-/* line 191, ../../app/assets/_susy_grid.scss */
-.logo a {
-  display: block;
-  height: 100%;
-}
-/* line 195, ../../app/assets/_susy_grid.scss */
-.logo a:hover {
-  border: 0;
-  color: #50687d;
-  -webkit-transition: all,.6s;
-  -moz-transition: all,.6s;
-  -ms-transition: all,.6s;
-  -o-transition: all,.6s;
-  transition: all,.6s;
-}
-
-/* line 207, ../../app/assets/_susy_grid.scss */
-.site-name {
-  line-height: .9rem;
-}
-
-/* line 216, ../../app/assets/_susy_grid.scss */
-.address {
-  line-height: 1.1rem;
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-
-/* line 222, ../../app/assets/_susy_grid.scss */
-.city-name {
-  color: #373737;
-}
-
-/* line 227, ../../app/assets/_susy_grid.scss */
-.address a {
-  border: 0;
-}
-
-/* line 234, ../../app/assets/_susy_grid.scss */
-.phone {
-  line-height: 1rem;
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-
-/* line 241, ../../app/assets/_susy_grid.scss */
-.tel_num {
-  color: #373737;
-}
-
-/* line 247, ../../app/assets/_susy_grid.scss */
-a.call_btn {
-  border: 1px dashed #b33528;
-  border-radius: 5px;
-  /* box-sizing: border-box; */
-  line-height: 1.2rem;
-  display: block;
-  padding: 3px 7px;
-  font-size: 1rem;
-  height: 18px;
-  /* margin: -3px 15px; */
-  margin: 0 auto;
-  width: 90px;
-  color: #b33528;
-  text-align: center;
-}
-/* line 263, ../../app/assets/_susy_grid.scss */
-a.call_btn:hover {
-  color: #ffffff;
-  text-decoration: none;
-  background-color: rgba(179, 53, 40, 0.9);
-  border: 1px solid #b33528;
-  -webkit-transition: all,.6s;
-  -moz-transition: all,.6s;
-  -ms-transition: all,.6s;
-  -o-transition: all,.6s;
-  transition: all,.6s;
-}
-
-/* CONTACTS HEADER */
-/* line 283, ../../app/assets/_susy_grid.scss */
-.page.contacts header {
-  background-color: white;
-  box-shadow: 0 1px 12px 0 rgba(0, 0, 0, 0.12), 0 1px 1px 0 rgba(0, 0, 0, 0.06);
-}
-
-/* line 288, ../../app/assets/_susy_grid.scss */
-.page.contacts .logo {
-  background-image: url("/images/header/logo.svg");
-  background-repeat: no-repeat;
-  background-position: 50% 5%;
-  background-size: 54px;
-  position: relative;
-  line-height: 100%;
-}
-
-/* line 305, ../../app/assets/_susy_grid.scss */
+/* line 112, ../../app/assets/_susy_grid.scss */
 #slogan {
   background-color: white;
   padding: 10px;
   font-family: 'PT Sans Narrow';
 }
 
-/* line 323, ../../app/assets/_susy_grid.scss */
+/* line 130, ../../app/assets/_susy_grid.scss */
 footer {
   background-color: #293a4b;
 }
 
-/* line 329, ../../app/assets/_susy_grid.scss */
+/* line 136, ../../app/assets/_susy_grid.scss */
 .main-menu {
   width: 100%;
   text-align: center;
@@ -346,7 +157,7 @@ footer {
   list-style-type: none;
   z-index: 999999;
 }
-/* line 342, ../../app/assets/_susy_grid.scss */
+/* line 149, ../../app/assets/_susy_grid.scss */
 .main-menu li {
   display: inline-block;
   box-sizing: border-box;
@@ -360,12 +171,12 @@ footer {
   margin: 0px;
   background: #c0392b;
 }
-/* line 358, ../../app/assets/_susy_grid.scss */
+/* line 165, ../../app/assets/_susy_grid.scss */
 .main-menu li:hover {
   box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.12), 0 1px 1px 0 rgba(0, 0, 0, 0.06);
   transition: padding 0.2s ease;
 }
-/* line 364, ../../app/assets/_susy_grid.scss */
+/* line 171, ../../app/assets/_susy_grid.scss */
 .main-menu li a {
   width: 100%;
   height: 100%;
@@ -376,46 +187,35 @@ footer {
   color: #fff;
 }
 
-/* line 380, ../../app/assets/_susy_grid.scss */
+/* line 184, ../../app/assets/_susy_grid.scss */
 .main-menu li.active {
   height: 75px;
 }
 
-/* line 384, ../../app/assets/_susy_grid.scss */
+/* line 188, ../../app/assets/_susy_grid.scss */
 .footer-info p {
   margin: 0;
   color: #fff;
 }
 
-/* line 390, ../../app/assets/_susy_grid.scss */
+/* line 193, ../../app/assets/_susy_grid.scss */
 .copyright {
   font-size: .6rem;
   margin: 0;
 }
 
-/* line 396, ../../app/assets/_susy_grid.scss */
+/* line 197, ../../app/assets/_susy_grid.scss */
 .created-by {
   text-align: right;
   font-size: .6rem;
   margin: 0;
 }
-/* line 401, ../../app/assets/_susy_grid.scss */
+/* line 202, ../../app/assets/_susy_grid.scss */
 .created-by a {
   font-style: italic;
 }
 
-/* line 414, ../../app/assets/_susy_grid.scss */
-.page.price .logo {
-  background-image: url("/images/header/logo.svg");
-  background-repeat: no-repeat;
-  background-position: 50% 5%;
-  background-size: 56px;
-  height: 100%;
-  position: relative;
-  line-height: 100%;
-}
-
-/* line 562, ../../app/assets/_susy_grid.scss */
+/* line 349, ../../app/assets/_susy_grid.scss */
 .price-nav {
   max-width: 960px;
   margin-left: auto;
@@ -428,24 +228,7 @@ footer {
   clear: both;
 }
 
-/* line 567, ../../app/assets/_susy_grid.scss */
-.price-page {
-  max-width: 960px;
-  margin-left: auto;
-  margin-right: auto;
-  margin: 0 auto;
-  overflow-y: scroll;
-  /* has to be scroll, not auto */
-  -webkit-overflow-scrolling: touch;
-}
-/* line 12, ../../../../.rvm/gems/ruby-1.9.3-p551-dev/gems/susy-2.2.5/sass/susy/output/support/_clearfix.scss */
-.price-page:after {
-  content: " ";
-  display: block;
-  clear: both;
-}
-
-/* line 577, ../../app/assets/_susy_grid.scss */
+/* line 364, ../../app/assets/_susy_grid.scss */
 .page.price {
   background: url("/images/bg/bg.jpg");
   background-position: 0px 170px;
@@ -453,6 +236,46 @@ footer {
   background-size: 50%;
 }
 
+@media (min-width: 200px) and (max-width: 480px) {
+  /* line 374, ../../app/assets/_susy_grid.scss */
+  .page.price {
+    background-size: 100%;
+  }
+
+  /* line 377, ../../app/assets/_susy_grid.scss */
+  .price.page {
+    top: 100px;
+  }
+
+  /* line 380, ../../app/assets/_susy_grid.scss */
+  .page.contacts {
+    top: 100px;
+  }
+}
+@media (min-width: 481px) and (max-width: 960px) {
+  /* line 390, ../../app/assets/_susy_grid.scss */
+  .page.contacts {
+    top: 70px;
+  }
+
+  /* line 393, ../../app/assets/_susy_grid.scss */
+  .page.price {
+    top: 70px;
+  }
+}
+@media (min-width: 961px) {
+  /* line 417, ../../app/assets/_susy_grid.scss */
+  .page.contacts {
+    top: 125px;
+    bottom: 120px;
+  }
+
+  /* line 421, ../../app/assets/_susy_grid.scss */
+  .page.price {
+    top: 125px;
+    bottom: 120px;
+  }
+}
 /* line 14, ../../app/assets/_base.scss */
 body, img {
   -webkit-transition: all,.6s;
@@ -564,14 +387,14 @@ html {
   line-height: 1.22222em;
 }
 
-@media (min-width: 200px 480px) and (max-width: 481px 960px) {
+@media (min-width: 200px) and (max-width: 480px) {
   /* line 106, ../../../../.rvm/gems/ruby-1.9.3-p551-dev/gems/compass-core-1.0.3/stylesheets/compass/typography/_vertical_rhythm.scss */
   html {
     font-size: 112.5%;
     line-height: 1.22222em;
   }
 }
-@media (min-width: 481px 960px) {
+@media (min-width: 481px) and (max-width: 960px) {
   /* line 106, ../../../../.rvm/gems/ruby-1.9.3-p551-dev/gems/compass-core-1.0.3/stylesheets/compass/typography/_vertical_rhythm.scss */
   html {
     font-size: 137.5%;
@@ -698,14 +521,183 @@ header .contacts {
   font-family: "BebasRegular";
 }
 
+/* line 7, ../../app/assets/layouts/partials/_header.scss */
+.metka-icon {
+  background-image: url("/images/icons_svg/metka.svg");
+}
+
+/* line 8, ../../app/assets/layouts/partials/_header.scss */
+.phone-icon {
+  background-image: url("/images/icons_svg/tel.svg");
+  padding: 0 5px;
+}
+
+/* line 10, ../../app/assets/layouts/partials/_header.scss */
+.h_icon {
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 35px;
+  height: 40px;
+  width: 40px;
+}
+
+/* line 18, ../../app/assets/layouts/partials/_header.scss */
+.logo {
+  background-image: url("/images/header/logo.svg");
+  background-repeat: no-repeat;
+  position: relative;
+  line-height: 100%;
+}
+
+/* line 27, ../../app/assets/layouts/partials/_header.scss */
+header a {
+  color: #373737;
+}
+/* line 31, ../../app/assets/layouts/partials/_header.scss */
+header a:visited {
+  color: #373737;
+}
+
+/* line 39, ../../app/assets/layouts/partials/_header.scss */
+.logo a {
+  display: block;
+  height: 100%;
+}
+/* line 43, ../../app/assets/layouts/partials/_header.scss */
+.logo a:hover {
+  border: 0;
+  color: #50687d;
+  -webkit-transition: all,.6s;
+  -moz-transition: all,.6s;
+  -ms-transition: all,.6s;
+  -o-transition: all,.6s;
+  transition: all,.6s;
+}
+
+/* line 56, ../../app/assets/layouts/partials/_header.scss */
+.site-name {
+  line-height: .9rem;
+}
+
+/* line 65, ../../app/assets/layouts/partials/_header.scss */
+.address {
+  line-height: 1.1rem;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/* line 71, ../../app/assets/layouts/partials/_header.scss */
+.city-name {
+  color: #373737;
+}
+
+/* line 76, ../../app/assets/layouts/partials/_header.scss */
+.address a {
+  border: 0;
+}
+
+/* line 83, ../../app/assets/layouts/partials/_header.scss */
+.phone {
+  line-height: 1rem;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/* line 90, ../../app/assets/layouts/partials/_header.scss */
+.tel_num {
+  color: #373737;
+}
+
+/* line 96, ../../app/assets/layouts/partials/_header.scss */
+a.call_btn {
+  border: 1px dashed #b33528;
+  border-radius: 5px;
+  /* box-sizing: border-box; */
+  line-height: 1.2rem;
+  display: block;
+  padding: 3px 7px;
+  font-size: 1rem;
+  height: 18px;
+  /* margin: -3px 15px; */
+  margin: 0 auto;
+  width: 90px;
+  color: #b33528;
+  text-align: center;
+}
+/* line 112, ../../app/assets/layouts/partials/_header.scss */
+a.call_btn:hover {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: rgba(179, 53, 40, 0.9);
+  border: 1px solid #b33528;
+  -webkit-transition: all,.6s;
+  -moz-transition: all,.6s;
+  -ms-transition: all,.6s;
+  -o-transition: all,.6s;
+  transition: all,.6s;
+}
+
+/* line 174, ../../app/assets/layouts/partials/_header.scss */
+header {
+  -webkit-box-shadow: 0 1px 0px 0px rgba(119, 119, 119, 0.5);
+  -moz-box-shadow: 0 1px 0px 0px rgba(119, 119, 119, 0.5);
+  box-shadow: 0 1px 0px 0px rgba(119, 119, 119, 0.5);
+  z-index: 999;
+}
+
+/* line 185, ../../app/assets/layouts/partials/_header.scss */
+.logo a {
+  display: block;
+  height: 100%;
+}
+/* line 189, ../../app/assets/layouts/partials/_header.scss */
+.logo a:hover {
+  border: 0;
+}
+
+/* line 196, ../../app/assets/layouts/partials/_header.scss */
+.logo:hover {
+  transition: all,.2s;
+}
+/* line 199, ../../app/assets/layouts/partials/_header.scss */
+.logo:hover a {
+  color: #50687d;
+}
+
+/* line 204, ../../app/assets/layouts/partials/_header.scss */
+.logo .site-name strong {
+  display: block;
+}
+
+/* line 205, ../../app/assets/layouts/partials/_header.scss */
+.logo .site-name {
+  font-size: 1rem;
+  display: block;
+}
+
+/* line 216, ../../app/assets/layouts/partials/_header.scss */
+.logo a {
+  display: block;
+}
+
+/* line 218, ../../app/assets/layouts/partials/_header.scss */
+header a {
+  -webkit-transition: all,.6s;
+  -moz-transition: all,.6s;
+  -ms-transition: all,.6s;
+  -o-transition: all,.6s;
+  transition: all,.6s;
+  color: #373737;
+}
+
 @media (min-width: 200px) and (max-width: 480px) {
-  /* line 2, ../../app/assets/layouts/partials/_header_contacts-page.scss */
+  /* line 238, ../../app/assets/layouts/partials/_header.scss */
   header {
     height: 100px;
     z-index: 20;
     position: relative;
   }
-  /* line 7, ../../app/assets/layouts/partials/_header_contacts-page.scss */
+  /* line 243, ../../app/assets/layouts/partials/_header.scss */
   header .logo {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -716,8 +708,11 @@ header .contacts {
     padding-right: 1.25%;
     height: inherit;
     position: relative;
+    height: 100px;
+    background-position: 0% 50%;
+    background-size: 66px;
   }
-  /* line 13, ../../app/assets/layouts/partials/_header_contacts-page.scss */
+  /* line 252, ../../app/assets/layouts/partials/_header.scss */
   header .contacts {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -729,7 +724,7 @@ header .contacts {
     height: inherit;
     position: relative;
   }
-  /* line 19, ../../app/assets/layouts/partials/_header_contacts-page.scss */
+  /* line 258, ../../app/assets/layouts/partials/_header.scss */
   header .site-name {
     width: 50px;
     position: absolute;
@@ -739,418 +734,33 @@ header .contacts {
     text-align: center;
     margin: 0 auto;
   }
-  /* line 30, ../../app/assets/layouts/partials/_header_contacts-page.scss */
+  /* line 269, ../../app/assets/layouts/partials/_header.scss */
   header .address, header .phone {
     text-align: center;
   }
-  /* line 33, ../../app/assets/layouts/partials/_header_contacts-page.scss */
+  /* line 272, ../../app/assets/layouts/partials/_header.scss */
   header .phone {
     padding-top: 0;
   }
-  /* line 37, ../../app/assets/layouts/partials/_header_contacts-page.scss */
+  /* line 276, ../../app/assets/layouts/partials/_header.scss */
   header .city-name, header .tel_num {
     display: block;
   }
-  /* line 43, ../../app/assets/layouts/partials/_header_contacts-page.scss */
+  /* line 282, ../../app/assets/layouts/partials/_header.scss */
   header .h_icon {
     display: none;
   }
 }
 @media (min-width: 481px) and (max-width: 960px) {
-  /* line 52, ../../app/assets/layouts/partials/_header_contacts-page.scss */
-  .page.contacts header {
-    height: 110px;
-    background-color: rgba(255, 255, 255, 0.85);
-  }
-  /* line 57, ../../app/assets/layouts/partials/_header_contacts-page.scss */
-  .page.contacts header .logo {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    width: 8.33333%;
-    float: left;
-    padding-left: 0.83333%;
-    padding-right: 0.83333%;
-    height: 120px;
-    min-width: 70px;
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    margin: auto;
-    background-position: 50% 5px;
-  }
-  /* line 68, ../../app/assets/layouts/partials/_header_contacts-page.scss */
-  .page.contacts header a.home {
-    position: relative;
-    line-height: 20px;
-    border: none;
-  }
-  /* line 73, ../../app/assets/layouts/partials/_header_contacts-page.scss */
-  .page.contacts header .site-name {
-    position: absolute;
-    bottom: 20px;
-    margin: auto;
-    left: 0;
-    text-align: center;
-    right: 0%;
-  }
-  /* line 82, ../../app/assets/layouts/partials/_header_contacts-page.scss */
-  .page.contacts header .contacts {
-    height: 100%;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    width: 100%;
-    float: left;
-    padding-left: 0.83333%;
-    padding-right: 0.83333%;
-    position: relative;
-    text-align: center;
-  }
-  /* line 91, ../../app/assets/layouts/partials/_header_contacts-page.scss */
-  .page.contacts header .address {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    width: 33.33333%;
-    float: left;
-    padding-left: 0.83333%;
-    padding-right: 0.83333%;
-    float: left;
-    margin-left: 8.33333%;
-    margin-right: -100%;
-    text-align: center;
-    top: 0;
-    line-height: 1.2rem;
-  }
-  /* line 100, ../../app/assets/layouts/partials/_header_contacts-page.scss */
-  .page.contacts header .phone {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    width: 33.33333%;
-    float: left;
-    padding-left: 0.83333%;
-    padding-right: 0.83333%;
-    float: left;
-    margin-left: 58.33333%;
-    margin-right: -100%;
-    top: 0;
-    padding-top: 5px;
-    line-height: 1.2rem;
-  }
-  /* line 110, ../../app/assets/layouts/partials/_header_contacts-page.scss */
-  .page.contacts header .telephone {
-    line-height: 1rem;
-  }
-  /* line 115, ../../app/assets/layouts/partials/_header_contacts-page.scss */
-  .page.contacts header a.call_btn {
-    height: 18px;
-    padding: 1px 0px;
-  }
-  /* line 121, ../../app/assets/layouts/partials/_header_contacts-page.scss */
-  .page.contacts header .h_icon {
-    display: block;
-    float: none;
-    margin: 0 auto;
-    height: 35px;
-    background-size: 28px;
-  }
-  /* line 130, ../../app/assets/layouts/partials/_header_contacts-page.scss */
-  .page.contacts header .city-name, .page.contacts header .tel_num {
-    display: block;
-  }
-  /* line 137, ../../app/assets/layouts/partials/_header_contacts-page.scss */
-  .page.contacts header .phone-icon {
-    margin-bottom: 5px;
-  }
-  /* line 141, ../../app/assets/layouts/partials/_header_contacts-page.scss */
-  .page.contacts header .metka-icon {
-    margin-bottom: 3px;
-  }
-}
-@media (min-width: 961px) {
-  /* line 153, ../../app/assets/layouts/partials/_header_contacts-page.scss */
-  .page.contacts header {
-    height: 125px;
-  }
-  /* line 156, ../../app/assets/layouts/partials/_header_contacts-page.scss */
-  .page.contacts header .logo {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    width: 8.33333%;
-    float: left;
-    padding-left: 0.83333%;
-    padding-right: 0.83333%;
-    height: 120px;
-    min-width: 70px;
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    margin: auto;
-    background-position: 50% 5px;
-    background-size: 64px;
-    z-index: 2;
-  }
-  /* line 170, ../../app/assets/layouts/partials/_header_contacts-page.scss */
-  .page.contacts header a.home {
-    position: relative;
-    line-height: 20px;
-    border: none;
-    z-index: 1;
-  }
-  /* line 178, ../../app/assets/layouts/partials/_header_contacts-page.scss */
-  .page.contacts header .site-name {
-    position: absolute;
-    bottom: 0px;
-    margin: auto;
-    left: 0;
-    text-align: center;
-    right: 0%;
-  }
-  /* line 187, ../../app/assets/layouts/partials/_header_contacts-page.scss */
-  .page.contacts header .contacts {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    width: 100%;
-    float: left;
-    padding-left: 0.83333%;
-    padding-right: 0.83333%;
-    position: relative;
-    text-align: center;
-  }
-  /* line 193, ../../app/assets/layouts/partials/_header_contacts-page.scss */
-  .page.contacts header .address {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    width: 25%;
-    float: left;
-    padding-left: 0.83333%;
-    padding-right: 0.83333%;
-    float: left;
-    margin-left: 16.66667%;
-    margin-right: -100%;
-    position: relative;
-    -moz-transform: translateY(5%);
-    -ms-transform: translateY(5%);
-    -webkit-transform: translateY(5%);
-    transform: translateY(5%);
-    text-align: center;
-  }
-  /* line 200, ../../app/assets/layouts/partials/_header_contacts-page.scss */
-  .page.contacts header .city-name {
-    display: block;
-    line-height: 1.2rem;
-  }
-  /* line 208, ../../app/assets/layouts/partials/_header_contacts-page.scss */
-  .page.contacts header .phone {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    width: 25%;
-    float: left;
-    padding-left: 0.83333%;
-    padding-right: 0.83333%;
-    float: left;
-    margin-left: 58.33333%;
-    margin-right: -100%;
-    text-align: center;
-    position: relative;
-    -moz-transform: translateY(5%);
-    -ms-transform: translateY(5%);
-    -webkit-transform: translateY(5%);
-    transform: translateY(5%);
-  }
-  /* line 214, ../../app/assets/layouts/partials/_header_contacts-page.scss */
-  .page.contacts header .telephone {
-    display: block;
-  }
-  /* line 218, ../../app/assets/layouts/partials/_header_contacts-page.scss */
-  .page.contacts header a.call_btn {
-    display: block;
-    height: 33px;
-    padding: 4px;
-    width: 98px;
-  }
-  /* line 227, ../../app/assets/layouts/partials/_header_contacts-page.scss */
-  .page.contacts header .city-name, .page.contacts header .tel_num {
-    display: block;
-  }
-  /* line 232, ../../app/assets/layouts/partials/_header_contacts-page.scss */
-  .page.contacts header .h_icon {
-    display: block;
-    float: none;
-    margin: 0 auto;
-    height: 45px;
-    background-size: 35px;
-  }
-}
-@media (min-width: 481px) and (max-width: 960px) {
-  /* line 86, ../../app/assets/layouts/partials/_header_price-page.scss */
-  .page.price header {
-    position: relative;
-    height: 60px;
-  }
-  /* line 90, ../../app/assets/layouts/partials/_header_price-page.scss */
-  .page.price header .logo {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    width: 16.66667%;
-    float: left;
-    padding-left: 0.83333%;
-    padding-right: 0.83333%;
-    height: 100%;
-    min-width: 70px;
-    top: 0;
-    background-position: 0 0;
-  }
-  /* line 99, ../../app/assets/layouts/partials/_header_price-page.scss */
-  .page.price header a.home {
-    line-height: 20px;
-    border: none;
-  }
-  /* line 104, ../../app/assets/layouts/partials/_header_price-page.scss */
-  .page.price header .site-name {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    width: 50%;
-    float: left;
-    padding-left: 5%;
-    padding-right: 5%;
-    position: relative;
-    -moz-transform: translateY(55%);
-    -ms-transform: translateY(55%);
-    -webkit-transform: translateY(55%);
-    transform: translateY(55%);
-    text-align: left;
-    margin-left: 50px;
-  }
-  /* line 114, ../../app/assets/layouts/partials/_header_price-page.scss */
-  .page.price header .contacts {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    width: 83.33333%;
-    float: right;
-    padding-left: 0.83333%;
-    padding-right: 0.83333%;
-    height: 100%;
-    position: relative;
-  }
-  /* line 120, ../../app/assets/layouts/partials/_header_price-page.scss */
-  .page.price header .city-name, .page.price header .tel_num, .page.price header .call_btn {
-    display: inline;
-  }
-  /* line 124, ../../app/assets/layouts/partials/_header_price-page.scss */
-  .page.price header .address {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    width: 50%;
-    float: left;
-    padding-left: 1%;
-    padding-right: 1%;
-    position: relative;
-    -moz-transform: translateY(10%);
-    -ms-transform: translateY(10%);
-    -webkit-transform: translateY(10%);
-    transform: translateY(10%);
-    line-height: 2.6rem;
-  }
-  /* line 131, ../../app/assets/layouts/partials/_header_price-page.scss */
-  .page.price header .phone {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    width: 50%;
-    float: left;
-    padding-left: 1%;
-    padding-right: 1%;
-    position: relative;
-    -moz-transform: translateY(10%);
-    -ms-transform: translateY(10%);
-    -webkit-transform: translateY(10%);
-    transform: translateY(10%);
-    line-height: 2.6rem;
-  }
-  /* line 138, ../../app/assets/layouts/partials/_header_price-page.scss */
-  .page.price header .h_icon {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    width: 20%;
-    float: left;
-    padding-left: 2%;
-    padding-right: 2%;
-    float: left;
-    margin: 0 auto;
-    height: 35px;
-    background-size: 30px;
-  }
-  /* line 146, ../../app/assets/layouts/partials/_header_price-page.scss */
-  .page.price header a.call_btn {
-    margin-left: 10px;
-    display: inline-block;
-    height: 20px;
-  }
-}
-@media (min-width: 481px) and (max-width: 720px) {
-  /* line 163, ../../app/assets/layouts/partials/_header_price-page.scss */
-  .page.price header {
-    height: 70px;
-  }
-  /* line 166, ../../app/assets/layouts/partials/_header_price-page.scss */
-  .page.price header .h_icon {
-    float: none;
-    background-size: 32px;
-    height: 30px;
-    display: block;
-  }
-  /* line 173, ../../app/assets/layouts/partials/_header_price-page.scss */
-  .page.price header .address {
-    position: relative;
-    -moz-transform: translateY(0%);
-    -ms-transform: translateY(0%);
-    -webkit-transform: translateY(0%);
-    transform: translateY(0%);
-    line-height: 2rem;
-    text-align: center;
-  }
-  /* line 178, ../../app/assets/layouts/partials/_header_price-page.scss */
-  .page.price header .phone {
-    position: relative;
-    -moz-transform: translateY(0%);
-    -ms-transform: translateY(0%);
-    -webkit-transform: translateY(0%);
-    transform: translateY(0%);
-    line-height: 2rem;
-    text-align: center;
-  }
-}
-@media (min-width: 961px) {
-  /* line 191, ../../app/assets/layouts/partials/_header_price-page.scss */
-  .page.price header {
-    max-width: 960px;
-    max-width: 43.63636rem;
-    margin-left: auto;
-    margin-right: auto;
+  /* line 291, ../../app/assets/layouts/partials/_header.scss */
+  header {
     position: relative;
     height: 70px;
     padding: 0px 0;
   }
-  /* line 12, ../../../../.rvm/gems/ruby-1.9.3-p551-dev/gems/susy-2.2.5/sass/susy/output/support/_clearfix.scss */
-  .page.price header:after {
-    content: " ";
-    display: block;
-    clear: both;
-  }
-  /* line 197, ../../app/assets/layouts/partials/_header_price-page.scss */
-  .page.price header .logo {
+
+  /* line 298, ../../app/assets/layouts/partials/_header.scss */
+  .logo {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -1158,20 +768,23 @@ header .contacts {
     float: left;
     padding-left: 0.83333%;
     padding-right: 0.83333%;
-    height: 100%;
+    height: 70px;
     min-width: 70px;
     max-width: 80px;
     position: relative;
     background-position: 0 0px;
     background-size: 66px;
+    background-image: url("/images/header/logo.svg");
   }
-  /* line 208, ../../app/assets/layouts/partials/_header_price-page.scss */
-  .page.price header a.home {
+
+  /* line 310, ../../app/assets/layouts/partials/_header.scss */
+  a.home {
     border: none;
     width: 120px;
   }
-  /* line 212, ../../app/assets/layouts/partials/_header_price-page.scss */
-  .page.price header .site-name {
+
+  /* line 314, ../../app/assets/layouts/partials/_header.scss */
+  .site-name {
     position: absolute;
     top: 18px;
     left: 65px;
@@ -1179,8 +792,9 @@ header .contacts {
     text-align: left;
     font-size: 1.1rem;
   }
-  /* line 222, ../../app/assets/layouts/partials/_header_price-page.scss */
-  .page.price header .contacts {
+
+  /* line 324, ../../app/assets/layouts/partials/_header.scss */
+  .contacts {
     height: 100%;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -1191,8 +805,9 @@ header .contacts {
     padding-right: 0.83333%;
     position: relative;
   }
-  /* line 228, ../../app/assets/layouts/partials/_header_price-page.scss */
-  .page.price header .address {
+
+  /* line 330, ../../app/assets/layouts/partials/_header.scss */
+  .address {
     position: absolute;
     -moz-transform: translateY(20%);
     -ms-transform: translateY(20%);
@@ -1208,8 +823,9 @@ header .contacts {
     padding-right: 1%;
     padding-left: 9.16667%;
   }
-  /* line 234, ../../app/assets/layouts/partials/_header_price-page.scss */
-  .page.price header .phone {
+
+  /* line 336, ../../app/assets/layouts/partials/_header.scss */
+  .phone {
     position: absolute;
     -moz-transform: translateY(20%);
     -ms-transform: translateY(20%);
@@ -1227,19 +843,173 @@ header .contacts {
     line-height: 2rem;
     left: 50%;
   }
-  /* line 244, ../../app/assets/layouts/partials/_header_price-page.scss */
-  .page.price header .h_icon {
+
+  /* line 346, ../../app/assets/layouts/partials/_header.scss */
+  .h_icon {
     float: left;
   }
-  /* line 248, ../../app/assets/layouts/partials/_header_price-page.scss */
-  .page.price header .city-name, .page.price header .tel_num, .page.price header a.call_btn {
+
+  /* line 350, ../../app/assets/layouts/partials/_header.scss */
+  .city-name, .tel_num, a.call_btn {
     display: inline;
   }
-  /* line 251, ../../app/assets/layouts/partials/_header_price-page.scss */
-  .page.price header a.call_btn {
+
+  /* line 354, ../../app/assets/layouts/partials/_header.scss */
+  a.call_btn {
     margin-left: 10px;
     display: inline-block;
     height: 32px;
+    width: 100px;
+  }
+}
+@media (min-width: 961px) {
+  /* line 370, ../../app/assets/layouts/partials/_header.scss */
+  header {
+    background-color: white;
+    box-shadow: 0 1px 12px 0 rgba(0, 0, 0, 0.12), 0 1px 1px 0 rgba(0, 0, 0, 0.06);
+    height: 125px;
+    position: relative;
+  }
+
+  /* line 377, ../../app/assets/layouts/partials/_header.scss */
+  header .inner {
+    max-width: 960px;
+    max-width: 43.63636rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 12, ../../../../.rvm/gems/ruby-1.9.3-p551-dev/gems/susy-2.2.5/sass/susy/output/support/_clearfix.scss */
+  header .inner:after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+
+  /* line 381, ../../app/assets/layouts/partials/_header.scss */
+  .logo {
+    background-image: url("/images/header/logo.svg");
+    background-repeat: no-repeat;
+    background-position: 50% 5%;
+    background-size: 54px;
+    position: relative;
+    line-height: 100%;
+  }
+
+  /* line 391, ../../app/assets/layouts/partials/_header.scss */
+  .logo {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 8.33333%;
+    float: left;
+    padding-left: 0.83333%;
+    padding-right: 0.83333%;
+    height: 120px;
+    min-width: 70px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    margin: auto;
+    background-position: 50% 5px;
+    background-size: 64px;
+    z-index: 2;
+  }
+
+  /* line 405, ../../app/assets/layouts/partials/_header.scss */
+  a.home {
+    position: relative;
+    line-height: 20px;
+    border: none;
+    z-index: 1;
+  }
+
+  /* line 411, ../../app/assets/layouts/partials/_header.scss */
+  .site-name {
+    position: absolute;
+    bottom: 0px;
+    margin: auto;
+    left: 0;
+    text-align: center;
+    right: 0%;
+  }
+
+  /* line 420, ../../app/assets/layouts/partials/_header.scss */
+  .contacts {
+    position: relative;
+    text-align: center;
+  }
+
+  /* line 425, ../../app/assets/layouts/partials/_header.scss */
+  .address {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 25%;
+    float: left;
+    padding-left: 0.83333%;
+    padding-right: 0.83333%;
+    float: left;
+    margin-left: 8.33333%;
+    margin-right: -100%;
+    position: relative;
+    -moz-transform: translateY(5%);
+    -ms-transform: translateY(5%);
+    -webkit-transform: translateY(5%);
+    transform: translateY(5%);
+    text-align: center;
+  }
+
+  /* line 432, ../../app/assets/layouts/partials/_header.scss */
+  .city-name {
+    display: block;
+    line-height: 1.2rem;
+  }
+
+  /* line 440, ../../app/assets/layouts/partials/_header.scss */
+  .phone {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 25%;
+    float: left;
+    padding-left: 0.83333%;
+    padding-right: 0.83333%;
+    float: left;
+    margin-left: 66.66667%;
+    margin-right: -100%;
+    text-align: center;
+    position: relative;
+    -moz-transform: translateY(5%);
+    -ms-transform: translateY(5%);
+    -webkit-transform: translateY(5%);
+    transform: translateY(5%);
+  }
+
+  /* line 446, ../../app/assets/layouts/partials/_header.scss */
+  .telephone {
+    display: block;
+  }
+
+  /* line 450, ../../app/assets/layouts/partials/_header.scss */
+  a.call_btn {
+    display: block;
+    height: 33px;
+    padding: 4px;
+    width: 98px;
+  }
+
+  /* line 459, ../../app/assets/layouts/partials/_header.scss */
+  .city-name, .tel_num {
+    display: block;
+  }
+
+  /* line 464, ../../app/assets/layouts/partials/_header.scss */
+  .h_icon {
+    display: block;
+    float: none;
+    margin: 0 auto;
+    height: 45px;
+    background-size: 35px;
   }
 }
 /* line 1, ../../app/assets/layouts/partials/_price-menu.scss */
@@ -1518,9 +1288,9 @@ footer ul.main-menu li.active {
 /* line 17, ../../app/assets/layouts/pages/price.scss */
 .price-page {
   position: relative;
-  height: calc(100% - 190px);
+  height: calc(100% - 120px);
+  overflow: hidden;
   overflow-y: auto;
-  -webkit-overflow-scrolling: touch;
 }
 
 /* line 25, ../../app/assets/layouts/pages/price.scss */

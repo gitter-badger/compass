@@ -81,182 +81,182 @@
 //
 
 
-@include susy-breakpoint($tablet-size, $tablet ) {
-
-  .page.price header {
-    position: relative;
-    height: 60px;
-
-    .logo {
-      @include span(first 2);
-      height: 100%;
-      min-width: 70px;
-      top:0;
-      background-position: 0 0;
-
-    }
-
-    a.home {
-
-      line-height: 20px;
-      border: none;
-    }
-    .site-name {
-      //top: 15px;
-      //left: 52px;
-      @include span(1 of 2);
-      @include vertical-center(relative, 55%);
-      text-align: left;
-      margin-left: 50px;
-    }
-
-
-    .contacts {
-      @include span(last 10);
-      height: 100%;
-      position: relative;
-    }
-
-    .city-name, .tel_num , .call_btn{
-      display: inline;
-    }
-
-    .address {
-      @include span(5 of 10);
-      @include vertical-center(relative, 10%);
-      line-height: 2.6rem;
-
-
-    }
-    .phone {
-      @include span(5 of 10);
-      @include vertical-center(relative, 10%);
-      line-height: 2.6rem;
-    }
-
-
-    .h_icon {
-      @include span(1 of 5);
-      float: left;
-      margin: 0 auto;
-      height: 35px;
-      background-size: 30px;
-    }
-
-    a.call_btn {
-      margin-left: 10px;
-      display: inline-block;
-      height: 20px;
-    }
-
-    //
-    //
-
-
-    }
-
-  }
-
-
-@include breakpoint(481px 720px) {
-
-  .page.price header {
-    height: 70px;
-
-    .h_icon {
-      float: none;
-      background-size: 32px;
-      height: 30px;
-      display: block;
-    }
-
-    .address {
-      @include vertical-center(relative, 0%);
-      line-height: 2rem;
-      text-align: center;
-    }
-    .phone {
-      @include vertical-center(relative, 0%);
-      line-height: 2rem;
-      text-align: center;
-    }
-  }
-
-}
-
-
-
-@include susy-breakpoint($desktop-size, $large) {
-
-  .page.price header {
-    @include container;
-    position: relative;
-    height: 70px;
-    padding: 0px 0;
-
-    .logo {
-      @include span(2);
-      height: 100%;
-      min-width: 70px;
-      max-width: 80px;
-      position: relative;
-      background-position: 0 0px;
-      background-size: 66px;
-
-    }
-
-    a.home {
-      border: none;
-      width: 120px;
-    }
-    .site-name {
-      position: absolute;
-      top: 18px;
-      left: 65px;
-      line-height: 1rem;
-      text-align: left;
-      font-size: 1.1rem;
-
-    }
-
-    .contacts {
-      height: 100%;
-      @include span(last 10);
-      position: relative;
-    }
-
-    .address {
-      @include vertical-center(absolute, 20%);
-      line-height: 2rem;
-      @include span(5 of 10);
-      @include prefix(1);
-    }
-    .phone {
-      @include vertical-center(absolute, 20%);
-      @include span(last 5 of 10);
-      @include prefix(1);
-
-      top: 0%;
-      line-height: 2rem;
-      left: 50%;
-    }
-
-    .h_icon {
-      float: left;
-    }
-
-    .city-name, .tel_num, a.call_btn {
-      display: inline;
-    }
-    a.call_btn {
-      margin-left: 10px;
-      display: inline-block;
-      height: 32px;
-      width: 100px;
-    }
-
-  }
-}
+//@include susy-breakpoint($tablet-size, $tablet ) {
+//
+//  .page.price header {
+//    position: relative;
+//    height: 60px;
+//
+//    .logo {
+//      @include span(first 2);
+//      height: 100%;
+//      min-width: 70px;
+//      top:0;
+//      background-position: 0 0;
+//
+//    }
+//
+//    a.home {
+//
+//      line-height: 20px;
+//      border: none;
+//    }
+//    .site-name {
+//      //top: 15px;
+//      //left: 52px;
+//      @include span(1 of 2);
+//      @include vertical-center(relative, 55%);
+//      text-align: left;
+//      margin-left: 50px;
+//    }
+//
+//
+//    .contacts {
+//      @include span(last 10);
+//      height: 100%;
+//      position: relative;
+//    }
+//
+//    .city-name, .tel_num , .call_btn{
+//      display: inline;
+//    }
+//
+//    .address {
+//      @include span(5 of 10);
+//      @include vertical-center(relative, 10%);
+//      line-height: 2.6rem;
+//
+//
+//    }
+//    .phone {
+//      @include span(5 of 10);
+//      @include vertical-center(relative, 10%);
+//      line-height: 2.6rem;
+//    }
+//
+//
+//    .h_icon {
+//      @include span(1 of 5);
+//      float: left;
+//      margin: 0 auto;
+//      height: 35px;
+//      background-size: 30px;
+//    }
+//
+//    a.call_btn {
+//      margin-left: 10px;
+//      display: inline-block;
+//      height: 20px;
+//    }
+//
+//    //
+//    //
+//
+//
+//    }
+//
+//  }
+//
+//
+//@include breakpoint(481px 720px) {
+//
+//  .page.price header {
+//    height: 70px;
+//
+//    .h_icon {
+//      float: none;
+//      background-size: 32px;
+//      height: 30px;
+//      display: block;
+//    }
+//
+//    .address {
+//      @include vertical-center(relative, 0%);
+//      line-height: 2rem;
+//      text-align: center;
+//    }
+//    .phone {
+//      @include vertical-center(relative, 0%);
+//      line-height: 2rem;
+//      text-align: center;
+//    }
+//  }
+//
+//}
+//
+//
+//
+//@include susy-breakpoint($desktop-size, $large) {
+//
+//  .page.price header {
+//    @include container;
+//    position: relative;
+//    height: 70px;
+//    padding: 0px 0;
+//
+//    .logo {
+//      @include span(2);
+//      height: 100%;
+//      min-width: 70px;
+//      max-width: 80px;
+//      position: relative;
+//      background-position: 0 0px;
+//      background-size: 66px;
+//
+//    }
+//
+//    a.home {
+//      border: none;
+//      width: 120px;
+//    }
+//    .site-name {
+//      position: absolute;
+//      top: 18px;
+//      left: 65px;
+//      line-height: 1rem;
+//      text-align: left;
+//      font-size: 1.1rem;
+//
+//    }
+//
+//    .contacts {
+//      height: 100%;
+//      @include span(last 10);
+//      position: relative;
+//    }
+//
+//    .address {
+//      @include vertical-center(absolute, 20%);
+//      line-height: 2rem;
+//      @include span(5 of 10);
+//      @include prefix(1);
+//    }
+//    .phone {
+//      @include vertical-center(absolute, 20%);
+//      @include span(last 5 of 10);
+//      @include prefix(1);
+//
+//      top: 0%;
+//      line-height: 2rem;
+//      left: 50%;
+//    }
+//
+//    .h_icon {
+//      float: left;
+//    }
+//
+//    .city-name, .tel_num, a.call_btn {
+//      display: inline;
+//    }
+//    a.call_btn {
+//      margin-left: 10px;
+//      display: inline-block;
+//      height: 32px;
+//      width: 100px;
+//    }
+//
+//  }
+//}
 //
 ////
 ////

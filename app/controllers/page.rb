@@ -1,7 +1,9 @@
 # encoding: utf-8
 
-Compass::App.controllers :page, :cache => true do
-  expires 86400*30
+Compass::App.controllers :page do
+  # , :cache => true
+  # expires 86400*30
+
   # :cache => true
 
   # get :index, :map => '/foo/bar' do

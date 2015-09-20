@@ -25,7 +25,7 @@ $rem-with-px-fallback: true !global;
 
 
 
-@media (min-width:$mobile-size) and (max-width:$tablet-size) {
+@include breakpoint($mobile-size) {
   $base-font-size: 18px !global;
   $base-line-height: 22px !global;
   $rhythm-unit: "rem" !global;
@@ -34,7 +34,7 @@ $rem-with-px-fallback: true !global;
 }
 
 //
-@media (min-width: $tablet-size) {
+@include breakpoint($tablet-size){
   $base-font-size: 22px !global;
   $base-line-height: 25px!global;
   $rhythm-unit: "rem"!global;
@@ -42,7 +42,7 @@ $rem-with-px-fallback: true !global;
   @include establish-baseline();
 }
 
-@media (min-width: $desktop-size) {
+@include breakpoint($desktop-size) {
   $base-font-size: 22px !global;
   $base-line-height: 25px!global;
   $rhythm-unit: "rem"!global;

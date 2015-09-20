@@ -16,10 +16,10 @@
 
   .price-page {
     position: relative;
-    height: calc(100% - 190px);
-    //overflow: hidden;
+    height: calc(100% - 120px);
+    overflow: hidden;
     overflow-y: auto;
-    -webkit-overflow-scrolling: touch;
+    //-webkit-overflow-scrolling: touch;
   }
 
   .price-page article {
