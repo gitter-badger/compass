@@ -365,7 +365,7 @@ footer {
   background: url("/images/bg/bg.jpg");
   background-position: 0px 170px;
   background-repeat: repeat-x;
-  background-size: 50%;
+
 }
 
 //
@@ -441,7 +441,9 @@ footer {
       bottom: 120px;
 
     }
-
+    .page.price {
+      background-size: 90%;
+    }
 
 
 //

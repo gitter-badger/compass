@@ -233,7 +233,6 @@ footer {
   background: url("/images/bg/bg.jpg");
   background-position: 0px 170px;
   background-repeat: repeat-x;
-  background-size: 50%;
 }
 
 @media (min-width: 200px) and (max-width: 600px) {
@@ -288,6 +287,11 @@ footer {
   .page.price {
     top: 125px;
     bottom: 120px;
+  }
+
+  /* line 444, ../../app/assets/_susy_grid.scss */
+  .page.price {
+    background-size: 90%;
   }
 }
 /* line 14, ../../app/assets/_base.scss */
@@ -781,7 +785,7 @@ header a {
     height: 70px;
     position: relative;
     background-position: 0 50%;
-    background-size: 50px;
+    background-size: 60px;
     background-image: url("/images/header/logo.svg");
   }
 
@@ -795,7 +799,7 @@ header a {
   .site-name {
     position: absolute;
     top: 18px;
-    left: 45px;
+    left: 55px;
     line-height: 1rem;
     text-align: left;
     font-size: 1.1rem;
@@ -1233,7 +1237,6 @@ footer .main-menu li {
 }
 /* line 28, ../../app/assets/layouts/partials/_footer.scss */
 footer .main-menu li:hover {
-  height: 70px;
   box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.12), 0 1px 1px 0 rgba(0, 0, 0, 0.06);
   -webkit-transition: all,.6s;
   -moz-transition: all,.6s;
@@ -1241,11 +1244,12 @@ footer .main-menu li:hover {
   -o-transition: all,.6s;
   transition: all,.6s;
 }
-/* line 40, ../../app/assets/layouts/partials/_footer.scss */
-footer .main-menu li:active {
+/* line 44, ../../app/assets/layouts/partials/_footer.scss */
+footer .main-menu li.active {
   color: red;
+  height: 70px;
 }
-/* line 45, ../../app/assets/layouts/partials/_footer.scss */
+/* line 49, ../../app/assets/layouts/partials/_footer.scss */
 footer .main-menu a {
   display: block;
   text-decoration: none;
@@ -1260,27 +1264,27 @@ footer .main-menu a {
   font-size: 1.3rem;
   color: #fff;
 }
-/* line 63, ../../app/assets/layouts/partials/_footer.scss */
+/* line 67, ../../app/assets/layouts/partials/_footer.scss */
 footer .footer-info {
   font-size: 65%;
   color: rgba(255, 255, 255, 0.8);
 }
-/* line 66, ../../app/assets/layouts/partials/_footer.scss */
+/* line 70, ../../app/assets/layouts/partials/_footer.scss */
 footer .footer-info p {
   margin: 0;
 }
-/* line 67, ../../app/assets/layouts/partials/_footer.scss */
+/* line 71, ../../app/assets/layouts/partials/_footer.scss */
 footer .footer-info a {
   color: rgba(255, 255, 255, 0.8);
   border-bottom: 1px dashed rgba(255, 255, 255, 0.6);
 }
-/* line 76, ../../app/assets/layouts/partials/_footer.scss */
+/* line 80, ../../app/assets/layouts/partials/_footer.scss */
 footer .created-by {
   text-align: right;
   font-style: italic;
 }
 
-/* line 82, ../../app/assets/layouts/partials/_footer.scss */
+/* line 86, ../../app/assets/layouts/partials/_footer.scss */
 footer ul.main-menu li.active {
   height: 75px;
 }

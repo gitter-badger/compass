@@ -26,7 +26,7 @@
         max-width: 225px;
         min-width: 100px;
         &:hover {
-          height: 70px;
+          //height: 70px;
           box-shadow: 0 1px 8px 0 rgba(0,0,0,.12),0 1px 1px 0 rgba(0,0,0,.06);
 
           -webkit-transition: all,.6s;
@@ -37,11 +37,15 @@
 
           //-webkit-transform: scaleY(1.1);
         }
-        &:active {
-          color: red;
-        }
+
 
       }
+
+      li.active {
+        color: red;
+        height: 70px;
+      }
+
       a {
         display: block;
         text-decoration: none;
