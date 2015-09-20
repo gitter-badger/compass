@@ -1,28 +1,39 @@
 /*
-Error: Undefined mixin 'susy-breakpoint'.
-        on line 47 of /home/frolin/RubymineProjects/compass/app/assets/layouts/pages/price.scss, in `susy-breakpoint'
-        from line 47 of /home/frolin/RubymineProjects/compass/app/assets/layouts/pages/price.scss
+Error: Undefined mixin 'container'.
+        on line 18 of /home/frolin/RubymineProjects/compass/app/assets/layouts/pages/price.scss, in `container'
+        from line 18 of /home/frolin/RubymineProjects/compass/app/assets/layouts/pages/price.scss
 
-42:     display: block;
-43:   }
-44: 
-45: 
-46: 
-47: @include susy-breakpoint($mobile-size, $mobile) {
-48: 
-49:   .price-page article table {
-50:     width: 100%;
-51: 
-52:     th:last-child, tbody tr td:last-child {
+13: //  display: block;
+14: //}
+15: 
+16: 
+17:   .price-page {
+18:     @include container;
+19:     position: relative;
+20:     overflow: hidden;
+21:     overflow-y: auto;
+22:     //-webkit-overflow-scrolling: touch;
+23:   }
 
 Backtrace:
-/home/frolin/RubymineProjects/compass/app/assets/layouts/pages/price.scss:47:in `susy-breakpoint'
-/home/frolin/RubymineProjects/compass/app/assets/layouts/pages/price.scss:47
+/home/frolin/RubymineProjects/compass/app/assets/layouts/pages/price.scss:18:in `container'
+/home/frolin/RubymineProjects/compass/app/assets/layouts/pages/price.scss:18
 /home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/sass-3.4.16/lib/sass/tree/visitors/perform.rb:348:in `block in visit_mixin'
 /home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/sass-3.4.16/lib/sass/stack.rb:98:in `block in with_mixin'
 /home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/sass-3.4.16/lib/sass/stack.rb:115:in `with_frame'
 /home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/sass-3.4.16/lib/sass/stack.rb:98:in `with_mixin'
 /home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/sass-3.4.16/lib/sass/tree/visitors/perform.rb:346:in `visit_mixin'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/sass-3.4.16/lib/sass/tree/visitors/base.rb:36:in `visit'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/sass-3.4.16/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/sass-3.4.16/lib/sass/stack.rb:79:in `block in with_base'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/sass-3.4.16/lib/sass/stack.rb:115:in `with_frame'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/sass-3.4.16/lib/sass/stack.rb:79:in `with_base'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/sass-3.4.16/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/sass-3.4.16/lib/sass/tree/visitors/perform.rb:430:in `block (2 levels) in visit_rule'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/sass-3.4.16/lib/sass/tree/visitors/perform.rb:430:in `map'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/sass-3.4.16/lib/sass/tree/visitors/perform.rb:430:in `block in visit_rule'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/sass-3.4.16/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/sass-3.4.16/lib/sass/tree/visitors/perform.rb:428:in `visit_rule'
 /home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/sass-3.4.16/lib/sass/tree/visitors/base.rb:36:in `visit'
 /home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/sass-3.4.16/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
 /home/frolin/.rvm/gems/ruby-1.9.3-p551-dev/gems/sass-3.4.16/lib/sass/stack.rb:79:in `block in with_base'
@@ -103,4 +114,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'susy-breakpoint'.\A         on line 47 of /home/frolin/RubymineProjects/compass/app/assets/layouts/pages/price.scss, in `susy-breakpoint'\A         from line 47 of /home/frolin/RubymineProjects/compass/app/assets/layouts/pages/price.scss\A \A 42:     display: block;\A 43:   }\A 44: \A 45: \A 46: \A 47: @include susy-breakpoint($mobile-size, $mobile) {\A 48: \A 49:   .price-page article table {\A 50:     width: 100%;\A 51: \A 52:     th:last-child, tbody tr td:last-child {"; }
+  content: "Error: Undefined mixin 'container'.\A         on line 18 of /home/frolin/RubymineProjects/compass/app/assets/layouts/pages/price.scss, in `container'\A         from line 18 of /home/frolin/RubymineProjects/compass/app/assets/layouts/pages/price.scss\A \A 13: //  display: block;\A 14: //}\A 15: \A 16: \A 17:   .price-page {\A 18:     @include container;\A 19:     position: relative;\A 20:     overflow: hidden;\A 21:     overflow-y: auto;\A 22:     //-webkit-overflow-scrolling: touch;\A 23:   }"; }

@@ -15,8 +15,8 @@
 
 
   .price-page {
+    @include container;
     position: relative;
-    height: calc(100% - 120px);
     overflow: hidden;
     overflow-y: auto;
     //-webkit-overflow-scrolling: touch;

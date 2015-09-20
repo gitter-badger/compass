@@ -374,12 +374,26 @@ footer {
   .page.price {
     background-size: 100%;
   }
-  .price.page {
+  .page.price{
     top: 100px;
+    bottom: 110px;
   }
+
+  .price-page {
+    height: calc(100% - 95px);
+  }
+
   .page.contacts {
     top:100px;
+    bottom: 110px;
+
   }
+
+
+  footer {
+    height: 110px;
+  }
+
 }
 //
 //
@@ -389,9 +403,13 @@ footer {
 
     .page.contacts {
       top:70px;
+      bottom: 120px;
+
     }
     .page.price {
       top: 70px;
+      bottom: 120px;
+
     }
 //
 //    .price-page {
@@ -421,7 +439,9 @@ footer {
     .page.price {
       top: 125px;
       bottom: 120px;
+
     }
+
 
 
 //

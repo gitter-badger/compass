@@ -236,41 +236,55 @@ footer {
   background-size: 50%;
 }
 
-@media (min-width: 200px) and (max-width: 480px) {
+@media (min-width: 200px) and (max-width: 600px) {
   /* line 374, ../../app/assets/_susy_grid.scss */
   .page.price {
     background-size: 100%;
   }
 
   /* line 377, ../../app/assets/_susy_grid.scss */
-  .price.page {
+  .page.price {
     top: 100px;
+    bottom: 110px;
   }
 
-  /* line 380, ../../app/assets/_susy_grid.scss */
+  /* line 382, ../../app/assets/_susy_grid.scss */
+  .price-page {
+    height: calc(100% - 95px);
+  }
+
+  /* line 386, ../../app/assets/_susy_grid.scss */
   .page.contacts {
     top: 100px;
-  }
-}
-@media (min-width: 481px) and (max-width: 960px) {
-  /* line 390, ../../app/assets/_susy_grid.scss */
-  .page.contacts {
-    top: 70px;
+    bottom: 110px;
   }
 
   /* line 393, ../../app/assets/_susy_grid.scss */
-  .page.price {
-    top: 70px;
+  footer {
+    height: 110px;
   }
 }
-@media (min-width: 961px) {
-  /* line 417, ../../app/assets/_susy_grid.scss */
+@media (min-width: 601px) and (max-width: 720px) {
+  /* line 404, ../../app/assets/_susy_grid.scss */
+  .page.contacts {
+    top: 70px;
+    bottom: 120px;
+  }
+
+  /* line 409, ../../app/assets/_susy_grid.scss */
+  .page.price {
+    top: 70px;
+    bottom: 120px;
+  }
+}
+@media (min-width: 721px) {
+  /* line 435, ../../app/assets/_susy_grid.scss */
   .page.contacts {
     top: 125px;
     bottom: 120px;
   }
 
-  /* line 421, ../../app/assets/_susy_grid.scss */
+  /* line 439, ../../app/assets/_susy_grid.scss */
   .page.price {
     top: 125px;
     bottom: 120px;
@@ -387,21 +401,21 @@ html {
   line-height: 1.22222em;
 }
 
-@media (min-width: 200px) and (max-width: 480px) {
+@media (min-width: 200px) and (max-width: 600px) {
   /* line 106, ../../../../.rvm/gems/ruby-1.9.3-p551-dev/gems/compass-core-1.0.3/stylesheets/compass/typography/_vertical_rhythm.scss */
   html {
     font-size: 112.5%;
     line-height: 1.22222em;
   }
 }
-@media (min-width: 481px) and (max-width: 960px) {
+@media (min-width: 601px) and (max-width: 720px) {
   /* line 106, ../../../../.rvm/gems/ruby-1.9.3-p551-dev/gems/compass-core-1.0.3/stylesheets/compass/typography/_vertical_rhythm.scss */
   html {
-    font-size: 137.5%;
-    line-height: 1.13636em;
+    font-size: 125%;
+    line-height: 1.25em;
   }
 }
-@media (min-width: 961px) {
+@media (min-width: 721px) {
   /* line 106, ../../../../.rvm/gems/ruby-1.9.3-p551-dev/gems/compass-core-1.0.3/stylesheets/compass/typography/_vertical_rhythm.scss */
   html {
     font-size: 137.5%;
@@ -617,7 +631,6 @@ a.call_btn {
   display: block;
   padding: 3px 7px;
   font-size: 1rem;
-  height: 18px;
   /* margin: -3px 15px; */
   margin: 0 auto;
   width: 90px;
@@ -671,7 +684,6 @@ header {
 
 /* line 205, ../../app/assets/layouts/partials/_header.scss */
 .logo .site-name {
-  font-size: 1rem;
   display: block;
 }
 
@@ -690,7 +702,7 @@ header a {
   color: #373737;
 }
 
-@media (min-width: 200px) and (max-width: 480px) {
+@media (min-width: 200px) and (max-width: 600px) {
   /* line 238, ../../app/assets/layouts/partials/_header.scss */
   header {
     height: 100px;
@@ -702,64 +714,62 @@ header a {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    width: 37.5%;
+    width: 50%;
     float: left;
     padding-left: 1.25%;
     padding-right: 1.25%;
-    height: inherit;
     position: relative;
     height: 100px;
-    background-position: 0% 50%;
-    background-size: 66px;
+    background-position: 0 50%;
+    background-size: 65px;
   }
-  /* line 252, ../../app/assets/layouts/partials/_header.scss */
+  /* line 251, ../../app/assets/layouts/partials/_header.scss */
   header .contacts {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    width: 62.5%;
+    width: 50%;
     float: right;
     padding-left: 1.25%;
     padding-right: 1.25%;
     height: inherit;
     position: relative;
   }
-  /* line 258, ../../app/assets/layouts/partials/_header.scss */
+  /* line 257, ../../app/assets/layouts/partials/_header.scss */
   header .site-name {
-    width: 50px;
     position: absolute;
-    bottom: 5%;
-    right: 0;
-    left: 0;
-    text-align: center;
-    margin: 0 auto;
+    bottom: 22%;
+    left: 60px;
+    font-size: 1.3rem;
+    line-height: 1.2rem;
   }
   /* line 269, ../../app/assets/layouts/partials/_header.scss */
   header .address, header .phone {
     text-align: center;
+    font-size: 1.1rem;
   }
-  /* line 272, ../../app/assets/layouts/partials/_header.scss */
-  header .phone {
-    padding-top: 0;
-  }
-  /* line 276, ../../app/assets/layouts/partials/_header.scss */
+  /* line 277, ../../app/assets/layouts/partials/_header.scss */
   header .city-name, header .tel_num {
     display: block;
   }
-  /* line 282, ../../app/assets/layouts/partials/_header.scss */
+  /* line 283, ../../app/assets/layouts/partials/_header.scss */
   header .h_icon {
     display: none;
   }
+  /* line 287, ../../app/assets/layouts/partials/_header.scss */
+  header .call_btn {
+    height: 25px;
+  }
 }
-@media (min-width: 481px) and (max-width: 960px) {
-  /* line 291, ../../app/assets/layouts/partials/_header.scss */
-  header {
+@media (min-width: 601px) and (max-width: 720px) {
+  /* line 320, ../../app/assets/layouts/partials/_header.scss */
+  header .inner {
     position: relative;
     height: 70px;
     padding: 0px 0;
   }
 
-  /* line 298, ../../app/assets/layouts/partials/_header.scss */
+  /* line 326, ../../app/assets/layouts/partials/_header.scss */
   .logo {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -769,31 +779,29 @@ header a {
     padding-left: 0.83333%;
     padding-right: 0.83333%;
     height: 70px;
-    min-width: 70px;
-    max-width: 80px;
     position: relative;
-    background-position: 0 0px;
-    background-size: 66px;
+    background-position: 0 50%;
+    background-size: 50px;
     background-image: url("/images/header/logo.svg");
   }
 
-  /* line 310, ../../app/assets/layouts/partials/_header.scss */
+  /* line 336, ../../app/assets/layouts/partials/_header.scss */
   a.home {
     border: none;
     width: 120px;
   }
 
-  /* line 314, ../../app/assets/layouts/partials/_header.scss */
+  /* line 340, ../../app/assets/layouts/partials/_header.scss */
   .site-name {
     position: absolute;
     top: 18px;
-    left: 65px;
+    left: 45px;
     line-height: 1rem;
     text-align: left;
     font-size: 1.1rem;
   }
 
-  /* line 324, ../../app/assets/layouts/partials/_header.scss */
+  /* line 350, ../../app/assets/layouts/partials/_header.scss */
   .contacts {
     height: 100%;
     -moz-box-sizing: border-box;
@@ -806,14 +814,13 @@ header a {
     position: relative;
   }
 
-  /* line 330, ../../app/assets/layouts/partials/_header.scss */
+  /* line 356, ../../app/assets/layouts/partials/_header.scss */
   .address {
     position: absolute;
     -moz-transform: translateY(20%);
     -ms-transform: translateY(20%);
     -webkit-transform: translateY(20%);
     transform: translateY(20%);
-    line-height: 2rem;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -821,49 +828,42 @@ header a {
     float: left;
     padding-left: 1%;
     padding-right: 1%;
-    padding-left: 9.16667%;
+    line-height: 2rem;
   }
 
-  /* line 336, ../../app/assets/layouts/partials/_header.scss */
+  /* line 361, ../../app/assets/layouts/partials/_header.scss */
   .phone {
     position: absolute;
     -moz-transform: translateY(20%);
     -ms-transform: translateY(20%);
     -webkit-transform: translateY(20%);
     transform: translateY(20%);
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    width: 50%;
-    float: right;
-    padding-left: 1%;
-    padding-right: 1%;
-    padding-left: 9.16667%;
-    top: 0%;
     line-height: 2rem;
-    left: 50%;
+    right: 5%;
   }
 
-  /* line 346, ../../app/assets/layouts/partials/_header.scss */
+  /* line 367, ../../app/assets/layouts/partials/_header.scss */
   .h_icon {
     float: left;
+    background-size: 34px;
+    display: block;
+    width: 15%;
   }
 
-  /* line 350, ../../app/assets/layouts/partials/_header.scss */
+  /* line 374, ../../app/assets/layouts/partials/_header.scss */
   .city-name, .tel_num, a.call_btn {
     display: inline;
   }
 
-  /* line 354, ../../app/assets/layouts/partials/_header.scss */
+  /* line 378, ../../app/assets/layouts/partials/_header.scss */
   a.call_btn {
     margin-left: 10px;
     display: inline-block;
-    height: 32px;
-    width: 100px;
+    height: 27px;
   }
 }
-@media (min-width: 961px) {
-  /* line 370, ../../app/assets/layouts/partials/_header.scss */
+@media (min-width: 721px) {
+  /* line 394, ../../app/assets/layouts/partials/_header.scss */
   header {
     background-color: white;
     box-shadow: 0 1px 12px 0 rgba(0, 0, 0, 0.12), 0 1px 1px 0 rgba(0, 0, 0, 0.06);
@@ -871,7 +871,7 @@ header a {
     position: relative;
   }
 
-  /* line 377, ../../app/assets/layouts/partials/_header.scss */
+  /* line 401, ../../app/assets/layouts/partials/_header.scss */
   header .inner {
     max-width: 960px;
     max-width: 43.63636rem;
@@ -885,7 +885,7 @@ header a {
     clear: both;
   }
 
-  /* line 381, ../../app/assets/layouts/partials/_header.scss */
+  /* line 405, ../../app/assets/layouts/partials/_header.scss */
   .logo {
     background-image: url("/images/header/logo.svg");
     background-repeat: no-repeat;
@@ -895,7 +895,7 @@ header a {
     line-height: 100%;
   }
 
-  /* line 391, ../../app/assets/layouts/partials/_header.scss */
+  /* line 415, ../../app/assets/layouts/partials/_header.scss */
   .logo {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -915,7 +915,7 @@ header a {
     z-index: 2;
   }
 
-  /* line 405, ../../app/assets/layouts/partials/_header.scss */
+  /* line 429, ../../app/assets/layouts/partials/_header.scss */
   a.home {
     position: relative;
     line-height: 20px;
@@ -923,7 +923,7 @@ header a {
     z-index: 1;
   }
 
-  /* line 411, ../../app/assets/layouts/partials/_header.scss */
+  /* line 435, ../../app/assets/layouts/partials/_header.scss */
   .site-name {
     position: absolute;
     bottom: 0px;
@@ -933,13 +933,13 @@ header a {
     right: 0%;
   }
 
-  /* line 420, ../../app/assets/layouts/partials/_header.scss */
+  /* line 444, ../../app/assets/layouts/partials/_header.scss */
   .contacts {
     position: relative;
     text-align: center;
   }
 
-  /* line 425, ../../app/assets/layouts/partials/_header.scss */
+  /* line 449, ../../app/assets/layouts/partials/_header.scss */
   .address {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -959,13 +959,13 @@ header a {
     text-align: center;
   }
 
-  /* line 432, ../../app/assets/layouts/partials/_header.scss */
+  /* line 456, ../../app/assets/layouts/partials/_header.scss */
   .city-name {
     display: block;
     line-height: 1.2rem;
   }
 
-  /* line 440, ../../app/assets/layouts/partials/_header.scss */
+  /* line 464, ../../app/assets/layouts/partials/_header.scss */
   .phone {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -985,12 +985,12 @@ header a {
     transform: translateY(5%);
   }
 
-  /* line 446, ../../app/assets/layouts/partials/_header.scss */
+  /* line 470, ../../app/assets/layouts/partials/_header.scss */
   .telephone {
     display: block;
   }
 
-  /* line 450, ../../app/assets/layouts/partials/_header.scss */
+  /* line 474, ../../app/assets/layouts/partials/_header.scss */
   a.call_btn {
     display: block;
     height: 33px;
@@ -998,12 +998,12 @@ header a {
     width: 98px;
   }
 
-  /* line 459, ../../app/assets/layouts/partials/_header.scss */
+  /* line 483, ../../app/assets/layouts/partials/_header.scss */
   .city-name, .tel_num {
     display: block;
   }
 
-  /* line 464, ../../app/assets/layouts/partials/_header.scss */
+  /* line 488, ../../app/assets/layouts/partials/_header.scss */
   .h_icon {
     display: block;
     float: none;
@@ -1083,7 +1083,7 @@ ul.price-nav li .label {
   padding-top: 0px;
 }
 
-@media (min-width: 481px) and (max-width: 960px) {
+@media (min-width: 601px) and (max-width: 720px) {
   /* line 85, ../../app/assets/layouts/partials/_price-menu.scss */
   .price-menu {
     height: 105px;
@@ -1108,7 +1108,7 @@ ul.price-nav li .label {
     font-size: .9rem;
   }
 }
-@media (min-width: 961px) {
+@media (min-width: 721px) {
   /* line 119, ../../app/assets/layouts/partials/_price-menu.scss */
   .price-menu {
     height: 120px;
@@ -1287,10 +1287,19 @@ footer ul.main-menu li.active {
 
 /* line 17, ../../app/assets/layouts/pages/price.scss */
 .price-page {
+  max-width: 960px;
+  max-width: 43.63636rem;
+  margin-left: auto;
+  margin-right: auto;
   position: relative;
-  height: calc(100% - 120px);
   overflow: hidden;
   overflow-y: auto;
+}
+/* line 12, ../../../../.rvm/gems/ruby-1.9.3-p551-dev/gems/susy-2.2.5/sass/susy/output/support/_clearfix.scss */
+.price-page:after {
+  content: " ";
+  display: block;
+  clear: both;
 }
 
 /* line 25, ../../app/assets/layouts/pages/price.scss */
@@ -1312,7 +1321,7 @@ footer ul.main-menu li.active {
   display: block;
 }
 
-@media (min-width: 200px) and (max-width: 480px) {
+@media (min-width: 200px) and (max-width: 600px) {
   /* line 49, ../../app/assets/layouts/pages/price.scss */
   .price-page article table {
     width: 100%;
@@ -1372,7 +1381,7 @@ footer ul.main-menu li.active {
     text-align: right;
   }
 }
-@media (min-width: 481px) and (max-width: 960px) {
+@media (min-width: 601px) and (max-width: 720px) {
   /* line 111, ../../app/assets/layouts/pages/price.scss */
   .price-page article table {
     width: 100%;
@@ -1432,7 +1441,7 @@ footer ul.main-menu li.active {
     text-align: right;
   }
 }
-@media (min-width: 961px) {
+@media (min-width: 721px) {
   /* line 174, ../../app/assets/layouts/pages/price.scss */
   .price-page article table {
     width: 100%;
