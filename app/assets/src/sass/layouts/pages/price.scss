@@ -1,0 +1,235 @@
+//article.tab {
+//  display: none;
+//}
+//
+//.to:checked ~ [tabcontent="TO"],
+//.wash:checked ~ [tabcontent="wash"],
+//#tab3:checked ~ [tabcontent="tab3"],
+//#tab4:checked ~ [tabcontent="tab4"],
+//#tab4:checked ~ [tabcontent="tab4"],
+//#tab4:checked ~ [tabcontent="tab4"]
+//
+//{
+//  display: block;
+//}
+
+
+  .price-page {
+    @include container;
+    position: relative;
+    overflow: hidden;
+    overflow-y: auto;
+    //-webkit-overflow-scrolling: touch;
+  }
+
+  .price-page article {
+    ////overflow: scroll;
+    overflow-y: auto;
+    //overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .price-page article {
+    //font-size: 0.9rem;
+    //line-height: 1rem;
+    display: none;
+    font-family: 'PTSansRegular', sans-serif;
+    background-color: #ffffff;
+    border-bottom: 1px solid #BEBBBB;
+  }
+
+  .price-page article table thead {
+    font-family: PTSansNarrow, sans-serif;
+  }
+
+  .price-page article:nth-of-type(1) {
+    display: block;
+  }
+
+
+
+@include susy-breakpoint($mobile-size, $mobile) {
+
+  .price-page article table {
+    width: 100%;
+
+    th:last-child, tbody tr td:last-child {
+      text-align: right;
+    }
+
+    thead {
+      display: block;
+      width: 100%;
+      color: darkgrey;
+      border-bottom: 2px solid #c0392b;
+    }
+
+    thead tr {
+      display: table;
+      width: 98%;
+      margin: 0 auto;
+    }
+    thead tr th:first-child {
+      font-size: 1.4rem;
+      color: #293a4b;
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+
+    thead tr th:last-child {
+      font-size: .8rem;
+      text-align: right;
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+
+    tbody {
+      display: table;
+      width: 98%;
+      margin: 0 auto;
+    }
+
+    tbody tr {
+      border-bottom: 1px solid #C7C7C7;
+    }
+    tbody tr:last-child {
+      border-bottom: none;
+    }
+
+    tbody tr td {
+      padding: 3px;
+    }
+
+    tbody tr td:last-child {
+      padding-right: 1%;
+      text-align: right;
+    }
+
+  }
+
+}
+
+
+@include susy-breakpoint($tablet-size, $tablet) {
+
+  .price-page article table {
+    width: 100%;
+
+    th:last-child, tbody tr td:last-child {
+      text-align: right;
+    }
+
+    thead {
+      display: block;
+      width: 100%;
+      color: darkgrey;
+      border-bottom: 2px solid #c0392b;
+    }
+
+    thead tr {
+      display: table;
+      width: 67%;
+      margin: 0 auto;
+    }
+    thead tr th:first-child {
+      font-size: 1.4rem;
+      color: #293a4b;
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+
+    thead tr th:last-child {
+      font-size: .8rem;
+      text-align: right;
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+
+    tbody {
+      display: table;
+      width: 67%;
+      margin: 0 auto;
+    }
+
+    tbody tr {
+      border-bottom: 1px solid #C7C7C7;
+    }
+    tbody tr:last-child {
+      border-bottom: none;
+    }
+
+    tbody tr td {
+      padding: 7px;
+    }
+
+    tbody tr td:last-child {
+      padding-right: 1%;
+      text-align: right;
+    }
+
+  }
+
+}
+
+
+
+@include susy-breakpoint($desktop-size, $large) {
+
+  .price-page article table {
+    width: 100%;
+
+    th:last-child, tbody tr td:last-child {
+      text-align: right;
+    }
+
+    thead {
+      display: block;
+      width: 100%;
+      color: darkgrey;
+      border-bottom: 2px solid #c0392b;
+    }
+
+    thead tr {
+      display: table;
+      width: 67%;
+      margin: 0 auto;
+    }
+    thead tr th:first-child {
+      font-size: 1.4rem;
+      color: #293a4b;
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+
+    thead tr th:last-child {
+      font-size: .8rem;
+      text-align: right;
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+
+    tbody {
+      display: table;
+      width: 67%;
+      margin: 0 auto;
+    }
+
+    tbody tr {
+      border-bottom: 1px solid #C7C7C7;
+    }
+    tbody tr:last-child {
+      border-bottom: none;
+    }
+
+    tbody tr td {
+      padding: 7px;
+    }
+
+    tbody tr td:last-child {
+      padding-right: 1%;
+      text-align: right;
+    }
+
+  }
+
+}

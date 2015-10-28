@@ -1,0 +1,193 @@
+  .price-menu {
+    background-color: #34495e;
+    height: 90px;
+    -webkit-box-shadow: 0 1px 0px -0px rgba(119, 119, 119, 0.5);
+    -moz-box-shadow: 0 1px 0px -0px rgba(119, 119, 119, 0.5);
+    box-shadow: 0 1px 0px -0px rgba(119, 119, 119, 0.5);
+    z-index: 10;
+  }
+
+  ul.price-nav {
+
+    list-style-type: none;
+
+
+  }
+
+  ul.price-nav li {
+
+    text-align: center;
+    height: 90px;
+    width: 16%;
+    padding-top: 12px;
+
+    &:hover {
+      transition: background, .3s ease;
+      background: #D15F54;
+      //transform: scale(1.2);
+    }
+
+  }
+
+  .active {
+    background: #D15F54;
+  }
+
+
+
+  ul.price-nav li:nth-child(4) {
+    width: 20%;
+  }
+
+
+  ul.price-nav li input[type=radio] {
+    display:none;
+  }
+
+
+
+  ul.price-nav li .label {
+    display: inline-block;
+    color:white;
+    border-bottom:1px dashed #ffffff;
+  }
+
+
+.price-nav {
+
+    .icon {
+      height: 40px;
+      background-position: 50% 50%;
+      background-size: 60%;
+      background-repeat: no-repeat;
+      width: 100%;
+      left: auto;
+      right: auto;
+
+      margin: 0 auto;
+      display: block;
+      text-align: center;
+    }
+
+  ul.price-nav li  {
+
+      text-align: center;
+      height: 120px;
+      width: 16%;
+      padding-top: 0px;
+
+    }
+
+  }
+    @include breakpoint($tablet-size) {
+
+      .price-menu {
+        height: 105px;
+      }
+      .price-nav .icon {
+
+        background-position: 50% 50%;
+          background-size: 60%;
+         height: 60px
+        }
+
+
+      ul.price-nav li {
+
+        height: 105px;
+        width: 16%;
+        padding-top: 10px;
+
+      }
+
+
+      .price-nav span {
+        font-size: .9rem;
+
+      }
+
+    }
+
+
+
+  @include breakpoint($desktop-size) {
+
+
+
+
+     .price-menu {
+       height: 120px;
+     }
+
+     .price-nav .icon {
+         background-position: 50% 50%;
+         height: 65px;
+         background-size: 64%;
+       }
+
+    .price-nav {
+      .icon-to {
+        background-size: 55%;
+        background-position: 50% 5px;
+      }
+      .icon-remont {
+        background-size: 55%;
+        background-position: 50% 0px;
+      }
+      .icon-custom {
+        background-size: 55%;
+        background-position: 50% -10px;
+      }
+      .icon-mount {
+        background-size: 50%;
+        background-position: 50% -5px;
+      }
+      .icon-wash {
+        background-size: 55%;
+        background-position: 50% 5px;
+      }
+      .icon-paint {
+        background-size: 55%;
+        background-position: 50% 0px;
+      }
+    }
+
+    .price-nav span {
+        padding-top: 10px;
+        font-size: 1rem;
+
+      }
+
+
+    ul.price-nav li  {
+
+      height: 120px;
+
+    }
+
+
+   }
+
+
+
+    ul.price-nav li:nth-child(4) {
+
+      width:18%;
+
+    }
+
+    .label {
+
+     font-size: .7rem;
+
+    }
+
+
+
+.icon-to    {background-image: inline-image("icons/menu-price/1.svg");}
+.icon-remont{background-image: inline-image("icons/menu-price/2.svg");}
+.icon-custom{background-image: inline-image("icons/menu-price/3.svg");}
+.icon-mount {background-image: inline-image("icons/menu-price/4.svg"); }
+.icon-wash  {background-image: inline-image("icons/menu-price/5.svg");}
+.icon-paint {background-image: inline-image("icons/menu-price/6.svg");}
+

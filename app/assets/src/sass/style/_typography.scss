@@ -1,0 +1,134 @@
+@import "compass/reset";
+@import "compass/typography/vertical_rhythm";
+@import "compass/typography/links/link-colors";
+@import "compass/css3";
+@import "breakpoint";
+//@import '/fonts/PT_Sans/stylesheet.css';
+
+
+/*fonts*/
+@include font-face("BebasRegular", inline-font-files("BebasRegular/BebasRegular.ttf", "BebasRegular/BebasRegular.eot", "BebasRegular/BebasRegular.woff"));
+@include font-face("BebasBold", inline-font-files("BebasBold/BebasBold.ttf", "BebasBold/BebasBold.eot", "BebasBold/BebasBold.woff"));
+@include font-face("PTSansRegular", inline-font-files("PT_Sans/PTS55F_W.ttf", "PT_Sans/PTS55F_W.eot", "PT_Sans/PTS55F_W.woff"));
+@include font-face("PTSansNarrow", inline-font-files("PT_Sans/PTN57F_W.ttf", "PT_Sans/PTN57F_W.eot", "PT_Sans/PTN57F_W.woff"));
+
+
+/*base */
+
+
+$base-font-size: 18px !global;
+$base-line-height: 22px !global;
+$rhythm-unit: "rem" !global;
+$rem-with-px-fallback: true !global;
+@include establish-baseline();
+
+
+
+@include breakpoint($mobile-size) {
+  $base-font-size: 18px !global;
+  $base-line-height: 22px !global;
+  $rhythm-unit: "rem" !global;
+  $rem-with-px-fallback: true !global;
+  @include establish-baseline();
+}
+
+//
+@include breakpoint($tablet-size){
+  $base-font-size: 20px !global;
+  $base-line-height: 25px!global;
+  $rhythm-unit: "rem"!global;
+  $rem-with-px-fallback: true!global;
+  @include establish-baseline();
+}
+
+@include breakpoint($desktop-size) {
+  $base-font-size: 22px !global;
+  $base-line-height: 25px!global;
+  $rhythm-unit: "rem"!global;
+  $rem-with-px-fallback: true!global;
+  @include establish-baseline();
+}
+
+
+
+/*DEBUG*/
+  //body {@include debug-vertical-alignment();}
+/**/
+
+
+
+//header .contacts {
+//  line-height: 1.5em;
+//  overflow: hidden;
+//}
+//header .contacts  a{
+//  @include adjust-font-size-to(1.133rem);
+//
+//}
+
+//
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+a {
+  @include link-colors(indianred, red, blue, #373737, blue)
+}
+
+h1,h2,h3,h4,h5,p,iframe,{
+  @include margin-trailer();
+}
+
+
+
+h1 { @include adjust-font-size-to(3.157rem); }
+h2 { @include adjust-font-size-to(2.369rem); }
+h3 { @include adjust-font-size-to(1.777rem); }
+h4 { @include adjust-font-size-to(1.133rem); }
+h5 { @include adjust-font-size-to(1rem); }
+h6 { @include adjust-font-size-to(.75rem); }
+
+.price-page article{
+  font-family: "PT Sans";
+}
+
+
+.price-page article .title {
+   //font-size: 1.777rem;
+ }
+
+
+a {
+  text-decoration: none;
+   //@include adjust-font-size-to(1.133rem);
+}
+
+ul {list-style-type: none;}
+
+
+a, p, span {
+    font-family: "BebasRegular";
+  }
+strong {
+    font-family: "BebasBold";
+  }
+
+header .contacts {
+
+  font-family: "BebasRegular";
+
+  //line-height: 1.1rem;
+  //strong {
+  //
+  //  font-size: 1.3rem;
+  //    @include adjust-font-size-to(1.777rem);
+  //    line-height: 1.133rem;
+      //font: $body-font-size $body-font-family ;
+    //  //line-height: $body-line-height;
+    //  line-height: $base-line-height;
+    //color: rgba(55, 55, 55, 0.92);
+    //font-size: 1.133rem;
+
+  }
+

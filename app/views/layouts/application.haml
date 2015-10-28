@@ -29,8 +29,12 @@
 		%meta{:content => "mstile-310x310.png", :name => "msapplication-square310x310logo"}/
 		%script{:src => "https://api-maps.yandex.ru/2.1/?lang=ru_RU", :type => "text/javascript"}
 
-		=stylesheet_link_tag 'application'
-		=stylesheet_link_tag 'animations'
+		- if ENV['RACK_ENV'] == 'production'
+			= stylesheet_link_tag 'app.min'
+		- else
+			= stylesheet_link_tag 'application'
+
+		= stylesheet_link_tag 'animations'
 
 
 
@@ -47,5 +51,7 @@
 
 			= partial 'layouts/partials/footer'
 
-
-	=javascript_include_tag  'jquery.js', 'tabs.js', 'pagetransitions.js', 'application.js'
+- if ENV["RACK_ENV"] == 'production'
+	= javascript_include_tag 'vendor/vendor.min', 'custom/app.min'
+- else
+	= javascript_include_tag  'jquery.js', 'tabs.js', 'pagetransitions.js', 'application.js'

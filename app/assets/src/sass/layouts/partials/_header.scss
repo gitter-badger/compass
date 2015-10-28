@@ -1,0 +1,663 @@
+
+///* icons */
+
+$metka_icon:  inline-image('icons_svg/metka.svg');
+$phone_icon: inline-image('icons_svg/tel.svg');
+
+.metka-icon{background-image: $metka_icon;}
+.phone-icon{background-image: $phone_icon; padding: 0 5px;}
+
+.h_icon {
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 35px;
+  height: 40px;
+  width: 40px;
+}
+
+.logo {
+  background-image: inline-image("header/logo.svg");
+  background-repeat: no-repeat;
+  position: relative;
+  line-height: 100%;
+}
+
+
+
+header a {
+
+  color: #373737;
+
+  &:visited {
+    color: #373737;
+  }
+
+}
+
+
+
+.logo a {
+  display: block;
+  height: 100%;
+
+  &:hover {
+    border: 0;
+    color: #50687d;
+
+    -webkit-transition: all,.6s;
+    -moz-transition: all,.6s;
+    -ms-transition: all,.6s;
+    -o-transition: all,.6s;
+    transition: all,.6s;
+  }
+
+}
+
+.site-name {
+  line-height: .9rem;
+}
+
+.site-name strong{
+
+  //font-size: 1.1rem;
+}
+
+.address {
+  line-height: 1.1rem;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.city-name {
+  //font-size: 1.2rem;
+  color: #373737
+}
+
+.address a  {
+
+  border: 0;
+
+}
+
+
+.phone {
+  line-height: 1rem;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+}
+
+.tel_num {
+  //font-size: 1.2rem;
+  color: #373737;
+}
+
+
+a.call_btn {
+  border: 1px dashed rgba(179, 53, 40, 1);
+  border-radius: 5px;
+  /* box-sizing: border-box; */
+  line-height: 1.2rem;
+  //background-color:rgba(179, 53, 40, 1);
+  display: block;
+  padding: 3px 7px;
+  font-size: 1rem;
+
+  /* margin: -3px 15px; */
+  margin: 0 auto;
+  width: 90px;
+  color: rgba(179, 53, 40, 1);
+  text-align: center;
+
+  &:hover {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: rgba(179, 53, 40, 0.9);
+    border: 1px solid rgba(179, 53, 40, 1);
+
+
+    -webkit-transition: all,.6s;
+    -moz-transition: all,.6s;
+    -ms-transition: all,.6s;
+    -o-transition: all,.6s;
+    transition: all,.6s;
+
+
+  }
+}
+
+
+
+//header {
+//  height: 100px;
+//  z-index: 20;
+//  position: relative;
+//
+//  .logo {
+//    @include span(1);
+//    height: inherit;
+//    position: relative;
+//    z-index: 2;
+//  }
+//
+//  .contacts {
+//    @include span(last 5);
+//    height: inherit;
+//    position: relative;
+//    z-index: 1;
+//  }
+//
+//
+//  .site-name {
+//    width: 100%;
+//    position: absolute;
+//    bottom: 5%;
+//    right: 0;
+//    left: 0;
+//    text-align: center;
+//    margin: 0 auto;
+//
+//    strong {
+//      display: block;
+//      font-size: 1.1rem;
+//      line-height: 1rem;
+//    }
+//    span {
+//      display: block;
+//      line-height: 1rem;
+//    }
+//  }
+//
+//}
+
+
+header {
+  -webkit-box-shadow: 0 1px 0px -0px rgba(119, 119, 119, 0.5);
+  -moz-box-shadow: 0 1px 0px -0px rgba(119, 119, 119, 0.5);
+  box-shadow: 0 1px 0px -0px rgba(119, 119, 119, 0.5);
+  z-index: 999;
+  //padding:0 1rem;
+
+}
+
+
+
+.logo a {
+  display: block;
+  height: 100%;
+  
+  &:hover {border: 0;
+  }
+  &:visited {
+    //color: #373737;
+    }
+}
+
+  .logo:hover {
+
+    transition: all,.2s;
+    a {
+      color: #50687d
+    }
+  }
+
+.logo .site-name strong {display: block;}
+.logo .site-name {
+  //font-size: 1rem;
+  display: block;
+
+
+  &:hover {
+    //;
+  }
+
+}
+
+.logo a {display: block; }
+
+header a {
+
+  -webkit-transition: all,.6s;
+  -moz-transition: all,.6s;
+  -ms-transition: all,.6s;
+  -o-transition: all,.6s;
+  transition: all,.6s;
+  //border-bottom: 1px dashed indianred;
+
+  color: #373737;
+  //@include transition (border 0.2s ease-in-out);
+  //&:hover {
+  //  border-bottom: 1px dashed indianred;
+  //}
+
+}
+
+
+@include susy-breakpoint($mobile-size, $mobile) {
+
+  header {
+    height: 100px;
+    z-index: 20;
+    position: relative;
+
+    .logo {
+      @include span(4);
+      position: relative;
+      height: 100px;
+      background-position: 0 50%;
+      background-size: 65px;
+    }
+
+    .contacts {
+      @include span(last 4);
+      height: inherit;
+      position: relative;
+    }
+
+    .site-name {
+      //width: 50px;
+      position: absolute;
+      bottom: 22%;
+      //right: 0px;
+      left: 60px;
+      font-size: 1.3rem;
+      line-height: 1.2rem;
+      //text-align: center;
+      //margin: 0 auto;
+    }
+
+    .address, .phone {
+      text-align: center;
+      font-size: 1.1rem;
+    }
+    .phone {
+      //padding-top: 0;
+    }
+
+    .city-name, .tel_num {
+
+      display: block;
+
+    }
+
+    .h_icon {
+     display: none;
+    }
+
+    .call_btn {
+      height: 25px;
+    }
+  }
+
+}
+
+
+
+    //
+    //.h_icon {
+    //  //float: none;
+    //  //background-size: 60%;
+    //  display: none;
+    //}
+
+    //.address {
+    //  @include vertical-center(relative, 0%);
+    //  line-height: 2rem;
+    //  text-align: center;
+    //}
+    //.phone {
+    //  @include vertical-center(relative, 0%);
+    //  line-height: 2rem;
+    //  text-align: center;
+    //}
+//}
+
+
+
+
+@include susy-breakpoint($tablet-size, $tablet ) {
+
+  header .inner{
+    position: relative;
+    height: 70px;
+    padding: 0px 0;
+  }
+
+  .logo {
+    @include span(2);
+    height: 70px;
+    position: relative;
+    background-position: 0 50%;
+    background-size: 60px;
+  }
+
+  a.home {
+    border: none;
+    width: 120px;
+  }
+  .site-name {
+    position: absolute;
+    top: 18px;
+    left: 55px;
+    line-height: 1rem;
+    text-align: left;
+    font-size: 1.1rem;
+
+  }
+
+  .contacts {
+    height: 100%;
+    @include span(last 10);
+    position: relative;
+  }
+
+  .address {
+    @include vertical-center(absolute, 20%);
+    @include span(5 of 10);
+    line-height: 2rem;
+  }
+  .phone {
+    @include vertical-center(absolute, 20%);
+    line-height: 2rem;
+    right: 5%;
+  }
+
+  .h_icon {
+    float: left;
+    background-size: 34px;
+    display: block;
+    width: 15%;
+  }
+
+  .city-name, .tel_num, a.call_btn {
+    display: inline;
+  }
+
+  a.call_btn {
+    margin-left: 10px;
+    display: inline-block;
+    height: 27px;
+    //width: 80px;
+  }
+
+}
+
+
+
+
+
+@include susy-breakpoint($desktop-size, $large ) {
+
+
+  header  {
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0 1px 12px 0 rgba(0,0,0,.12),0 1px 1px 0 rgba(0,0,0,.06);
+    height: 125px;
+    position: relative;
+  }
+
+  header .inner {
+    @include container();
+  }
+
+  .logo {
+    background-repeat: no-repeat;
+    background-position: 50% 5%;
+    background-size: 54px;
+    position: relative;
+    line-height: 100%;
+
+  }
+
+    .logo {
+      @include span(1);
+      height: 120px;
+      min-width: 70px;
+      position: absolute;
+      left: 0%;
+      right: 0%;
+      margin: auto;
+      background-position: 50% 5px;
+      background-size: 64px;
+      z-index: 2;
+
+    }
+
+    a.home {
+      position: relative;
+      line-height: 20px;
+      border: none;
+      z-index: 1;
+    }
+    .site-name {
+      position: absolute;
+      bottom: 0px;
+      margin: auto;
+      left: 0;
+      text-align: center;
+      right: 0%;
+    }
+
+    .contacts {
+      position: relative;
+      text-align: center;
+    }
+
+    .address {
+      @include span(3);
+      @include isolate(2);
+      @include vertical-center(relative, 5%);
+      text-align: center;
+    }
+
+    .city-name {
+
+      display: block;
+      line-height: 1.2rem;
+
+    }
+
+
+    .phone {
+      @include span(3);
+      @include isolate(9);
+      text-align: center;
+      @include vertical-center(relative, 5%);
+    }
+    .telephone {
+      display: block;
+    }
+
+    a.call_btn {
+      display: block;
+      height: 33px;
+      padding: 4px;
+      width: 98px;
+
+    }
+
+
+    .city-name, .tel_num {
+
+      display: block;
+
+    }
+    .h_icon {
+      display: block;
+      float: none;
+      margin: 0 auto;
+      height:45px;
+      background-size: 35px;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//
+//header address {}
+//header .address {white-space: nowrap;}
+//header .address a {font-size: 1.3em;}
+//
+//header .phone {}
+//header .phone {  white-space: nowrap;}
+//
+////.call_btn {margin: 10px;}
+
+
+////header .phone .call_btn {display: block;}
+//
+////
+////
+////
+////.site-name strong {
+////  font-size: 1.6em;
+////  line-height: 1.25em;
+////}
+////.site-name span {
+////  line-height: .4;
+////  font-size: 1.3em;
+////  display: block;
+////}
+////.telephone {
+////  font-size: 1.4em;
+////}
+////
+////
+////
+////@include media($mobile) {
+////
+////  .site-name strong {
+////    font-size: 1.6em;
+////  }
+////  .site-name span {
+////    font-size: 1.2em;
+////    display: block;
+////  }
+////}
+////
+////
+////
+////@include media($tablet) {
+////
+////  .site-name strong {
+////    font-size: 1.6em;
+////    line-height: 1em;
+////  }
+////  .site-name span {
+////    line-height: .4;
+////    font-size: 1.2em;
+////    display: block;
+////  }
+////
+////}
+////
+////
+////@include media($desktop) {
+////
+////  .site-name strong {
+////    font-size: 2em;
+////    line-height: 1.25em;
+////  }
+////  .site-name span {
+////    line-height: .4;
+////    font-size: 1.4em;
+////    display: block;
+////  }
+////}
+//
+////header {
+////  color: #373737;
+////  text-align: center;
+////  //border-bottom: 0 none;
+////  //box-shadow: 0 5px 0 0 rgba(0, 0, 0, 0.46);
+////
+////  a {
+////    display: block;
+////  }
+////
+////  .logo a {border: 0;}
+////
+////  p {
+////    margin: 0;
+////  }
+////
+////  .sitename strong {
+////    display: block;
+////    font-size: em(24);
+////    line-height: 1.25em;
+////  }
+////
+////
+////  .site-name span {
+////    line-height: .4;
+////    display: block;
+////
+////  }
+////
+////}
+////  .site-name{
+////    a {border: 0;}
+////  }
+////
+////
+////
+////.address, .address a {
+////
+////}
+//
+//
+////  .city-name {
+////    color: #373737;
+////    display: inline;
+////    vertical-align: bottom;
+////    font: 1.3em BebasBold;
+////
+////  }
+////
+////  .street {
+////      display: inline;
+////      color: #333333;
+////      border-bottom: 1px dashed #293a4b;
+////  }
+////
+////
+////  .phone {
+////  }
+////    span {
+////      display: block;
+////    }
+////
+////
+////    .call_btn a {
+////      display: inline-block;
+////
+////    }
+////
+//
+////
+////     header a {
+////        font-size: 1.3em;
+////        display: inline-block;
+////        color: crimson;
+////        border-bottom: 1px dashed #293a4b;
+////      }
+////
+////
+////
+////  .phone:before{
+////    content: "";
+////
+////    //background-size: 12%;
+////  }
+//
