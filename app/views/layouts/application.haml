@@ -27,12 +27,10 @@
 		%meta{:content => "mstile-150x150.png", :name => "msapplication-square150x150logo"}/
 		%meta{:content => "mstile-310x150.png", :name => "msapplication-wide310x150logo"}/
 		%meta{:content => "mstile-310x310.png", :name => "msapplication-square310x310logo"}/
+
 		%script{:src => "https://api-maps.yandex.ru/2.1/?lang=ru_RU", :type => "text/javascript"}
 
-		- if ENV['RACK_ENV'] == 'production'
-			= stylesheet_link_tag 'app.min'
-		- else
-			= stylesheet_link_tag 'application'
+		= stylesheet_link_tag 'app.min'
 
 
 	%body
@@ -48,7 +46,11 @@
 
 			= partial 'layouts/partials/footer'
 
-- if ENV["RACK_ENV"] == 'production'
-	= javascript_include_tag 'vendor/vendor.min', 'custom/app.min'
-- else
-	= javascript_include_tag  'jquery.js', 'tabs.js', 'pagetransitions.js', 'application.js'
+= javascript_include_tag 'vendor/vendor.min', 'custom/app.min'
+
+
+
+-#- if ENV["RACK_ENV"] == 'production'
+-#= javascript_include_tag 'vendor/vendor.min', 'custom/app.min'
+-#- else
+-#	= javascript_include_tag  'jquery.js', 'tabs.js', 'pagetransitions.js', 'application.js'

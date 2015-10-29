@@ -25,7 +25,7 @@ Compass::App.controllers :page do
   #   'Hello world!'
   # end
   
-  get :index, :map => '/' do
+  get :index, :map => '/', :cache => true do
     cache_key :index
     # @title="Контакты"
     # if request.xhr?
