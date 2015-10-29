@@ -2527,6 +2527,10 @@ header a:visited {
   line-height: .9rem;
 }
 
+.site-name strong {
+  font-size: 1.2rem;
+}
+
 .address {
   line-height: 1.1rem;
   padding-top: 5px;
@@ -2784,7 +2788,6 @@ header a {
   .logo {
     background-repeat: no-repeat;
     background-position: 50% 5%;
-    background-size: 54px;
     position: relative;
     line-height: 100%;
   }
@@ -2793,7 +2796,7 @@ header a {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    width: 8.33333%;
+    width: 16.66667%;
     float: left;
     padding-left: 0.83333%;
     padding-right: 0.83333%;
@@ -2804,7 +2807,7 @@ header a {
     right: 0%;
     margin: auto;
     background-position: 50% 5px;
-    background-size: 64px;
+    background-size: 71px;
     z-index: 2;
   }
 

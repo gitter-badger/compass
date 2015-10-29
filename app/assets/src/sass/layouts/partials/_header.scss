@@ -59,7 +59,7 @@ header a {
 
 .site-name strong{
 
-  //font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 
 .address {
@@ -203,7 +203,6 @@ header {
 
 .logo .site-name strong {display: block;}
 .logo .site-name {
-  //font-size: 1rem;
   display: block;
 
 
@@ -403,14 +402,14 @@ header a {
   .logo {
     background-repeat: no-repeat;
     background-position: 50% 5%;
-    background-size: 54px;
     position: relative;
+
     line-height: 100%;
 
   }
 
     .logo {
-      @include span(1);
+      @include span(2);
       height: 120px;
       min-width: 70px;
       position: absolute;
@@ -418,7 +417,7 @@ header a {
       right: 0%;
       margin: auto;
       background-position: 50% 5px;
-      background-size: 64px;
+      background-size: 71px;
       z-index: 2;
 
     }
