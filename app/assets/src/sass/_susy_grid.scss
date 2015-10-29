@@ -377,6 +377,7 @@ footer {
   .page.price{
     top: 100px;
     bottom: 110px;
+
   }
 
   .price-page {
@@ -433,13 +434,15 @@ footer {
   @include susy-breakpoint($desktop-size, $large) {
 
     .page.contacts {
-      top:125px;
+      top:0;
       bottom: 120px;
+      height: 100%;
+
+
     }
     .page.price {
       top: 125px;
       bottom: 120px;
-
     }
     .page.price {
       background-size: 90%;

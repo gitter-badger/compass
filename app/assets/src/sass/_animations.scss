@@ -28,7 +28,7 @@ html, body {
 
 .pt-page {
 	width: 100%;
-	/*height: 100%;*/
+	height: 100%;
 	position: absolute;
 	/*top: 0;*/
 	left: 0;
@@ -53,6 +53,12 @@ html, body {
 
 .no-js body {
 	overflow: auto;
+}
+
+.pt-page-1 {
+}
+
+.pt-page-2 {
 }
 
 /*.pt-trigger-container {*/
