@@ -105,6 +105,7 @@ gulp.task('style:build', function() {
             sass: 'app/assets/src/sass',
             image: 'app/assets/src/images',
             font: 'app/assets/src/fonts',
+            output_style: 'compressed',
             require: ['susy', 'breakpoint']
         }))
         .on('error', function(err) {
@@ -124,6 +125,8 @@ gulp.task('scripts:build', function() {
     var js = gulp.src(['app/assets/src/javascripts/custom/*'])
         //.pipe(coffee())
         .pipe(debug({title: 'scripts:'}))
+        .pipe(uglify())
+
         .pipe(concat('app.min.js'))
 
         .on("error", notify.onError({
@@ -138,7 +141,7 @@ gulp.task('scripts:build', function() {
     var jsDeps = gulp.src(['app/assets/src/javascripts/vendor/*']   )
         .pipe(debug({title: 'scripts:'}))
         .pipe(concat('vendor.min.js'))
-        //.pipe(uglify())
+        .pipe(uglify())
         .pipe(size({
             title: 'size of javascripts dependencies'
         }))
@@ -170,8 +173,9 @@ gulp.task('fonts:build', function() {
 
 
 gulp.task('watch', ['browser-sync'], function() {
-    gulp.watch(['app/assets/src/javascripts/*.coffee','app/assets/src/javascripts/*.js'], ['lint', 'scripts:build']);
+    gulp.watch(['app/assets/src/javascripts/*.coffee','app/assets/src/javascripts/custom/*.js'], ['lint', 'scripts:build']);
     gulp.watch('app/assets/src/sass/*/**.scss', ['compass']);
+    gulp.watch('app/assets/src/sass/*.scss', ['compass']);
     gulp.watch('app/assets/src/images/*', ['images']);
     gulp.watch('app/views/*/**').on('change', browserSync.reload);
 
