@@ -1,12 +1,11 @@
 module Compass
   class App < Padrino::Application
 
+    use Rack::Deflater
     use ConnectionPoolManagement
 
     register Padrino::Mailer
     register Padrino::Helpers
-    register CompassInitializer
-
 
     enable :sessions
 

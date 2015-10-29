@@ -89,6 +89,7 @@ GEM
     rack (1.5.5)
     rack-protection (1.5.3)
       rack
+    rack-zippy (3.0.1)
     rake (10.4.2)
     rb-fsevent (0.9.6)
     rb-inotify (0.9.5)
@@ -128,6 +129,7 @@ DEPENDENCIES
   haml
   padrino (= 0.12.5)
   pg
+  rack-zippy
   rake
   susy
   thin

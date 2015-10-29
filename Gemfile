@@ -21,6 +21,7 @@ gem 'susy'
 gem 'breakpoint'
 gem 'activerecord', '>= 3.1', :require => 'active_record'
 gem 'pg'
+gem 'rack-zippy'
 
 # Test requirements
 
