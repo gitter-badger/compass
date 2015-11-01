@@ -69,8 +69,8 @@
       <file leaf-file-name="_header.haml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/_header.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5737052">
-              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.2868526">
+              <caret line="8" column="70" selection-start-line="8" selection-start-column="70" selection-end-line="8" selection-end-column="70" />
               <folding />
             </state>
           </provider>
@@ -909,12 +909,6 @@
       <option name="number" value="Default" />
       <updated>1436757678896</updated>
     </task>
-    <task id="LOCAL-00016" summary="add logo height">
-      <created>1439244731745</created>
-      <option name="number" value="00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1439244731745</updated>
-    </task>
     <task id="LOCAL-00017" summary="optimize step 1">
       <created>1440310046611</created>
       <option name="number" value="00017" />
@@ -1203,7 +1197,13 @@
       <option name="project" value="LOCAL" />
       <updated>1446408336842</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="schema map link fix">
+      <created>1446408658003</created>
+      <option name="number" value="00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1446408658003</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -1575,14 +1575,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/page/_contacts.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.6666667">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/src/sass/application.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.333333">
@@ -1615,10 +1607,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/page/_contacts.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.6666667">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/_header.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5737052">
-          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.2868526">
+          <caret line="8" column="70" selection-start-line="8" selection-start-column="70" selection-end-line="8" selection-end-column="70" />
           <folding />
         </state>
       </provider>

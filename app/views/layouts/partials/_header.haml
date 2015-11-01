@@ -6,7 +6,7 @@
 				%span.site-name{:itemprop => 'name'}
 					%strong Маслов
 					%span сервис
-
+		%meta{:itemprop => 'hasMap', :itemtype => 'http://schema.org/Map', :itemref => 'to-route'}
 		.contacts
 			.address{:itemprop => 'address', :itemscope => true, :itemtype => 'http://schema.org/PostalAddress'}
 				%i.h_icon.metka-icon
@@ -14,8 +14,7 @@
 					Москва,
 				%span.street{:itemprop => 'streetAddress'} 1-я Фрезерная д.2 к.1
 				%br
-				.btn{:itemprop => 'hasMap', :itemtype => 'http://schema.org/Map'}
-					%a.to-route{:itemprop => 'url',  href: 'https://maps.yandex.ru/21621/reutov/?ol=biz&ll=37.739105%2C55.742012&z=16&rtext=~55.741830%2C37.739105&rtt=auto&oid=1124201315', :target => '_parent'} проложить маршрут
+					%a#to-route{:itemprop => 'url',  href: 'https://maps.yandex.ru/21621/reutov/?ol=biz&ll=37.739105%2C55.742012&z=16&rtext=~55.741830%2C37.739105&rtt=auto&oid=1124201315', :target => '_parent'} проложить маршрут
 			.phone
 				%i.h_icon.phone-icon
 				%span.telephone
