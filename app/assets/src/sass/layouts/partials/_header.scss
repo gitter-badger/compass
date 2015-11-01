@@ -15,11 +15,11 @@ $phone_icon: inline-image('icons_svg/tel.svg');
   width: 40px;
 }
 
-.logo {
-  background-image: inline-image("header/logo.svg");
-  background-repeat: no-repeat;
+.logo img {
   position: relative;
   line-height: 100%;
+  margin: 0 auto;
+  height: 74px;
 }
 
 

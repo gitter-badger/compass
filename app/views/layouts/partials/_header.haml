@@ -1,7 +1,8 @@
 %header
 	.inner{:itemscope => true, :itemtype =>'http://schema.org/Organization'}
 		.logo
-			%a.home{class: 'pt-trigger', href:'#contacts', "data-animation" => "2", "data-goto" => "1" }
+			%a.home{ class: 'pt-trigger', href:'#contacts', "data-animation" => "2", "data-goto" => "1" }
+				%img{:itemprop => 'logo', :src => '/images/header/logo.svg'}
 				%span.site-name{:itemprop => 'name'}
 					%strong Маслов
 					%span сервис
