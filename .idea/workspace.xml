@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f6d15d0b-34cc-4af7-aafc-06c9b93fa8e9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/partials/_header.haml" afterPath="$PROJECT_DIR$/app/views/layouts/partials/_header.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/src/sass/layouts/partials/_header.scss" afterPath="$PROJECT_DIR$/app/assets/src/sass/layouts/partials/_header.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/src/sass/style/_typography.scss" afterPath="$PROJECT_DIR$/app/assets/src/sass/style/_typography.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/app.min.css" afterPath="$PROJECT_DIR$/public/stylesheets/app.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/src/css/application.css" afterPath="$PROJECT_DIR$/app/assets/src/css/application.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="compass.iws" />
@@ -73,8 +69,8 @@
       <file leaf-file-name="_header.haml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/_header.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.60956174">
-              <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.035856575">
+              <caret line="1" column="75" selection-start-line="1" selection-start-column="75" selection-end-line="1" selection-end-column="75" />
               <folding />
             </state>
           </provider>
@@ -913,12 +909,6 @@
       <option name="number" value="Default" />
       <updated>1436757678896</updated>
     </task>
-    <task id="LOCAL-00013" summary="add gem.lock">
-      <created>1439184770745</created>
-      <option name="number" value="00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1439184770745</updated>
-    </task>
     <task id="LOCAL-00014" summary="some style fixes">
       <created>1439234295003</created>
       <option name="number" value="00014" />
@@ -1207,7 +1197,13 @@
       <option name="project" value="LOCAL" />
       <updated>1446389747718</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="css fixing &#10;shema seo">
+      <created>1446407421960</created>
+      <option name="number" value="00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1446407421961</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -1235,7 +1231,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18565401" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28534704" sideWeight="0.49186257" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28534704" sideWeight="0.49186257" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1256,7 +1252,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="bugfix&#10;" />
     <MESSAGE value="title fix" />
     <MESSAGE value="title fix-2" />
     <MESSAGE value="title fix-3" />
@@ -1281,7 +1276,8 @@
     <MESSAGE value="add schema geo" />
     <MESSAGE value="add inline logo and schema" />
     <MESSAGE value="add absolute path to logo and schema.org" />
-    <option name="LAST_COMMIT_MESSAGE" value="add absolute path to logo and schema.org" />
+    <MESSAGE value="css fixing &#10;shema seo" />
+    <option name="LAST_COMMIT_MESSAGE" value="css fixing &#10;shema seo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1621,8 +1617,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/_header.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.60956174">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.035856575">
+          <caret line="1" column="75" selection-start-line="1" selection-start-column="75" selection-end-line="1" selection-end-column="75" />
           <folding />
         </state>
       </provider>
