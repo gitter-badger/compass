@@ -1,134 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f6d15d0b-34cc-4af7-aafc-06c9b93fa8e9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/src/sass/layouts/_blocks.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/src/sass/animations.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/src/sass/layouts/blocks/baloon.scss" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/_base.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/_susy_grid.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/application.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/_base.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/_grid.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/layouts/_desktop.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/layouts/_layouts.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/layouts/_partials.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/bourbon/_bourbon-deprecated-upcoming.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/bourbon/_bourbon.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/bourbon/addons/_border-color.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/bourbon/addons/_border-radius.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/bourbon/addons/_border-style.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/bourbon/addons/_border-width.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/bourbon/addons/_buttons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/bourbon/addons/_clearfix.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/bourbon/addons/_ellipsis.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/bourbon/addons/_font-stacks.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/bourbon/addons/_hide-text.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/bourbon/addons/_margin.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/bourbon/addons/_padding.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/bourbon/addons/_position.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/bourbon/addons/_prefixer.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/bourbon/addons/_retina-image.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/bourbon/addons/_size.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/bourbon/addons/_text-inputs.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/bourbon/addons/_timing-functions.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/bourbon/addons/_triangle.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/bourbon/addons/_word-wrap.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/bourbon/css3/_animation.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/bourbon/css3/_appearance.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/bourbon/css3/_backface-visibility.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/bourbon/css3/_background-image.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/bourbon/css3/_background.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/bourbon/css3/_border-image.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/bourbon/css3/_calc.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/bourbon/css3/_columns.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/bourbon/css3/_filter.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/bourbon/css3/_flex-box.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/bourbon/css3/_font-face.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/bourbon/css3/_font-feature-settings.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/bourbon/css3/_hidpi-media-query.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/bourbon/css3/_hyphens.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/bourbon/css3/_image-rendering.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/bourbon/css3/_keyframes.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/bourbon/css3/_linear-gradient.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/bourbon/css3/_perspective.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/bourbon/css3/_placeholder.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/bourbon/css3/_radial-gradient.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/bourbon/css3/_selection.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/bourbon/css3/_text-decoration.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/bourbon/css3/_transform.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/bourbon/css3/_transition.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/bourbon/css3/_user-select.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/bourbon/functions/_assign-inputs.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/bourbon/functions/_contains-falsy.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/bourbon/functions/_contains.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/bourbon/functions/_is-length.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/bourbon/functions/_is-light.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/bourbon/functions/_is-number.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/bourbon/functions/_is-size.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/bourbon/functions/_modular-scale.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/bourbon/functions/_px-to-em.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/bourbon/functions/_px-to-rem.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/bourbon/functions/_shade.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/bourbon/functions/_strip-units.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/bourbon/functions/_tint.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/bourbon/functions/_transition-property-name.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/bourbon/functions/_unpack.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/bourbon/helpers/_convert-units.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/bourbon/helpers/_directional-values.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/bourbon/helpers/_font-source-declaration.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/bourbon/helpers/_gradient-positions-parser.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/bourbon/helpers/_linear-angle-parser.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/bourbon/helpers/_linear-gradient-parser.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/bourbon/helpers/_linear-positions-parser.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/bourbon/helpers/_linear-side-corner-parser.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/bourbon/helpers/_radial-arg-parser.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/bourbon/helpers/_radial-gradient-parser.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/bourbon/helpers/_radial-positions-parser.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/bourbon/helpers/_render-gradients.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/bourbon/helpers/_shape-size-stripper.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/bourbon/helpers/_str-to-num.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/bourbon/settings/_asset-pipeline.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/bourbon/settings/_prefixer.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/bourbon/settings/_px-to-em.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/neat/_neat-helpers.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/neat/_neat.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/neat/functions/_new-breakpoint.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/neat/functions/_private.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/neat/grid/_box-sizing.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/neat/grid/_direction-context.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/neat/grid/_display-context.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/neat/grid/_fill-parent.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/neat/grid/_media.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/neat/grid/_omega.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/neat/grid/_outer-container.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/neat/grid/_pad.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/neat/grid/_private.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/neat/grid/_row.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/neat/grid/_shift.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/neat/grid/_span-columns.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/neat/grid/_to-deprecate.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/neat/grid/_visual-grid.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/neat/settings/_disable-warnings.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/neat/settings/_grid.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/libs/neat/settings/_visual-grid.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/src/sass/mobile.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/style/_typography.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/ya_map.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/_grid.scss" afterPath="$PROJECT_DIR$/public/fonts/BebasBold/BebasBold.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/src/sass/layouts/_default.scss" afterPath="$PROJECT_DIR$/app/assets/src/sass/layouts/_default.scss" />
+    <list default="true" id="f6d15d0b-34cc-4af7-aafc-06c9b93fa8e9" name="Default" comment="fix css &#10;add some schema.org">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/BebasBold/BebasBold.ttf" afterPath="$PROJECT_DIR$/public/fonts/BebasBold/BebasBold.ttf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/partials/_header.haml" afterPath="$PROJECT_DIR$/app/views/layouts/partials/_header.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/page/_price.haml" afterPath="$PROJECT_DIR$/app/views/page/_price.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/src/sass/_susy_grid.scss" afterPath="$PROJECT_DIR$/app/assets/src/sass/_susy_grid.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/app.min.css" afterPath="$PROJECT_DIR$/public/stylesheets/app.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/custom/app.min.js" afterPath="$PROJECT_DIR$/public/javascripts/custom/app.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/src/css/application.css" afterPath="$PROJECT_DIR$/app/assets/src/css/application.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/src/sass/application.scss" afterPath="$PROJECT_DIR$/app/assets/src/sass/application.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/src/sass/layouts/pages/price.scss" afterPath="$PROJECT_DIR$/app/assets/src/sass/layouts/pages/price.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/src/javascripts/custom/ya_map.js" afterPath="$PROJECT_DIR$/app/assets/src/javascripts/custom/ya_map.js" />
     </list>
     <ignored path="compass.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -142,7 +22,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/compass@Local.coverage" NAME="Local Coverage Results" MODIFIED="1446384207199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="compass" />
+    <SUITE FILE_PATH="coverage/compass@Local.coverage" NAME="Local Coverage Results" MODIFIED="1446386180244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="compass" />
     <SUITE FILE_PATH="coverage/compass@IRB_console__compass.coverage" NAME="IRB console: compass Coverage Results" MODIFIED="1438963960914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="compass" />
     <SUITE FILE_PATH="coverage/compass@Production.coverage" NAME="Production Coverage Results" MODIFIED="1446126769655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="compass" />
   </component>
@@ -184,8 +64,8 @@
       <file leaf-file-name="_susy_grid.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/src/sass/_susy_grid.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.814816">
-              <caret line="423" column="26" selection-start-line="423" selection-start-column="26" selection-end-line="423" selection-end-column="26" />
+            <state vertical-scroll-proportion="-13.481482">
+              <caret line="424" column="5" selection-start-line="424" selection-start-column="5" selection-end-line="424" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -194,8 +74,18 @@
       <file leaf-file-name="_header.haml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/_header.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.62068963">
-              <caret line="17" column="57" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
+            <state vertical-scroll-proportion="0.4016227">
+              <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ya_map.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/src/javascripts/custom/ya_map.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="13" column="67" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="67" />
               <folding />
             </state>
           </provider>
@@ -311,9 +201,9 @@
         <option value="$PROJECT_DIR$/app/assets/src/sass/_base.scss" />
         <option value="$PROJECT_DIR$/app/assets/src/sass/application.scss" />
         <option value="$PROJECT_DIR$/app/views/page/_price.haml" />
-        <option value="$PROJECT_DIR$/app/assets/src/sass/layouts/pages/price.scss" />
         <option value="$PROJECT_DIR$/app/assets/src/sass/layouts/_default.scss" />
         <option value="$PROJECT_DIR$/app/assets/src/sass/_susy_grid.scss" />
+        <option value="$PROJECT_DIR$/app/assets/src/sass/layouts/pages/price.scss" />
         <option value="$PROJECT_DIR$/app/views/layouts/partials/_header.haml" />
       </list>
     </option>
@@ -657,6 +547,126 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="compass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="masloff_service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="compass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="masloff_service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="compass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="masloff_service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="custom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="compass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="masloff_service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -889,12 +899,6 @@
       <created>1436757678896</created>
       <option name="number" value="Default" />
       <updated>1436757678896</updated>
-    </task>
-    <task id="LOCAL-00002" summary="add response2">
-      <created>1437208916933</created>
-      <option name="number" value="00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1437208916933</updated>
     </task>
     <task id="LOCAL-00003" summary="add response2">
       <created>1437561875998</created>
@@ -1184,7 +1188,13 @@
       <option name="project" value="LOCAL" />
       <updated>1446155857943</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="fix css &#10;add some schema.org">
+      <created>1446384611190</created>
+      <option name="number" value="00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1446384611190</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -1198,7 +1208,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="30" width="1682" height="919" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31876606" sideWeight="0.4978903" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277635" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1211,7 +1221,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32904884" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18565401" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18565401" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29691517" sideWeight="0.49186257" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1233,7 +1243,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fixed transition bug-oncemore" />
     <MESSAGE value="add opacity back" />
     <MESSAGE value="add opacity true point" />
     <MESSAGE value="animation speed faster" />
@@ -1258,7 +1267,8 @@
     <MESSAGE value="add_yandex_api_async_false&#10;add_gzip" />
     <MESSAGE value="a_active_on_href" />
     <MESSAGE value="css_fix logo" />
-    <option name="LAST_COMMIT_MESSAGE" value="css_fix logo" />
+    <MESSAGE value="fix css &#10;add some schema.org" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix css &#10;add some schema.org" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1483,14 +1493,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/src/javascripts/custom/ya_map.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/src/sass/layouts/blocks/baloon.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.6666667">
@@ -1527,14 +1529,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-16.25926">
           <caret line="72" column="16" selection-start-line="72" selection-start-column="16" selection-end-line="72" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/src/sass/layouts/pages/price.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.0">
-          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -1589,16 +1583,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/src/sass/_susy_grid.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.814816">
-          <caret line="423" column="26" selection-start-line="423" selection-start-column="26" selection-end-line="423" selection-end-column="26" />
+        <state vertical-scroll-proportion="-13.481482">
+          <caret line="424" column="5" selection-start-line="424" selection-start-column="5" selection-end-line="424" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/src/sass/layouts/pages/price.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.0">
+          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/src/javascripts/custom/ya_map.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="67" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="67" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/_header.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.62068963">
-          <caret line="17" column="57" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
+        <state vertical-scroll-proportion="0.4016227">
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
           <folding />
         </state>
       </provider>

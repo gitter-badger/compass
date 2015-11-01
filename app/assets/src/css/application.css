@@ -2252,13 +2252,11 @@ footer {
 @media (min-width: 721px) {
   .page.contacts {
     top: 0;
-    bottom: 120px;
     height: calc(100% - 245px);
   }
 
   .page.price {
     top: 125px;
-    bottom: 120px;
     height: calc(100% - 245px);
     background-size: 90%;
   }
@@ -3109,7 +3107,7 @@ ul.price-nav li:nth-child(4) {
   position: relative;
   overflow: hidden;
   overflow-y: auto;
-  height: calc(100% - 245px);
+  height: calc(100% - 120px);
 }
 .price-page:after {
   content: " ";

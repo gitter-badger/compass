@@ -8,10 +8,13 @@
 
 		.contacts
 			.address{:itemprop => 'address', :itemscope => true, :itemtype => 'http://schema.org/PostalAddress'}
+				%meta{:itemprop=>'geo', :itemscope => 'true', :itemtype => "http://schema.org/GeoCoordinates"}
+				%meta{:itemprop => "latitude", :content => "55.74118901"}
+				%meta{:itemprop => "longitude", :content => "37.73929481"}
 				%i.h_icon.metka-icon
 				%span.city-name{:itemprop => 'addressRegion'}
 					Москва,
-				%a{:href => "#map", :itemprop => 'streetAddress'} 1-я Фрезерная д.2 к.1
+				%a{:itemprop => 'streetAddress'} 1-я Фрезерная д.2 к.1
 			.phone
 				%i.h_icon.phone-icon
 				%span.telephone
