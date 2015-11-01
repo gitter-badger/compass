@@ -69,8 +69,8 @@
       <file leaf-file-name="_header.haml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/_header.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.035856575">
-              <caret line="1" column="75" selection-start-line="1" selection-start-column="75" selection-end-line="1" selection-end-column="75" />
+            <state vertical-scroll-proportion="0.5737052">
+              <caret line="16" column="103" selection-start-line="16" selection-start-column="103" selection-end-line="16" selection-end-column="103" />
               <folding />
             </state>
           </provider>
@@ -909,12 +909,6 @@
       <option name="number" value="Default" />
       <updated>1436757678896</updated>
     </task>
-    <task id="LOCAL-00014" summary="some style fixes">
-      <created>1439234295003</created>
-      <option name="number" value="00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1439234295003</updated>
-    </task>
     <task id="LOCAL-00015" summary="fixed 1px slogan">
       <created>1439235899387</created>
       <option name="number" value="00015" />
@@ -1203,7 +1197,13 @@
       <option name="project" value="LOCAL" />
       <updated>1446407421961</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="schema add  localbuisness">
+      <created>1446407912910</created>
+      <option name="number" value="00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1446407912910</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -1252,7 +1252,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="title fix" />
     <MESSAGE value="title fix-2" />
     <MESSAGE value="title fix-3" />
     <MESSAGE value="title fix-4" />
@@ -1277,7 +1276,8 @@
     <MESSAGE value="add inline logo and schema" />
     <MESSAGE value="add absolute path to logo and schema.org" />
     <MESSAGE value="css fixing &#10;shema seo" />
-    <option name="LAST_COMMIT_MESSAGE" value="css fixing &#10;shema seo" />
+    <MESSAGE value="schema add  localbuisness" />
+    <option name="LAST_COMMIT_MESSAGE" value="schema add  localbuisness" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1617,8 +1617,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/_header.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.035856575">
-          <caret line="1" column="75" selection-start-line="1" selection-start-column="75" selection-end-line="1" selection-end-column="75" />
+        <state vertical-scroll-proportion="0.5737052">
+          <caret line="16" column="103" selection-start-line="16" selection-start-column="103" selection-end-line="16" selection-end-column="103" />
           <folding />
         </state>
       </provider>
