@@ -1,19 +1,20 @@
 %header
-	.inner
+	.inner{:itemscope => true, :itemtype =>'http://schema.org/Organization'}
 		.logo
-			%a.home{class: 'pt-trigger', href:'#', "data-animation" => "2", "data-goto" => "1" }
-				%span.site-name
+			%a.home{class: 'pt-trigger', href:'#contacts', "data-animation" => "2", "data-goto" => "1" }
+				%span.site-name{:itemprop => 'name'}
 					%strong Маслов
 					%span сервис
 
 		.contacts
-			.address
+			.address{:itemprop => 'address', :itemscope => true, :itemtype => 'http://schema.org/PostalAddress'}
 				%i.h_icon.metka-icon
-				%span.city-name Москва,
-				%a{:href => "#map"} 1-я Фрезерная д.2 к.1
+				%span.city-name{:itemprop => 'addressRegion'}
+					Москва,
+				%a{:href => "#map", :itemprop => 'streetAddress'} 1-я Фрезерная д.2 к.1
 			.phone
 				%i.h_icon.phone-icon
 				%span.telephone
-					%span.tel_num 8 (495) 968&#x2012;21&#x2012;25
+					%span.tel_num{:itemprop => 'telephone'} 8 (495) 968&#x2012;21&#x2012;25
 					%a.call_btn{:href => "tel:+79039682125"} Позвонить
 

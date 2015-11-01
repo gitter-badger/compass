@@ -15,11 +15,14 @@ ymaps.ready(function () {
             hintContent: 'Маслов-Сервис <br> 1-я Фрезерная д.2 к.1',
             balloonContentBody: [
                 '<address>',
-                '<p>Автосервис Маслов-Сервис</p>',
+                "<h3 class='baloon-title'>Автосервис Маслов-Сервис</h3>",
+                "<span class='baloon-address'>Адрес: Москва, ул. 1-я Фрезерная д.2 к.1</span>'",
                 '<br/>',
-                'Адрес: Москва, ул. 1-я Фрезерная д.2 к.1',
+                "<span class='baloon-clock-work'>Часы работы: 8-23 </span>",
+                "<span class='baloon-auto-work' >Прием авто: круглосуточно </span>",
                 '<br/>',
-                '<a href="https://maps.yandex.ru/21621/reutov/?ol=biz&ll=37.739105%2C55.741830&z=16&rtext=~55.741830%2C37.739105&rtt=auto&oid=1124201315" target="_blank">Проложить маршрут</a>',
+                "<p class='baloon-telephone' >Телефоны: 8 (495) 968‒21‒25,  8 (903) 968‒21‒25</p>",
+                "<a class='baloon-route' href='https://maps.yandex.ru/21621/reutov/?ol=biz&ll=37.739105%2C55.741830&z=16&rtext=~55.741830%2C37.739105&rtt=auto&oid=1124201315' target='_blank'>Проложить маршрут</a>",
                 '</address>'
             ].join('')
 
@@ -50,9 +53,16 @@ ymaps.ready(function () {
             balloonContentHeader: '<strong>Автосервис Маслов-Сервис</strong>',
             balloonContentBody: [
                 '<address>',
-                'Адрес: Москва, ул. 1-я Фрезерная д.2 к.1',
+                "<h3 class='baloon-title'>Автосервис Маслов-Сервис</h3>",
+                "<span class='baloon-address'>Адрес: Москва, ул. 1-я Фрезерная д.2 к.1</span>'",
                 '<br/>',
-                '<a href="https://maps.yandex.ru/21621/reutov/?ol=biz&ll=37.739105%2C55.741830&z=16&rtext=~55.741830%2C37.739105&rtt=auto&oid=1124201315" target="_blank"><strong>Проложить маршрут</strong></a>',
+                "<span class='baloon-clock-work'>Часы работы: 8-23 </span>",
+                "<span class='baloon-auto-work' >Прием авто: круглосуточно </span>",
+                '<br/>',
+                '<br/>',
+                "<p class='baloon-telephone' >Телефоны: 8 (495) 968‒21‒25,  8 (903) 968‒21‒25</p>",
+                '<br/>',
+                "<a class='baloon-route' href='https://maps.yandex.ru/21621/reutov/?ol=biz&ll=37.739105%2C55.741830&z=16&rtext=~55.741830%2C37.739105&rtt=auto&oid=1124201315' target='_blank'>Проложить маршрут</a>",
                 '</address>'
             ].join('')
 

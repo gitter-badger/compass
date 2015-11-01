@@ -81,9 +81,9 @@ gulp.task('lint', function() {
 
 
 
-//Добавляем префиксы дял последних двух версий браузеров
+//Добавляем префиксы для последних двух версий браузеров
 gulp.task('autoprefixer', function () {
-    return gulp.src(paths.sass + '/*/**.sass')
+    return gulp.src(path.build + '/*/**.sass')
         .pipe(autoprefixer({
             browsers: ['last 2 versions'],
             cascade: false
@@ -105,7 +105,6 @@ gulp.task('style:build', function() {
             sass: 'app/assets/src/sass',
             image: 'app/assets/src/images',
             font: 'app/assets/src/fonts',
-            output_style: 'compressed',
             require: ['susy', 'breakpoint']
         }))
         .on('error', function(err) {

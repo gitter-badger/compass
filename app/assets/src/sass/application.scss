@@ -1,20 +1,20 @@
+@import "susy";
+@import "breakpoint";
+
 @import "mixins";
 @import "animations";
 
 @import "layouts/breakpoints";
 
-@import "susy";
-
 @import "susy_grid";
-@import "base";
+
+@import "layouts/default";
 @import "style/typography";
 
+@import "layouts/blocks";
 @import 'layouts/partials/header';
-
-//@import 'layouts/partials/header_contacts-page';
-//@import 'layouts/partials/header_price-page';
-
 @import "layouts/partials/price-menu";
-@import "layouts/partials/footer";
 @import "layouts/pages/price";
+
+@import "layouts/partials/footer";
 

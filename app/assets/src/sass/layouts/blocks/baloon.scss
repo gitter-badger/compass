@@ -1,0 +1,32 @@
+h3.baloon-title {
+  font-size: 1rem;
+  font-family: BebasRegular;
+  margin-bottom: 0px;
+  line-height: 1.2rem;
+}
+
+.baloon-address {
+  font-size: .7rem;
+}
+.baloon-clock-work {
+  font-size: .7rem;
+}
+.baloon-auto-work {
+  color: red;
+  font-size: .7rem;
+  margin-left: 10px;
+}
+.baloon-telephone {
+  font-size: .7rem;
+}
+
+.baloon-route {
+  font-size: .8rem;
+  position: absolute;
+  bottom: 10px;
+  color: #293a4b;
+  &:hover
+  {
+    color: #b33528;
+  }
+}

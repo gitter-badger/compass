@@ -8,12 +8,6 @@
 
 
 
-img {
-  max-width: 100%;
-  margin: auto;
-  display: block;
-}
-
 header {
   //height: 130px;
 }
@@ -396,11 +390,12 @@ footer {
   }
 
 }
-//
-//
-//
+
+
+
+
+
   @include susy-breakpoint($tablet-size, $tablet) {
-//
 
     .page.contacts {
       top:70px;
@@ -412,127 +407,24 @@ footer {
       bottom: 120px;
 
     }
-//
-//    .price-page {
-//
-//      @include container(720px);
-//      top: 180px;
-//      position: absolute;
-//      bottom: 120px;
-//      //overflow-x: auto;
-//
-//      left: 0;
-//      right: 0;
-//      margin: auto;
-//
-//    }
-//
-//
-//
+
   }
 
   @include susy-breakpoint($desktop-size, $large) {
 
     .page.contacts {
-      top:0;
+      top: 0;
       bottom: 120px;
-      height: 100%;
-
+      height: calc(100% - 245px);
 
     }
     .page.price {
       top: 125px;
       bottom: 120px;
-    }
-    .page.price {
+      height: calc(100% - 245px);
       background-size: 90%;
+
     }
 
 
-//
-//    .page.price {
-//      background-size: 75%;
-//    }
-//
-//    .price-page {
-//      @include container(720px);
-//      top: 190px;
-//      position: absolute;
-//      bottom: 120px;
-//      //overflow-x: auto;
-//      padding: 0;
-//      left: 10%;
-//      right: 10%;
-//      margin: auto;
-//
-//    }
-//
-//    .price-page article {
-//      font-size: 0.8rem;
-//
-//    }
   }
-
-
-
-//
-//.page.price .price-page {
-//
-//
-//}
-//
-//
-//
-//
-
-//
-//
-///*---------------------*/
-//
-//
-//main {
-//  //position: relative;
-//}
-//
-//
-//#map {
-//  //display: none;
-//  position: absolute;
-//  top:0;
-//  bottom: 120px;
-//  width:100%;
-//  height: auto;
-//  z-index: -1;
-//
-//}
-//
-//nav {
-//
-//  ul {
-//
-//
-//  }
-//
-//}
-//
-//
-//footer  {
-//  position: absolute;
-//  bottom: 0;
-//  width: 100%;
-//  height: 120px;
-//}
-//footer .wrap {
-//  height: 100%;
-//}
-//.footer-info {
-//  position: absolute;
-//  left: 0;
-//  right: 0;
-//  bottom: 0;
-//  width: 99%;
-//  margin: 0 auto;
-//}
-//
-//footer .created-by{@include span( 4 of 8 last) }
-//footer .copyright{@include span(4 of 8 ); }
