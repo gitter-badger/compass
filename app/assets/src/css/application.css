@@ -2398,22 +2398,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-a {
-  color: indianred;
-}
-a:visited {
-  color: #373737;
-}
-a:focus {
-  color: blue;
-}
-a:hover {
-  color: red;
-}
-a:active {
-  color: blue;
-}
-
 h1, h2, h3, h4, h5, p, iframe {
   margin-bottom: 25px;
   margin-bottom: 1.13636rem;
@@ -2530,7 +2514,7 @@ h3.baloon-title {
 }
 
 .h_icon {
-  background-position: 50%;
+  background-position: 50% 0;
   background-repeat: no-repeat;
   background-size: 35px;
   height: 40px;
@@ -2545,9 +2529,6 @@ h3.baloon-title {
 }
 
 header a {
-  color: #373737;
-}
-header a:visited {
   color: #373737;
 }
 
@@ -2574,17 +2555,17 @@ header a:visited {
 }
 
 .address {
-  line-height: 1.1rem;
   padding-top: 5px;
   padding-bottom: 5px;
 }
 
-.city-name {
-  color: #373737;
+.to-route {
+  font-size: .7rem;
+  color: #949393;
 }
 
-.address a {
-  border: 0;
+.city-name {
+  color: #373737;
 }
 
 .phone {
@@ -2597,21 +2578,17 @@ header a:visited {
   color: #373737;
 }
 
-a.call_btn {
+.call_btn {
   border: 1px dashed #b33528;
   border-radius: 5px;
-  /* box-sizing: border-box; */
-  line-height: 1.2rem;
   display: block;
-  padding: 3px 7px;
   font-size: 1rem;
   /* margin: -3px 15px; */
-  margin: 0 auto;
   width: 90px;
   color: #b33528;
   text-align: center;
 }
-a.call_btn:hover {
+.call_btn:hover {
   color: #ffffff;
   text-decoration: none;
   background-color: rgba(179, 53, 40, 0.9);
@@ -2681,9 +2658,8 @@ header a {
     padding-left: 1.25%;
     padding-right: 1.25%;
     position: relative;
-    height: 100px;
-    background-position: 0 50%;
-    background-size: 65px;
+    height: 64px;
+    top: 22%;
   }
   header .contacts {
     -moz-box-sizing: border-box;
@@ -2706,6 +2682,10 @@ header a {
   header .address, header .phone {
     text-align: center;
     font-size: 1.1rem;
+    line-height: 1rem;
+  }
+  header .to-route {
+    display: none;
   }
   header .city-name, header .tel_num {
     display: block;
@@ -2780,6 +2760,10 @@ header a {
     line-height: 2rem;
   }
 
+  .to-route {
+    display: none;
+  }
+
   .phone {
     position: absolute;
     -moz-transform: translateY(20%);
@@ -2801,10 +2785,9 @@ header a {
     display: inline;
   }
 
-  a.call_btn {
+  .call_btn {
     margin-left: 10px;
     display: inline-block;
-    height: 27px;
   }
 }
 @media (min-width: 721px) {
@@ -2886,16 +2869,43 @@ header a {
     margin-left: 8.33333%;
     margin-right: -100%;
     position: relative;
-    -moz-transform: translateY(5%);
-    -ms-transform: translateY(5%);
-    -webkit-transform: translateY(5%);
-    transform: translateY(5%);
+    -moz-transform: translateY(2%);
+    -ms-transform: translateY(2%);
+    -webkit-transform: translateY(2%);
+    transform: translateY(2%);
     text-align: center;
+  }
+
+  .address, .phone {
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 1rem;
+  }
+
+  a.to-route {
+    font-size: .7rem;
+    display: inline;
+    border-bottom: 1px dashed grey;
+    color: #565555;
+    -webkit-transition: all,.1s;
+    -moz-transition: all,.1s;
+    -ms-transition: all,.1s;
+    -o-transition: all,.1s;
+    transition: all,1s;
+  }
+  a.to-route:hover {
+    color: #C54B4B;
+    border-bottom: 1px dashed black;
   }
 
   .city-name {
     display: block;
-    line-height: 1.2rem;
+    line-height: 1rem;
+  }
+
+  .street {
+    line-height: .8rem;
+    color: #373737;
   }
 
   .phone {
@@ -2909,23 +2919,33 @@ header a {
     float: left;
     margin-left: 66.66667%;
     margin-right: -100%;
-    text-align: center;
     position: relative;
-    -moz-transform: translateY(5%);
-    -ms-transform: translateY(5%);
-    -webkit-transform: translateY(5%);
-    transform: translateY(5%);
+    -moz-transform: translateY(2%);
+    -ms-transform: translateY(2%);
+    -webkit-transform: translateY(2%);
+    transform: translateY(2%);
+    text-align: center;
+    line-height: 1rem;
   }
 
   .telephone {
     display: block;
   }
 
-  a.call_btn {
-    display: block;
-    height: 33px;
-    padding: 4px;
+  .call_btn {
     width: 98px;
+    padding: 7px 0 0 0;
+    margin: 0 auto;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+  }
+
+  .work-hours {
+    font-size: .7rem;
+    line-height: .8rem;
+    display: block;
+    color: #100F0F;
   }
 
   .city-name, .tel_num {
@@ -2936,7 +2956,7 @@ header a {
     display: block;
     float: none;
     margin: 0 auto;
-    height: 45px;
+    height: 40px;
     background-size: 35px;
   }
 }

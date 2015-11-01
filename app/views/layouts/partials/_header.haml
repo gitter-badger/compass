@@ -12,10 +12,14 @@
 				%i.h_icon.metka-icon
 				%span.city-name{:itemprop => 'addressRegion'}
 					Москва,
-				%a{:itemprop => 'streetAddress'} 1-я Фрезерная д.2 к.1
+				%span.street{:itemprop => 'streetAddress'} 1-я Фрезерная д.2 к.1
+				%br
+				%a.to-route{:itemprop => 'hasMap',  href: 'https://maps.yandex.ru/21621/reutov/?ol=biz&ll=37.739105%2C55.742012&z=16&rtext=~55.741830%2C37.739105&rtt=auto&oid=1124201315', :target => '_parent'} проложить маршрут
 			.phone
 				%i.h_icon.phone-icon
 				%span.telephone
 					%span.tel_num{:itemprop => 'telephone'} 8 (495) 968&#x2012;21&#x2012;25
+					%span.work-hours{:itemprop => 'openingHours', :datetime => 'Mo-Su 24:00'} Часы работы: 24 часа
 					%a.call_btn{:href => "tel:+79039682125"} Позвонить
+
 

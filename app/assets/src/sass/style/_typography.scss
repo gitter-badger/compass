@@ -1,6 +1,6 @@
 @import "compass/reset";
 @import "compass/typography/vertical_rhythm";
-@import "compass/typography/links/link-colors";
+//@import "compass/typography/links/link-colors";
 @import "compass/css3";
 @import "breakpoint";
 //@import '/fonts/PT_Sans/stylesheet.css';
@@ -73,7 +73,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 a {
-  @include link-colors(indianred, red, blue, #373737, blue)
+  //@include link-colors(indianred, red, blue, #373737, blue)
 }
 
 h1,h2,h3,h4,h5,p,iframe,{
