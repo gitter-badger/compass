@@ -34,11 +34,11 @@
 
 
 	%body
-		.pt-wrapper{:itemscope => true, :itemtype =>'http://schema.org/Organization'}
+		.pt-wrapper
 			= partial 'layouts/partials/header'
 
 			/ All Pages
-			.pt-page.pt-page-1.page.contacts
+			.pt-page.pt-page-1.page.contacts{:itemscope => true, :itemtype =>'http://schema.org/Place'}
 				= partial 'page/contacts'
 			.pt-page.pt-page-2.page.price
 				= partial 'page/price'
