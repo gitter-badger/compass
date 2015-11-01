@@ -17,7 +17,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/compass@Local.coverage" NAME="Local Coverage Results" MODIFIED="1446408588711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="compass" />
+    <SUITE FILE_PATH="coverage/compass@Local.coverage" NAME="Local Coverage Results" MODIFIED="1446409609660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="compass" />
     <SUITE FILE_PATH="coverage/compass@IRB_console__compass.coverage" NAME="IRB console: compass Coverage Results" MODIFIED="1438963960914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="compass" />
     <SUITE FILE_PATH="coverage/compass@Production.coverage" NAME="Production Coverage Results" MODIFIED="1446126769655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="compass" />
   </component>
@@ -69,8 +69,8 @@
       <file leaf-file-name="_header.haml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/_header.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.25099602">
-              <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.5737052">
+              <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -909,12 +909,6 @@
       <option name="number" value="Default" />
       <updated>1436757678896</updated>
     </task>
-    <task id="LOCAL-00018" summary="refactor  price page">
-      <created>1440461678897</created>
-      <option name="number" value="00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1440461678897</updated>
-    </task>
     <task id="LOCAL-00019" summary="add ajax&#10;add page opacity &#10;add some styling">
       <created>1440727083689</created>
       <option name="number" value="00019" />
@@ -1203,7 +1197,13 @@
       <option name="project" value="LOCAL" />
       <updated>1446409394328</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="schema map link fix">
+      <created>1446409597915</created>
+      <option name="number" value="00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1446409597915</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -1617,8 +1617,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/_header.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25099602">
-          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.5737052">
+          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
           <folding />
         </state>
       </provider>
