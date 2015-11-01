@@ -69,8 +69,8 @@
       <file leaf-file-name="_header.haml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/_header.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2868526">
-              <caret line="8" column="70" selection-start-line="8" selection-start-column="70" selection-end-line="8" selection-end-column="70" />
+            <state vertical-scroll-proportion="0.25099602">
+              <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -909,12 +909,6 @@
       <option name="number" value="Default" />
       <updated>1436757678896</updated>
     </task>
-    <task id="LOCAL-00017" summary="optimize step 1">
-      <created>1440310046611</created>
-      <option name="number" value="00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1440310046611</updated>
-    </task>
     <task id="LOCAL-00018" summary="refactor  price page">
       <created>1440461678897</created>
       <option name="number" value="00018" />
@@ -1203,7 +1197,13 @@
       <option name="project" value="LOCAL" />
       <updated>1446408658003</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="schema map link fix">
+      <created>1446409394328</created>
+      <option name="number" value="00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1446409394328</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -1617,8 +1617,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/_header.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2868526">
-          <caret line="8" column="70" selection-start-line="8" selection-start-column="70" selection-end-line="8" selection-end-column="70" />
+        <state vertical-scroll-proportion="0.25099602">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
           <folding />
         </state>
       </provider>
