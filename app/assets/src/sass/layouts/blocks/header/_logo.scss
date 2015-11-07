@@ -1,0 +1,53 @@
+@include susy-breakpoint($mobile-size, $mobile) {
+
+}
+
+@include susy-breakpoint($tablet-size, $tablet ) {
+  .header_logo img {
+    position: relative;
+    line-height: 100%;
+    margin: 0 auto;
+    height: 80px;
+  }
+
+  .header_logo__sitename{
+    margin: 0 auto;
+    color: #373737;
+    position: relative;
+    line-height: .8rem;
+    display: block;
+    //margin-top: 10px;
+  }
+}
+
+
+@include susy-breakpoint($desktop-size, $large ) {
+
+
+  .header_logo img {
+    position: relative;
+    line-height: 100%;
+    margin: 0 auto;
+    height: 74px;
+    top: 0px;
+
+  }
+
+  .header_logo__sitename{
+    margin: 0 auto;
+    color: #373737;
+    position: relative;
+  }
+
+  .sitename_name__strong {
+    display: block;
+    font-size: 1.2rem;
+    line-height: .8rem;
+    margin-top: 5px;
+  }
+
+  .sitenane_name {
+    display: block;
+  }
+
+}

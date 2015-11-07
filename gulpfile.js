@@ -105,6 +105,7 @@ gulp.task('style:build', function() {
             sass: 'app/assets/src/sass',
             image: 'app/assets/src/images',
             font: 'app/assets/src/fonts',
+            sourcemap: 'true',
             require: ['susy', 'breakpoint']
         }))
         .on('error', function(err) {
@@ -114,6 +115,7 @@ gulp.task('style:build', function() {
         //.pipe(minifyCSS())
         .pipe(concat('app.min.css'))
         .pipe(gulp.dest('public/stylesheets'))
+        .pipe(browserSync.reload({stream:true, once: true}));
 });
 
 
@@ -173,8 +175,7 @@ gulp.task('fonts:build', function() {
 
 gulp.task('watch', ['browser-sync'], function() {
     gulp.watch(['app/assets/src/javascripts/*.coffee','app/assets/src/javascripts/custom/*.js'], ['lint', 'scripts:build']);
-    gulp.watch('app/assets/src/sass/*/**.scss', ['compass']);
-    gulp.watch('app/assets/src/sass/*.scss', ['compass']);
+    gulp.watch('app/assets/src/sass/**', ['style:build']);
     gulp.watch('app/assets/src/images/*', ['images']);
     gulp.watch('app/views/*/**').on('change', browserSync.reload);
 

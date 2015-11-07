@@ -1,5 +1,9 @@
+@import '../blocks/header/logo';
+@import '../blocks/header/phone';
+@import '../blocks/header/address';
 
-///* icons */
+
+//// /* icons */ ////
 
 $metka_icon:  inline-image('icons_svg/metka.svg');
 $phone_icon: inline-image('icons_svg/tel.svg');
@@ -7,7 +11,22 @@ $phone_icon: inline-image('icons_svg/tel.svg');
 .metka-icon{background-image: $metka_icon;}
 .phone-icon{background-image: $phone_icon; padding: 0 5px;}
 
-.h_icon {
+
+header {
+  height: 125px;
+  width: 100%;
+  color:#373737;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0 1px 12px 0 rgba(0,0,0,.12),0 1px 1px 0 rgba(0,0,0,.06);
+}
+.header_inner {
+  @include container;
+  position: relative;
+  height: 100%;
+  top:5px;
+}
+
+.icon {
   background-position: 50% 0;
   background-repeat: no-repeat;
   background-size: 35px;
@@ -15,526 +34,466 @@ $phone_icon: inline-image('icons_svg/tel.svg');
   width: 40px;
 }
 
-.logo img {
-  position: relative;
-  line-height: 100%;
-  margin: 0 auto;
-  height: 74px;
-}
 
 
 
-header a {
-
-  color: #373737;
-
-  &:visited {
-    //color: inherit;
-  }
-
-}
 
 
 
-.logo a {
-  display: block;
-  height: 100%;
-
-  &:hover {
-    border: 0;
-    color: #50687d;
-
-    -webkit-transition: all,.6s;
-    -moz-transition: all,.6s;
-    -ms-transition: all,.6s;
-    -o-transition: all,.6s;
-    transition: all,.6s;
-  }
-
-}
-
-.site-name {
-  line-height: .9rem;
-}
-
-.site-name strong{
-
-  font-size: 1.2rem;
-}
-
-.address {
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
- .to-route {
-  font-size: .7rem;
-  color: #949393;
-
-}
-.city-name {
-  //font-size: 1.2rem;
-  color: #373737
-}
-
-.address a  {
-
-  //border: 0;
-
-}
-
-
-.phone {
-  line-height: 1rem;
-  padding-top: 5px;
-  padding-bottom: 5px;
-
-}
-
-.tel_num {
-  //font-size: 1.2rem;
-  color: #373737;
-}
-
-
-.call_btn {
-  border: 1px dashed rgba(179, 53, 40, 1);
-  border-radius: 5px;
-  //line-height: 1.2rem;
-  //background-color:rgba(179, 53, 40, 1);
-  display: block;
-  font-size: 1rem;
-  /* margin: -3px 15px; */
-  width: 90px;
-  color: rgba(179, 53, 40, 1);
-  text-align: center;
-
-
-  &:hover {
-    color: #ffffff;
-    text-decoration: none;
-    background-color: rgba(179, 53, 40, 0.9);
-    border: 1px solid rgba(179, 53, 40, 1);
-
-
-    -webkit-transition: all,.6s;
-    -moz-transition: all,.6s;
-    -ms-transition: all,.6s;
-    -o-transition: all,.6s;
-    transition: all,.6s;
-
-
-  }
-}
 
 
 
+
+
+//
+
+//
+
+//
+
+//
+//
+//
+//header a {
+//
+//  color: #373737;
+//
+//  &:visited {
+//    //color: inherit;
+//  }
+//
+//}
+//
+//
+//
+//.logo a {
+//  display: block;
+//  height: 100%;
+//
+//  &:hover {
+//    border: 0;
+//    color: #50687d;
+//
+//    -webkit-transition: all,.6s;
+//    -moz-transition: all,.6s;
+//    -ms-transition: all,.6s;
+//    -o-transition: all,.6s;
+//    transition: all,.6s;
+//  }
+//
+//}
+//
+//.site-name {
+//  line-height: .9rem;
+//}
+//
+//.site-name strong{
+//
+//  font-size: 1.2rem;
+//}
+//
+//.address {
+//  padding-top: 5px;
+//  padding-bottom: 5px;
+//}
+// .to-route {
+//  font-size: .7rem;
+//  color: #949393;
+//
+//}
+//.city-name {
+//  //font-size: 1.2rem;
+//  color: #373737
+//}
+//
+//.address a  {
+//
+//  //border: 0;
+//
+//}
+//
+//
+//.phone {
+//  line-height: 1rem;
+//  padding-top: 5px;
+//  padding-bottom: 5px;
+//
+//}
+//
+//.tel_num {
+//  //font-size: 1.2rem;
+//  color: #373737;
+//}
+//
+//
+
+//
+//  &:hover {
+//    color: #ffffff;
+//    text-decoration: none;
+//    background-color: rgba(179, 53, 40, 0.9);
+//    border: 1px solid rgba(179, 53, 40, 1);
+//
+//
+//    -webkit-transition: all,.6s;
+//    -moz-transition: all,.6s;
+//    -ms-transition: all,.6s;
+//    -o-transition: all,.6s;
+//    transition: all,.6s;
+//
+//
+//  }
+//}
+//
+//
+//
+//
+//
 //header {
-//  height: 100px;
-//  z-index: 20;
-//  position: relative;
+//  -webkit-box-shadow: 0 1px 0px -0px rgba(119, 119, 119, 0.5);
+//  -moz-box-shadow: 0 1px 0px -0px rgba(119, 119, 119, 0.5);
+//  box-shadow: 0 1px 0px -0px rgba(119, 119, 119, 0.5);
+//  z-index: 999;
+//  //padding:0 1rem;
 //
-//  .logo {
-//    @include span(1);
-//    height: inherit;
-//    position: relative;
-//    z-index: 2;
+//}
+//
+//
+//
+//.logo a {
+//  display: block;
+//  height: 100%;
+//
+//  &:hover {border: 0;
+//  }
+//  &:visited {
+//    //color: #373737;
+//    }
+//}
+//
+//  .logo:hover {
+//
+//    transition: all,.2s;
+//    a {
+//      color: #50687d
+//    }
 //  }
 //
-//  .contacts {
-//    @include span(last 5);
-//    height: inherit;
-//    position: relative;
-//    z-index: 1;
+//.logo .site-name strong {display: block;}
+//.logo .site-name {
+//  display: block;
+//
+//
+//  &:hover {
+//    //;
 //  }
 //
+//}
 //
-//  .site-name {
-//    width: 100%;
-//    position: absolute;
-//    bottom: 5%;
-//    right: 0;
-//    left: 0;
-//    text-align: center;
-//    margin: 0 auto;
+//.logo a {display: block; }
 //
-//    strong {
-//      display: block;
+//header a {
+//
+//  -webkit-transition: all,.6s;
+//  -moz-transition: all,.6s;
+//  -ms-transition: all,.6s;
+//  -o-transition: all,.6s;
+//  transition: all,.6s;
+//  //border-bottom: 1px dashed indianred;
+//
+//  color: #373737;
+//  //@include transition (border 0.2s ease-in-out);
+//  //&:hover {
+//  //  border-bottom: 1px dashed indianred;
+//  //}
+//
+//}
+//
+//
+@include susy-breakpoint($mobile-size, $mobile) {
+//
+  .header_logo{
+    position: relative;
+    left: 0;
+    text-align: center;
+    height: 100%;
+    z-index: 2;
+    @include span(2);
+    float: left;
+  }
+  .header_contacts {
+    @include span(last 6);
+    text-align: center;
+  }
+  .header_contacts__address {
+    @include span(last 6 of 6);
+  }
+  .header_contacts__phone,  {
+    @include span(last 6 of 6);
+  }
+
+
+
+//  header {
+//    height: 100px;
+//    z-index: 20;
+//    position: relative;
+//
+//    .logo a {
+//        @include span(3);
+//      position: relative;
+//      height: 120px;
+//    }
+//    .logo img {
+//      position: absolute;
+//
+//      left: 0;
+//      top:15%;
+//    }
+//
+//    .contacts {
+//      @include span(last 5);
+//      height: inherit;
+//      position: relative;
+//    }
+//
+//
+//    .site-name {
+//      //width: 50px;
+//      position: absolute;
+//      bottom: 22%;
+//      //right: 0px;
+//      left: 60px;
+//      font-size: 1.3rem;
+//      line-height: 1.2rem;
+//      //text-align: center;
+//      //margin: 0 auto;
+//    }
+//
+//    .address, .phone {
+//      text-align: center;
 //      font-size: 1.1rem;
 //      line-height: 1rem;
 //    }
-//    span {
+//    .to-route {
+//      display: none;
+//    }
+//    .work-hours {
+//      display: none;
+//    }
+//    .phone {
+//      //padding-top: 0;
+//    }
+//
+//    .city-name, .tel_num {
+//
 //      display: block;
-//      line-height: 1rem;
+//
+//    }
+//
+//    .h_icon {
+//     display: none;
+//    }
+//
+//    .call_btn {
+//      height: 25px;
+//      margin: 0 auto;
+//      padding: 5px;
 //    }
 //  }
 //
-//}
-
-
-header {
-  -webkit-box-shadow: 0 1px 0px -0px rgba(119, 119, 119, 0.5);
-  -moz-box-shadow: 0 1px 0px -0px rgba(119, 119, 119, 0.5);
-  box-shadow: 0 1px 0px -0px rgba(119, 119, 119, 0.5);
-  z-index: 999;
-  //padding:0 1rem;
-
 }
-
-
-
-.logo a {
-  display: block;
-  height: 100%;
-  
-  &:hover {border: 0;
-  }
-  &:visited {
-    //color: #373737;
-    }
-}
-
-  .logo:hover {
-
-    transition: all,.2s;
-    a {
-      color: #50687d
-    }
-  }
-
-.logo .site-name strong {display: block;}
-.logo .site-name {
-  display: block;
-
-
-  &:hover {
-    //;
-  }
-
-}
-
-.logo a {display: block; }
-
-header a {
-
-  -webkit-transition: all,.6s;
-  -moz-transition: all,.6s;
-  -ms-transition: all,.6s;
-  -o-transition: all,.6s;
-  transition: all,.6s;
-  //border-bottom: 1px dashed indianred;
-
-  color: #373737;
-  //@include transition (border 0.2s ease-in-out);
-  //&:hover {
-  //  border-bottom: 1px dashed indianred;
-  //}
-
-}
-
-
-@include susy-breakpoint($mobile-size, $mobile) {
-
-  header {
-    height: 100px;
-    z-index: 20;
-    position: relative;
-
-    .logo {
-        @include span(4);
-      position: relative;
-      height: 64px;
-      top:22%;
-    }
-
-    .contacts {
-      @include span(last 4);
-      height: inherit;
-      position: relative;
-    }
-
-
-    .site-name {
-      //width: 50px;
-      position: absolute;
-      bottom: 22%;
-      //right: 0px;
-      left: 60px;
-      font-size: 1.3rem;
-      line-height: 1.2rem;
-      //text-align: center;
-      //margin: 0 auto;
-    }
-
-    .address, .phone {
-      text-align: center;
-      font-size: 1.1rem;
-      line-height: 1rem;
-    }
-    .to-route {
-      display: none;
-    }
-    .phone {
-      //padding-top: 0;
-    }
-
-    .city-name, .tel_num {
-
-      display: block;
-
-    }
-
-    .h_icon {
-     display: none;
-    }
-
-    .call_btn {
-      height: 25px;
-    }
-  }
-
-}
-
-
-
-    //
-    //.h_icon {
-    //  //float: none;
-    //  //background-size: 60%;
-    //  display: none;
-    //}
-
-    //.address {
-    //  @include vertical-center(relative, 0%);
-    //  line-height: 2rem;
-    //  text-align: center;
-    //}
-    //.phone {
-    //  @include vertical-center(relative, 0%);
-    //  line-height: 2rem;
-    //  text-align: center;
-    //}
-//}
-
-
 
 
 @include susy-breakpoint($tablet-size, $tablet ) {
 
-  header .inner{
-    position: relative;
-    height: 70px;
-    padding: 0px 0;
-  }
-
-  .logo {
-    @include span(2);
-    height: 70px;
-    position: relative;
-    background-position: 0 50%;
-    background-size: 60px;
-  }
-
-  a.home {
-    border: none;
-    width: 120px;
-  }
-  .site-name {
-    position: absolute;
-    top: 18px;
-    left: 55px;
-    line-height: 1rem;
-    text-align: left;
-    font-size: 1.1rem;
-
-  }
-
-  .contacts {
-    height: 100%;
-    @include span(last 10);
-    position: relative;
-  }
-
-  .address {
-    @include vertical-center(absolute, 20%);
-    @include span(5 of 10);
-    line-height: 2rem;
-  }
-  .to-route {
-    display: none;
-  }
-  .phone {
-    @include vertical-center(absolute, 20%);
-    line-height: 2rem;
-    right: 5%;
-  }
-
-
-  .h_icon {
-    float: left;
-    background-size: 34px;
+  .icon {
     display: block;
-    width: 15%;
+    float: none;
+    margin: 0 auto;
+    height:40px;
+    background-size: 35px;
   }
 
-  .city-name, .tel_num, a.call_btn {
-    display: inline;
+  .header_logo{
+    position: relative;
+    left: 0;
+    text-align: center;
+    height: 100%;
+    z-index: 2;
+    @include span(2);
+    float: left;
   }
 
-  .call_btn {
-    margin-left: 10px;
-    display: inline-block;
-    //height: 27px;
-    //width: 80px;
+  .header_contacts {
+    @include span(10)
+  }
+  .header_contacts__address {
+    @include span(5 of 5);
+  }
+  .header_contacts__phone,  {
+    @include span(last 5 of 5);
   }
 
+  .header_contacts__address, .header_contacts__phone, {
+    text-align: center;
+    height: 100%;
+    position: relative;
+    line-height: 1rem;
+  }
+  .header_contacts__address___inner, .header_contacts__phone___inner{
+    position: absolute;
+    margin: auto;
+    width: 100%;
+  }
+
+//  header {
+//    position: relative;
+//    height: 70px;
+//    padding: 0px 0;
+//  }
+//
+//  .logo {
+//    @include span(2);
+//    height: 100%;
+//    position: relative;
+//  }
+//  .logo img {
+//    position: absolute;
+//    left: 10px;
+//    top: 30%;
+//  }
+//
+//  a.home {
+//    border: none;
+//    width: 120px;
+//  }
+//  .site-name {
+//    position: absolute;
+//    top: 18px;
+//    left: 55px;
+//    line-height: 1rem;
+//    text-align: left;
+//    font-size: 1.1rem;
+//
+//  }
+//
+//
+//
+//  .address {
+//    @include vertical-center(absolute, 20%);
+//    @include span(5 of 10);
+//    line-height: 2rem;
+//  }
+//  .to-route {
+//    display: none;
+//  }
+//  .phone {
+//    @include vertical-center(absolute, 20%);
+//    line-height: 2rem;
+//    right: 5%;
+//  }
+//
+//
+//
+//  .city-name, .tel_num, a.call_btn {
+//    display: inline;
+//  }
+//
+//  .call_btn {
+//    margin-left: 10px;
+//    display: inline-block;
+//    height: 27px;
+//    width: 80px;
+//  }
+//  .work-hours {
+//    display: none;
+//  }
+//
 }
-
-
-
-
 
 @include susy-breakpoint($desktop-size, $large ) {
 
 
-  header  {
-    background-color: rgba(255, 255, 255, 1);
-    box-shadow: 0 1px 12px 0 rgba(0,0,0,.12),0 1px 1px 0 rgba(0,0,0,.06);
-    height: 125px;
-    position: relative;
+  .icon {
+    display: block;
+    float: none;
+    margin: 0 auto;
+    height:40px;
+    background-size: 35px;
   }
 
-  header .inner {
-    @include container();
-  }
 
-  .logo {
-    background-repeat: no-repeat;
-    background-position: 50% 5%;
-    position: relative;
-
-    line-height: 100%;
-
-  }
-
-    .logo {
-      @include span(2);
-      height: 120px;
-      min-width: 70px;
-      position: absolute;
-      left: 0%;
-      right: 0%;
-      margin: auto;
-      background-position: 50% 5px;
-      background-size: 71px;
-      z-index: 2;
-
-    }
-
-    a.home {
-      position: relative;
-      line-height: 20px;
-      border: none;
-      z-index: 1;
-    }
-    .site-name {
-      position: absolute;
-      bottom: 0px;
-      margin: auto;
-      left: 0;
-      text-align: center;
-      right: 0%;
-    }
-
-    .contacts {
-      position: relative;
-      text-align: center;
-
-    }
-
-    .address {
-      @include span(3);
-      @include isolate(2);
-      @include vertical-center(relative, 2%);
-      text-align: center;
-    }
-
-  .address, .phone {
+  .header_logo{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
     text-align: center;
-    font-size: 1.1rem;
+    height: 100%;
+    z-index: 2;
+    @include span(10.33333%);
+  }
+  .header_contacts{
+    @include span(12);
+  }
+  .header_contacts__address {
+    @include span(6);
+  }
+  .header_contacts__phone,  {
+    @include span(last 6);
+  }
+  .header_contacts__address, .header_contacts__phone, {
+    text-align: center;
+    height: 100%;
+    position: relative;
     line-height: 1rem;
   }
-  a.to-route {
-    font-size: .7rem;
-    display: inline;
-    border-bottom: 1px dashed grey;
-    color: #565555;
-    -webkit-transition: all,.1s;
-    -moz-transition: all,.1s;
-    -ms-transition: all,.1s;
-    -o-transition: all,.1s;
-    transition: all,1s;
 
-    &:hover {
-      color: #C54B4B;
-      border-bottom: 1px dashed rgb(0, 0, 0);
+  //.header_contacts__address___inner, .header_contacts__phone___inner{
+  //  position: absolute;
+  //  margin: auto;
+  //  width: 100%;
+  //}
 
-    }
-  }
-
-    .city-name {
-      display: block;
-      line-height: 1rem;
-    }
-    .street {
-      line-height: .8rem;
-      color: #373737
-    }
-
-
-    .phone {
-      @include span(3);
-      @include isolate(9);
-      @include vertical-center(relative, 2%);
-      text-align: center;
-      line-height: 1rem;
-    }
-
-    .telephone {
-      display: block;
-    }
-
-    .call_btn {
-      width: 98px;
-      padding: 7px 0 0 0;
-      margin: 0 auto;
-      -webkit-box-sizing: content-box;
-      -moz-box-sizing: content-box;
-      box-sizing: content-box;
-
-    }
+//
+//
+//    .street {
+//      line-height: .8rem;
+//      color: #373737
+//    }
+//
+//
+//
+//
+//    .telephone {
+//      display: block;
+//    }
+//
+//    .call_btn {
+//      width: 98px;
+//      padding: 7px 0 0 0;
+//      margin: 0 auto;
+//      -webkit-box-sizing: content-box;
+//      -moz-box-sizing: content-box;
+//      box-sizing: content-box;
+//
+//    }
+//
+//
+//
+//
+//
+//
+//    .city-name, .tel_num {
+//
+//      display: block;
+//
+//    }
+//
 
 
 
-  .work-hours {
-    font-size: .7rem;
-    line-height: .8rem;
-    display: block;
-    color: #100F0F;
-  }
-
-
-    .city-name, .tel_num {
-
-      display: block;
-
-    }
-    .h_icon {
-      display: block;
-      float: none;
-      margin: 0 auto;
-      height:40px;
-      background-size: 35px;
-    }
-  }
+}
 
 

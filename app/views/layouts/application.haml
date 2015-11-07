@@ -28,7 +28,7 @@
 		%meta{:content => "mstile-310x150.png", :name => "msapplication-wide310x150logo"}/
 		%meta{:content => "mstile-310x310.png", :name => "msapplication-square310x310logo"}/
 
-		%script{:src => "https://api-maps.yandex.ru/2.1/?lang=ru_RU", :type => "text/javascript"}
+		-#%script{:src => "https://api-maps.yandex.ru/2.1/?lang=ru_RU", :type => "text/javascript"}
 
 		= stylesheet_link_tag 'app.min'
 
@@ -38,10 +38,10 @@
 			= partial 'layouts/partials/header'
 
 			/ All Pages
-			.pt-page.pt-page-1.page.contacts
-				= partial 'page/contacts'
-			.pt-page.pt-page-2.page.price
-				= partial 'page/price'
+			-#.pt-page.pt-page-1.page_contacts
+			-#	= partial 'page/contacts'
+			-#.pt-page.pt-page-2.page_price
+			-#	= partial 'page/price'
 
 
 			= partial 'layouts/partials/footer'

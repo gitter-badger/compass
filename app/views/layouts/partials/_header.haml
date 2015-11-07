@@ -1,25 +1,28 @@
 %header
-	.inner{:itemscope => true, :itemtype =>'http://schema.org/LocalBusiness'}
-		.logo
-			%a.home{:itemprop => 'url', class: 'pt-trigger', href:'http://dev-maslov.herokuapp.com/', "data-animation" => "2", "data-goto" => "1" }
+	.header_inner{:itemscope => true, :itemtype =>'http://schema.org/LocalBusiness'}
+		.header_logo
+			%a.home.pt-trigger{:itemprop => 'url', href:'http://dev-maslov.herokuapp.com/', "data-animation" => "2", "data-goto" => "1" }
 				%img{:itemprop => 'logo', :src => '/images/header/logo.svg'}
-				%span.site-name{:itemprop => 'name'}
-					%strong Маслов
-					%span сервис
+				%span.header_logo__sitename{:itemprop => 'name'}
+					%strong.sitename_name__strong Маслов
+					%span.sitenane_name сервис
 		%meta{:itemscope => true, :itemprop => 'hasMap', :itemtype => 'http://schema.org/Map', :itemref => 'to-route'}
-		.contacts
-			.address{:itemprop => 'address', :itemscope => true, :itemtype => 'http://schema.org/PostalAddress'}
-				%i.h_icon.metka-icon
-				%span.city-name{:itemprop => 'addressRegion'}
-					Москва,
-				%span.street{:itemprop => 'streetAddress'} 1-я Фрезерная д.2 к.1
-				%br
-				%a#to-route.to-route{:itemprop => 'url',  href: 'https://maps.yandex.ru/21621/reutov/?ol=biz&ll=37.739105%2C55.742012&z=16&rtext=~55.741830%2C37.739105&rtt=auto&oid=1124201315', :target => '_parent'} проложить маршрут
-			.phone
-				%i.h_icon.phone-icon
-				%span.telephone
-					%span.tel_num{:itemprop => 'telephone'} 8 (495) 968&#x2012;21&#x2012;25
-					%span.work-hours{:itemprop => 'openingHours', :datetime => 'Mo-Su 24:00'} Часы работы: 24 часа
-					%a.call_btn{:href => "tel:+79039682125"} Позвонить
+		.header_contacts
+			.header_contacts__address{:itemprop => 'address', :itemscope => true, :itemtype => 'http://schema.org/PostalAddress'}
+				.header_contacts__address___inner
+					%i.icon.metka-icon
+					%span.contacts_address__city-name{:itemprop => 'addressRegion'} Москва,
+					%span.contacts_address__street{:itemprop => 'streetAddress'} 1-я Фрезерная д.2 к.1
+					%a#to-route.contacts_address__to-route{:itemprop => 'url',
+						href: 'https://maps.yandex.ru/21621/reutov/?ol=biz&ll=37.739105%2C55.742012&z=16&rtext=~55.741830%2C37.739105&rtt=auto&oid=1124201315',
+						:target => '_parent'} проложить маршрут
+
+			.header_contacts__phone
+				.header_contacts__phone___inner
+					%i.icon.phone-icon
+					%span.contacts_phone__telnum{:itemprop => 'telephone'} 8 (495) 968&#x2012;21&#x2012;25
+					%span.contacts_phone__work-hours{:itemprop => 'openingHours', :datetime => 'Mo-Su 24:00'} Часы работы: 24 часа
+					.contacts_phone__call_btn
+						%a{:href => "tel:+79039682125"} Позвонить
 
 
