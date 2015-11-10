@@ -3,6 +3,7 @@
 
     background-color: #293a4b;
     z-index: 2;
+    height: 120px;
 
     nav {
       padding: 0px 0;
@@ -76,9 +77,19 @@
 
     }
 
-
+  .copyright {
+    float: left;
+    position: absolute;
+    left: 10px;
+    bottom: 0;
+  }
   .created-by {
-    text-align: right;font-style: italic;
+    text-align: right;
+    font-style: italic;
+    float: right;
+    position: absolute;
+    right: 10px;
+    bottom: 0;
   }
   }
 

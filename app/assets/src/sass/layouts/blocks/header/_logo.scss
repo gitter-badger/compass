@@ -23,12 +23,15 @@
 
 @include susy-breakpoint($desktop-size, $large ) {
 
+  .header_logo {
+    top:3px;
+  }
 
   .header_logo img {
     position: relative;
     line-height: 100%;
     margin: 0 auto;
-    height: 74px;
+    height: 68px;
     top: 0px;
 
   }
@@ -43,7 +46,7 @@
     display: block;
     font-size: 1.2rem;
     line-height: .8rem;
-    margin-top: 5px;
+    margin-top: 10px;
   }
 
   .sitenane_name {

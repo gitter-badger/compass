@@ -22,12 +22,12 @@ gem 'breakpoint'
 gem 'activerecord', '>= 3.1', :require => 'active_record'
 gem 'pg'
 gem 'rack-zippy'
+gem 'rack-mobile-detect'
 
 # Test requirements
 
 # Padrino Stable Gem
 gem 'padrino', '0.12.5'
-gem 'wiselinks'
 
 # Or Padrino Edge
 # gem 'padrino', :github => 'padrino/padrino-framework'

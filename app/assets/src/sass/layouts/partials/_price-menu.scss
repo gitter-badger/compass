@@ -8,17 +8,14 @@
   }
 
   ul.price-nav {
-
     list-style-type: none;
-
-
+    @include container(960px)
   }
 
-  ul.price-nav li {
-
+  .price-nav li {
+    @include gallery(2 of 12);
     text-align: center;
     height: 90px;
-    width: 16%;
     padding-top: 12px;
 
     &:hover {

@@ -1,6 +1,12 @@
 //default
 //
 
+html {height:100%;}
+body {height:100%;margin:0px;padding:0px}
+body {
+  overflow-x:hidden;
+}
+
 :-moz-any-link:focus {
   outline: none;
 }

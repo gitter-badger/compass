@@ -20,9 +20,10 @@
 
 			.header_contacts__phone
 				.header_contacts__phone___inner
-					%i.icon.phone-icon
 					%span.contacts_phone__telnum{:itemprop => 'telephone'} 8 (495) 968&#x2012;21&#x2012;25
-					%br
-					%span.contacts_phone__work-hours{:itemprop => 'openingHours', :datetime => 'Mo-Su 24:00'} Прием авто: Круглосуточно
+					%a.contacts_phone__call_btn{:href => "tel:+79039682125"}
+						%i.icon.phone-icon
+						%span.link_name Позвонить
+						%span.contacts_phone__work-hours{:itemprop => 'openingHours', :datetime => 'Mo-Su 24:00'} Прием авто: 24ч.
 
 

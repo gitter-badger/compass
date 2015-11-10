@@ -16,9 +16,23 @@
 
   }
 
-  .block_address__route_to {
+  .contacts_address__to-route {
+    font-size: .8rem;
+    display: inline;
+    border-bottom: 1px dashed grey;
+    color: #948686;
+    -webkit-transition: all,.1s;
+    -moz-transition: all,.1s;
+    -ms-transition: all,.1s;
+    -o-transition: all,.1s;
+    transition: all,1s;
 
+    &:hover {
+      color: #C54B4B;
+      border-bottom: 1px dashed rgb(0, 0, 0);
+    }
   }
+
 
 }
 
@@ -63,17 +77,17 @@
 
 
   .contacts_address__city-name {
-     display: block;
+     display: inline;
    }
   .contacts_address__street {
-    display: block;
+    display: inline;
    }
 
   .contacts_address__to-route {
-    font-size: .7rem;
+    font-size: .8rem;
     display: inline;
     border-bottom: 1px dashed grey;
-    color: #565555;
+    color: #948686;
     -webkit-transition: all,.1s;
     -moz-transition: all,.1s;
     -ms-transition: all,.1s;

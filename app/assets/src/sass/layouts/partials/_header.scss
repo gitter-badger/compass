@@ -13,14 +13,14 @@ $phone_icon: inline-image('icons_svg/tel.svg');
 
 
 header {
-  height: 125px;
+  height: 130px;
   width: 100%;
   color:#373737;
   background-color: rgba(255, 255, 255, 1);
   box-shadow: 0 1px 12px 0 rgba(0,0,0,.12),0 1px 1px 0 rgba(0,0,0,.06);
 }
 .header_inner {
-  @include container;
+  @include container(1140px);
   position: relative;
   height: 100%;
   top:5px;
@@ -33,6 +33,7 @@ header {
   height: 40px;
   width: 40px;
 }
+
 
 
 
@@ -211,15 +212,25 @@ header {
 //
 //
 @include susy-breakpoint($mobile-size, $mobile) {
-//
+
+  .icon {
+    display: inline-block;
+    float: left;
+    margin: 0 auto;
+    height:40px;
+    background-size: 35px;
+  }
+
   .header_logo{
     position: relative;
     left: 0;
     text-align: center;
-    height: 100%;
     z-index: 2;
     @include span(2);
     float: left;
+  }
+  .header_logo img {
+    //height: 80px;
   }
   .header_contacts {
     @include span(last 6);
@@ -230,6 +241,7 @@ header {
   }
   .header_contacts__phone,  {
     @include span(last 6 of 6);
+
   }
 
 
@@ -329,10 +341,10 @@ header {
     @include span(10)
   }
   .header_contacts__address {
-    @include span(5 of 5);
+    @include span(5);
   }
   .header_contacts__phone,  {
-    @include span(last 5 of 5);
+    @include span(last 5);
   }
 
   .header_contacts__address, .header_contacts__phone, {
@@ -340,6 +352,7 @@ header {
     height: 100%;
     position: relative;
     line-height: 1rem;
+
   }
   .header_contacts__address___inner, .header_contacts__phone___inner{
     position: absolute;
@@ -447,6 +460,7 @@ header {
     text-align: center;
     height: 100%;
     position: relative;
+    top:15px;
     line-height: 1rem;
   }
 

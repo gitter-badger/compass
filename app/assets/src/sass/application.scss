@@ -2,7 +2,7 @@
 @import "breakpoint";
 
 @import "mixins";
-//@import "animations";
+@import "animations";
 
 @import "layouts/breakpoints";
 
@@ -14,6 +14,7 @@
 @import "layouts/blocks";
 @import 'layouts/partials/header';
 @import "layouts/partials/price-menu";
+@import "layouts/pages/contacts";
 @import "layouts/pages/price";
 
 @import "layouts/partials/footer";

@@ -3405,7 +3405,7 @@ footer ul.main-menu li.active {
   height: 75px;
 }
 
-/* line 17, ../../../../app/assets/src/sass/layouts/pages/price.scss */
+/* line 17, ../../../../app/assets/src/sass/layouts/pages/_price.scss */
 .price-page {
   max-width: 960px;
   max-width: 43.63636rem;
@@ -3422,13 +3422,13 @@ footer ul.main-menu li.active {
   clear: both;
 }
 
-/* line 25, ../../../../app/assets/src/sass/layouts/pages/price.scss */
+/* line 25, ../../../../app/assets/src/sass/layouts/pages/_price.scss */
 .price-page article {
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
 }
 
-/* line 32, ../../../../app/assets/src/sass/layouts/pages/price.scss */
+/* line 32, ../../../../app/assets/src/sass/layouts/pages/_price.scss */
 .price-page article {
   display: none;
   font-family: 'PTSansRegular', sans-serif;
@@ -3436,191 +3436,191 @@ footer ul.main-menu li.active {
   border-bottom: 1px solid #BEBBBB;
 }
 
-/* line 41, ../../../../app/assets/src/sass/layouts/pages/price.scss */
+/* line 41, ../../../../app/assets/src/sass/layouts/pages/_price.scss */
 .price-page article table thead {
   font-family: PTSansNarrow, sans-serif;
 }
 
-/* line 45, ../../../../app/assets/src/sass/layouts/pages/price.scss */
+/* line 45, ../../../../app/assets/src/sass/layouts/pages/_price.scss */
 .price-page article:nth-of-type(1) {
   display: block;
 }
 
 @media (min-width: 200px) and (max-width: 600px) {
-  /* line 53, ../../../../app/assets/src/sass/layouts/pages/price.scss */
+  /* line 53, ../../../../app/assets/src/sass/layouts/pages/_price.scss */
   .price-page article table {
     width: 100%;
   }
-  /* line 56, ../../../../app/assets/src/sass/layouts/pages/price.scss */
+  /* line 56, ../../../../app/assets/src/sass/layouts/pages/_price.scss */
   .price-page article table th:last-child, .price-page article table tbody tr td:last-child {
     text-align: right;
   }
-  /* line 60, ../../../../app/assets/src/sass/layouts/pages/price.scss */
+  /* line 60, ../../../../app/assets/src/sass/layouts/pages/_price.scss */
   .price-page article table thead {
     display: block;
     width: 100%;
     color: darkgrey;
     border-bottom: 2px solid #c0392b;
   }
-  /* line 67, ../../../../app/assets/src/sass/layouts/pages/price.scss */
+  /* line 67, ../../../../app/assets/src/sass/layouts/pages/_price.scss */
   .price-page article table thead tr {
     display: table;
     width: 98%;
     margin: 0 auto;
   }
-  /* line 72, ../../../../app/assets/src/sass/layouts/pages/price.scss */
+  /* line 72, ../../../../app/assets/src/sass/layouts/pages/_price.scss */
   .price-page article table thead tr th:first-child {
     font-size: 1.4rem;
     color: #293a4b;
     padding-top: 15px;
     padding-bottom: 15px;
   }
-  /* line 79, ../../../../app/assets/src/sass/layouts/pages/price.scss */
+  /* line 79, ../../../../app/assets/src/sass/layouts/pages/_price.scss */
   .price-page article table thead tr th:last-child {
     font-size: .8rem;
     text-align: right;
     padding-top: 15px;
     padding-bottom: 15px;
   }
-  /* line 86, ../../../../app/assets/src/sass/layouts/pages/price.scss */
+  /* line 86, ../../../../app/assets/src/sass/layouts/pages/_price.scss */
   .price-page article table tbody {
     display: table;
     width: 98%;
     margin: 0 auto;
   }
-  /* line 92, ../../../../app/assets/src/sass/layouts/pages/price.scss */
+  /* line 92, ../../../../app/assets/src/sass/layouts/pages/_price.scss */
   .price-page article table tbody tr {
     border-bottom: 1px solid #C7C7C7;
   }
-  /* line 95, ../../../../app/assets/src/sass/layouts/pages/price.scss */
+  /* line 95, ../../../../app/assets/src/sass/layouts/pages/_price.scss */
   .price-page article table tbody tr:last-child {
     border-bottom: none;
   }
-  /* line 99, ../../../../app/assets/src/sass/layouts/pages/price.scss */
+  /* line 99, ../../../../app/assets/src/sass/layouts/pages/_price.scss */
   .price-page article table tbody tr td {
     padding: 3px;
   }
-  /* line 103, ../../../../app/assets/src/sass/layouts/pages/price.scss */
+  /* line 103, ../../../../app/assets/src/sass/layouts/pages/_price.scss */
   .price-page article table tbody tr td:last-child {
     padding-right: 1%;
     text-align: right;
   }
 }
 @media (min-width: 601px) and (max-width: 720px) {
-  /* line 115, ../../../../app/assets/src/sass/layouts/pages/price.scss */
+  /* line 115, ../../../../app/assets/src/sass/layouts/pages/_price.scss */
   .price-page article table {
     width: 100%;
   }
-  /* line 118, ../../../../app/assets/src/sass/layouts/pages/price.scss */
+  /* line 118, ../../../../app/assets/src/sass/layouts/pages/_price.scss */
   .price-page article table th:last-child, .price-page article table tbody tr td:last-child {
     text-align: right;
   }
-  /* line 122, ../../../../app/assets/src/sass/layouts/pages/price.scss */
+  /* line 122, ../../../../app/assets/src/sass/layouts/pages/_price.scss */
   .price-page article table thead {
     display: block;
     width: 100%;
     color: darkgrey;
     border-bottom: 2px solid #c0392b;
   }
-  /* line 129, ../../../../app/assets/src/sass/layouts/pages/price.scss */
+  /* line 129, ../../../../app/assets/src/sass/layouts/pages/_price.scss */
   .price-page article table thead tr {
     display: table;
     width: 67%;
     margin: 0 auto;
   }
-  /* line 134, ../../../../app/assets/src/sass/layouts/pages/price.scss */
+  /* line 134, ../../../../app/assets/src/sass/layouts/pages/_price.scss */
   .price-page article table thead tr th:first-child {
     font-size: 1.4rem;
     color: #293a4b;
     padding-top: 15px;
     padding-bottom: 15px;
   }
-  /* line 141, ../../../../app/assets/src/sass/layouts/pages/price.scss */
+  /* line 141, ../../../../app/assets/src/sass/layouts/pages/_price.scss */
   .price-page article table thead tr th:last-child {
     font-size: .8rem;
     text-align: right;
     padding-top: 15px;
     padding-bottom: 15px;
   }
-  /* line 148, ../../../../app/assets/src/sass/layouts/pages/price.scss */
+  /* line 148, ../../../../app/assets/src/sass/layouts/pages/_price.scss */
   .price-page article table tbody {
     display: table;
     width: 67%;
     margin: 0 auto;
   }
-  /* line 154, ../../../../app/assets/src/sass/layouts/pages/price.scss */
+  /* line 154, ../../../../app/assets/src/sass/layouts/pages/_price.scss */
   .price-page article table tbody tr {
     border-bottom: 1px solid #C7C7C7;
   }
-  /* line 157, ../../../../app/assets/src/sass/layouts/pages/price.scss */
+  /* line 157, ../../../../app/assets/src/sass/layouts/pages/_price.scss */
   .price-page article table tbody tr:last-child {
     border-bottom: none;
   }
-  /* line 161, ../../../../app/assets/src/sass/layouts/pages/price.scss */
+  /* line 161, ../../../../app/assets/src/sass/layouts/pages/_price.scss */
   .price-page article table tbody tr td {
     padding: 7px;
   }
-  /* line 165, ../../../../app/assets/src/sass/layouts/pages/price.scss */
+  /* line 165, ../../../../app/assets/src/sass/layouts/pages/_price.scss */
   .price-page article table tbody tr td:last-child {
     padding-right: 1%;
     text-align: right;
   }
 }
 @media (min-width: 721px) {
-  /* line 178, ../../../../app/assets/src/sass/layouts/pages/price.scss */
+  /* line 178, ../../../../app/assets/src/sass/layouts/pages/_price.scss */
   .price-page article table {
     width: 100%;
   }
-  /* line 181, ../../../../app/assets/src/sass/layouts/pages/price.scss */
+  /* line 181, ../../../../app/assets/src/sass/layouts/pages/_price.scss */
   .price-page article table th:last-child, .price-page article table tbody tr td:last-child {
     text-align: right;
   }
-  /* line 185, ../../../../app/assets/src/sass/layouts/pages/price.scss */
+  /* line 185, ../../../../app/assets/src/sass/layouts/pages/_price.scss */
   .price-page article table thead {
     display: block;
     width: 100%;
     color: darkgrey;
     border-bottom: 2px solid #c0392b;
   }
-  /* line 192, ../../../../app/assets/src/sass/layouts/pages/price.scss */
+  /* line 192, ../../../../app/assets/src/sass/layouts/pages/_price.scss */
   .price-page article table thead tr {
     display: table;
     width: 67%;
     margin: 0 auto;
   }
-  /* line 197, ../../../../app/assets/src/sass/layouts/pages/price.scss */
+  /* line 197, ../../../../app/assets/src/sass/layouts/pages/_price.scss */
   .price-page article table thead tr th:first-child {
     font-size: 1.4rem;
     color: #293a4b;
     padding-top: 15px;
     padding-bottom: 15px;
   }
-  /* line 204, ../../../../app/assets/src/sass/layouts/pages/price.scss */
+  /* line 204, ../../../../app/assets/src/sass/layouts/pages/_price.scss */
   .price-page article table thead tr th:last-child {
     font-size: .8rem;
     text-align: right;
     padding-top: 15px;
     padding-bottom: 15px;
   }
-  /* line 211, ../../../../app/assets/src/sass/layouts/pages/price.scss */
+  /* line 211, ../../../../app/assets/src/sass/layouts/pages/_price.scss */
   .price-page article table tbody {
     display: table;
     width: 67%;
     margin: 0 auto;
   }
-  /* line 217, ../../../../app/assets/src/sass/layouts/pages/price.scss */
+  /* line 217, ../../../../app/assets/src/sass/layouts/pages/_price.scss */
   .price-page article table tbody tr {
     border-bottom: 1px solid #C7C7C7;
   }
-  /* line 220, ../../../../app/assets/src/sass/layouts/pages/price.scss */
+  /* line 220, ../../../../app/assets/src/sass/layouts/pages/_price.scss */
   .price-page article table tbody tr:last-child {
     border-bottom: none;
   }
-  /* line 224, ../../../../app/assets/src/sass/layouts/pages/price.scss */
+  /* line 224, ../../../../app/assets/src/sass/layouts/pages/_price.scss */
   .price-page article table tbody tr td {
     padding: 7px;
   }
-  /* line 228, ../../../../app/assets/src/sass/layouts/pages/price.scss */
+  /* line 228, ../../../../app/assets/src/sass/layouts/pages/_price.scss */
   .price-page article table tbody tr td:last-child {
     padding-right: 1%;
     text-align: right;
