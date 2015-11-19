@@ -1,0 +1,7 @@
+category = Category.create(title: 'TO')
+Item.create(title: '123123', category_id: category.id)
+
+# Category.create(title: 'repair')
+# Category.create(title: 'tire')
+# Category.create(title: 'wash')
+# Category.create(title: 'paint')

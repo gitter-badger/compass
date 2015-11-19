@@ -1,20 +1,21 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    activemodel (4.2.4)
-      activesupport (= 4.2.4)
+    activemodel (4.2.5)
+      activesupport (= 4.2.5)
       builder (~> 3.1)
-    activerecord (4.2.4)
-      activemodel (= 4.2.4)
-      activesupport (= 4.2.4)
+    activerecord (4.2.5)
+      activemodel (= 4.2.5)
+      activesupport (= 4.2.5)
       arel (~> 6.0)
-    activesupport (4.2.4)
+    activesupport (4.2.5)
       i18n (~> 0.7)
       json (~> 1.7, >= 1.7.7)
       minitest (~> 5.1)
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
     arel (6.0.3)
+    bcrypt (3.1.10)
     breakpoint (2.5.0)
       sass (~> 3.3)
       sassy-maps (< 1.0.0)
@@ -33,6 +34,9 @@ GEM
     compass-import-once (1.0.5)
       sass (>= 3.2, < 3.5)
     daemons (1.2.3)
+    debase (0.1.4)
+      debase-ruby_core_source
+    debase-ruby_core_source (0.8.1)
     eventmachine (1.0.8)
     ffi (1.9.10)
     haml (4.0.7)
@@ -46,7 +50,7 @@ GEM
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
     mime-types (1.25.1)
-    minitest (5.8.2)
+    minitest (5.8.3)
     moneta (0.7.20)
     multi_json (1.11.2)
     padrino (0.12.5)
@@ -72,6 +76,9 @@ GEM
       rack-protection (>= 1.5.0)
       sinatra (~> 1.4.2)
       thor (~> 0.18)
+    padrino-flash (0.2.0)
+      padrino-core
+      padrino-helpers
     padrino-gen (0.12.5)
       bundler (~> 1.0)
       padrino-core (= 0.12.5)
@@ -84,7 +91,7 @@ GEM
       padrino-core (= 0.12.5)
     padrino-support (0.12.5)
       activesupport (>= 3.1)
-    pg (0.18.3)
+    pg (0.18.4)
     polyglot (0.3.5)
     rack (1.5.5)
     rack-mobile-detect (0.4.0)
@@ -96,6 +103,8 @@ GEM
     rb-fsevent (0.9.6)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
+    ruby-debug-ide (0.4.32)
+      rake (>= 0.8.1)
     sass (3.4.19)
     sassy-maps (0.4.0)
       sass (~> 3.3)
@@ -125,13 +134,17 @@ PLATFORMS
 
 DEPENDENCIES
   activerecord (>= 3.1)
+  bcrypt
   breakpoint
   compass
+  debase
   haml
   padrino (= 0.12.5)
+  padrino-flash
   pg
   rack-mobile-detect
   rack-zippy
   rake
+  ruby-debug-ide
   susy
   thin

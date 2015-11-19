@@ -14,6 +14,7 @@ source 'https://rubygems.org'
 gem 'rake'
 gem 'thin'
 # Component requirements
+gem 'bcrypt'
 gem 'compass'
 # gem 'rack-livereload'
 gem 'haml'
@@ -25,10 +26,12 @@ gem 'rack-zippy'
 gem 'rack-mobile-detect'
 
 # Test requirements
+gem 'debase'
+gem 'ruby-debug-ide'
 
 # Padrino Stable Gem
 gem 'padrino', '0.12.5'
-
+gem 'padrino-flash'
 # Or Padrino Edge
 # gem 'padrino', :github => 'padrino/padrino-framework'
 

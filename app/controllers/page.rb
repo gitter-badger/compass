@@ -26,6 +26,9 @@ Compass::App.controllers :page do
   # end
   
   get :index, :map => '/' do
+
+    @categories = data_csv
+
     # cache_key :index
     # @title="Контакты"
     # if request.xhr?
