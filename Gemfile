@@ -26,8 +26,8 @@ gem 'rack-zippy'
 gem 'rack-mobile-detect'
 
 # Test requirements
-gem 'debase'
-gem 'ruby-debug-ide'
+# gem 'debase'
+# gem 'ruby-debug-ide'
 
 # Padrino Stable Gem
 gem 'padrino', '0.12.5'

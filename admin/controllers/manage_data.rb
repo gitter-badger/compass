@@ -1,3 +1,5 @@
+# encoding: utf-8
+
 require 'fileutils'
 
 Compass::Admin.controllers :manage_data do
@@ -26,8 +28,6 @@ Compass::Admin.controllers :manage_data do
       flash[:warning] = "Неудача! Файл: #{params['file'][:filename]} назван с ощибкой."
       redirect '/admin/dashboard'
     end
-
-
 
 end
 

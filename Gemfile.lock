@@ -34,9 +34,6 @@ GEM
     compass-import-once (1.0.5)
       sass (>= 3.2, < 3.5)
     daemons (1.2.3)
-    debase (0.1.4)
-      debase-ruby_core_source
-    debase-ruby_core_source (0.8.1)
     eventmachine (1.0.8)
     ffi (1.9.10)
     haml (4.0.7)
@@ -103,8 +100,6 @@ GEM
     rb-fsevent (0.9.6)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
-    ruby-debug-ide (0.4.32)
-      rake (>= 0.8.1)
     sass (3.4.19)
     sassy-maps (0.4.0)
       sass (~> 3.3)
@@ -137,7 +132,6 @@ DEPENDENCIES
   bcrypt
   breakpoint
   compass
-  debase
   haml
   padrino (= 0.12.5)
   padrino-flash
@@ -145,6 +139,5 @@ DEPENDENCIES
   rack-mobile-detect
   rack-zippy
   rake
-  ruby-debug-ide
   susy
   thin
