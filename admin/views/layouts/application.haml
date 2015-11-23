@@ -10,14 +10,16 @@
     %title= @title.present? ? "#{@title} | Padrino Admin" : "Padrino Admin"
     =favicon_tag 'favicon.ico'
     %link{:href => 'http://fonts.googleapis.com/css?family=Varela', :rel => :stylesheet}
-    -#= csrf_meta_tags
-    =stylesheet_link_tag 'bootstrap', 'application'
+    = csrf_meta_tags
+    =stylesheet_link_tag 'bootstrap', 'application', 'price-menu'
   %body
     .navbar.navbar-fixed-top
       .navbar-inner
         .container
-          =link_to 'Padrino', url(:base, :index), :class => 'navbar-brand', :title => 'Padrino Admin'
+          =link_to 'Maslov-Service', url(:base, :index), :class => 'navbar-brand', :title => 'Maslov Service'
           %ul.nav.navbar-nav.pull-right
+            %li.navbar-role
+              = current_account.role
             %li.navbar-edit-account=link_to tag_icon(:user), url(:accounts, :edit, :id => current_account.id), :title => pat(:profile), :class => 'navbar-nav-link'
             %li.navbar-logout
               =button_to :logout, url(:sessions, :destroy), :method => :delete, :class => 'navbar-nav-form' do
@@ -28,22 +30,23 @@
               %li{:class => "navbar-module #{('active' if request.path_info =~ /^#{project_module.path}/)}"}
                 =link_to project_module.human_name, url(project_module.path)
 
-    .container.main
+    .main
       .main-wrapper
-        ={:error => 'danger', :warning => 'warning', :success => 'success', :notice => 'info'}.map { |type, class_name| flash_tag(type, :class => "alert alert-#{class_name} fade in", :bootstrap => true) }.join.html_safe
         .row=yield
         .main-wrapper-push
 
     %footer
-      .footer-wrapper.container
-        %p.pull-left
+
+    .footer-info
+      .copyright
+        %p
           Copyright &copy;
-          =Time.now.year
-          Your Site - Powered by Padrino v.#{Padrino.version}
-        %ul.pull-right.footer-links
-          %li= link_to tag_icon(:home, 'web'), 'http://www.padrinorb.com', :target => :_blank, :class => 'footer-links-link'
-          %li= link_to tag_icon(:heart, 'blog'), 'http://www.padrinorb.com/blog', :target => :_blank, :class => 'footer-links-link'
-          %li= link_to tag_icon(:github, 'code'), 'https://github.com/padrino/padrino-framework', :target => :_blank, :class => 'footer-links-link'
-          %li= link_to tag_icon(:twitter, 'twitter'), 'http://twitter.com/padrinorb', :target => :_blank, :class => 'footer-links-link'
+          = Time.now.year
+          Maslov Service
+        .created-by
+        %p
+          created by
+          %a{href: '#exsisto' }  Exsisto
 
     =javascript_include_tag 'jquery-1.11.0.min', (Padrino.env == :production ? 'bootstrap/bootstrap.min' : %w[bootstrap/affix bootstrap/alert bootstrap/button bootstrap/carousel bootstrap/collapse bootstrap/dropdown  bootstrap/tooltip bootstrap/transition  bootstrap/modal bootstrap/popover bootstrap/scrollspy bootstrap/tab]), :application
+    =javascript_include_tag 'jquery.tabledit.js', 'table-edit'

@@ -43,6 +43,14 @@ module Compass
       role.project_module :accounts, '/accounts'
     end
 
+    access_control.roles_for :editor do |role|
+      role.allow '/accounts/edit'
+      role.allow '/upload'
+      role.protect '/download/*'
+      role.protect :accounts
+
+    end
+
     # Custom error management 
     error(403) { @title = "Error 403"; render('errors/403', :layout => :error) }
     error(404) { @title = "Error 404"; render('errors/404', :layout => :error) }

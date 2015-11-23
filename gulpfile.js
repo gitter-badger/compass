@@ -93,7 +93,7 @@ gulp.task('autoprefixer', function () {
 
 
 //
-gulp.task('style:build', function() {
+gulp.task('app_style:build', function() {
     return gulp.src('app/assets/src/sass/application.scss')
         .pipe(plumber({
             errorHandler: function (error) {
@@ -118,6 +118,30 @@ gulp.task('style:build', function() {
         .pipe(browserSync.reload({stream:true, once: true}));
 });
 
+gulp.task('admin_style:build', function() {
+    return gulp.src('admin/assets/src/sass/application.scss')
+        .pipe(plumber({
+            errorHandler: function (error) {
+                console.log(error.message);
+                this.emit('end');
+            }}))
+        .pipe(compass({
+            css:   'admin/assets/src/css',
+            sass:  'admin/assets/src/sass',
+            image: 'admin/assets/src/images',
+            font:  'admin/assets/src/fonts',
+            sourcemap: 'true',
+            require: ['susy', 'breakpoint']
+        }))
+        .on('error', function(err) {
+            // Would like to catch the error here
+            console.log(err.message);
+        })
+        //.pipe(minifyCSS())
+        .pipe(concat('app.min.css'))
+        .pipe(gulp.dest('public/admin/stylesheets'))
+        .pipe(browserSync.reload({stream:true, once: true}));
+});
 
 
 
@@ -175,7 +199,7 @@ gulp.task('fonts:build', function() {
 
 gulp.task('watch', ['browser-sync'], function() {
     gulp.watch(['app/assets/src/javascripts/*.coffee','app/assets/src/javascripts/custom/*.js'], ['lint', 'scripts:build']);
-    gulp.watch('app/assets/src/sass/**', ['style:build']);
+    gulp.watch('app/assets/src/sass/**', ['app_style:build']);
     gulp.watch('app/assets/src/images/*', ['images']);
     gulp.watch('app/views/*/**').on('change', browserSync.reload);
 
@@ -183,7 +207,8 @@ gulp.task('watch', ['browser-sync'], function() {
 
 gulp.task('build', [
     'scripts:build',
-    'style:build',
+    'app_style:build',
+    'admin_style:build',
     'fonts:build',
     'images:build'
 ]);

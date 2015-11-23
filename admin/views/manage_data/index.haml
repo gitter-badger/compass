@@ -1,24 +1,48 @@
 -# encoding: UTF-8
+-#
+-#
+-#.base-icons
+-#  .btn-group
+-#    %a{ :href => "/admin/download/слесарные_работы.csv", :title => "Скачать прайс слесарные работы" }
+-#      .btn.btn-primary{:title => "Слесарные работы"}
+-#        =tag_icon("cogs fa-2x", "Слесарные работы")
+-#
+-#    %a{ :href => "/admin/download/химчистка.csv", :title => "Скачать прйс химчистка" }
+-#      .btn.btn-success{:title => "User Authentication Support, User Authorization Management"}
+-#        =tag_icon("group fa-2x","Шиномонтаж")
+-#
+-#    .btn.btn-info{:title => "Erb, Haml, Slim Rendering Support"}=tag_icon("tasks fa-2x", "Template Agnostic")
+-#    .btn.btn-warning{:title => "English, German, Russian, Danish, French, Brazilian and Italian localizations and many more!.."}=tag_icon("flag fa-2x", "Multi Language")
+-#    .btn.btn-danger{:title => "You can create a new 'admin interface' by providing a single Model"}=tag_icon("magic fa-2x", "Scaffold")
+-#
 
-.base-text
-  %p Для добавления каталога добавь файл!
-  %p Для редактирования скачай файл!
+= partial 'manage_data/price-menu'
 
-.base-icons
-  .btn-group
-    %a{ :href => "/admin/download/слесарные_работы.csv", :title => "Скачать прайс слесарные работы" }
-      .btn.btn-primary{:title => "Слесарные работы"}
-        =tag_icon("cogs fa-2x", "Слесарные работы")
 
-    %a{ :href => "/admin/download/химчистка.csv", :title => "Скачать прйс химчистка" }
-      .btn.btn-success{:title => "User Authentication Support, User Authorization Management"}
-        =tag_icon("group fa-2x","Шиномонтаж")
 
-    .btn.btn-info{:title => "Erb, Haml, Slim Rendering Support"}=tag_icon("tasks fa-2x", "Template Agnostic")
-    .btn.btn-warning{:title => "English, German, Russian, Danish, French, Brazilian and Italian localizations and many more!.."}=tag_icon("flag fa-2x", "Multi Language")
-    .btn.btn-danger{:title => "You can create a new 'admin interface' by providing a single Model"}=tag_icon("magic fa-2x", "Scaffold")
 
-%form{:action=>"/admin/upload",:method=>"post",:enctype=>"multipart/form-data"}
-  = csrf_token_field
-  %input{:type=>"file",:name=>"file"}
-  %input{:type=>"submit",:value=>"Upload"}
+.jumbotron
+  ={:error => 'danger', :warning => 'warning', :success => 'success', :notice => 'info'}.map { |type, class_name| flash_tag(type, :class => "alert alert-#{class_name} fade in", :bootstrap => true) }.join.html_safe
+
+  %ul
+    %h2
+      Что делать?
+    %li
+      %p
+        Скачать прайс-лист, для нужной категории.
+    %li
+      %p
+        Внести изменения
+    %li
+      %p
+        Закачать назад с помощью формы.
+
+
+  %form.file-upload{:action=>"/admin/upload",:method=>"post",:enctype=>"multipart/form-data"}
+    = csrf_token_field
+    %input.file-field{:type=>"file",:name=>"file"}
+    %small.text-center
+      Имя файла должно быть точно таким, каким его скачал.
+    %input.file-submit.btn.btn-primary{:type=>"submit",:value=>"Upload"}
+
+= partial 'manage_data/table'

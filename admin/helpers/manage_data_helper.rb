@@ -19,9 +19,9 @@ module Compass
 
 
       def file_upload(filename)
-          if File.exist?('/admin/data/' + filename)
+          if File.exist?('admin/data/' + filename)
             FileUtils.mv('admin/data/' + filename,
-                         'admin/data/bak/' + filename + "__#{Time.now.strftime("%Y-%m-%d_%H:%M:%S")}")
+                         'admin/data/' + filename + "__#{Time.now.strftime("%Y-%m-%d_%H:%M:%S")}")
 
             File.open('admin/data/' + filename, 'w+') do |f|
               f.write(params['file'][:tempfile].read.html_safe)

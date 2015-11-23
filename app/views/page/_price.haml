@@ -1,14 +1,20 @@
 = partial 'layouts/partials/price-menu'
 
 .price-page
+
 	%article.tab_item.TO
-		%table
+		%table.header
 			%thead
-				%th.title Техническое обслуживание
-				%th.price_light цена указана в рублях
-				%th.price цена указана в рублях
-			%tbody
-			-	@categories['слесарные_работы'].each do |row|
+				%tr.main
+					%th.title Техническое обслуживание
+					%th цена указана в рублях
+				%tr.sub
+					%th Наименование
+					%th Легковые
+					%th Внедорожники
+
+		%table.body
+			-	@categories['TO'].each do |row|
 				%tr
 					%td
 						=row[0]
@@ -17,6 +23,160 @@
 					%td
 						=row[2]
 
+	%article.tab_item.remont
+		%table.header
+			%thead
+				%tr.main
+					%th.title Техническое обслуживание
+					%th цена указана в рублях
+				%tr.sub
+					%th Наименование
+					%th Легковые
+					%th Внедорожники
+
+		%table.body
+			-	@categories['TO'].each do |row|
+				%tr
+					%td
+						=row[0]
+					%td
+						=row[1]
+					%td
+						=row[2]
+
+
+
+
+	%article.tab_item.shinomontazh
+		%table.header
+			%thead
+				%tr.main
+					%th.title Шиномонтаж
+					-#%th цена указана в рублях
+
+		.body
+			%table.light
+				%tr
+					%th Легковые
+					%th R-13
+					%th R-14
+					%th R-15
+					%th R-16
+					%th R-17
+					%th R-18
+					%th R-19
+					%th R-20
+					%th R-22
+					%th	R-24
+				%tr
+					%td Снять/Поставить
+					%td 110
+					%td 120
+					%td 135
+					%td 145
+					%td 150
+					%td 165
+					%td 180
+					%td 195
+					%td 205
+					%td 265
+				%tr
+					%td Монтаж/Демонтаж
+					%td 130
+					%td 135
+					%td 150
+					%td 175
+					%td 210
+					%td 240
+					%td 290
+					%td 340
+					%td 370
+					%td 610
+				%tr
+					%td Балансировка
+					%td 160
+					%td 170
+					%td 190
+					%td 230
+					%td 240
+					%td 270
+					%td 305
+					%td 365
+					%td 400
+					%td 625
+				%tr
+					%td Комплекс шиномонтажа 4-х колес
+					%td 1400
+					%td 1700
+					%td 1900
+					%td 2200
+					%td 2400
+					%td 2700
+					%td 3100
+					%td 3600
+					%td 3900
+					%td 6000
+			%table.heavy
+				%tr
+					%th	Внедорожники
+					%th &nbsp;&nbsp;&nbsp;
+					%th &nbsp;&nbsp;&nbsp;
+					%th R-15
+					%th R-16
+					%th R-17
+					%th R-18
+					%th R-19
+					%th R-20
+					%th R-22
+					%th	R-24
+				%tr
+					%td Снять/Поставить
+					%td &nbsp;&nbsp;&nbsp;
+					%td &nbsp;&nbsp;&nbsp;
+					%td 140
+					%td 150
+					%td 170
+					%td 185
+					%td 195
+					%td 210
+					%td 265
+					%td 325
+				%tr
+					%td Монтаж/Демонтаж
+					%td &nbsp;&nbsp;&nbsp;
+					%td &nbsp;&nbsp;&nbsp;
+					%td 185
+					%td 210
+					%td 240
+					%td 295
+					%td 340
+					%td 365
+					%td 615
+					%td 720
+				%tr
+					%td Балансировка
+					%td &nbsp;&nbsp;&nbsp;
+					%td &nbsp;&nbsp;&nbsp;
+					%td 225
+					%td 240
+					%td 265
+					%td 320
+					%td 365
+					%td 400
+					%td 620
+					%td 755
+				%tr
+					%td Комплекс шиномонтажа 4-х колес
+					%td &nbsp;&nbsp;&nbsp;
+					%td &nbsp;&nbsp;&nbsp;
+					%td 2150
+					%td 2400
+					%td 2700
+					%td 3200
+					%td 3600
+					%td 3900
+					%td 6000
+					%td 7200
 
 
 	%article.tab_item.remont
@@ -26,7 +186,7 @@
 					%th.title	Ремонт
 					%th цена указана в рублях
 			%tbody
-			-	@categories['химчистка'].each do |row|
+			-	@categories['himchistka'].each do |row|
 				%tr
 					%td
 						=row[0]
@@ -35,34 +195,25 @@
 					%td
 						=row[2]
 
-	%article.tab_item.custom
+
+
+	%article.tab_item.salon
 		%table
 			%thead
 				%tr
-					%th.title	Кастом
+					%th.title	Салон
 					%th цена указана в рублях
 			%tbody
 				%tr
 					%td Название
 					%td Цена
 
-	%article.tab_item.shinomontazh
-		%table
-			%thead
-				%tr
-					%th.title Шиномонтаж
-					%th цена указана в рублях
-
-			%tbody
-				%tr
-					%td Название
-					%td Цена
 
 	%article.tab_item.wash
 		%table
 			%thead
 				%tr
-					%th.title Шиномонтаж
+					%th.title Химчистка
 					%th цена указана в рублях
 			%tbody
 				%tr
@@ -73,7 +224,7 @@
 		%table
 			%thead
 				%tr
-					%th.title Шиномонтаж
+					%th.title Покраска
 					%th цена указана в рублях
 
 			%tbody

@@ -10,6 +10,7 @@ body {
   height: auto !important;
   margin: 0 auto -70px; /* margin-bottom: minus footer's height */
   padding: 0 10px;
+  width: 960px;
 }
 .main-wrapper {
   padding-top: 70px /* same as footer's height */
@@ -18,6 +19,8 @@ body {
   height: 70px; /* same as the footer */
 }
 footer {
+  position: absolute;
+  bottom: 0;
   margin-top: -70px;
   height: 70px;
   border-top: 1px solid #eee;
@@ -72,11 +75,12 @@ footer p {
   padding: 20px 0;
 }
 .login-controls {
-  margin-left: 120px;
+  /*margin-left: 120px;*/
 }
 .login-input-label {
   width: 100px;
 }
+
 .login-control-group-last, .login-bypass-label {
   margin-bottom: 0 !important;
 }
@@ -299,6 +303,51 @@ footer p {
 .list-menu-popover-delete-selected-btn {
   margin-right: 10px;
 }
+
+form.file-upload {
+  font-family: 'Varela', sans-serif;
+  padding: 2em;
+  width: 60%;
+  margin: 2em auto;
+  background-color: rgba(199, 199, 199, 0.33);
+}
+
+input.file-field {
+  font-size: 1.6em;
+  width: 100%;
+  margin: 0 0 1em;
+  padding: 1em;
+  border: 1px solid grey;
+
+}
+
+
+input[type="file"] {
+
+  padding: 10px;
+  background-color: lightgray ;
+  color: grey;
+  border: 0;
+
+}
+input[type="button"] {
+  padding: 10px;
+}
+
+
+input.file-submit {
+  width: 100%;
+  font-size: 1.6em;
+  background-color: #34495E;
+  border-color: #34495E;
+
+}
+
+input.className::-webkit-file-upload-button {
+}
+
+
+
 /* ---- End Application::List::ActionsOnList ---- */
 
 /* --- End Application::List --- */

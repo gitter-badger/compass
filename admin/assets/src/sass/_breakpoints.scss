@@ -1,0 +1,55 @@
+//$micro-size: em(200);
+$mobile-size:200px 600px;
+$tablet-size:601px 720px;
+$desktop-size:721px;
+
+
+
+$susy: (
+        columns: 8,
+        gutters: 1/4,
+        gutter-position: inside,
+        container:960px,
+        //debug: (
+        //        image: show,
+        //        color: blue,
+        //        output: overlay,
+        //        toggle: bottom right,
+        //),
+);
+
+
+$mobile: (
+        columns: 8,
+        gutters: 1/4,
+        gutter-position: inside,
+        container:auto,
+);
+
+
+
+
+$tablet: (
+        columns: 12,
+        gutters: 1/4,
+        gutter-position: inside,
+        container:720px,
+);
+
+
+$large: (
+        columns: 12,
+        gutters: 1/4,
+        gutter-position: inside,
+        container:960px,
+
+);
+
+
+
+// Bourbon Neat Breakpoints
+//$micro : new-breakpoint(max-width $micro-size 1);
+//$mobile: new-breakpoint(min-width $mobile-size 12);
+//$tablet: new-breakpoint(min-width $tablet-size 12);
+//$desktop: new-breakpoint(min-width $largedesktop-size 12);
+//$largedesktop: new-breakpoint(min-width $largedesktop-size 12);

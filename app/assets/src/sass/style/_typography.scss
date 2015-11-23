@@ -68,10 +68,17 @@ $rem-with-px-fallback: true !global;
 
 //
 
+
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.pt-wrapper, header {
+  //@include debug-vertical-alignment;
+}
+
+
 a {
   //@include link-colors(indianred, red, blue, #373737, blue)
 }
