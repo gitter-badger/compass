@@ -3,7 +3,6 @@
 //@import "compass/typography/links/link-colors";
 @import "compass/css3";
 @import "breakpoint";
-//@import '/fonts/PT_Sans/stylesheet.css';
 
 
 /*fonts*/
@@ -25,8 +24,8 @@ $rem-with-px-fallback: true !global;
 
 
 @include breakpoint($mobile-size) {
-  $base-font-size: 18px !global;
-  $base-line-height: 22px !global;
+  $base-font-size: 14px !global;
+  $base-line-height: 18px !global;
   $rhythm-unit: "rem" !global;
   $rem-with-px-fallback: true !global;
   @include establish-baseline();
@@ -34,22 +33,24 @@ $rem-with-px-fallback: true !global;
 
 //
 @include breakpoint($tablet-size){
-  $base-font-size: 20px !global;
-  $base-line-height: 25px!global;
+  $base-font-size: 18px !global;
+  $base-line-height: 21px!global;
   $rhythm-unit: "rem"!global;
   $rem-with-px-fallback: true!global;
   @include establish-baseline();
 }
 
 @include breakpoint($desktop-size) {
-  $base-font-size: 22px !global;
-  $base-line-height: 25px!global;
+  $base-font-size: 21px !global;
+  $base-line-height: 23px!global;
   $rhythm-unit: "rem"!global;
   $rem-with-px-fallback: true!global;
   @include establish-baseline();
 }
 
-
+article .body{
+  //@include debug-vertical-alignment();
+}
 
 /*DEBUG*/
   //body {@include debug-vertical-alignment();}
@@ -57,37 +58,24 @@ $rem-with-px-fallback: true !global;
 
 
 
-//header .contacts {
-//  line-height: 1.5em;
-//  overflow: hidden;
-//}
-//header .contacts  a{
-//  @include adjust-font-size-to(1.133rem);
-//
-//}
-
-//
-
-
-body {
+html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-.pt-wrapper, header {
+.pt-wrapper, header, article {
   //@include debug-vertical-alignment;
 }
+
 
 
 a {
   //@include link-colors(indianred, red, blue, #373737, blue)
 }
 
-h1,h2,h3,h4,h5,p,iframe,{
+h1,h2,h3,h4,p,iframe,{
   @include margin-trailer();
 }
-
-
 
 h1 { @include adjust-font-size-to(3.157rem); }
 h2 { @include adjust-font-size-to(2.369rem); }
@@ -96,19 +84,8 @@ h4 { @include adjust-font-size-to(1.133rem); }
 h5 { @include adjust-font-size-to(1rem); }
 h6 { @include adjust-font-size-to(.75rem); }
 
-.price-page article{
-  font-family: "PT Sans";
-}
-
-
-.price-page article .title {
-   //font-size: 1.777rem;
- }
-
-
 a {
   text-decoration: none;
-   //@include adjust-font-size-to(1.133rem);
 }
 
 ul {list-style-type: none;}
@@ -116,26 +93,12 @@ ul {list-style-type: none;}
 
 a, p, span {
     font-family: "BebasRegular";
-  }
-strong {
+}
+strong .title{
     font-family: "BebasBold";
-  }
+}
 
 header .contacts {
-
   font-family: "BebasRegular";
-
-  //line-height: 1.1rem;
-  //strong {
-  //
-  //  font-size: 1.3rem;
-  //    @include adjust-font-size-to(1.777rem);
-  //    line-height: 1.133rem;
-      //font: $body-font-size $body-font-family ;
-    //  //line-height: $body-line-height;
-    //  line-height: $base-line-height;
-    //color: rgba(55, 55, 55, 0.92);
-    //font-size: 1.133rem;
-
-  }
+}
 

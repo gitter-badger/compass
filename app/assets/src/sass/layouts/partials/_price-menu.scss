@@ -1,6 +1,6 @@
   .price-menu {
     background-color: #34495e;
-    height: 90px;
+    height: 160px;
     -webkit-box-shadow: 0 1px 0px -0px rgba(119, 119, 119, 0.5);
     -moz-box-shadow: 0 1px 0px -0px rgba(119, 119, 119, 0.5);
     box-shadow: 0 1px 0px -0px rgba(119, 119, 119, 0.5);
@@ -15,8 +15,8 @@
   .price-nav li {
     @include gallery(2 of 12);
     text-align: center;
-    height: 90px;
-    padding-top: 12px;
+    height: 123px;
+    padding-top: 15px;
 
     &:hover {
       transition: background, .3s ease;
@@ -33,7 +33,6 @@
 
 
   ul.price-nav li:nth-child(4) {
-    width: 20%;
   }
 
 
@@ -69,7 +68,7 @@
   ul.price-nav li  {
 
       text-align: center;
-      height: 120px;
+      height: 125px;
       width: 16%;
       padding-top: 0px;
 
@@ -80,6 +79,8 @@
 
       .price-menu {
         height: 105px;
+        position: relative;
+        top: 8px;
       }
       .price-nav .icon {
 
@@ -110,11 +111,11 @@
   @include breakpoint($desktop-size) {
 
     .price-menu {
-      height: 120px;
+      height: 130px;
     }
 
     ul.price-nav li {
-      height: 120px;
+      height: 130px;
     }
 
     .price-nav .icon {
@@ -156,14 +157,8 @@
 
     }
 
-
-
     ul.price-nav li:nth-child(4) {
-      width: 16%;
     }
-    //ul.price-nav li:last-child {
-    //  width: 17%;
-    //}
 
     .label {
       font-size: .7rem;
