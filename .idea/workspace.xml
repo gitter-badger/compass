@@ -5,144 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6d15d0b-34cc-4af7-aafc-06c9b93fa8e9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/fonts/BebasBold/BebasBold.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/fonts/BebasBold/BebasBold.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/fonts/BebasBold/BebasBold.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/fonts/BebasLight/BebasLight.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/fonts/BebasLight/BebasLight.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/fonts/BebasLight/BebasLight.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/fonts/BebasRegular/BebasRegular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/fonts/BebasRegular/BebasRegular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/fonts/BebasRegular/BebasRegular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/fonts/PT_Sans/PTC55F_W.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/fonts/PT_Sans/PTC55F_W.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/fonts/PT_Sans/PTC55F_W.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/fonts/PT_Sans/PTC75F_W.0ec7aecec141d0b851d6d61f2a9cab30.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/fonts/PT_Sans/PTC75F_W.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/fonts/PT_Sans/PTC75F_W.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/fonts/PT_Sans/PTC75F_W.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/fonts/PT_Sans/PTN57F_W.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/fonts/PT_Sans/PTN57F_W.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/fonts/PT_Sans/PTN57F_W.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/fonts/PT_Sans/PTN77F_W.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/fonts/PT_Sans/PTN77F_W.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/fonts/PT_Sans/PTN77F_W.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/fonts/PT_Sans/PTS55F_W.88f3e3d20534d0e300e4971a510c14b1.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/fonts/PT_Sans/PTS55F_W.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/fonts/PT_Sans/PTS55F_W.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/fonts/PT_Sans/PTS55F_W.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/fonts/PT_Sans/PTS56F_W.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/fonts/PT_Sans/PTS56F_W.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/fonts/PT_Sans/PTS56F_W.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/fonts/PT_Sans/PTS75F_W.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/fonts/PT_Sans/PTS75F_W.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/fonts/PT_Sans/PTS75F_W.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/fonts/PT_Sans/PTS76F_W.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/fonts/PT_Sans/PTS76F_W.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/fonts/PT_Sans/PTS76F_W.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/images/icons/address_metka.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/images/icons/address_metka_ru.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/images/bg/bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/images/icons/menu-price/icons_sprite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/images/header/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/images/header/metka.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/images/header/phone.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/images/icons/menu-price/1.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/images/icons_svg/1.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/images/icons/menu-price/2.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/images/icons_svg/2.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/images/icons/menu-price/3.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/images/icons_svg/3.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/images/icons/menu-price/4.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/images/icons_svg/4.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/images/icons/menu-price/5.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/images/icons_svg/5.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/images/icons/menu-price/6.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/images/icons_svg/6.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/js/tabledit/CHANGELOG.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/js/tabledit/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/fonts/PT_Sans/PT Free Font License_eng_1.2.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/fonts/PT_Sans/PT Free Font License_rus_1.2.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/fonts/PT_Sans/PTC55F_W.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/fonts/PT_Sans/PTC55F_demo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/fonts/PT_Sans/PTC55F_stylesheet.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/fonts/PT_Sans/PTC75F_W.ac02f040f53a6dc53dd4ab2291e7c7cd.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/fonts/PT_Sans/PTC75F_W.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/fonts/PT_Sans/PTC75F_demo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/fonts/PT_Sans/PTC75F_stylesheet.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/fonts/PT_Sans/PTN57F_W.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/fonts/PT_Sans/PTN57F_demo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/fonts/PT_Sans/PTN57F_stylesheet.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/fonts/PT_Sans/PTN77F_W.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/fonts/PT_Sans/PTN77F_demo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/fonts/PT_Sans/PTN77F_stylesheet.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/fonts/PT_Sans/PTS55F_W.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/fonts/PT_Sans/PTS55F_demo.0cb9e25efe25d9676e5dcdc93c6a7062.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/fonts/PT_Sans/PTS55F_demo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/fonts/PT_Sans/PTS55F_stylesheet.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/fonts/PT_Sans/PTS56F_W.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/fonts/PT_Sans/PTS56F_demo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/fonts/PT_Sans/PTS56F_stylesheet.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/fonts/PT_Sans/PTS75F_W.2c733d5f1873cb6b8101b180f0212c5f.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/fonts/PT_Sans/PTS75F_W.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/fonts/PT_Sans/PTS75F_demo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/fonts/PT_Sans/PTS75F_stylesheet.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/fonts/PT_Sans/PTS76F_W.c74b0ff06dc16112f8a7effd1c65930b.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/fonts/PT_Sans/PTS76F_W.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/fonts/PT_Sans/PTS76F_demo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/fonts/PT_Sans/PTS76F_stylesheet.bb07d969ee7cad4fd488b0c2b5c618cd.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/fonts/PT_Sans/PTS76F_stylesheet.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/js/tabledit/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/data/TO.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/sass/_breakpoints.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/sass/layouts/partials/_footer.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/views/manage_data/_price-menu.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/sass/layouts/partials/_price-menu.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/views/manage_data/_table..erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/sass/style/_typography.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/stylesheets/app.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/css/application.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/css/application.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/sass/application.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/js/tabledit/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/fonts/PT_Sans/demo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/js/tabledit/example.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/data/himchistka.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/js/tabledit/jquery.tabledit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/javascripts/jquery.tabledit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/js/tabledit/jquery.tabledit.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/images/header/logo.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/images/icons_svg/metka.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/stylesheets/price-menu.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/data/shinomontazh.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/fonts/PT_Sans/stylesheet.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/admin/javascripts/table-edit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/assets/src/images/icons_svg/tel.svg" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/admin/data/слесарные_работы.csv" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/admin/data/химчистка.csv" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/data/TO.csv" afterPath="$PROJECT_DIR$/admin/data/TO.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/src/sass/layouts/pages/_contacts.scss" afterPath="$PROJECT_DIR$/app/assets/src/sass/layouts/pages/_contacts.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/partials/_footer.haml" afterPath="$PROJECT_DIR$/app/views/layouts/partials/_footer.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/src/sass/layouts/partials/_footer.scss" afterPath="$PROJECT_DIR$/app/assets/src/sass/layouts/partials/_footer.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/src/sass/_mixins.scss" afterPath="$PROJECT_DIR$/app/assets/src/sass/_mixins.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/partials/_price-menu.erb" afterPath="$PROJECT_DIR$/app/views/layouts/partials/_price-menu.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/src/sass/layouts/partials/_price-menu.scss" afterPath="$PROJECT_DIR$/app/assets/src/sass/layouts/partials/_price-menu.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/page/_price.haml" afterPath="$PROJECT_DIR$/app/views/page/_price.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/src/sass/layouts/pages/_price.scss" afterPath="$PROJECT_DIR$/app/assets/src/sass/layouts/pages/_price.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/src/sass/_susy_grid.scss" afterPath="$PROJECT_DIR$/app/assets/src/sass/_susy_grid.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/src/sass/style/_typography.scss" afterPath="$PROJECT_DIR$/app/assets/src/sass/style/_typography.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/app.min.css" afterPath="$PROJECT_DIR$/public/stylesheets/app.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/app.rb" afterPath="$PROJECT_DIR$/admin/app.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/custom/app.min.js" afterPath="$PROJECT_DIR$/public/javascripts/custom/app.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/src/css/application.css.map" afterPath="$PROJECT_DIR$/app/assets/src/css/application.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/src/css/application.css" afterPath="$PROJECT_DIR$/app/assets/src/css/application.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/admin/stylesheets/application.css" afterPath="$PROJECT_DIR$/public/admin/stylesheets/application.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/views/layouts/application.haml" afterPath="$PROJECT_DIR$/admin/views/layouts/application.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.haml" afterPath="$PROJECT_DIR$/app/views/layouts/application.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/src/javascripts/custom/application.js" afterPath="$PROJECT_DIR$/app/assets/src/javascripts/custom/application.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/boot.rb" afterPath="$PROJECT_DIR$/config/boot.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/views/manage_data/index.haml" afterPath="$PROJECT_DIR$/admin/views/manage_data/index.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/controllers/manage_data.rb" afterPath="$PROJECT_DIR$/admin/controllers/manage_data.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/helpers/manage_data_helper.rb" afterPath="$PROJECT_DIR$/admin/helpers/manage_data_helper.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/views/sessions/new.haml" afterPath="$PROJECT_DIR$/admin/views/sessions/new.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/page_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/page_helper.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.rb" afterPath="$PROJECT_DIR$/config/database.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/data/himchistka.csv" afterPath="$PROJECT_DIR$/admin/data/himchistka.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="compass.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
+    <ignored path="$PROJECT_DIR$/.idea/shelf/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -152,7 +42,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/compass@Local.coverage" NAME="Local Coverage Results" MODIFIED="1448200083242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="compass" />
+    <SUITE FILE_PATH="coverage/compass@Local.coverage" NAME="Local Coverage Results" MODIFIED="1448557084539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="compass" />
     <SUITE FILE_PATH="coverage/compass@IRB_console__compass.coverage" NAME="IRB console: compass Coverage Results" MODIFIED="1438963960914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="compass" />
     <SUITE FILE_PATH="coverage/compass@Production.coverage" NAME="Production Coverage Results" MODIFIED="1446126769655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="compass" />
   </component>
@@ -176,24 +66,14 @@
     <favorites_list name="compass" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4159159">
+    <splitter split-orientation="horizontal" split-proportion="0.43435115">
       <split-first>
         <leaf>
-          <file leaf-file-name="_price.haml" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/views/page/_price.haml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-32.666668">
-                  <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="_typography.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/assets/src/sass/style/_typography.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="25.333334">
-                  <caret line="78" column="1" selection-start-line="78" selection-start-column="1" selection-end-line="78" selection-end-column="1" />
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -202,8 +82,58 @@
           <file leaf-file-name="_price.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/assets/src/sass/layouts/pages/_price.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.7095436">
-                  <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.53457946">
+                  <caret line="210" column="11" selection-start-line="210" selection-start-column="11" selection-end-line="210" selection-end-column="11" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_contacts.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/assets/src/sass/layouts/pages/_contacts.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_footer.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/assets/src/sass/layouts/partials/_footer.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_price-menu.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/assets/src/sass/layouts/partials/_price-menu.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="80" column="19" selection-start-line="80" selection-start-column="19" selection-end-line="80" selection-end-column="19" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_susy_grid.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/assets/src/sass/_susy_grid.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_mixins.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/assets/src/sass/_mixins.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
                   <folding />
                 </state>
               </provider>
@@ -216,8 +146,48 @@
           <file leaf-file-name="_price.haml" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views/page/_price.haml">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-3.012448">
-                  <caret line="57" column="6" selection-start-line="57" selection-start-column="6" selection-end-line="57" selection-end-column="6" />
+                <state vertical-scroll-proportion="0.61634105">
+                  <caret line="240" column="0" selection-start-line="240" selection-start-column="0" selection-end-line="240" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_price-menu.erb" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/_price-menu.erb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="application.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/assets/src/javascripts/custom/application.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="connection_pool_management_middleware.rb" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/lib/connection_pool_management_middleware.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="database.rb" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/config/database.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
                   <folding />
                 </state>
               </provider>
@@ -241,30 +211,18 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/views/layouts/partials/_header.haml" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.haml" />
-        <option value="$PROJECT_DIR$/app/assets/src/sass/application.scss" />
-        <option value="$USER_HOME$/RubymineProjects/MKDEV/Level_2/movies_raitings.rb" />
-        <option value="$PROJECT_DIR$/app/assets/src/sass/layouts/pages/_contacts.scss" />
-        <option value="$PROJECT_DIR$/app/assets/src/sass/layouts/partials/_price-menu.scss" />
-        <option value="$PROJECT_DIR$/app/assets/src/sass/layouts/_default.scss" />
-        <option value="$PROJECT_DIR$/app/views/layouts/partials/_header.mobile.haml" />
         <option value="$PROJECT_DIR$/app/assets/src/sass/layouts/blocks/header/_phone.scss" />
         <option value="$PROJECT_DIR$/app/assets/src/sass/layouts/blocks/header/_address.scss" />
-        <option value="$PROJECT_DIR$/app/assets/src/sass/layouts/partials/_footer.scss" />
         <option value="$PROJECT_DIR$/app/assets/src/sass/layouts/partials/_header.scss" />
         <option value="$PROJECT_DIR$/app/assets/src/sass/layouts/blocks/header/_logo.scss" />
-        <option value="$PROJECT_DIR$/app/assets/src/sass/_susy_grid.scss" />
         <option value="$PROJECT_DIR$/db/migrate/002_create_items.rb" />
         <option value="$PROJECT_DIR$/models/category.rb" />
         <option value="$PROJECT_DIR$/db/seeds.rb" />
         <option value="$PROJECT_DIR$/models/items.rb" />
         <option value="$PROJECT_DIR$/app/views/data/TO.csv" />
         <option value="$PROJECT_DIR$/admin/controllers/base.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/admin/data/слесарные_работы.csv" />
         <option value="$PROJECT_DIR$/admin/assets/js/dropzone.js" />
-        <option value="$PROJECT_DIR$/app/views/layouts/partials/_footer.haml" />
         <option value="$PROJECT_DIR$/admin/app.rb" />
         <option value="$PROJECT_DIR$/public/admin/stylesheets/price-menu.css" />
         <option value="$PROJECT_DIR$/admin/helpers/manage_data_helper.rb" />
@@ -281,21 +239,34 @@
         <option value="$PROJECT_DIR$/admin/views/manage_data/index.haml" />
         <option value="$PROJECT_DIR$/admin/controllers/manage_data.rb" />
         <option value="$PROJECT_DIR$/admin/views/layouts/application.haml" />
-        <option value="$PROJECT_DIR$/config/boot.rb" />
         <option value="$PROJECT_DIR$/admin/views/manage_data/_table..haml" />
         <option value="$PROJECT_DIR$/admin/views/manage_data/_table..erb" />
         <option value="$PROJECT_DIR$/public/admin/javascripts/table-edit.js" />
-        <option value="$PROJECT_DIR$/app/views/layouts/partials/_price-menu.erb" />
         <option value="$PROJECT_DIR$/app/helpers/page_helper.rb" />
         <option value="$PROJECT_DIR$/config/apps.rb" />
         <option value="$PROJECT_DIR$/admin/views/sessions/new.haml" />
-        <option value="$PROJECT_DIR$/app/views/page/_price.haml" />
+        <option value="$PROJECT_DIR$/config/database.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/config/boot.rb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.haml" />
+        <option value="$PROJECT_DIR$/app/assets/src/sass/_mixins.scss" />
+        <option value="$PROJECT_DIR$/app/views/layouts/partials/_footer.haml" />
+        <option value="$PROJECT_DIR$/app/views/layouts/partials/_price-menu.erb" />
+        <option value="$PROJECT_DIR$/app/assets/src/javascripts/custom/application.js" />
+        <option value="$PROJECT_DIR$/app/assets/src/sass/layouts/partials/_footer.scss" />
+        <option value="$PROJECT_DIR$/app/assets/src/sass/_susy_grid.scss" />
+        <option value="$PROJECT_DIR$/app/assets/src/sass/layouts/pages/_contacts.scss" />
+        <option value="$PROJECT_DIR$/app/assets/src/sass/layouts/partials/_price-menu.scss" />
         <option value="$PROJECT_DIR$/app/assets/src/sass/style/_typography.scss" />
+        <option value="$PROJECT_DIR$/admin/data/TO.csv" />
+        <option value="$PROJECT_DIR$/admin/data/himchistka.csv" />
+        <option value="$PROJECT_DIR$/app/views/page/_price.haml" />
         <option value="$PROJECT_DIR$/app/assets/src/sass/layouts/pages/_price.scss" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
   </component>
@@ -332,6 +303,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -360,47 +332,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="compass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="masloff_service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="compass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="masloff_service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascripts" />
+              <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -534,24 +466,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="helpers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="compass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="masloff_service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -654,7 +568,97 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="partials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="compass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="masloff_service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="compass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="masloff_service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="compass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="masloff_service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="custom" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -726,173 +730,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sessions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="compass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="masloff_service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="manage_data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="compass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="masloff_service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="compass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="masloff_service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="compass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="masloff_service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="accounts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="compass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="masloff_service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helpers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="compass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="masloff_service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="compass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="masloff_service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="compass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="masloff_service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -901,7 +744,7 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HAML" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.HAML" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="JavaScriptLanguageLevel" value="JSX" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="207" />
@@ -1126,12 +969,6 @@
       <created>1436757678896</created>
       <option name="number" value="Default" />
       <updated>1436757678896</updated>
-    </task>
-    <task id="LOCAL-00022" summary="fixed transition bug-2">
-      <created>1440751691760</created>
-      <option name="number" value="00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1440751691761</updated>
     </task>
     <task id="LOCAL-00023" summary="fixed transition bug-oncemore">
       <created>1440752093924</created>
@@ -1421,7 +1258,13 @@
       <option name="project" value="LOCAL" />
       <updated>1447904298565</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="add admin &#10;add csv oarser">
+      <created>1448264010768</created>
+      <option name="number" value="00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1448264010769</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -1435,27 +1278,27 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="30" width="1682" height="919" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32916147" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30836454" sideWeight="0.4978903" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32904884" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2032967" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18681319" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32718894" sideWeight="0.4930681" order="3" side_tool="false" content_ui="tabs" x="415" y="341" width="467" height="253" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23595506" sideWeight="0.49186257" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20512821" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32709113" sideWeight="0.4930681" order="3" side_tool="false" content_ui="tabs" x="415" y="341" width="467" height="253" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22971286" sideWeight="0.49186257" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31920528" sideWeight="0.5021097" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5141026" sideWeight="0.4930681" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3258427" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32540676" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916147" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1507,111 +1350,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/admin/views/accounts/new.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.033834588">
-          <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/views/base/index.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30451128">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.2.1@global/gems/padrino-admin-0.12.5/lib/padrino-admin/access_control.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.2021466">
-          <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/layouts/pages/price.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/app.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.7777777">
-          <caret line="2983" column="0" selection-start-line="2983" selection-start-column="0" selection-end-line="3005" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/admin/stylesheets/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/assets/src/sass/layouts/partials/_footer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/assets/src/fonts/PT_Sans/demo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.6666665">
-          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/admin/stylesheets/price-menu.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="147" column="17" selection-start-line="147" selection-start-column="17" selection-end-line="147" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/layouts/_breakpoints.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/assets/src/sass/style/_typography.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.444445">
-          <caret line="125" column="29" selection-start-line="125" selection-start-column="29" selection-end-line="125" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/assets/src/sass/_breakpoints.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/assets/src/css/application.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/assets/src/sass/layouts/partials/_price-menu.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1661,26 +1399,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/data/shinomontazh.csv">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.892857">
-          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/data/himchistka.csv">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/app.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1689,13 +1407,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tmp/compass/app/cache/%04%08%3A%0Aindex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1716,20 +1427,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/boot.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="41" column="3" selection-start-line="41" selection-start-column="3" selection-end-line="41" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/admin/javascripts/table-edit.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1751,7 +1452,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4874372">
           <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1759,15 +1459,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/_price-menu.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22058824">
-          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1775,7 +1466,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.1948718">
           <caret line="84" column="71" selection-start-line="84" selection-start-column="70" selection-end-line="84" selection-end-column="71" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1783,7 +1473,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-13.666667">
           <caret line="41" column="15" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1791,7 +1480,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.625641">
           <caret line="53" column="12" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1799,7 +1487,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.36410257">
           <caret line="142" column="25" selection-start-line="142" selection-start-column="25" selection-end-line="142" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1807,7 +1494,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.581818">
           <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1815,7 +1501,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
           <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1823,7 +1508,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.44273505">
           <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1831,7 +1515,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.32258064">
           <caret line="10" column="30" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1839,7 +1522,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.23076923">
           <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1847,7 +1529,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6">
           <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1855,38 +1536,196 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.36923078">
           <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/connection_pool_management_middleware.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.2.1@global/gems/activerecord-4.2.5/lib/active_record/connection_adapters/connection_specification.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="257" column="12" selection-start-line="257" selection-start-column="12" selection-end-line="257" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/boot.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/src/javascripts/custom/ya_map.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.0">
+          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/src/javascripts/custom/pagetransitions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/src/sass/application.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.3333333">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/_footer.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.3333333">
+          <caret line="5" column="60" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/src/sass/_mixins.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/_price-menu.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/src/sass/layouts/partials/_footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/src/javascripts/custom/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/src/sass/_susy_grid.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/src/sass/layouts/pages/_contacts.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/src/sass/layouts/partials/_price-menu.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.548387">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="80" column="19" selection-start-line="80" selection-start-column="19" selection-end-line="80" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/src/sass/style/_typography.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="25.333334">
-          <caret line="78" column="1" selection-start-line="78" selection-start-column="1" selection-end-line="78" selection-end-column="1" />
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/data/himchistka.csv">
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31367293">
+          <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/data/shinomontazh.csv">
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1930295">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/data/TO.csv">
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.79624665">
+          <caret line="33" column="42" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/src/javascripts/custom/tabs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/page/_price.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-32.666668">
-          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.61634105">
+          <caret line="240" column="0" selection-start-line="240" selection-start-column="0" selection-end-line="240" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/src/sass/layouts/pages/_price.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7095436">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.53457946">
+          <caret line="210" column="11" selection-start-line="210" selection-start-column="11" selection-end-line="210" selection-end-column="11" />
           <folding />
         </state>
       </provider>

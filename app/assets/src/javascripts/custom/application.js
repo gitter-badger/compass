@@ -6,10 +6,10 @@ $(document).ready(function() {
 
     $(window).bind( 'hashchange', function(e) {
         var anchor = document.location.hash;
-        if( anchor === '#contacts' ) {
+        if( anchor === '#price' ) {
             $('nav.main-menu li:first-child').addClass('active');
             $('nav.main-menu li:last-child').removeClass('active');
-        }else if ( anchor === '#price' ) {
+        }else if ( anchor === '#contacts' ) {
             $('nav.main-menu li:last-child').addClass('active');
             $('nav.main-menu li:first-child').removeClass('active');
         }

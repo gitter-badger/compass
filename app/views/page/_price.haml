@@ -9,7 +9,7 @@
 					%th.title Техническое обслуживание
 					%th цена указана в рублях
 				%tr.sub
-					%th Наименование
+					%th Услуги
 					%th Легковые
 					%th Внедорожники
 
@@ -17,20 +17,23 @@
 			-	@categories['TO'].each do |row|
 				%tr
 					%td
-						=row[0]
+						%h5
+							=row[0]
 					%td
-						=row[1]
+						%h5
+							=row[1]
 					%td
-						=row[2]
+						%h5
+							=row[2]
 
 	%article.tab_item.remont
 		%table.header
 			%thead
 				%tr.main
-					%th.title Техническое обслуживание
+					%th.title Ремонт
 					%th цена указана в рублях
 				%tr.sub
-					%th Наименование
+					%th Услуги
 					%th Легковые
 					%th Внедорожники
 
@@ -38,11 +41,14 @@
 			-	@categories['TO'].each do |row|
 				%tr
 					%td
-						=row[0]
+						%h5
+							=row[0]
 					%td
-						=row[1]
+						%h5
+							=row[1]
 					%td
-						=row[2]
+						%h5
+							=row[2]
 
 
 
@@ -52,7 +58,7 @@
 			%thead
 				%tr.main
 					%th.title Шиномонтаж
-					-#%th цена указана в рублях
+					%th цена указана в рублях
 
 		.body
 			%table.light
@@ -178,22 +184,47 @@
 					%td 6000
 					%td 7200
 
+			%table.dop_uslugi
+				%tr
+					%td Замена вентилей (обычный) : 100руб. (1 шт.)
+				%tr
+					%td Замена вентилей (хром) : 150руб. (1 шт.)
+				%tr
+					%td Ремонт шины грибком: 500 руб.
+				%tr
+					%td Ремонт шины жгутом: 400 руб.
+				%tr
+					%td Ремонт шины пластырем (заплаткой): 800 руб.
+				%tr
+					%td Шиномонтажные работы на низкопрофильную резину (от 45) +30% к стоимости
+				%tr
+					%td Шиномонтажные работы на низкопрофильную резину (от 40) +50% к стоимости
+				%tr
+					%td Шины Run Flat + 50% к стоимости работ
+				%tr
+					%td Диски с датчиками давления + 50% к стоимости работ
+
+
+
 
 	%article.tab_item.remont
-		%table
+		%table.header
 			%thead
-				%tr
-					%th.title	Ремонт
+				%tr.main
+					%th.title	Химчистка
 					%th цена указана в рублях
 			%tbody
 			-	@categories['himchistka'].each do |row|
 				%tr
 					%td
-						=row[0]
+						%h5
+							=row[0]
 					%td
-						=row[1]
+						%h5
+							=row[1]
 					%td
-						=row[2]
+						%h5
+							=row[2]
 
 
 
@@ -208,17 +239,6 @@
 					%td Название
 					%td Цена
 
-
-	%article.tab_item.wash
-		%table
-			%thead
-				%tr
-					%th.title Химчистка
-					%th цена указана в рублях
-			%tbody
-				%tr
-					%td Название
-					%td Цена
 
 	%article.tab_item.paint
 		%table
