@@ -4,9 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/app/assets/src/sass/application.scss" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6d15d0b-34cc-4af7-aafc-06c9b93fa8e9" name="Default" comment="style tables&#10;">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="f6d15d0b-34cc-4af7-aafc-06c9b93fa8e9" name="Default" comment="" />
     <ignored path="compass.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -50,8 +48,8 @@
           <file leaf-file-name="_susy_grid.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/assets/src/sass/_susy_grid.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.7522388">
-                  <caret line="28" column="2" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
+                <state vertical-scroll-proportion="-0.288">
+                  <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
                   <folding />
                 </state>
               </provider>
@@ -74,8 +72,8 @@
           <file leaf-file-name="_price.haml" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views/page/_price.haml">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.014925373">
-                  <caret line="221" column="13" selection-start-line="221" selection-start-column="11" selection-end-line="221" selection-end-column="13" />
+                <state vertical-scroll-proportion="5.158">
+                  <caret line="232" column="12" selection-start-line="232" selection-start-column="12" selection-end-line="232" selection-end-column="12" />
                   <folding />
                 </state>
               </provider>
@@ -898,12 +896,6 @@
       <option name="number" value="Default" />
       <updated>1436757678896</updated>
     </task>
-    <task id="LOCAL-00024" summary="add cache">
-      <created>1440752312411</created>
-      <option name="number" value="00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1440752312411</updated>
-    </task>
     <task id="LOCAL-00025" summary="add opacity back">
       <created>1440752511399</created>
       <option name="number" value="00025" />
@@ -1192,7 +1184,13 @@
       <option name="project" value="LOCAL" />
       <updated>1448608383200</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="style tables&#10;">
+      <created>1448616956803</created>
+      <option name="number" value="00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1448616956804</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1208,13 +1206,13 @@
     <frame x="-1" y="30" width="1682" height="919" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30788484" sideWeight="0.4978903" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3066333" sideWeight="0.4957265" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32540676" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2032967" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32709113" sideWeight="0.4930681" order="3" side_tool="false" content_ui="tabs" x="415" y="341" width="467" height="253" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31920528" sideWeight="0.5021097" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3066333" sideWeight="0.50427353" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.51314145" sideWeight="0.4930681" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.51314145" sideWeight="0.4932845" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916147" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3279099" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1644,18 +1642,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/src/sass/_susy_grid.scss">
+    <entry file="file://$PROJECT_DIR$/app/views/page/_price.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7522388">
-          <caret line="28" column="2" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
+        <state vertical-scroll-proportion="5.158">
+          <caret line="232" column="12" selection-start-line="232" selection-start-column="12" selection-end-line="232" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/page/_price.haml">
+    <entry file="file://$PROJECT_DIR$/app/assets/src/sass/_susy_grid.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.014925373">
-          <caret line="221" column="13" selection-start-line="221" selection-start-column="11" selection-end-line="221" selection-end-column="13" />
+        <state vertical-scroll-proportion="-0.288">
+          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
           <folding />
         </state>
       </provider>
