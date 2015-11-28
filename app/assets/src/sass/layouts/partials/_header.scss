@@ -234,7 +234,7 @@ header {
   }
   .header_contacts {
     @include span(last 6);
-    text-align: center;
+    text-align: right;
   }
   .header_contacts__address {
     @include span(last 6 of 6);

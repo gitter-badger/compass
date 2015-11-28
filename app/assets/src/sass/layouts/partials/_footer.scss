@@ -42,9 +42,15 @@
 
       }
 
-      li.active {
-        color: red;
+      li.active  {
         height: 70px;
+
+        -webkit-transition: all,.6s;
+        -moz-transition: all,.6s;
+        -ms-transition: all,.6s;
+        -o-transition: all,.6s;
+        transition: all,.6s;
+
       }
 
       a {
@@ -52,7 +58,7 @@
         text-decoration: none;
         border: 0;
         top: 0;
-        padding-top: 15px;
+        //padding-top: 15px;
         box-sizing: border-box;
         width: 100%;
         position: relative;
@@ -60,6 +66,11 @@
         font-family: BebasBold;
         font-size: 1.3rem;
         color: #fff;
+        @include vertical-center(relative, 30%);
+      }
+
+      li.active a {
+        @include vertical-center(relative, 37%);
       }
   }
 

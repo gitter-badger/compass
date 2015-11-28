@@ -1,6 +1,8 @@
+@include susy-breakpoint($mobile-size, $mobile) {
+
   .price-menu {
     background-color: #34495e;
-    height: 160px;
+    height: 70px;
     -webkit-box-shadow: 0 1px 0px -0px rgba(119, 119, 119, 0.5);
     -moz-box-shadow: 0 1px 0px -0px rgba(119, 119, 119, 0.5);
     box-shadow: 0 1px 0px -0px rgba(119, 119, 119, 0.5);
@@ -15,8 +17,7 @@
   .price-nav li {
     @include gallery(2 of 12);
     text-align: center;
-    height: 123px;
-    padding-top: 15px;
+    height: 70px;
 
     &:hover {
       transition: background, .3s ease;
@@ -30,26 +31,20 @@
     background: #D15F54;
   }
 
-
-
   ul.price-nav li:nth-child(4) {
   }
 
-
   ul.price-nav li input[type=radio] {
-    display:none;
+    display: none;
   }
-
-
 
   ul.price-nav li .label {
     display: inline-block;
-    color:white;
-    border-bottom:1px dashed #ffffff;
+    color: white;
+    border-bottom: 1px dashed #ffffff;
   }
 
-
-.price-nav {
+  .price-nav {
 
     .icon {
       height: 40px;
@@ -65,7 +60,7 @@
       text-align: center;
     }
 
-  ul.price-nav li  {
+    ul.price-nav li {
 
       text-align: center;
       height: 125px;
@@ -75,10 +70,11 @@
     }
 
   }
+}
     @include breakpoint($tablet-size) {
 
       .price-menu {
-        height: 105px;
+        height: 60px;
         position: relative;
         top: 8px;
       }
@@ -92,8 +88,8 @@
 
       ul.price-nav li {
 
-        height: 105px;
-        width: 16%;
+        height: 60px;
+        width: 10%;
         padding-top: 10px;
 
       }
@@ -116,6 +112,8 @@
 
     ul.price-nav li {
       height: 130px;
+      padding-top: 15px;
+
     }
 
     .price-nav .icon {

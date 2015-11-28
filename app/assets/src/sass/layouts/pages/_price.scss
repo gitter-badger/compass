@@ -16,7 +16,7 @@
 
 .page_price {
   background: inline-image("bg/bg.jpg");
-  background-position: 0px 160px;
+  background-position: 0px 100px;
   background-repeat: repeat-x;
 
 }
@@ -29,6 +29,25 @@
   //box-shadow: 0 0px 5px rgba(0,0,0,0.5);
   height: calc(100% - 130px);
   //-webkit-overflow-scrolling: touch;
+}
+
+
+.price-page article {
+  display: none;
+  font-family: 'PTSansRegular', sans-serif;
+  //border-bottom: 1px solid #BEBBBB;
+  position: relative;
+  height: calc(100% - 0px);
+  @include scrollbars(.5em, slategray);
+
+}
+
+
+article td:first-child h5 {
+  font-family: "PTSansRegular";
+  padding-left: 15px;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
 }
 
 
@@ -162,12 +181,6 @@
 @include susy-breakpoint($desktop-size, $large) {
 
 
-
-
-
-
-
-
   .price-page article {
     display: none;
     font-family: 'PTSansRegular', sans-serif;
@@ -184,13 +197,11 @@
     padding-left: 15px;
     padding-top: .5rem;
     padding-bottom: .5rem;
-
   }
 
   article td h5 {
     font-family: "PTSansRegular";
-    padding-top: .5rem;
-    padding-bottom: .5rem;
+    line-height: 1rem;
   }
 
   article .title {
@@ -222,7 +233,7 @@
     height: 55px;
     position: fixed;
     background: #fff;
-    border-bottom: 2px solid rgba(192, 57, 43, 0.6);
+    //border-bottom: 2px solid rgba(192, 57, 43, 0.6);
 
   }
 
@@ -257,7 +268,7 @@
       height: 55px;
       position: fixed;
       background: #fff;
-      border-bottom: 2px solid rgba(192, 57, 43, 0.6);
+      box-shadow: 0px 2px 1px 1px #D0D0D0;
 
     }
     thead tr.sub {
@@ -267,15 +278,17 @@
       //box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.2);
       display: table;
       position: fixed;
+      border-top: 1px solid rgba(195, 195, 195, 0.6);
+      border-bottom: 3px solid rgba(181, 181, 181, 0.55);
+
       color: #5D5D5D;
-      background: #DADADA;
+      background: #F2F3F5;
       height: 40px;
       font-size: .9rem;
       text-transform: uppercase;
     }
 
     tr.sub th {
-      text-align: center;
     }
 
     th:first-child {
@@ -284,12 +297,19 @@
 
     tr.sub th:nth-child(1) {
       width: 72%;
+      text-align: center;
+
     }
     tr.sub th:nth-child(2) {
       width: 13%;
+      text-align: center;
+
     }
     tr.sub th:nth-child(3) {
       width: 13%;
+      text-align: center;
+
+
     }
 
 
@@ -329,11 +349,13 @@
     }
 
     tr td:nth-child(3) {
-      padding-right: 1%;
-      text-align: center;
+      padding-right: 5%;
+      text-align: right;
     }
     tr td:nth-child(2) {
-      text-align: center;
+      text-align: right;
+      width: 8.55%;
+
     }
 
   }

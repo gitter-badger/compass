@@ -24,7 +24,7 @@ $rem-with-px-fallback: true !global;
 
 
 @include breakpoint($mobile-size) {
-  $base-font-size: 14px !global;
+  $base-font-size: 12px !global;
   $base-line-height: 18px !global;
   $rhythm-unit: "rem" !global;
   $rem-with-px-fallback: true !global;
@@ -42,7 +42,7 @@ $rem-with-px-fallback: true !global;
 
 @include breakpoint($desktop-size) {
   $base-font-size: 21px !global;
-  $base-line-height: 23px!global;
+  $base-line-height: 21px!global;
   $rhythm-unit: "rem"!global;
   $rem-with-px-fallback: true!global;
   @include establish-baseline();

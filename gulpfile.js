@@ -86,12 +86,12 @@ gulp.task('lint', function() {
 
 //Добавляем префиксы для последних двух версий браузеров
 gulp.task('autoprefixer', function () {
-    return gulp.src(path.build + '/*/**.sass')
+    return gulp.src('public/stylesheets/app.min.css')
         .pipe(autoprefixer({
             browsers: ['last 2 versions'],
             cascade: false
         }))
-        .pipe(gulp.dest(''));
+        .pipe(gulp.dest('dist'));
 });
 
 
@@ -115,8 +115,11 @@ gulp.task('app_style:build', function() {
             // Would like to catch the error here
             console.log(err.message);
         })
-        //.pipe(minifyCSS())
         .pipe(concat('app.min.css'))
+
+        //.pipe(minifyCSS())
+        //.pipe(prefix("last 1 version", "> 1%", "ie 8", "ie 7"))
+
         .pipe(gulp.dest('public/stylesheets'))
         .pipe(browserSync.reload({stream:true, once: true}));
 });
@@ -213,8 +216,11 @@ gulp.task('build', [
     'app_style:build',
     'admin_style:build',
     'fonts:build',
-    'images:build'
+    'images:build',
+    //'autoprefixer'
+
 ]);
+
 
 
 
