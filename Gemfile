@@ -15,23 +15,27 @@ gem 'rake'
 gem 'thin'
 # Component requirements
 gem 'bcrypt'
-gem 'compass'
-# gem 'rack-livereload'
+
+group :development do
+  gem 'compass'
+  gem 'susy'
+  gem 'breakpoint'
+end
+
 gem 'haml'
-gem 'susy'
-gem 'breakpoint'
 gem 'activerecord', '>= 3.1', :require => 'active_record'
 gem 'pg'
 gem 'rack-zippy'
 gem 'rack-mobile-detect'
+gem 'padrino', '0.12.5'
+gem 'padrino-flash'
 
 # Test requirements
 # gem 'debase'
 # gem 'ruby-debug-ide'
 
 # Padrino Stable Gem
-gem 'padrino', '0.12.5'
-gem 'padrino-flash'
+
 # Or Padrino Edge
 # gem 'padrino', :github => 'padrino/padrino-framework'
 

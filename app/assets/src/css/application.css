@@ -2617,6 +2617,13 @@ header {
   clear: both;
 }
 
+.social_vk {
+  position: absolute;
+  left: 0px;
+  top: 0;
+  width: 64px;
+}
+
 .icon {
   background-position: 50% 0;
   background-repeat: no-repeat;
@@ -3102,7 +3109,9 @@ article td:first-child h5 {
     text-transform: uppercase;
   }
 
-  .price-page article .body {
+  article.TO .body,
+  article.remont .body,
+  article.shinomontazh .body {
     overflow-x: hidden;
     overflow-y: auto;
     position: relative;
@@ -3203,11 +3212,6 @@ article td:first-child h5 {
     width: 13%;
     text-align: center;
   }
-  article table article table.body {
-    position: relative;
-    top: 90px;
-    height: 100%;
-  }
 
   table tr.main th:last-child {
     font-size: .8rem;
@@ -3280,6 +3284,21 @@ article td:first-child h5 {
   }
   article.shinomontazh .body tbody tr td {
     padding: .5rem;
+  }
+
+  article.himchistka .body,
+  article.salon .body,
+  article.paint .body {
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: table;
+    top: 60px;
+    position: relative;
+  }
+  article.himchistka .body td:last-child,
+  article.salon .body td:last-child,
+  article.paint .body td:last-child {
+    padding-right: 11%;
   }
 }
 footer {
