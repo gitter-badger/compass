@@ -376,7 +376,7 @@ article td:first-child h5 {
     }
 
     tr.main {
-      box-shadow: 0px 2px 0px rgba(192, 57, 43, 0.6);
+      border-bottom: 2px solid rgb(181, 181, 181);
     }
 
     table.light tr:first-child,
@@ -415,8 +415,13 @@ article td:first-child h5 {
       //background-color: #fff;
     }
 
+    table.dop_uslugi {
+      border-top: 5px solid rgb(181, 181, 181);
+    }
+
     table.dop_uslugi tbody tr td {
       text-align: left;
+
     }
 
     .body {
@@ -431,7 +436,8 @@ article td:first-child h5 {
       }
 
       tbody tr td {
-        padding: .5rem;
+        padding: .6rem;
+        width: 7%;
       }
       tbody tr td:last-child {
       }
