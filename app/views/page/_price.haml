@@ -213,7 +213,7 @@
 				%tr.main
 					%th.title	Химчистка
 					%th цена указана в рублях
-			%tbody
+		%table.body
 			-	@categories['himchistka'].each do |row|
 				%tr
 					%td
@@ -222,35 +222,42 @@
 					%td
 						%h5
 							=row[1]
-					%td
-						%h5
-							=row[2]
-
 
 
 	%article.tab_item.salon
 		%table
 			%thead
-				%tr
+				%tr.main
 					%th.title	Салон
 					%th цена указана в рублях
-			%tbody
+		%table.body
+			-	@categories['salon'].each do |row|
 				%tr
-					%td Название
-					%td Цена
+					%td
+						%h5
+							=row[0]
+					%td
+						%h5
+							=row[1]
 
 
 	%article.tab_item.paint
 		%table
 			%thead
-				%tr
+				%tr.main
 					%th.title Покраска
 					%th цена указана в рублях
 
-			%tbody
+		%table.body
+			-	@categories['pokraska'].each do |row|
 				%tr
-					%td Название
-					%td Цена
+					%td
+						%h5
+							=row[0]
+					%td
+						%h5
+							=row[1]
+
 
 
 

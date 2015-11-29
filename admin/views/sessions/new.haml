@@ -7,7 +7,7 @@
     <![endif]-->
     %meta{:content => 'text/html; charset=utf-8', 'http-equiv' => 'Content-Type'}
     %meta{:name => :viewport, :content => 'width=device-width,initial-scale=1'}
-    -#= csrf_meta_tags
+    = csrf_meta_tags
 
     %title= @title.present? ? "#{@title} | Padrino Admin" : "#{pat('login.title')} | Padrino Admin"
     = favicon_tag 'favicon.ico'

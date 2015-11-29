@@ -53,7 +53,7 @@ article td:first-child h5 {
 
 
 //
-//@include susy-breakpoint($mobile-size, $mobile) {
+@include susy-breakpoint($mobile-size, $mobile) {
 //
 //  .price-page article table {
 //    width: 100%;
@@ -112,10 +112,10 @@ article td:first-child h5 {
 //
 //  }
 //
-//}
+}
 //
 //
-//@include susy-breakpoint($tablet-size, $tablet) {
+@include susy-breakpoint($tablet-size, $tablet) {
 //
 //  .price-page article table {
 //    width: 100%;
@@ -174,33 +174,18 @@ article td:first-child h5 {
 //
 //  }
 //
-//}
+}
 
 
 
 @include susy-breakpoint($desktop-size, $large) {
 
 
-  .price-page article {
-    display: none;
-    font-family: 'PTSansRegular', sans-serif;
-    //border-bottom: 1px solid #BEBBBB;
-    position: relative;
-    height: calc(100% - 0px);
-    @include scrollbars(.5em, slategray);
-
-  }
-
-
-  article td:first-child h5 {
+  article td h5 {
     font-family: "PTSansRegular";
     padding-left: 15px;
     padding-top: .5rem;
     padding-bottom: .5rem;
-  }
-
-  article td h5 {
-    font-family: "PTSansRegular";
     line-height: 1rem;
   }
 
@@ -250,14 +235,13 @@ article td:first-child h5 {
     width: 100%;
   }
 
-  .price-page table.header {
+  .price-page table {
       width: 100%;
-      color: darkgrey;
+      color: rgba(45,45,45,0.94);
     }
 
 
-  article.TO table.header,
-  article.remont table.header {
+  article table {
 
     thead tr.main {
       @include container(960px);
@@ -313,7 +297,6 @@ article td:first-child h5 {
     }
 
 
-
   article table.body {
     position: relative;
     top: 90px;
@@ -322,7 +305,7 @@ article td:first-child h5 {
   }
   }
 
-  table.header tr.main th:last-child {
+  table tr.main th:last-child {
     font-size: .8rem;
     text-align: right;
     padding-top: 15px;
@@ -362,7 +345,6 @@ article td:first-child h5 {
 
 
   article.shinomontazh {
-
 
     table.body {
       top: 55px;
