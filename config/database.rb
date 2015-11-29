@@ -24,15 +24,15 @@ ActiveRecord::Base.configurations[:development] = {
 
 
 
-# ActiveRecord::Base.configurations[:production] = {
-#     :adapter  => 'postgresql',
-#     :encoding => 'utf8',
-#     :database => 'd4eu150csq4es',
-#     :username => 'kcpxryuycytdxj',
-#     :password => 'foh_Ud6S2HD5G6LbK2GxNCzZb2',
-#     :host     => 'ec2-54-83-14-68.compute-1.amazonaws.com',
-#     :port     => '5432'
-# }
+ActiveRecord::Base.configurations[:production] = {
+    :adapter  => 'postgresql',
+    :encoding => 'utf8',
+    :database => 'd191jctn3n5vbe',
+    :username => 'hwnlauihyckvjb',
+    :password => 'BQYs-w4rgM_rb5_AUUR6zR-f91',
+    :host     => 'ec2-54-217-202-110.eu-west-1.compute.amazonaws.com:',
+    :port     => '5432'
+}
 
 
 # Setup our logger
