@@ -3348,10 +3348,9 @@ footer .main-menu li {
   display: inline-block;
   box-shadow: 0 1px 12px 0 rgba(0, 0, 0, 0.12), 0 1px 1px 0 rgba(0, 0, 0, 0.06);
   height: 60px;
-  width: 40%;
+  width: 12%;
   margin: 0 5px;
-  background: #c0392b;
-  max-width: 225px;
+  background: #C64C3F;
   min-width: 100px;
 }
 footer .main-menu li:hover {
@@ -3363,12 +3362,7 @@ footer .main-menu li:hover {
   transition: all,.6s;
 }
 footer .main-menu li.active {
-  height: 70px;
-  -webkit-transition: all,.6s;
-  -moz-transition: all,.6s;
-  -ms-transition: all,.6s;
-  -o-transition: all,.6s;
-  transition: all,.6s;
+  background: #C0392B;
 }
 footer .main-menu a {
   display: block;
@@ -3380,20 +3374,20 @@ footer .main-menu a {
   position: relative;
   height: 100%;
   font-family: BebasBold;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   color: #fff;
   position: relative;
-  -moz-transform: translateY(30%);
-  -ms-transform: translateY(30%);
-  -webkit-transform: translateY(30%);
-  transform: translateY(30%);
+  -moz-transform: translateY(35%);
+  -ms-transform: translateY(35%);
+  -webkit-transform: translateY(35%);
+  transform: translateY(35%);
 }
 footer .main-menu li.active a {
-  position: relative;
-  -moz-transform: translateY(37%);
-  -ms-transform: translateY(37%);
-  -webkit-transform: translateY(37%);
-  transform: translateY(37%);
+  -webkit-transition: all,.6s;
+  -moz-transition: all,.6s;
+  -ms-transition: all,.6s;
+  -o-transition: all,.6s;
+  transition: all,.6s;
 }
 footer .footer-info {
   font-size: 65%;

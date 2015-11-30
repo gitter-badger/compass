@@ -21,11 +21,12 @@
         //padding: 10px;
         box-shadow: 0 1px 12px 0 rgba(0,0,0,.12),0 1px 1px 0 rgba(0,0,0,.06);
         height: 60px;
-        width: 40%;
+        width: 12%;
         margin: 0 5px;
-        background: #c0392b;
-        max-width: 225px;
+        background: #C64C3F;
+        //max-width: 225px;
         min-width: 100px;
+
         &:hover {
           //height: 70px;
           box-shadow: 0 1px 8px 0 rgba(0,0,0,.12),0 1px 1px 0 rgba(0,0,0,.06);
@@ -43,13 +44,8 @@
       }
 
       li.active  {
-        height: 70px;
+        background: #C0392B;
 
-        -webkit-transition: all,.6s;
-        -moz-transition: all,.6s;
-        -ms-transition: all,.6s;
-        -o-transition: all,.6s;
-        transition: all,.6s;
 
       }
 
@@ -64,13 +60,23 @@
         position: relative;
         height: 100%;
         font-family: BebasBold;
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         color: #fff;
-        @include vertical-center(relative, 30%);
+        @include vertical-center(relative, 35%);
+
+        &:hover {
+        }
+
       }
 
       li.active a {
-        @include vertical-center(relative, 37%);
+
+        -webkit-transition: all,.6s;
+        -moz-transition: all,.6s;
+        -ms-transition: all,.6s;
+        -o-transition: all,.6s;
+        transition: all,.6s;
+
       }
   }
 
