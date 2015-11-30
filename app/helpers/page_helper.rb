@@ -10,7 +10,7 @@ module Compass
         hash.merge( File.basename(file_path, '.csv') => CSV.read(file_path, {
                                                                               headers:true,
                                                                               return_headers: false,
-                                                                              row_sep: "\n" }) ) }
+                                                                              :row_sep => :auto}) ) }
       end
 
       private
