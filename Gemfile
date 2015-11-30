@@ -20,6 +20,8 @@ group :development do
   gem 'compass'
   gem 'susy'
   gem 'breakpoint'
+  gem 'debase'
+  gem 'ruby-debug-ide'
 end
 
 gem 'haml'
@@ -31,8 +33,7 @@ gem 'padrino', '0.12.5'
 gem 'padrino-flash'
 
 # Test requirements
-# gem 'debase'
-# gem 'ruby-debug-ide'
+
 
 # Padrino Stable Gem
 
