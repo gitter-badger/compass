@@ -3751,8 +3751,7 @@ article td:first-child h5 {
   article.paint .body {
     overflow-x: hidden;
     overflow-y: auto;
-    display: block;
-    height: calc(100% - 90px);
+    display: table;
     top: 60px;
     position: relative;
   }

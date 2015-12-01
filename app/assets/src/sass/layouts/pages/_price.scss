@@ -673,8 +673,8 @@ article.shinomontazh .body {
   article.paint .body {
     overflow-x: hidden;
     overflow-y: auto;
-     display: block;
-    height: calc(100% - 90px);
+     display: table;
+    //height: calc(100% - 90px);
     top: 60px;
     position: relative;
     td:last-child{
