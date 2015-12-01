@@ -197,8 +197,21 @@ footer {
 
 //
 ////
-//@include susy-breakpoint($mobile-size, $mobile) {
-//
+@include susy-breakpoint($mobile-size, $mobile) {
+
+
+  .page_contacts, .page_price  {
+    height: calc(100% - 205px);
+    position: absolute;
+    top: 106px;
+    bottom: 240px;
+  }
+
+
+
+
+
+  //
 //  .page.price {
 //    background-size: 100%;
 //  }
@@ -223,7 +236,7 @@ footer {
 //    height: 110px;
 //  }
 //
-//}
+}
 //
 //
 //
@@ -246,6 +259,12 @@ footer {
 //
 @include susy-breakpoint($desktop-size, $large) {
 
+  .page_contacts, .page_price  {
+    height: calc(100% - 225px);
+    position: absolute;
+    top: 127px;
+    bottom: 240px;
+  }
 
 
   }

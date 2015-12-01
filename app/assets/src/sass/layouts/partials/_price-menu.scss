@@ -15,7 +15,7 @@
   }
 
   .price-nav li {
-    @include gallery(2 of 12);
+    @include gallery(1 of 6);
     text-align: center;
     height: 70px;
 
@@ -60,14 +60,22 @@
       text-align: center;
     }
 
-    ul.price-nav li {
+     li:nth-child(1) {
+       width: 15%;
+    } li:nth-child(2) {
+      margin-left: 13.66667%;
+    }li:nth-child(3) {
+      margin-left: 29.33333%;
+      width: 20%;
+       .icon-mount {
+         background-size: 50%;
+            }
 
-      text-align: center;
-      height: 125px;
-      width: 16%;
-      padding-top: 0px;
 
+    }li:nth-child(5) {
+      width: 17%;
     }
+
 
   }
 }
@@ -107,10 +115,38 @@
   @include breakpoint($desktop-size) {
 
     .price-menu {
+      background-color: #34495e;
       height: 130px;
+      -webkit-box-shadow: 0 1px 0px -0px rgba(119, 119, 119, 0.5);
+      -moz-box-shadow: 0 1px 0px -0px rgba(119, 119, 119, 0.5);
+      box-shadow: 0 1px 0px -0px rgba(119, 119, 119, 0.5);
+      z-index: 10;
     }
 
-    ul.price-nav li {
+    ul.price-nav {
+      list-style-type: none;
+      @include container(960px)
+    }
+
+    .price-nav li {
+      @include gallery(2 of 12);
+      text-align: center;
+
+      &:hover {
+        transition: background, .3s ease;
+        background: #D15F54;
+        //transform: scale(1.2);
+      }
+
+    }
+
+    ul.price-nav li .label {
+      display: inline-block;
+      color: white;
+      border-bottom: 1px dashed #ffffff;
+    }
+
+    .price-nav li {
       height: 130px;
       padding-top: 15px;
 
@@ -120,6 +156,7 @@
       background-position: 50% 50%;
       height: 65px;
       background-size: 64%;
+      width: 100%;
     }
 
     .price-nav {

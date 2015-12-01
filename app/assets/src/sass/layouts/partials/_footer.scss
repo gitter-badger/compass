@@ -1,3 +1,13 @@
+@include susy-breakpoint($mobile-size, $mobile) {
+
+
+  footer .main-menu li {
+   height: 48px;
+ }
+
+
+}
+
 
   footer {
 
@@ -45,8 +55,6 @@
 
       li.active  {
         background: #C0392B;
-
-
       }
 
       a {
