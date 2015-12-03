@@ -52,10 +52,13 @@ header {
   width: 40px;
 }
 
+.contacts_address__street {
+  white-space: nowrap;
+}
 
-
-
-
+.header_contacts__address {
+  margin-top: .5rem;
+}
 
 
 
@@ -390,6 +393,12 @@ header {
     background-size: 35px;
   }
 
+
+  .phone-icon {
+    background-size: 32px;
+    background-position: 50% 50%;
+  }
+
   .header_logo{
     position: relative;
     left: 0;
@@ -399,15 +408,26 @@ header {
     @include span(2);
     float: left;
   }
+  .social_vk {
+    position: absolute;
+    top: -7px;
+    right: 14px;
+    width: 58px;
+    display: block;
+    box-shadow: 0px 2px 9px 1px rgba(52, 73, 94, 0.35);
+    z-index: 999;
+    transition: .5s;
+  }
+
 
   .header_contacts {
-    @include span(10)
+    @include span(8)
   }
   .header_contacts__address {
-    @include span(5 of 10);
+    @include span(4 of 8);
   }
   .header_contacts__phone,  {
-    @include span(last 5 of 10);
+    @include span(last 4 of 8);
   }
 
   .header_contacts__address, .header_contacts__phone, {
