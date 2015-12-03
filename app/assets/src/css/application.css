@@ -2181,8 +2181,8 @@ html {
 
 @media (min-width: 200px) and (max-width: 460px) {
   html {
-    font-size: 75%;
-    line-height: 1.5em;
+    font-size: 93.75%;
+    line-height: 1.4em;
   }
 }
 @media (min-width: 461px) and (max-width: 720px) {
@@ -2267,10 +2267,6 @@ strong .title {
   font-family: "BebasBold";
 }
 
-header .contacts {
-  font-family: "BebasRegular";
-}
-
 h3.baloon-title {
   font-size: 1rem;
   font-family: BebasRegular;
@@ -2308,15 +2304,18 @@ h3.baloon-title {
 
 @media (min-width: 200px) and (max-width: 460px) {
   .header_logo {
-    top: 5px;
+    top: 0px;
+    width: 20%;
+    max-width: 70px;
   }
 
   .header_logo__sitename {
     color: #373737;
     position: relative;
-    line-height: .8rem;
+    line-height: 1rem;
     display: block;
     top: 5px;
+    font-size: 1.3rem;
   }
 }
 @media (min-width: 461px) and (max-width: 720px) {
@@ -2389,76 +2388,38 @@ h3.baloon-title {
 }
 
 @media (min-width: 200px) and (max-width: 460px) {
+  .header_contacts__phone {
+    text-align: right;
+  }
+
   a.contacts_phone__call_btn {
-    position: absolute;
-    bottom: 35px;
-    right: 2px;
+    float: left;
+    display: block;
+    width: 50px;
+  }
+  a.contacts_phone__call_btn span {
+    color: grey;
+    border-bottom: 1px dashed grey;
   }
 
   .contacts_phone__telnum {
-    position: absolute;
-    top: 0px;
-    left: 45px;
     color: #373737;
+    display: block;
   }
 
   a.contacts_phone__call_btn {
-    border: 1px dashed #b33528;
-    border-radius: 5px;
     display: block;
-    bottom: 35px;
-    right: 5px;
-    height: 44px;
-    width: 120px;
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-  }
-
-  a.contacts_phone__call_btn:hover {
-    color: #ffffff;
-    text-decoration: none;
-    background-color: rgba(179, 53, 40, 0.9);
-    border: 1px dashed #ffedef;
-    -webkit-transition: all,.6s;
-    -moz-transition: all,.6s;
-    -ms-transition: all,.6s;
-    -o-transition: all,.6s;
-    transition: all,.6s;
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
   }
 
   a.contacts_phone__call_btn .link_name {
-    position: absolute;
-    text-align: center;
-    right: 7px;
-    top: 15px;
-    font-size: 1rem;
-    line-height: 1.45rem;
-    display: block;
-    color: #b33528;
+    font-size: .8rem;
+    border-bottom: 1px dashed grey;
+    color: #948686;
   }
 
-  a.contacts_phone__call_btn:hover .link_name {
-    color: #fff;
-    -webkit-transition: all,.6s;
-    -moz-transition: all,.6s;
-    -ms-transition: all,.6s;
-    -o-transition: all,.6s;
-    transition: all,.6s;
-  }
-
-  a.contacts_phone__call_btn .contacts_phone__work-hours {
-    font-size: .6rem;
-    line-height: .8rem;
-    display: block;
+  .contacts_phone__work-hours {
     position: absolute;
-    bottom: 2px;
-    right: 10px;
-    color: #100F0F;
-    z-index: 5;
+    right: 0px;
   }
 }
 @media (min-width: 461px) and (max-width: 720px) {
@@ -2637,7 +2598,6 @@ header {
   margin-right: auto;
   position: relative;
   height: 100%;
-  top: 5px;
 }
 .header_inner:after {
   content: " ";
@@ -2670,28 +2630,29 @@ header {
 
 @media (min-width: 200px) and (max-width: 460px) {
   header {
-    height: 125px;
+    height: 105px;
   }
 
-  .icon {
+  .phone-icon {
+    position: absolute;
     display: inline-block;
     float: left;
-    margin: 0 auto;
-    height: 40px;
-    background-size: 32px;
+    left: -38px;
+    top: 0px;
+    background-size: 28px;
   }
 
   .metka-icon {
     position: absolute;
-    right: 46%;
-    top: 16px;
-    background-size: 20px;
+    top: 0px;
+    left: -38px;
+    background-size: 28px;
   }
 
   .social_vk {
     position: absolute;
-    top: -7px;
-    right: 5px;
+    top: 78px;
+    right: 15px;
     width: 24px;
     display: block;
     box-shadow: 0px 2px 9px 1px rgba(52, 73, 94, 0.35);
@@ -2704,29 +2665,24 @@ header {
   }
 
   .header_logo {
-    position: relative;
-    left: 0;
+    position: absolute;
+    left: 7%;
     text-align: center;
     z-index: 2;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    width: 25%;
     float: left;
-    padding-left: 1.25%;
-    padding-right: 1.25%;
-    float: left;
+    width: 60px;
+    top: 5px;
   }
 
   .header_contacts {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    width: 75%;
-    float: right;
+    width: 52%;
+    float: left;
     padding-left: 1.25%;
     padding-right: 1.25%;
-    text-align: center;
+    float: right;
   }
 
   .header_contacts__address {
@@ -2737,6 +2693,7 @@ header {
     float: right;
     padding-left: 1.66667%;
     padding-right: 1.66667%;
+    text-align: left;
   }
 
   .header_contacts__phone {
@@ -2747,6 +2704,21 @@ header {
     float: right;
     padding-left: 1.66667%;
     padding-right: 1.66667%;
+    text-align: left;
+  }
+
+  .header_contacts__address {
+    position: relative;
+    margin-top: 21px;
+    margin-top: 1rem;
+    line-height: 1rem;
+  }
+
+  .header_contacts__phone {
+    position: relative;
+    margin-top: 21px;
+    margin-top: 1rem;
+    line-height: 1rem;
   }
 }
 @media (min-width: 461px) and (max-width: 720px) {
@@ -2788,27 +2760,26 @@ header {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    width: 41.66667%;
+    width: 50%;
     float: left;
-    padding-left: 0.83333%;
-    padding-right: 0.83333%;
+    padding-left: 1%;
+    padding-right: 1%;
   }
 
   .header_contacts__phone {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    width: 41.66667%;
+    width: 50%;
     float: right;
-    padding-left: 0.83333%;
-    padding-right: 0.83333%;
+    padding-left: 1%;
+    padding-right: 1%;
   }
 
   .header_contacts__address, .header_contacts__phone {
     text-align: center;
     height: 100%;
     position: relative;
-    line-height: 1rem;
   }
 
   .header_contacts__address___inner, .header_contacts__phone___inner {
@@ -2905,92 +2876,93 @@ header {
     height: 100%;
     position: relative;
     top: 15px;
-    line-height: 1rem;
   }
 }
+.price-menu {
+  background-color: #34495e;
+  height: 70px;
+  -webkit-box-shadow: 0 1px 0px 0px rgba(119, 119, 119, 0.5);
+  -moz-box-shadow: 0 1px 0px 0px rgba(119, 119, 119, 0.5);
+  box-shadow: 0 1px 0px 0px rgba(119, 119, 119, 0.5);
+  z-index: 10;
+}
+
+ul.price-nav {
+  list-style-type: none;
+  max-width: 960px;
+  max-width: 45.71429rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+ul.price-nav:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+.price-nav li {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 16.66667%;
+  float: left;
+  padding-left: 1.66667%;
+  padding-right: 1.66667%;
+  text-align: center;
+  height: 70px;
+}
+.price-nav li:nth-child(6n + 1) {
+  margin-left: 0;
+  margin-right: -100%;
+  clear: both;
+}
+.price-nav li:nth-child(6n + 2) {
+  margin-left: 16.66667%;
+  margin-right: -100%;
+  clear: none;
+}
+.price-nav li:nth-child(6n + 3) {
+  margin-left: 33.33333%;
+  margin-right: -100%;
+  clear: none;
+}
+.price-nav li:nth-child(6n + 4) {
+  margin-left: 50%;
+  margin-right: -100%;
+  clear: none;
+}
+.price-nav li:nth-child(6n + 5) {
+  margin-left: 66.66667%;
+  margin-right: -100%;
+  clear: none;
+}
+.price-nav li:nth-child(6n + 6) {
+  margin-left: 83.33333%;
+  margin-right: -100%;
+  clear: none;
+}
+.price-nav li:hover {
+  transition: background, .3s ease;
+  background: #D15F54;
+}
+
+.price-nav li.active {
+  background: #D15F54;
+}
+
+ul.price-nav li input[type=radio] {
+  display: none;
+}
+
+ul.price-nav li .label {
+  display: inline-block;
+  color: white;
+  border-bottom: 1px dashed #ffffff;
+  line-height: .8rem;
+  font-size: .8rem;
+}
+
 @media (min-width: 200px) and (max-width: 460px) {
-  .price-menu {
-    background-color: #34495e;
-    height: 70px;
-    -webkit-box-shadow: 0 1px 0px 0px rgba(119, 119, 119, 0.5);
-    -moz-box-shadow: 0 1px 0px 0px rgba(119, 119, 119, 0.5);
-    box-shadow: 0 1px 0px 0px rgba(119, 119, 119, 0.5);
-    z-index: 10;
-  }
-
-  ul.price-nav {
-    list-style-type: none;
-    max-width: 960px;
-    max-width: 45.71429rem;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  ul.price-nav:after {
-    content: " ";
-    display: block;
-    clear: both;
-  }
-
-  .price-nav li {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    width: 16.66667%;
-    float: left;
-    padding-left: 1.66667%;
-    padding-right: 1.66667%;
-    text-align: center;
-    height: 70px;
-  }
-  .price-nav li:nth-child(6n + 1) {
-    margin-left: 0;
-    margin-right: -100%;
-    clear: both;
-  }
-  .price-nav li:nth-child(6n + 2) {
-    margin-left: 16.66667%;
-    margin-right: -100%;
-    clear: none;
-  }
-  .price-nav li:nth-child(6n + 3) {
-    margin-left: 33.33333%;
-    margin-right: -100%;
-    clear: none;
-  }
-  .price-nav li:nth-child(6n + 4) {
-    margin-left: 50%;
-    margin-right: -100%;
-    clear: none;
-  }
-  .price-nav li:nth-child(6n + 5) {
-    margin-left: 66.66667%;
-    margin-right: -100%;
-    clear: none;
-  }
-  .price-nav li:nth-child(6n + 6) {
-    margin-left: 83.33333%;
-    margin-right: -100%;
-    clear: none;
-  }
-  .price-nav li:hover {
-    transition: background, .3s ease;
-    background: #D15F54;
-  }
-
-  .active {
-    background: #D15F54;
-  }
-
-  ul.price-nav li input[type=radio] {
-    display: none;
-  }
-
-  ul.price-nav li .label {
-    display: inline-block;
-    color: white;
-    border-bottom: 1px dashed #ffffff;
-  }
-
   .price-nav .icon {
     height: 40px;
     background-position: 50% 50%;
@@ -3003,6 +2975,9 @@ header {
     display: block;
     text-align: center;
   }
+  .price-nav li {
+    height: 105px;
+  }
   .price-nav li:nth-child(1) {
     width: 15%;
   }
@@ -3013,16 +2988,17 @@ header {
     margin-left: 29.33333%;
     width: 20%;
   }
-  .price-nav li:nth-child(3) .icon-mount {
+  .price-nav .icon-mount {
     background-size: 50%;
   }
-  .price-nav li:nth-child(5) {
+
+  li:nth-child(5) {
     width: 17%;
   }
 }
 @media (min-width: 461px) and (max-width: 720px) {
   .price-menu {
-    height: 60px;
+    height: 105px;
     position: relative;
     top: 8px;
   }
@@ -3034,8 +3010,8 @@ header {
   }
 
   ul.price-nav li {
-    height: 60px;
-    width: 10%;
+    height: 105px;
+    width: 15%;
     padding-top: 10px;
   }
 
@@ -3199,7 +3175,6 @@ header {
   right: 0%;
   margin: auto;
   text-align: center;
-  height: 20%;
   background-color: #fff;
 }
 
@@ -3323,9 +3298,10 @@ article td:first-child h5 {
   }
 
   article .title {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     color: #293a4b;
-    padding-top: 0px;
+    padding-top: 10px;
+    vertical-align: top;
     padding-bottom: 0px;
     padding-left: 5px;
     text-transform: uppercase;
@@ -3445,7 +3421,7 @@ article td:first-child h5 {
   table tr.main th:last-child {
     font-size: .8rem;
     text-align: right;
-    padding-top: 15px;
+    padding-top: 0px;
     padding-bottom: 15px;
     text-align: center;
     color: #8C8C8C;

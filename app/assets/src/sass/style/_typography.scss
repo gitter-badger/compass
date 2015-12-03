@@ -24,8 +24,8 @@ $rem-with-px-fallback: true !global;
 
 
 @include breakpoint($mobile-size) {
-  $base-font-size: 12px !global;
-  $base-line-height: 18px !global;
+  $base-font-size: 15px !global;
+  $base-line-height: 21px !global;
   $rhythm-unit: "rem" !global;
   $rem-with-px-fallback: true !global;
   @include establish-baseline();
@@ -46,6 +46,10 @@ $rem-with-px-fallback: true !global;
   $rhythm-unit: "rem"!global;
   $rem-with-px-fallback: true!global;
   @include establish-baseline();
+}
+
+header {
+  //@include debug-vertical-alignment();
 }
 
 article .body{
@@ -73,7 +77,7 @@ a {
   //@include link-colors(indianred, red, blue, #373737, blue)
 }
 
-h1,h2,h3,h4,p,iframe,{
+h1,h2,h3,h4,p,iframe, {
   @include margin-trailer();
 }
 
@@ -98,7 +102,8 @@ strong .title{
     font-family: "BebasBold";
 }
 
-header .contacts {
-  font-family: "BebasRegular";
-}
-
+//.header_contacts {
+//  font-family: "BebasRegular";
+//  @include margin-leader();
+//  @include margin-trailer();
+//}

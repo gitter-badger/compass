@@ -23,7 +23,6 @@ header {
   @include container(1110px);
   position: relative;
   height: 100%;
-  top:5px;
 }
 
 .social_vk {
@@ -234,30 +233,31 @@ header {
 
 
   header {
-    height: 125px;
+    height: 105px;
   }
 
-  .icon {
+  .phone-icon {
+    position: absolute;
     display: inline-block;
     float: left;
-    margin: 0 auto;
-    height:40px;
-    background-size: 32px;
+    left: -38px;
+    top: 0px;
+    background-size: 28px;
   }
 
   .metka-icon {
     position: absolute;
-    right: 46%;
-    top: 16px;
-    background-size: 20px;
+    top: 0px;
+    left: -38px;
+    background-size: 28px;
   }
 
 
 
   .social_vk {
     position: absolute;
-    top: -7px;
-    right: 5px;
+    top: 78px;
+    right: 15px;
     width: 24px;
     display: block;
     box-shadow: 0px 2px 9px 1px rgba(52, 73, 94, 0.35);
@@ -272,30 +272,41 @@ header {
     //
   }
 
-
   .header_logo{
-    position: relative;
-    left: 0;
+    position: absolute;
+    left: 7%;
     text-align: center;
     z-index: 2;
-    @include span(2);
     float: left;
+    width: 60px;
+    top: 5px;
   }
   .header_logo img {
     //height: 80px;
   }
   .header_contacts {
-    @include span(last 6);
-    text-align: center;
+    @include span(52%);
+    float: right;
   }
   .header_contacts__address {
     @include span(last 6 of 6);
+    text-align: left;
   }
   .header_contacts__phone,  {
     @include span(last 6 of 6);
+    text-align: left;
+  }
+  .header_contacts__address {
+    position: relative;
+    @include margin-leader;
+    line-height: 1rem;
 
   }
-
+  .header_contacts__phone {
+    position: relative;
+    @include margin-leader();
+    line-height: 1rem;
+  }
 
 
 //  header {
@@ -393,19 +404,18 @@ header {
     @include span(10)
   }
   .header_contacts__address {
-    @include span(5);
+    @include span(5 of 10);
   }
   .header_contacts__phone,  {
-    @include span(last 5);
+    @include span(last 5 of 10);
   }
 
   .header_contacts__address, .header_contacts__phone, {
     text-align: center;
     height: 100%;
     position: relative;
-    line-height: 1rem;
-
   }
+
   .header_contacts__address___inner, .header_contacts__phone___inner{
     position: absolute;
     margin: auto;
@@ -540,7 +550,7 @@ header {
     height: 100%;
     position: relative;
     top:15px;
-    line-height: 1rem;
+    //line-height: 1rem;
   }
 
   //.header_contacts__address___inner, .header_contacts__phone___inner{

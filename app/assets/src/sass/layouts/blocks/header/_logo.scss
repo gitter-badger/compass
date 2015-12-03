@@ -2,14 +2,18 @@
 
 
   .header_logo {
-    top:5px;
+    top:0px;
+    width: 20%;
+    max-width: 70px;
   }
+
   .header_logo__sitename {
     color: #373737;
     position: relative;
-    line-height: .8rem;
+    line-height: 1rem;
     display: block;
     top:5px;
+    font-size: 1.3rem;
 
   }
 }

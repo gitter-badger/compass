@@ -1,48 +1,52 @@
-@include susy-breakpoint($mobile-size, $mobile) {
+.price-menu {
+  background-color: #34495e;
+  height: 70px;
+  -webkit-box-shadow: 0 1px 0px -0px rgba(119, 119, 119, 0.5);
+  -moz-box-shadow: 0 1px 0px -0px rgba(119, 119, 119, 0.5);
+  box-shadow: 0 1px 0px -0px rgba(119, 119, 119, 0.5);
+  z-index: 10;
+}
 
-  .price-menu {
-    background-color: #34495e;
-    height: 70px;
-    -webkit-box-shadow: 0 1px 0px -0px rgba(119, 119, 119, 0.5);
-    -moz-box-shadow: 0 1px 0px -0px rgba(119, 119, 119, 0.5);
-    box-shadow: 0 1px 0px -0px rgba(119, 119, 119, 0.5);
-    z-index: 10;
-  }
+ul.price-nav {
+  list-style-type: none;
+  @include container(960px)
+}
 
-  ul.price-nav {
-    list-style-type: none;
-    @include container(960px)
-  }
+.price-nav li {
+  @include gallery(1 of 6);
+  text-align: center;
+  height: 70px;
 
-  .price-nav li {
-    @include gallery(1 of 6);
-    text-align: center;
-    height: 70px;
-
-    &:hover {
-      transition: background, .3s ease;
-      background: #D15F54;
-      //transform: scale(1.2);
-    }
-
-  }
-
-  .active {
+  &:hover {
+    transition: background, .3s ease;
     background: #D15F54;
+    //transform: scale(1.2);
   }
+}
 
-  ul.price-nav li:nth-child(4) {
-  }
+.price-nav li.active {
+  background: #D15F54;
+}
+ul.price-nav li:nth-child(4) {
+}
 
-  ul.price-nav li input[type=radio] {
-    display: none;
-  }
+ul.price-nav li input[type=radio] {
+  display: none;
+}
 
-  ul.price-nav li .label {
-    display: inline-block;
-    color: white;
-    border-bottom: 1px dashed #ffffff;
-  }
+ul.price-nav li .label {
+  display: inline-block;
+  color: white;
+  border-bottom: 1px dashed #ffffff;
+  line-height: .8rem;
+  font-size: .8rem;
+}
+
+
+
+
+
+@include susy-breakpoint($mobile-size, $mobile) {
 
   .price-nav {
 
@@ -59,30 +63,42 @@
       display: block;
       text-align: center;
     }
+   li {
 
-     li:nth-child(1) {
-       width: 15%;
-    } li:nth-child(2) {
-      margin-left: 13.66667%;
-    }li:nth-child(3) {
+      height: 105px;
+
+
+    }
+    li:nth-child(1) {
+      width: 15%;
+    }
+    li:nth-child(2) {
+        margin-left: 13.66667%;
+    }
+    li:nth-child(3) {
       margin-left: 29.33333%;
       width: 20%;
-       .icon-mount {
-         background-size: 50%;
-            }
-
-
-    }li:nth-child(5) {
-      width: 17%;
+    }
+    .icon-mount {
+       background-size: 50%;
     }
 
 
   }
+  li:nth-child(5) {
+    width: 17%;
+  }
+
+
 }
-    @include breakpoint($tablet-size) {
+
+
+
+
+@include breakpoint($tablet-size) {
 
       .price-menu {
-        height: 60px;
+        height: 105px;
         position: relative;
         top: 8px;
       }
@@ -96,8 +112,8 @@
 
       ul.price-nav li {
 
-        height: 60px;
-        width: 10%;
+        height: 105px;
+        width: 15%;
         padding-top: 10px;
 
       }
@@ -112,7 +128,7 @@
 
 
 
-  @include breakpoint($desktop-size) {
+@include breakpoint($desktop-size) {
 
     .price-menu {
       background-color: #34495e;
