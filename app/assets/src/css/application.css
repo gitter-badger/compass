@@ -2632,10 +2632,6 @@ header {
   white-space: nowrap;
 }
 
-.header_contacts__address {
-  margin-top: .5rem;
-}
-
 @media (min-width: 200px) and (max-width: 460px) {
   header {
     height: 105px;
