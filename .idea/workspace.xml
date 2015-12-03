@@ -6,11 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f6d15d0b-34cc-4af7-aafc-06c9b93fa8e9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/src/sass/layouts/partials/_header.scss" afterPath="$PROJECT_DIR$/app/assets/src/sass/layouts/partials/_header.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/src/sass/layouts/blocks/header/_phone.scss" afterPath="$PROJECT_DIR$/app/assets/src/sass/layouts/blocks/header/_phone.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/src/sass/layouts/partials/_price-menu.scss" afterPath="$PROJECT_DIR$/app/assets/src/sass/layouts/partials/_price-menu.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/app.min.css" afterPath="$PROJECT_DIR$/public/stylesheets/app.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/src/css/application.css.map" afterPath="$PROJECT_DIR$/app/assets/src/css/application.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/src/css/application.css" afterPath="$PROJECT_DIR$/app/assets/src/css/application.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="compass.iws" />
@@ -49,9 +44,11 @@
           <file leaf-file-name="_header.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/assets/src/sass/layouts/partials/_header.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.6576577">
-                  <caret line="397" column="0" selection-start-line="397" selection-start-column="0" selection-end-line="397" selection-end-column="0" />
-                  <folding />
+                <state vertical-scroll-proportion="0.68108106">
+                  <caret line="57" column="0" selection-start-line="57" selection-start-column="2" selection-end-line="60" selection-end-column="3" />
+                  <folding>
+                    <marker date="1449123141573" expanded="true" signature="1098:1126" placeholder="{...}" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -1046,12 +1043,6 @@
       <option name="number" value="Default" />
       <updated>1436757678896</updated>
     </task>
-    <task id="LOCAL-00024" summary="add cache">
-      <created>1440752312411</created>
-      <option name="number" value="00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1440752312411</updated>
-    </task>
     <task id="LOCAL-00025" summary="add opacity back">
       <created>1440752511399</created>
       <option name="number" value="00025" />
@@ -1340,7 +1331,13 @@
       <option name="project" value="LOCAL" />
       <updated>1449120932702</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="fix mobile layout">
+      <created>1449123024460</created>
+      <option name="number" value="00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1449123024460</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -1818,9 +1815,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/src/sass/layouts/partials/_header.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6576577">
-          <caret line="397" column="0" selection-start-line="397" selection-start-column="0" selection-end-line="397" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.68108106">
+          <caret line="57" column="0" selection-start-line="57" selection-start-column="2" selection-end-line="60" selection-end-column="3" />
+          <folding>
+            <marker date="1449123141573" expanded="true" signature="1098:1126" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
