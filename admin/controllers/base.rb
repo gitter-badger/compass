@@ -1,7 +1,7 @@
 Compass::Admin.controllers :base do
 
   get :index, :map => "/" do
-    render "base/index"
+    render "manage_data/index"
   end
 
   # get 'admin/download' do

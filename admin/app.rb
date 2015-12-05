@@ -46,7 +46,7 @@ module Compass
     access_control.roles_for :editor do |role|
       role.allow '/accounts/edit'
       role.allow '/upload'
-      role.protect '/download/*'
+      role.allow '/download/*'
       role.protect :accounts
 
     end
