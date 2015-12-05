@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6d15d0b-34cc-4af7-aafc-06c9b93fa8e9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/app.rb" afterPath="$PROJECT_DIR$/admin/app.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/controllers/base.rb" afterPath="$PROJECT_DIR$/admin/controllers/base.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/views/manage_data/index.haml" afterPath="$PROJECT_DIR$/admin/views/manage_data/index.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/controllers/manage_data.rb" afterPath="$PROJECT_DIR$/admin/controllers/manage_data.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="compass.iws" />
@@ -74,11 +72,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="app.rb" pinned="false" current-in-tab="true">
+          <file leaf-file-name="app.rb" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/admin/app.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.47446457">
-                  <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="39" column="7" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
                   <folding />
                 </state>
               </provider>
@@ -94,11 +92,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="manage_data.rb" pinned="false" current-in-tab="false">
+          <file leaf-file-name="manage_data.rb" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/admin/controllers/manage_data.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.53377265">
+                  <caret line="27" column="68" selection-start-line="27" selection-start-column="68" selection-end-line="27" selection-end-column="68" />
                   <folding />
                 </state>
               </provider>
@@ -274,7 +272,6 @@
         <option value="$PROJECT_DIR$/app/views/layouts/partials/_price-menu.erb" />
         <option value="$PROJECT_DIR$/config/apps.rb" />
         <option value="$PROJECT_DIR$/config/boot.rb" />
-        <option value="$PROJECT_DIR$/admin/controllers/manage_data.rb" />
         <option value="$PROJECT_DIR$/admin/data/pokraska.csv" />
         <option value="$PROJECT_DIR$/admin/views/sessions/new.haml" />
         <option value="$PROJECT_DIR$/admin/views/manage_data/_price-menu.erb" />
@@ -309,6 +306,7 @@
         <option value="$PROJECT_DIR$/admin/controllers/base.rb" />
         <option value="$PROJECT_DIR$/admin/views/manage_data/index.haml" />
         <option value="$PROJECT_DIR$/admin/app.rb" />
+        <option value="$PROJECT_DIR$/admin/controllers/manage_data.rb" />
       </list>
     </option>
   </component>
@@ -942,12 +940,6 @@
       <option name="number" value="Default" />
       <updated>1436757678896</updated>
     </task>
-    <task id="LOCAL-00036" summary="add normal transition">
-      <created>1442458690710</created>
-      <option name="number" value="00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1442458690710</updated>
-    </task>
     <task id="LOCAL-00037" summary="add cache">
       <created>1442458910845</created>
       <option name="number" value="00037" />
@@ -1236,7 +1228,13 @@
       <option name="project" value="LOCAL" />
       <updated>1449298289296</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="add admin redirect">
+      <created>1449299078348</created>
+      <option name="number" value="00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1449299078348</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -1285,7 +1283,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="refactoring" />
     <MESSAGE value="add_cache" />
     <MESSAGE value="add_yandex_api_async_true" />
     <MESSAGE value="add_yandex_api_async_false&#10;add_gzip" />
@@ -1310,7 +1307,8 @@
     <MESSAGE value="logo width&#10;" />
     <MESSAGE value="add errors" />
     <MESSAGE value="add errors page 404" />
-    <option name="LAST_COMMIT_MESSAGE" value="add errors page 404" />
+    <MESSAGE value="add admin redirect" />
+    <option name="LAST_COMMIT_MESSAGE" value="add admin redirect" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1680,22 +1678,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/views/manage_data/index.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.481482">
-          <caret line="47" column="31" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/controllers/manage_data.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/controllers/sessions.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1714,8 +1696,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/app.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47446457">
-          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="7" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/views/manage_data/index.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.481482">
+          <caret line="47" column="31" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/controllers/manage_data.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.53377265">
+          <caret line="27" column="68" selection-start-line="27" selection-start-column="68" selection-end-line="27" selection-end-column="68" />
           <folding />
         </state>
       </provider>

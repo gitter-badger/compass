@@ -25,7 +25,7 @@ Compass::Admin.controllers :manage_data do
       flash[:success] = "Успех! Файл: #{params['file'][:filename]} добавлен."
       redirect '/admin/dashboard'
     else
-      flash[:warning] = "Неудача! Файл: #{params['file'][:filename]} назван с ощибкой."
+      flash[:warning] = "Неудача! Файл: #{params['file'][:filename]} назван с ошибкой."
       redirect '/admin/dashboard'
     end
 
