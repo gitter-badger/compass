@@ -4,8 +4,13 @@
     <bookmark url="file://$PROJECT_DIR$/app/assets/src/sass/application.scss" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6d15d0b-34cc-4af7-aafc-06c9b93fa8e9" name="Default" comment="fix header logo height &#10;path link logo">
+    <list default="true" id="f6d15d0b-34cc-4af7-aafc-06c9b93fa8e9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/partials/_header.haml" afterPath="$PROJECT_DIR$/app/views/layouts/partials/_header.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/src/sass/layouts/partials/_header.scss" afterPath="$PROJECT_DIR$/app/assets/src/sass/layouts/partials/_header.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/app.min.css" afterPath="$PROJECT_DIR$/public/stylesheets/app.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/src/css/application.css.map" afterPath="$PROJECT_DIR$/app/assets/src/css/application.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/src/css/application.css" afterPath="$PROJECT_DIR$/app/assets/src/css/application.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.haml" afterPath="$PROJECT_DIR$/app/views/layouts/application.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="compass.iws" />
@@ -44,11 +49,9 @@
           <file leaf-file-name="_header.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/assets/src/sass/layouts/partials/_header.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.6455696">
-                  <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-                  <folding>
-                    <marker date="1449123141573" expanded="true" signature="1098:1126" placeholder="{...}" />
-                  </folding>
+                <state vertical-scroll-proportion="0.5316456">
+                  <caret line="263" column="13" selection-start-line="263" selection-start-column="13" selection-end-line="263" selection-end-column="13" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -133,7 +136,17 @@
             <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/_header.haml">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.35856575">
-                  <caret line="10" column="61" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
+                  <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="application.haml" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/views/layouts/application.haml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-1.3333334">
+                  <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
                   <folding />
                 </state>
               </provider>
@@ -198,7 +211,6 @@
         <option value="$PROJECT_DIR$/admin/views/manage_data/_price-menu.erb" />
         <option value="$PROJECT_DIR$/config/database.rb" />
         <option value="$PROJECT_DIR$/admin/data/himchistka.csv" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.haml" />
         <option value="$PROJECT_DIR$/admin/data/salon.csv" />
         <option value="$PROJECT_DIR$/app/helpers/page_helper.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
@@ -216,6 +228,7 @@
         <option value="$PROJECT_DIR$/app/assets/src/sass/layouts/pages/_price.scss" />
         <option value="$PROJECT_DIR$/app/assets/src/sass/layouts/partials/_price-menu.scss" />
         <option value="$PROJECT_DIR$/app/assets/src/sass/layouts/blocks/header/_phone.scss" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.haml" />
         <option value="$PROJECT_DIR$/app/assets/src/sass/layouts/partials/_header.scss" />
         <option value="$PROJECT_DIR$/app/views/layouts/partials/_header.haml" />
       </list>
@@ -883,12 +896,6 @@
       <option name="number" value="Default" />
       <updated>1436757678896</updated>
     </task>
-    <task id="LOCAL-00028" summary="bugfix&#10;">
-      <created>1440757595084</created>
-      <option name="number" value="00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1440757595084</updated>
-    </task>
     <task id="LOCAL-00029" summary="title fix">
       <created>1440758021406</created>
       <option name="number" value="00029" />
@@ -1177,7 +1184,13 @@
       <option name="project" value="LOCAL" />
       <updated>1449292380852</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="logo height fix">
+      <created>1449293112249</created>
+      <option name="number" value="00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1449293112249</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -1226,7 +1239,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add cache" />
     <MESSAGE value="header_media_struct&#10;" />
     <MESSAGE value="header_media_struct_fix&#10;" />
     <MESSAGE value="add_hover_menu" />
@@ -1251,7 +1263,8 @@
     <MESSAGE value="fix mobile layout" />
     <MESSAGE value="fix header" />
     <MESSAGE value="fix header logo height &#10;path link logo" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix header logo height &#10;path link logo" />
+    <MESSAGE value="logo height fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="logo height fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1263,13 +1276,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/admin/controllers/manage_data.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5185185">
-          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/boot.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.17391305">
@@ -1326,13 +1332,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-18.5">
           <caret line="1026" column="30" selection-start-line="1026" selection-start-column="30" selection-end-line="1026" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.333333">
-          <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -1617,14 +1616,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/_header.mobile.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.333333">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/favicon-96x96.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1635,25 +1626,44 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3333334">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/src/sass/layouts/partials/_header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5316456">
+          <caret line="263" column="13" selection-start-line="263" selection-start-column="13" selection-end-line="263" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/_header.mobile.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.333333">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/favicon-32x32.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/src/sass/layouts/partials/_header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6455696">
-          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-          <folding>
-            <marker date="1449123141573" expanded="true" signature="1098:1126" placeholder="{...}" />
-          </folding>
-        </state>
+    <entry file="file://$PROJECT_DIR$/public/mstile-70x70.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/_header.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.35856575">
-          <caret line="10" column="61" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
+          <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
           <folding />
         </state>
       </provider>
