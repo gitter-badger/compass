@@ -6,11 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f6d15d0b-34cc-4af7-aafc-06c9b93fa8e9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/partials/_header.haml" afterPath="$PROJECT_DIR$/app/views/layouts/partials/_header.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/src/sass/layouts/partials/_header.scss" afterPath="$PROJECT_DIR$/app/assets/src/sass/layouts/partials/_header.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/app.min.css" afterPath="$PROJECT_DIR$/public/stylesheets/app.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/src/css/application.css.map" afterPath="$PROJECT_DIR$/app/assets/src/css/application.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/src/css/application.css" afterPath="$PROJECT_DIR$/app/assets/src/css/application.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.haml" afterPath="$PROJECT_DIR$/app/views/layouts/application.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="compass.iws" />
@@ -136,7 +131,7 @@
             <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/_header.haml">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.35856575">
-                  <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
+                  <caret line="10" column="83" selection-start-line="10" selection-start-column="83" selection-end-line="10" selection-end-column="83" />
                   <folding />
                 </state>
               </provider>
@@ -896,12 +891,6 @@
       <option name="number" value="Default" />
       <updated>1436757678896</updated>
     </task>
-    <task id="LOCAL-00029" summary="title fix">
-      <created>1440758021406</created>
-      <option name="number" value="00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1440758021406</updated>
-    </task>
     <task id="LOCAL-00030" summary="title fix-2">
       <created>1440758105224</created>
       <option name="number" value="00030" />
@@ -1190,7 +1179,13 @@
       <option name="project" value="LOCAL" />
       <updated>1449293112249</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="fix _logo size&#10;">
+      <created>1449294225781</created>
+      <option name="number" value="00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1449294225781</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -1239,7 +1234,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="header_media_struct&#10;" />
     <MESSAGE value="header_media_struct_fix&#10;" />
     <MESSAGE value="add_hover_menu" />
     <MESSAGE value="add_error_page" />
@@ -1264,7 +1258,8 @@
     <MESSAGE value="fix header" />
     <MESSAGE value="fix header logo height &#10;path link logo" />
     <MESSAGE value="logo height fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="logo height fix" />
+    <MESSAGE value="fix _logo size&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix _logo size&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1663,7 +1658,7 @@
     <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/_header.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.35856575">
-          <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
+          <caret line="10" column="83" selection-start-line="10" selection-start-column="83" selection-end-line="10" selection-end-column="83" />
           <folding />
         </state>
       </provider>
