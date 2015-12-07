@@ -3,6 +3,7 @@
 !.idea
 log/**/*
 tmp/**/*
+node_modules/*
 vendor/gems/*
 !vendor/gems/cache/
 .sass-cache/*

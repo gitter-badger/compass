@@ -34,9 +34,7 @@ GEM
     compass-import-once (1.0.5)
       sass (>= 3.2, < 3.5)
     daemons (1.2.3)
-    debase (0.1.4)
-      debase-ruby_core_source
-    debase-ruby_core_source (0.8.1)
+    diff-lcs (1.2.5)
     eventmachine (1.0.8)
     ffi (1.9.10)
     haml (4.0.7)
@@ -98,13 +96,31 @@ GEM
       rack
     rack-protection (1.5.3)
       rack
+    rack-test (0.6.3)
+      rack (>= 1.0)
     rack-zippy (3.0.1)
     rake (10.4.2)
     rb-fsevent (0.9.6)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
-    ruby-debug-ide (0.4.32)
-      rake (>= 0.8.1)
+    rspec (3.4.0)
+      rspec-core (~> 3.4.0)
+      rspec-expectations (~> 3.4.0)
+      rspec-mocks (~> 3.4.0)
+    rspec-core (3.4.0)
+      rspec-support (~> 3.4.0)
+    rspec-expectations (3.4.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.4.0)
+    rspec-mocks (3.4.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.4.0)
+    rspec-padrino (0.2.1)
+      padrino-core (~> 0.12.0)
+      rack-test
+      rspec (>= 2.0)
+      sinatra
+    rspec-support (3.4.0)
     sass (3.4.19)
     sassy-maps (0.4.0)
       sass (~> 3.3)
@@ -137,14 +153,14 @@ DEPENDENCIES
   bcrypt
   breakpoint
   compass
-  debase
   haml
   padrino (= 0.12.5)
   padrino-flash
   pg
   rack-mobile-detect
+  rack-test
   rack-zippy
   rake
-  ruby-debug-ide
+  rspec-padrino
   susy
   thin

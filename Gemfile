@@ -20,8 +20,14 @@ group :development do
   gem 'compass'
   gem 'susy'
   gem 'breakpoint'
-  gem 'debase'
-  gem 'ruby-debug-ide'
+  # gem 'debase'
+  # gem 'ruby-debug-ide'
+end
+
+
+group :test do
+  gem 'rack-test'
+  gem 'rspec-padrino'
 end
 
 gem 'haml'
