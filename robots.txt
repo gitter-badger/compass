@@ -1,0 +1,3 @@
+User-Agent: *
+
+Sitemap: http://maslov-service.ru/sitemap.xml
