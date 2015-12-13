@@ -1,3 +1,3 @@
 User-Agent: *
-Host: www.maslov-service.ru
+Host: maslov-service.ru
 Sitemap: http://maslov-service.ru/sitemap.xml
