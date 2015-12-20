@@ -70,8 +70,16 @@
   }
 
 
-  //.contacts_phone__call_btn {
-  //    border: 1px dashed #b33528;
+  a.contacts_phone__call_btn {
+  //
+     -webkit-transition: all,.1s;
+    -moz-transition: all,.1s;
+    -ms-transition: all,.1s;
+    -o-transition: all,.1s;
+    transition: all,1s;
+    color: #ffffff;
+
+    //    border: 1px dashed #b33528;
   //    border-radius: 5px;
   //    display: block;
   //    position: relative;
@@ -85,9 +93,9 @@
   //
   //  i { position: relative; top: 15px;}
   //
-  //}
+  }
 
-  .contacts_phone__call_btn:hover  {
+  a.contacts_phone__call_btn:hover  {
     color: #ffffff;
     text-decoration: none;
     background-color: rgba(179, 53, 40, 0.9);

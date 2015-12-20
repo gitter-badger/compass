@@ -2440,7 +2440,16 @@ h3.baloon-title {
     display: none;
   }
 
-  .contacts_phone__call_btn:hover {
+  a.contacts_phone__call_btn {
+    -webkit-transition: all,.1s;
+    -moz-transition: all,.1s;
+    -ms-transition: all,.1s;
+    -o-transition: all,.1s;
+    transition: all,1s;
+    color: #ffffff;
+  }
+
+  a.contacts_phone__call_btn:hover {
     color: #ffffff;
     text-decoration: none;
     background-color: rgba(179, 53, 40, 0.9);
@@ -2513,8 +2522,9 @@ h3.baloon-title {
 
 @media (min-width: 200px) and (max-width: 460px) {
   .contacts_address__to-route {
-    font-size: .8rem;
+    font-size: .9rem;
     display: inline;
+    white-space: nowrap;
     border-bottom: 1px dashed grey;
     color: #948686;
     -webkit-transition: all,.1s;
@@ -2545,7 +2555,7 @@ h3.baloon-title {
     display: block;
   }
 
-  .contacts_address__to-route a {
+  .contacts_address__to-route {
     font-size: .9rem;
     display: inline;
     border-bottom: 1px dashed grey;
@@ -2556,7 +2566,7 @@ h3.baloon-title {
     -o-transition: all,.1s;
     transition: all,1s;
   }
-  .contacts_address__to-route a:hover {
+  .contacts_address__to-route:hover {
     color: #C54B4B;
     border-bottom: 1px dashed black;
   }
@@ -2569,7 +2579,7 @@ h3.baloon-title {
     z-index: 1;
   }
 
-  .contacts_address__to-route a {
+  a.contacts_address__to-route {
     font-size: .9rem;
     display: inline;
     border-bottom: 1px dashed grey;
@@ -2580,7 +2590,7 @@ h3.baloon-title {
     -o-transition: all,.1s;
     transition: all,1s;
   }
-  .contacts_address__to-route a:hover {
+  a.contacts_address__to-route:hover {
     color: #C54B4B;
     border-bottom: 1px dashed black;
   }

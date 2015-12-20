@@ -15,8 +15,8 @@
 					%i.icon.metka-icon
 					%span.contacts_address__city-name{:itemprop => 'addressRegion'} Москва,
 					%span.contacts_address__street{:itemprop => 'streetAddress'} 1-я Фрезерная д.2 к.1
-					#to-route.contacts_address__to-route
-						%a{:itemprop => 'url',
+					#to-route
+						%a{:class => 'contacts_address__to-route', :itemprop => 'url',
 							href: 'https://maps.yandex.ru/213/moscow/?source=wizbiz_new_map_single&text=%D0%9C%D0%B0%D1%81%D0%BB%D0%BE%D0%B2%20%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81&sll=37.739105%2C55.741830&sspn=0.016457%2C0.009284&sctx=BgAAAAEAnl4pyxDPQkCNKO0NvuBLQLOWAtL%2BB%2Bk%2FIAvRIXCk4D8CAAAAAQIBAAAAAAAAAAEBbcvgGZ%2Fyy9UAAAABAACAPw%3D%3D&ol=biz&oid=1556038160&rtext=~55.741830%2C37.739105&rtt=auto',
 							:target => '_blank_header.haml'} -  проложить маршрут  -
 			.header_contacts__phone
