@@ -220,8 +220,10 @@ article.shinomontazh .body {
 
   table tr.main th:last-child {
     font-size: .8rem;
-    text-align: center;
+    text-align: right;
     color: #8C8C8C;
+    padding-right: 10px;
+
   }
 
 
@@ -525,8 +527,10 @@ article.shinomontazh .body {
     font-size: .8rem;
     text-align: right;
     padding-top: 15px;
+    padding-right: 10px;
+
     padding-bottom: 15px;
-    text-align: center;
+    text-align: right;
     color: #8C8C8C;
   }
 
@@ -821,9 +825,10 @@ article.shinomontazh .body {
   table tr.main th:last-child {
     font-size: .8rem;
     text-align: right;
+    padding-right: 10px;
     padding-top: 15px;
     padding-bottom: 15px;
-    text-align: center;
+    text-align: right;
     color: #8C8C8C;
   }
 
