@@ -22,7 +22,7 @@ Compass::Admin.controllers :manage_data do
       redirect '/admin/dashboard'
 
     elsif file_upload(params['file'][:filename])
-      flash[:success] = "Успех! Файл: #{params['file'][:filename]} добавлен."
+      flash[:success] = "Успех! Файл: #{params['file'][:filename]} изменен."
       redirect '/admin/dashboard'
     else
       flash[:warning] = "Неудача! Файл: #{params['file'][:filename]} назван с ошибкой."
@@ -32,12 +32,12 @@ Compass::Admin.controllers :manage_data do
 end
 
 
-  post '/update', :map => '/update' do
-
-    params.inspect
-
-
-  end
+  # post '/update', :map => '/update' do
+  #
+  #   params.inspect
+  #
+  #
+  # end
 
 
 
