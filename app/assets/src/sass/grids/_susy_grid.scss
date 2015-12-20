@@ -1,0 +1,63 @@
+/*
+  $micro-size: em(200);
+  $mobile-size:320px 400px;
+  $tablet-size:401px 960px;
+  $desktop-size:961px;
+  $largedesktop-size:em(1050);
+*/
+
+
+.page_contacts, .page_price  {
+  height: calc(100% - 225px);
+  position: absolute;
+  top: 127px;
+  bottom: 240px;
+}
+
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+@include susy-breakpoint($mobile-size, $mobile) {
+
+
+  .page_contacts, .page_price  {
+    height: calc(100% - 205px);
+    position: absolute;
+    top: 106px;
+    bottom: 240px;
+  }
+
+}
+
+@include susy-breakpoint($tablet-size, $tablet) {
+
+  .page.contacts {
+    top: 0;
+    height: calc(100% - 245px);
+
+  }
+  .page.price {
+    top: 125px;
+    height: calc(100% - 245px);
+    background-size: 90%;
+  }
+  .price-page {
+
+  }
+}
+
+@include susy-breakpoint($desktop-size, $large) {
+
+  .page_contacts, .page_price  {
+    height: calc(100% - 225px);
+    position: absolute;
+    top: 127px;
+    bottom: 240px;
+  }
+
+
+}

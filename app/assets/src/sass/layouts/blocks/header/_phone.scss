@@ -65,47 +65,52 @@
 
   }
 
-  .phone_block__work_hours{
-
+  .contacts_phone__work-hours{
+    display: none;
   }
 
 
-  a.contacts_phone__call_btn {
-    //border: 1px dashed rgba(179, 53, 40, 1);
-    //border-radius: 5px;
-    display: block;
-    //bottom: 35px;
-    //right: 5px;
-    //height: 44px;
-    //box-sizing: border-box;
-    //-moz-box-sizing: border-box;
-    //-webkit-box-sizing: border-box;
+  //.contacts_phone__call_btn {
+  //    border: 1px dashed #b33528;
+  //    border-radius: 5px;
+  //    display: block;
+  //    position: relative;
+  //    top: 0px;
+  //    height: 60px;
+  //    width: 97px;
+  //    margin: 0 auto;
+  //    box-sizing: border-box;
+  //    -moz-box-sizing: border-box;
+  //    -webkit-box-sizing: border-box;
   //
+  //  i { position: relative; top: 15px;}
+  //
+  //}
 
-  }
+  .contacts_phone__call_btn:hover  {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: rgba(179, 53, 40, 0.9);
+    border: 1px dashed rgb(255, 237, 239);
+    -webkit-transition: all,.6s;
+    -moz-transition: all,.6s;
+    -ms-transition: all,.6s;
+    -o-transition: all,.6s;
+    transition: all,.6s;
 
-  a.contacts_phone__call_btn:hover  {
-    //color: #ffffff;
-    //text-decoration: none;
-    //background-color: rgba(179, 53, 40, 0.9);
-    //border: 1px dashed rgb(255, 237, 239);
-    //-webkit-transition: all,.6s;
-    //-moz-transition: all,.6s;
-    //-ms-transition: all,.6s;
-    //-o-transition: all,.6s;
-    //transition: all,.6s;
-    //
-    //box-sizing: border-box;
-    //-moz-box-sizing: border-box;
-    //-webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
 
   }
 
 
   a.contacts_phone__call_btn .link_name{
-    font-size: .8rem;
-    border-bottom: 1px dashed grey;
+    font-size: .9rem;
+    //border-bottom: 1px dashed grey;
     color: #948686;
+    display: inline-block;
+    margin-top: 2px;
 
     //position: absolute;
     //text-align: center;
@@ -130,7 +135,7 @@
     //display: block;
     position: absolute;
     //bottom: 2px;
-    right: 0px;
+    left: 0px;
     //color: #100F0F;
     //z-index: 5;
 
@@ -138,89 +143,110 @@
 }
 
 @include susy-breakpoint($tablet-size, $tablet ) {
-
-
-  a.contacts_phone__call_btn {
-    border: 1px dashed rgba(179, 53, 40, 1);
-    border-radius: 5px;
+  a.contacts_phone__call_btn  {
     display: block;
-    position: relative;
-    top: 4px;
-    height: 70px;
-    width: 97px;
-    margin: 0 auto;
-
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-
-
+  }
+  a.contacts_phone__call_btn .link_name {
+    font-size: .9rem;
+    border-bottom: 1px dashed grey;
+    color: #948686;
   }
 
-  a.contacts_phone__call_btn:hover  {
-    color: #ffffff;
-    text-decoration: none;
-    background-color: rgba(179, 53, 40, 0.9);
-    border: 1px dashed rgb(255, 237, 239);
-    -webkit-transition: all,.6s;
-    -moz-transition: all,.6s;
-    -ms-transition: all,.6s;
-    -o-transition: all,.6s;
-    transition: all,.6s;
+    //a.contacts_phone__call_btn {
+  //  border: 1px dashed rgba(179, 53, 40, 1);
+  //  border-radius: 5px;
+  //  display: block;
+  //  position: relative;
+  //  top: 4px;
+  //  height: 60px;
+  //  width: 97px;
+  //  margin: 0 auto;
+  //
+  //  box-sizing: border-box;
+  //  -moz-box-sizing: border-box;
+  //  -webkit-box-sizing: border-box;
+  //
+  //
+  //}
+  //
+  //a.contacts_phone__call_btn:hover  {
+  //  color: #ffffff;
+  //  text-decoration: none;
+  //  background-color: rgba(179, 53, 40, 0.9);
+  //  border: 1px dashed rgb(255, 237, 239);
+  //  -webkit-transition: all,.6s;
+  //  -moz-transition: all,.6s;
+  //  -ms-transition: all,.6s;
+  //  -o-transition: all,.6s;
+  //  transition: all,.6s;
+  //
+  //  box-sizing: border-box;
+  //  -moz-box-sizing: border-box;
+  //  -webkit-box-sizing: border-box;
+  //
+  //}
+  ////
+  ////
+  //a.contacts_phone__call_btn .link_name{
+  //  position: absolute;
+  //  left: 0;
+  //  right: 0;
+  //  bottom: 0;
+  //  margin:0 auto;
+  //  font-size: 1rem;
+  //  line-height: 1.45rem;
+  //  display: block;
+  //  color: rgba(179, 53, 40, 1);
+  //}
+  //a.contacts_phone__call_btn:hover .link_name {
+  //  color: #fff;
+  //  -webkit-transition: all,.6s;
+  //  -moz-transition: all,.6s;
+  //  -ms-transition: all,.6s;
+  //  -o-transition: all,.6s;
+  //  transition: all,.6s;
+  //}
+  //
+  ////
+  //.contacts_phone__call_btn .contacts_phone__work-hours {
+  //  font-size: .6rem;
+  //  line-height: .8rem;
+  //  display: block;
+  //  position: absolute;
+  //  bottom: 0;
+  //  left: 0;
+  //  right: 0;
+  //  color: #100F0F;
+  //  z-index: 5;
+  //
+  //}
 
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-
-  }
-
-
-  a.contacts_phone__call_btn .link_name{
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin:0 auto;
-    font-size: 1rem;
-    line-height: 1.45rem;
+  .contacts_phone__work-hours {
     display: block;
-    height: 100%;
-    color: rgba(179, 53, 40, 1);
+    font-size: .8rem;
   }
-  a.contacts_phone__call_btn:hover .link_name {
-    color: #fff;
-    -webkit-transition: all,.6s;
-    -moz-transition: all,.6s;
-    -ms-transition: all,.6s;
-    -o-transition: all,.6s;
-    transition: all,.6s;
-  }
-
-
-  a.contacts_phone__call_btn .contacts_phone__work-hours {
-    font-size: .6rem;
-    line-height: .8rem;
-    display: block;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    color: #100F0F;
-    z-index: 5;
-
+  .contacts_phone__telnum {
+    position: static;
   }
 }
 
 @include susy-breakpoint($desktop-size, $large ) {
 
   .contacts_phone__work-hours {
-    display: inline;
+    display: block;
     font-size: .8rem;
   }
   .contacts_phone__telnum {
     position: static;
   }
-
+  a.contacts_phone__call_btn  {
+    display: block;
+  }
+  a.contacts_phone__call_btn .link_name {
+    font-size: .9rem;
+    border-bottom: 1px dashed grey;
+    color: #948686;
+  }
 
 
 

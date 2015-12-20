@@ -1,3 +1,8 @@
+.contacts_address__street {
+  white-space: nowrap;
+}
+
+
 @include susy-breakpoint($mobile-size, $mobile) {
 
   .block_address {
@@ -38,6 +43,7 @@
 
 
 @include susy-breakpoint($tablet-size, $tablet ) {
+
   .header_contacts {
     text-align: center;
   }
@@ -47,8 +53,9 @@
   .contacts_address__street {
     display: block;
   }
-  .contacts_address__to-route {
-    font-size: .7rem;
+  .contacts_address__to-route {display: block;}
+  .contacts_address__to-route a {
+    font-size: .9rem;
     display: inline;
     border-bottom: 1px dashed grey;
     color: #565555;
@@ -76,15 +83,15 @@
   }
 
 
-  .contacts_address__city-name {
-     display: inline;
-   }
-  .contacts_address__street {
-    display: inline;
-   }
+  //.contacts_address__city-name {
+  //   display: inline;
+  // }
+  //.contacts_address__street {
+  //  display: inline;
+  // }
 
-  .contacts_address__to-route {
-    font-size: .8rem;
+  .contacts_address__to-route a{
+    font-size: .9rem;
     display: inline;
     border-bottom: 1px dashed grey;
     color: #948686;

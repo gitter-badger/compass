@@ -1,5 +1,6 @@
 
 var gulp = require('gulp');
+//var gulpif = require('gulp-if');
 var coffee = require('gulp-coffee');
 var jshint = require('gulp-jshint');
 //var base64 = require('gulp-base64');
@@ -40,6 +41,7 @@ var path = {
     },
     src: {
         js: 'app/assets/src/javascripts/*',
+        mobile_style:'app/assets/src/sass/application.mobile.scss',
         style: 'app/assets/src/sass/application.scss',
         img: 'app/assets/src/images/**/*.*',
         fonts: 'app/assets/src/fonts/**/*.*',
@@ -71,8 +73,6 @@ gulp.task('clean', function() {
 
 
 
-
-
 // Проверка ошибок в скриптах
 gulp.task('lint', function() {
     return gulp.src('app/assets/src/javascripts/app.min.js')
@@ -83,7 +83,6 @@ gulp.task('lint', function() {
 });
 
 
-
 //Добавляем префиксы для последних двух версий браузеров
 gulp.task('autoprefixer', function () {
     return gulp.src('public/stylesheets/app.min.css')
@@ -91,11 +90,14 @@ gulp.task('autoprefixer', function () {
             browsers: ['last 2 versions'],
             cascade: false
         }))
-        .pipe(gulp.dest('dist'));
+        .pipe(gulp.dest('public/stylesheets/'));
 });
 
 
 //
+
+
+
 gulp.task('app_style:build', function() {
     return gulp.src('app/assets/src/sass/application.scss')
         .pipe(plumber({
@@ -116,6 +118,35 @@ gulp.task('app_style:build', function() {
             console.log(err.message);
         })
         .pipe(concat('app.min.css'))
+
+        //.pipe(minifyCSS())
+        //.pipe(prefix("last 1 version", "> 1%", "ie 8", "ie 7"))
+
+        .pipe(gulp.dest('public/stylesheets'))
+        .pipe(browserSync.reload({stream:true, once: true}));
+});
+
+
+gulp.task('app_mobile_style:build', function() {
+    return gulp.src('app/assets/src/sass/application.mobile.scss')
+        .pipe(plumber({
+            errorHandler: function (error) {
+                console.log(error.message);
+                this.emit('end');
+            }}))
+        .pipe(compass({
+            css: 'app/assets/src/css',
+            sass: 'app/assets/src/sass',
+            image: 'app/assets/src/images',
+            font: 'app/assets/src/fonts',
+            sourcemap: 'true',
+            require: ['susy', 'breakpoint']
+        }))
+        .on('error', function(err) {
+            // Would like to catch the error here
+            console.log(err.message);
+        })
+        .pipe(concat('app.mobile.min.css'))
 
         //.pipe(minifyCSS())
         //.pipe(prefix("last 1 version", "> 1%", "ie 8", "ie 7"))
@@ -148,6 +179,9 @@ gulp.task('admin_style:build', function() {
         .pipe(gulp.dest('public/admin/stylesheets'))
         .pipe(browserSync.reload({stream:true, once: true}));
 });
+
+
+
 
 
 
@@ -205,7 +239,9 @@ gulp.task('fonts:build', function() {
 
 gulp.task('watch', ['browser-sync'], function() {
     gulp.watch(['app/assets/src/javascripts/*.coffee','app/assets/src/javascripts/custom/*.js'], ['lint', 'scripts:build']);
-    gulp.watch('app/assets/src/sass/**', ['app_style:build']);
+    //gulp.watch('app/assets/src/sass/*.mobile.scss', ['app_mobile_style:build']);
+    //gulp.watch('app/assets/src/sass/*/**.mobile.scss', ['app_mobile_style:build']);
+    gulp.watch('app/assets/src/sass/**', ['app_style:build', 'autoprefixer']);
     gulp.watch('app/assets/src/images/*', ['images']);
     gulp.watch('app/views/*/**').on('change', browserSync.reload);
 
@@ -214,14 +250,13 @@ gulp.task('watch', ['browser-sync'], function() {
 gulp.task('build', [
     'scripts:build',
     'app_style:build',
+    'app_mobile_style:build',
     'admin_style:build',
     'fonts:build',
-    'images:build',
+    'images:build'
     //'autoprefixer'
 
 ]);
-
-
 
 
 gulp.task('default', ['build']);

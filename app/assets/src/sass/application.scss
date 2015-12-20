@@ -1,15 +1,18 @@
 @import "susy";
 @import "breakpoint";
+@import "layouts/breakpoints";
+
 
 @import "mixins";
 @import "animations";
 
-@import "layouts/breakpoints";
 
-@import "susy_grid";
+@import "grids/susy_grid";
+
+@import "style/typography";
+
 
 @import "layouts/default";
-@import "style/typography";
 
 @import "layouts/blocks";
 @import 'layouts/partials/header';

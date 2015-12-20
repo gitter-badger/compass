@@ -11,6 +11,11 @@ body {
   outline: none;
 }
 
+html {
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+}
+
 a {
   -ms-touch-action: manipulation;	/* IE10  */
   touch-action: manipulation;		/* IE11+ */

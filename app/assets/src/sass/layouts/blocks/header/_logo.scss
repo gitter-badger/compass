@@ -5,6 +5,9 @@
     top:0px;
     width: 20%;
     max-width: 70px;
+
+    img {width: 60px;}
+
   }
 
   .header_logo__sitename {
@@ -23,16 +26,25 @@
     position: relative;
     line-height: 100%;
     margin: 0 auto;
-    height: 80px;
+    height: 70px;
+    top: 10px;
   }
 
   .header_logo__sitename{
     margin: 0 auto;
     color: #373737;
     position: relative;
-    line-height: .8rem;
+    line-height: 1rem;
     display: block;
+    width: 70px;
+    font-size: 1.2rem;
+    top:15px;
     //margin-top: 10px;
+  }
+
+  .header_contacts {
+    position: relative;
+    top: 15px;
   }
 }
 

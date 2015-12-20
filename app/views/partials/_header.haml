@@ -1,7 +1,4 @@
 %header
-
-
-
 	.header_inner{:itemscope => true, :itemtype =>'http://schema.org/LocalBusiness'}
 		%a{:class => 'social_vk',:href => 'http://vk.com/devmaslov', target: '_blank' }
 			%img{:src => '/images/social/logo_VK_international.svg'}
@@ -19,17 +16,16 @@
 					%i.icon.metka-icon
 					%span.contacts_address__city-name{:itemprop => 'addressRegion'} Москва,
 					%span.contacts_address__street{:itemprop => 'streetAddress'} 1-я Фрезерная д.2 к.1
-					%br
-					%a#to-route.contacts_address__to-route{:itemprop => 'url',
-						href: 'https://maps.yandex.ru/21621/reutov/?ol=biz&ll=37.739105%2C55.742012&z=16&rtext=~55.741830%2C37.739105&rtt=auto&oid=1124201315',
-						:target => '_blank_header.haml'} проложить маршрут
+					#to-route.contacts_address__to-route
+						%a{:itemprop => 'url',
+							href: 'https://maps.yandex.ru/213/moscow/?source=wizbiz_new_map_single&text=%D0%9C%D0%B0%D1%81%D0%BB%D0%BE%D0%B2%20%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81&sll=37.739105%2C55.741830&sspn=0.016457%2C0.009284&sctx=BgAAAAEAnl4pyxDPQkCNKO0NvuBLQLOWAtL%2BB%2Bk%2FIAvRIXCk4D8CAAAAAQIBAAAAAAAAAAEBbcvgGZ%2Fyy9UAAAABAACAPw%3D%3D&ol=biz&oid=1556038160&rtext=~55.741830%2C37.739105&rtt=auto',
+							:target => '_blank_header.haml'} -  проложить маршрут  -
 
 			.header_contacts__phone
 
 				.header_contacts__phone___inner
 					%i.icon.phone-icon
 					%span.contacts_phone__telnum{:itemprop => 'telephone'} 8 (495) 968&#x2012;21&#x2012;25
-					%br
 					%span.contacts_phone__work-hours{:itemprop => 'openingHours', :datetime => 'Mo-Su 24:00'} Прием авто: Круглосуточно
 
 
