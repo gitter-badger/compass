@@ -44,11 +44,10 @@ module Compass
     end
 
     access_control.roles_for :editor do |role|
-      role.allow '/accounts/edit'
+      role.project_module :accounts, '/accounts'
+
       role.allow '/upload'
       role.allow '/download/*'
-      role.protect :accounts
-
     end
 
     # Custom error management 

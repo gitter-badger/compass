@@ -14,25 +14,23 @@
     = csrf_meta_tags
     =stylesheet_link_tag 'bootstrap', 'application', 'price-menu'
   %body
-    .navbar.navbar-fixed-top
-      .navbar-inner
-        .container
-          =link_to 'Maslov-Service', url(:base, :index), :class => 'navbar-brand', :title => 'Maslov Service'
-          %ul.nav.navbar-nav.pull-right
-            %li.navbar-role
-              = current_account.role
-            %li.navbar-edit-account=link_to tag_icon(:user), url(:accounts, :edit, :id => current_account.id), :title => pat(:profile), :class => 'navbar-nav-link'
-            %li.navbar-logout
-              =button_to :logout, url(:sessions, :destroy), :method => :delete, :class => 'navbar-nav-form' do
-                =content_tag :button, tag_icon('power-off'), :type => :submit, :title => pat(:logout), :class => 'navbar-nav-form-link'
+    -#.navbar.navbar-fixed-top
+    -#  .navbar-inner
+    -#    .container
+    -#      =link_to 'Маслов Сервис', url(:base, :index), :class => 'navbar-brand logo', :title => 'Maslov Service'
+    -#      %ul.nav.navbar-nav.pull-right
+    -#        %li.navbar-role
+    -#          = current_account.role
+    -#        %li.navbar-edit-account=link_to tag_icon(:user), url(:accounts, :edit, :id => current_account.id), :title => pat(:profile), :class => 'navbar-nav-link'
+    -#        %li.navbar-logout
 
-          %ul.nav.navbar-nav.pull-left
-            - project_modules.each do |project_module|
-              %li{:class => "navbar-module #{('active' if request.path_info =~ /^#{project_module.path}/)}"}
-                =link_to project_module.human_name, url(project_module.path)
 
     .main
       .main-wrapper
+        .pull-right
+          =link_to :logout, url(:sessions, :destroy), :method => :delete, :class => 'logout' do
+            =content_tag :link, tag_icon('power-off'), :type => :submit, :title => pat(:logout), :class => ''
+
         .row=yield
         .main-wrapper-push
 

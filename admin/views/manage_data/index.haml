@@ -21,28 +21,24 @@
 
 
 
-.jumbotron
-  ={:error => 'danger', :warning => 'warning', :success => 'success', :notice => 'info'}.map { |type, class_name| flash_tag(type, :class => "alert alert-#{class_name} fade in", :bootstrap => true) }.join.html_safe
+={:error => 'danger', :warning => 'warning', :success => 'success', :notice => 'info'}.map { |type, class_name| flash_tag(type, :class => "alert alert-#{class_name} fade in", :bootstrap => true) }.join.html_safe
 
-  %ul
-    %h2
-      Что делать?
-    %li
-      %p
-        Скачать прайс-лист, для нужной категории.
-    %li
-      %p
-        Внести изменения
-    %li
-      %p
-        Закачать назад с помощью формы.
+%ul.instruction
+  %h2
+    Что делать?
+  %li
+    Скачать прайс-лист, для нужной категории.
+  %li
+    Внести изменения
+  %li
+    Закачать назад с помощью формы.
 
 
-  %form.file-upload{:action=>"/admin/upload",:method=>"post",:enctype=>"multipart/form-data"}
-    = csrf_token_field
-    %input.file-field{:type=>"file",:name=>"file"}
-    %small.text-center
-      Имя файла должно быть точно таким, каким его скачал.
-    %input.file-submit.btn.btn-primary{:type=>"submit",:value=>"Upload"}
+%form.file-upload{:action=>"/admin/upload",:method=>"post",:enctype=>"multipart/form-data"}
+  = csrf_token_field
+  %input.file-field{:type=>"file",:name=>"file"}
+  %input.file-submit.btn.btn-primary{:type=>"submit",:value=>"Добавить"}
+  %small.text-center
+    Имя файла должно быть точно таким, каким его скачал.
 
 -#= partial 'manage_data/table'

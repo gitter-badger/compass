@@ -9,11 +9,11 @@ body {
   min-height: 100%;
   height: auto !important;
   margin: 0 auto -70px; /* margin-bottom: minus footer's height */
-  padding: 0 10px;
+  padding: 70px 10px;
   width: 960px;
 }
 .main-wrapper {
-  padding-top: 70px /* same as footer's height */
+  /*padding-top: 70px /!* same as footer's height *!/*/
 }
 .main-wrapper-push {
   height: 70px; /* same as the footer */
@@ -180,16 +180,25 @@ footer p {
 }
 /* --- Begin Application::TopBar --- */
 .navbar {
-  -webkit-box-shadow: 0px 1px 10px #777;
-  -moz-box-shadow: 0px 1px 10px #777;
-  -o-box-shadow: 0px 1px 10px #777;
-  -ms-box-shadow: 0px 1px 10px #777;
-  box-shadow: 0px 1px 10px #777;
-  background: #FFFFFF;
+  /*-webkit-box-shadow: 0px 1px 10px #777;*/
+  /*-moz-box-shadow: 0px 1px 10px #777;*/
+  /*-o-box-shadow: 0px 1px 10px #777;*/
+  /*-ms-box-shadow: 0px 1px 10px #777;*/
+  /*box-shadow: 0px 1px 10px #777;*/
+  /*background: #FFFFFF;*/
 }
-.navbar-nav-link {
+.insbar-nav-link {
   padding: 17px 15px 13px !important;
 }
+
+.logout i{
+  float: right;
+  text-shadow: none;
+  color: #fff;
+  padding: 20px 0px;
+  font-size: 1.4rem;
+}
+
 .navbar-nav-form {
   margin: 0;
 }
@@ -305,18 +314,37 @@ footer p {
 }
 
 form.file-upload {
-  font-family: 'Varela', sans-serif;
-  padding: 2em;
-  width: 60%;
-  margin: 2em auto;
-  background-color: rgba(199, 199, 199, 0.33);
+  font-family: "PT Sans";
+  margin: 0 auto;
+  background-color: rgba(199, 199, 199, 0.1);
+}
+
+
+.text-center {
+  display: block;
+  margin-top: 5px;
+}
+
+.instruction {
+  margin: 0 auto;
+  font-size: 1.6rem;
+  font-family: serif;
+  padding: 1rem 10rem 4rem 4rem;
+}
+
+.instruction h2 {
+  border-bottom: 1px solid #CCCCCC;
+  padding-bottom: 5px;
+}
+
+.instruction li {
+  margin: 0;
+  list-style-position: inside;
 }
 
 input.file-field {
-  font-size: 1.6em;
+  font-size: 1.4em;
   width: 100%;
-  margin: 0 0 1em;
-  padding: 1em;
   border: 1px solid grey;
 
 }
@@ -325,7 +353,7 @@ input.file-field {
 input[type="file"] {
 
   padding: 10px;
-  background-color: lightgray ;
+  background-color: #D0D0D0 ;
   color: grey;
   border: 0;
 
@@ -337,9 +365,10 @@ input[type="button"] {
 
 input.file-submit {
   width: 100%;
-  font-size: 1.6em;
+  font-size: 1.4em;
   background-color: #34495E;
   border-color: #34495E;
+  border-radius: 0;
 
 }
 
@@ -393,7 +422,7 @@ input.className::-webkit-file-upload-button {
     padding-top: 0;
   }
   .main-wrapper .row {
-    padding: 0 20px;
+    padding: 0 0px;
   }
   footer {
     display: none;

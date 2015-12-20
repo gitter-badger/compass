@@ -1,8 +1,19 @@
 @import url(https://fonts.googleapis.com/css?family=PT+Sans&subset=latin,cyrillic);
 
+
+.main_title {
+    text-align: center;
+    font-family: "Pt Sans";
+    background: #a94442;
+    padding: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color:#ffffff;
+}
+
 .price-menu {
     background-color: #34495e;
-    height: 160px;
+    height: 120px;
     margin: 0 auto;
     -webkit-box-shadow: 0 1px 0px 0px rgba(119, 119, 119, 0.5);
     -moz-box-shadow: 0 1px 0px 0px rgba(119, 119, 119, 0.5);
@@ -16,6 +27,8 @@ ul.price-nav {
     /*max-width: 43.63636rem;*/
     margin-left: auto;
     margin-right: auto;
+    padding-left: 0;
+
 }
 ul.price-nav:after {
     content: " ";
@@ -32,16 +45,17 @@ ul.price-nav:after {
     padding-left: 0.83333%;
     padding-right: 0.83333%;
     text-align: center;
-    height: 160px;
-    padding-top: 12px;
+    height: 130px;
+    padding-top: 20px;
 }
 .price-nav li:nth-child(6n + 1) {
     margin-left: 0;
     margin-right: -100%;
     clear: both;
+    width: 20%;
 }
 .price-nav li:nth-child(6n + 2) {
-    margin-left: 16.66667%;
+    margin-left: 18.66667%;
     margin-right: -100%;
     clear: none;
 }
@@ -67,11 +81,11 @@ ul.price-nav:after {
 }
 .price-nav li:hover {
     transition: background, .3s ease;
-    background: #D15F54;
+    background: #283848;
 }
 
 .active {
-    background: #D15F54;
+    background: #283848;
 }
 
 ul.price-nav li:nth-child(4) {
@@ -86,13 +100,14 @@ ul.price-nav li .label {
     color: white;
     border-bottom: 1px dashed #ffffff;
     font-family: "Pt Sans";
-    font-size: 1.6em;
+    font-size: 1.4em;
+    border-radius: 0px;
 }
 
 .price-nav .icon {
-    height: 100px;
+    height: 50px;
     background-position: 50% 50%;
-    background-size: 60%;
+    background-size: 45%;
     background-repeat: no-repeat;
     width: 100%;
     left: auto;
@@ -105,30 +120,29 @@ ul.price-nav li .label {
     text-align: center;
     height: 120px;
     width: 16%;
-    padding-top: 0px;
+    padding-top: 20px;
 }
 
 .price-nav .icon {
     background-position: 50% 50%;
-    height: 100px;
-    background-size: 80%;
+    background-size: 45%;
 }
 
 .price-nav .icon-to {
-    /*background-size: 55%;*/
+    background-size: 35%;
     background-position: 50% 0px;
 }
 .price-nav .icon-remont {
-    /*background-size: 55%;*/
-    background-position: 50% 0px;
+    background-size: 45%;
+    background-position: 50% -0px;
 }
 .price-nav .icon-custom {
     /*background-size: 55%;*/
-    background-position: 50% 0px;
+    background-position: 50% -10px;
 }
 .price-nav .icon-mount {
     /*background-size: 55%;*/
-    background-position: 50% 0px;
+    background-position: 50% -8px;
 }
 .price-nav .icon-wash {
     /*background-size: 55%;*/
