@@ -4,8 +4,10 @@
     <bookmark url="file://$PROJECT_DIR$/app/assets/src/sass/application.scss" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6d15d0b-34cc-4af7-aafc-06c9b93fa8e9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    <list default="true" id="f6d15d0b-34cc-4af7-aafc-06c9b93fa8e9" name="Default" comment="Merge branch 'add_database' of https://github.com/frolin/compass into add_database&#10;&#10;Conflicts:&#10;&#9;public/javascripts/google_counter.js&#10;">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/page/_contacts.haml" afterPath="$PROJECT_DIR$/app/views/page/_contacts.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/google_counter.js" afterPath="$PROJECT_DIR$/public/javascripts/google_counter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/robots.txt" afterPath="$PROJECT_DIR$/public/robots.txt" />
     </list>
     <ignored path="compass.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,8 +46,8 @@
           <file leaf-file-name="_address.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/assets/src/sass/layouts/blocks/header/_address.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.5276873">
-                  <caret line="60" column="19" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
+                <state vertical-scroll-proportion="1.6416938">
+                  <caret line="61" column="32" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
                   <folding />
                 </state>
               </provider>
@@ -886,12 +888,6 @@
       <option name="number" value="Default" />
       <updated>1436757678896</updated>
     </task>
-    <task id="LOCAL-00038" summary="header_media_struct&#10;">
-      <created>1442754587180</created>
-      <option name="number" value="00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1442754587180</updated>
-    </task>
     <task id="LOCAL-00039" summary="header_media_struct_fix&#10;">
       <created>1442776312893</created>
       <option name="number" value="00039" />
@@ -1180,7 +1176,13 @@
       <option name="project" value="LOCAL" />
       <updated>1450586913916</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="add fix of fixed">
+      <created>1450587474976</created>
+      <option name="number" value="00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1450587474976</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -1630,8 +1632,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/src/sass/layouts/blocks/header/_address.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5276873">
-          <caret line="60" column="19" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
+        <state vertical-scroll-proportion="1.6416938">
+          <caret line="61" column="32" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
           <folding />
         </state>
       </provider>
