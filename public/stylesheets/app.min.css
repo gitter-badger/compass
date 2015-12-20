@@ -3570,8 +3570,7 @@ article td:first-child h5 {
   }
 
   article.TO .body,
-  article.remont .body,
-  article.shinomontazh .body {
+  article.remont .body {
     overflow-x: hidden;
     overflow-y: auto;
     position: relative;
@@ -3784,13 +3783,19 @@ article td:first-child h5 {
   }
 
   article.TO .body,
-  article.remont .body,
-  article.shinomontazh .body {
+  article.remont .body {
     overflow-x: hidden;
     overflow-y: auto;
     position: relative;
-    height: calc(100% - 90px);
+    height: calc(100% - 115px);
     display: block;
+  }
+
+  article.shinomontazh .body {
+    height: calc(100% - 78px);
+    display: block;
+    overflow-x: auto;
+    overflow-y: auto;
   }
 
   article table tbody {
