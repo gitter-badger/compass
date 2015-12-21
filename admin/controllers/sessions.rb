@@ -18,8 +18,10 @@ Compass::Admin.controllers :sessions do
     end
   end
 
-  delete :destroy do
+  get '/logout', :map => '/logout' do
     set_current_account(nil)
-    redirect url(:sessions, :new)
+    redirect '/'
   end
+
+
 end

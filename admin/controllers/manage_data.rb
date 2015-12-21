@@ -29,7 +29,8 @@ Compass::Admin.controllers :manage_data do
       redirect '/admin/dashboard'
     end
 
-end
+  end
+
 
 
   # post '/update', :map => '/update' do

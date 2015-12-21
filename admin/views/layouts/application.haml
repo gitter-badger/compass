@@ -24,11 +24,13 @@
     -#        %li.navbar-edit-account=link_to tag_icon(:user), url(:accounts, :edit, :id => current_account.id), :title => pat(:profile), :class => 'navbar-nav-link'
     -#        %li.navbar-logout
 
-
+    .header_logo
+      %a.home{:itemprop => 'url', href:'/' }
+        %img{:src => '/images/header/logo.svg', :height => '50px'}
     .main
       .main-wrapper
         .pull-right
-          =link_to :logout, url(:sessions, :destroy), :method => :delete, :class => 'logout' do
+          =link_to 'logout', :class => 'logout' do
             =content_tag :link, tag_icon('power-off'), :type => :submit, :title => pat(:logout), :class => ''
 
         .row=yield
@@ -36,16 +38,16 @@
 
     %footer
 
-    .footer-info
-      .copyright
-        %p
-          Copyright &copy;
-          = Time.now.year
-          Maslov Service
+      .footer-info
+        .copyright
+          %p
+            Copyright &copy;
+            = Time.now.year
+            Maslov Service
         .created-by
-        %p
-          created by
-          %a{href: '#exsisto' }  Exsisto
+          %p
+            created by
+            %a{href: '#exsisto' }  Exsisto
 
     =javascript_include_tag 'jquery-1.11.0.min', (Padrino.env == :production ? 'bootstrap/bootstrap.min' : %w[bootstrap/affix bootstrap/alert bootstrap/button bootstrap/carousel bootstrap/collapse bootstrap/dropdown  bootstrap/tooltip bootstrap/transition  bootstrap/modal bootstrap/popover bootstrap/scrollspy bootstrap/tab]), :application
     =javascript_include_tag 'jquery.tabledit.js', 'table-edit'
