@@ -131,6 +131,7 @@
     <orderEntry type="library" scope="PROVIDED" name="compass-core (v1.0.3, RVM: ruby-1.9.3-p551-dev [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="compass-import-once (v1.0.5, RVM: ruby-1.9.3-p551-dev [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="daemons (v1.2.3, RVM: ruby-1.9.3-p551-dev [global]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="database_cleaner (v1.5.1, RVM: ruby-1.9.3-p551-dev [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="diff-lcs (v1.2.5, RVM: ruby-1.9.3-p551-dev [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="dotenv (v2.0.2, RVM: ruby-1.9.3-p551-dev [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="eventmachine (v1.0.8, RVM: ruby-1.9.3-p551-dev [global]) [gem]" level="application" />

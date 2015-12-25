@@ -32,6 +32,7 @@ group :test do
   gem 'rspec-padrino'
   gem "rack-test", require: "rack/test"
   gem "factory_girl", "~> 4.0"
+  gem 'database_cleaner'
 end
 
 gem 'haml'

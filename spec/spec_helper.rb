@@ -18,13 +18,18 @@ FactoryGirl.definition_file_paths = [
 FactoryGirl.find_definitions
 RSpec.configure do |conf|
 
-  # conf.before(:suite) do
-  #   puts "\n== Reset DB =="
-  #   system "RAILS_ENV=test bin/rake db:reset"
-  #
-  #   puts "\n== Preparing DB =="
-  #   system "RAILS_ENV=test bin/rake db:setup"
-  # end
+  conf.before(:suite) do
+    DatabaseCleaner.strategy = :transaction
+    DatabaseCleaner.clean_with(:truncation)
+  end
+
+  conf.before(:each) do
+    DatabaseCleaner.start
+  end
+
+  conf.after(:each) do
+    DatabaseCleaner.clean
+  end
 
   conf.include FactoryGirl::Syntax::Methods
   conf.include Rack::Test::Methods

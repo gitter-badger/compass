@@ -1,3 +1,5 @@
+# coding: utf-8
+
 require 'spec_helper'
 
 RSpec.describe "Basic page" do
@@ -6,7 +8,10 @@ RSpec.describe "Basic page" do
       get '/'
       expect(last_response).to be_ok
       end
-
+  it "returns logo h1" do
+    get '/'
+    expect(last_response.body).to include("Маслов Сервис")
+  end
 
   it "returns page-block" do
     get '/'
