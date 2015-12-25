@@ -37,6 +37,8 @@ GEM
     diff-lcs (1.2.5)
     dotenv (2.0.2)
     eventmachine (1.0.8)
+    factory_girl (4.5.0)
+      activesupport (>= 3.0.0)
     ffi (1.9.10)
     haml (4.0.7)
       tilt
@@ -155,6 +157,7 @@ DEPENDENCIES
   breakpoint
   compass
   dotenv
+  factory_girl (~> 4.0)
   haml
   padrino (= 0.12.5)
   padrino-flash
