@@ -1,33 +1,30 @@
-# FactoryGirl.define do
+FactoryGirl.define do
 
-
-  FactoryGirl.define do
-    factory :editor do
-      title "The amazing article title"
-      published_at { DateTime.now }
-    end
+  factory :user, class: Account do
+    name "John"
+    surname  "Doe"
+    email "user@user.ru"
+    password "123123"
+    password_confirmation "123123"
+    role 'user'
   end
 
+  factory :admin, class: Account do
+    name "Admin"
+    surname  "admin"
+    email "admin@admin.ru"
+    password "123123"
+    password_confirmation "123123"
+    role "admin"
+  end
 
+  factory :editor, class: Account do
+    name "Editor"
+    surname  "Edit"
+    email "editor@editor.ru"
+    password "123123"
+    password_confirmation "123123"
+    role "editor"
+  end
 
-
-  #
-  #
-  # factory :editor do
-  #   first_name "admin"
-  #   last_name  "Doe"
-  #   admin false
-  # end
-  #
-  #
-  # # This will use the User class (Admin would have been guessed)
-  # factory :admin  do
-  #   first_name "Admin"
-  #   last_name  "User"
-  #   admin      true
-  # end
-
-
-
-
-# end
+end

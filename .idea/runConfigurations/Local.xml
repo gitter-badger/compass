@@ -14,6 +14,7 @@
         <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
       </COVERAGE_PATTERN>
     </EXTENSION>
+    <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
     <RACK_CONFIG_SETTINGS_ID NAME="PORT" VALUE="9292" />
     <RACK_CONFIG_SETTINGS_ID NAME="IP" VALUE="127.0.0.1" />
     <RACK_CONFIG_SETTINGS_ID NAME="CONFIG_FILE" VALUE="config.ru" />
