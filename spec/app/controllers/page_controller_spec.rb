@@ -2,12 +2,21 @@ require 'spec_helper'
 
 RSpec.describe "Basic page" do
 
-  before do
-      get "/"
+    it "loads homepage" do
+      get '/'
+      expect(last_response).to be_ok
+    end
+
+  it "returns page-block" do
+    get '/'
+    expect(last_response.body).to include("Maslov")
   end
 
-  it "returns Maslov" do
-     expect(last_response.body).to eq "page"
+
+  it "map is loading" do
+    get '/'
+    expect(last_response.body).to include("map")
   end
+
 
 end

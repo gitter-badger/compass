@@ -24,6 +24,6 @@ module Compass
       end
     end
 
-    helpers RackMobileHelper
+    App.helpers RackMobileHelper
   end
 end

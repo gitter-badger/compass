@@ -15,6 +15,8 @@ gem 'rake'
 gem 'thin'
 # Component requirements
 gem 'bcrypt'
+gem 'dotenv'
+
 
 group :development do
   gem 'compass'
@@ -28,6 +30,7 @@ end
 group :test do
   gem 'rack-test'
   gem 'rspec-padrino'
+  gem "rack-test", require: "rack/test"
 end
 
 gem 'haml'

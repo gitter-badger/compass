@@ -5,7 +5,9 @@
 # just execute it from the command line.
 require 'rack/mobile-detect'
 use Rack::MobileDetect
-
+#
+# require 'dotenv'
+# Dotenv.load
 
 
 require File.expand_path("../config/boot.rb", __FILE__)
