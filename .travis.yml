@@ -8,9 +8,3 @@ language: ruby
  - bundle exec rake
  before_script:
  - psql -c 'create database travis_YOURapp_test;' -U postgres
-# deploy:
-# provider: heroku
-# api_key:
-#  secure: %_api_key_%
-# app:
-#  dev: dev.YourApp
