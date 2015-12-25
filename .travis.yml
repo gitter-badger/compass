@@ -3,6 +3,7 @@ rvm:
   - 2.2.1
 cache: bundler
 before_script:
-  - psql -c 'create database test_maslov_service;' -U postgres
+  - "bundle exec rake ar:setup --trace"
+
 script:
   - "bundle exec rake spec:app --trace"
