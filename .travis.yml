@@ -6,4 +6,4 @@ before_script:
   - "bundle exec rake ar:setup --trace"
 
 script:
-  - "bundle exec rake spec:app --trace"
+  - "bundle exec bundle exec rspec --format documentation"
