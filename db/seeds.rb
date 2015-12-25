@@ -5,7 +5,7 @@
 #   name = shell.ask("What's your name?")
 #   shell.say name
 #
-unless RACK_ENV['test']
+if RACK_ENV['development']
 
   email     = shell.ask "Which email do you want use for logging into admin?"
   password  = shell.ask "Tell me the password to use:"
