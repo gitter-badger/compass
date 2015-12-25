@@ -5,7 +5,8 @@ RSpec.describe "Basic page" do
     it "loads homepage" do
       get '/'
       expect(last_response).to be_ok
-    end
+      end
+
 
   it "returns page-block" do
     get '/'
@@ -17,6 +18,12 @@ RSpec.describe "Basic page" do
     get '/'
     expect(last_response.body).to include("map")
   end
+
+
+
+
+
+
 
 
 end
